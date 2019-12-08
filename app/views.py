@@ -14,3 +14,5 @@ def show_db():
         return render_template("db.html",nombre_data=nombre_data)
     else :
         return render_template_string("Error")
+
+#@app.route('/admin') existe via l'admin

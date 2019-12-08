@@ -14,7 +14,10 @@ app.config.from_pyfile('config.py')
 
 mongo = PyMongo(app)
 
+client = MongoClient(app.config['MONGO_URI'])
 
+db = client[app.config['MONGO_DBNAME']]
+proposals = db["Proposal"]
 
 
 from . import views

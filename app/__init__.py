@@ -1,5 +1,6 @@
 from flask import Flask
 from flask_bootstrap import Bootstrap
+import os
 
 from config import Config
 
@@ -21,13 +22,14 @@ admin = Admin(app)
 mongo = PyMongo(app)
 
 client = MongoClient(app.config['MONGO_URI'])
+#client = MongoClient(os.environ['DB_PORT_27017_TCP_ADDR'],27017)
 
 db = client[app.config['MONGO_DBNAME']]
 proposals = db["Proposal"]
-users    = db["users"]
+#users    = db["users"]
 
 admin.add_view(ProposalView(proposals))
-admin.add_view(UserView(users))
+#admin.add_view(UserView(users))
 
 
 from . import views

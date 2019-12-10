@@ -8,6 +8,7 @@ def base():
 @app.route('/db')
 def show_db():
     #nombre_data = str(mongo.db.Proposal.count())
+    #nombre_data = mongo.db.Proposal.count()
     nombre_data = proposals.count()
     if nombre_data != "":
         print(nombre_data)

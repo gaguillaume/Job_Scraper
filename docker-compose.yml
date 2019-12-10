@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+
+  mongo:
+    image: mongo
+    container_name: mongo_db
+    environment:
+      - MONGO_DATA_DIR=/data/db
+      - MONGO_LOG_DIR=/dev/null
+    volumes:
+      - ./data_db:/data/db
+    ports:
+        - 27017:27017
+
+  app:
+    build: .
+    hostname: app
+    container_name: flask_app
+
+    ports:
+     - "5000:5000"
+    command: ["pipenv", "run", "python", "run.py"]
+    volumes:
+      - ./:/home/dev/code/app

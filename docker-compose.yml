@@ -1,25 +1,47 @@
 version: '3'
-
 services:
 
-  mongo:
-    image: mongo
-    container_name: mongo_db
-    environment:
-      - MONGO_DATA_DIR=/data/db
-      - MONGO_LOG_DIR=/dev/null
-    volumes:
-      - ./data_db:/data/db
-    ports:
-        - 27017:27017
 
   app:
     build: .
     hostname: app
-    container_name: flask_app
-
+    container_name: flaskapp
+    environment:
+      APP_ENV: "prod"
+      APP_DEBUG: "False"
+      APP_PORT: 5000
+      MONGODB_DATABASE: mongodb
+      MONGODB_HOSTNAME: mongodb
+      FLASK_ENV: development
     ports:
      - "5000:5000"
     command: ["pipenv", "run", "python", "run.py"]
     volumes:
-      - ./:/home/dev/code/app
+      - ./app:/home/dev/code/app*
+    links:
+      - mongodb
+
+  mongodb:
+    image: mongo:4.0.8
+    hostname: mongodb
+    container_name: mongodb
+    restart: unless-stopped
+    command: mongod
+    environment:
+      MONGO_INITDB_DATABASE: mongodb
+      MONGODB_DATA_DIR: /data/db
+      MONDODB_LOG_DIR: /dev/null
+    volumes:
+      - mongodbdata:/data/db
+    ports:
+        - "27017:27017"
+
+
+networks:
+  default:
+
+volumes:
+  mongodbdata:
+    driver: local
+  appdata:
+    driver: local

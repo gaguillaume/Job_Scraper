@@ -1,5 +1,5 @@
 from flask import render_template,request,redirect,url_for,render_template_string,flash
-from . import app,mongo,proposals
+from . import app,proposals,mongo,db,MONGO_URI
 
 @app.route('/')
 def base():
@@ -7,9 +7,21 @@ def base():
 
 @app.route('/db')
 def show_db():
+
     #nombre_data = str(mongo.db.Proposal.count())
-    #nombre_data = mongo.db.Proposal.count()
-    nombre_data = proposals.count()
+    #nombre_data = mongo.db.Proposal.find({"job":"Greviste"})
+    #nombre_data = list(db["Proposal"].find())
+    nombre_data = proposals.find_one_or_404()
+    #nombre_data = db.Proposal.find_one_or_404()
+    #nombre_data = nombre_data.count(True)
+    #nombre_data = nombre_data.count()
+    #nombre_data = nombre_data.count(True)
+    #nombre_data = str(type(proposals))
+    #results = mongo.db.Proposal.find()
+    #nombre_data = str(results.count(True))
+    #nombre_data = str(MONGO_URI)
+    #nombre_data = str(type(proposals))
+
     if nombre_data != "":
         print(nombre_data)
         return render_template("db.html",nombre_data=nombre_data)

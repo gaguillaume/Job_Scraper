@@ -1,8 +1,0 @@
-CHANGES
-=======
-
-* Template Boostrap + Admin gui + static
-* DB fonctionnelle et requirementd.txt + config DB
-* Ajout de la DB Mongo instanciée dans un conteneur docker à l'app + route /db pour vérifier la bonne connection avec la db
-* Premier Commit - Création des fichiers de l'appli MVC
-* Initial commit

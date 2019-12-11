@@ -1,7 +1,6 @@
 from flask import Flask
 from flask_bootstrap import Bootstrap
 import os
-import logging
 from config import Config
 
 from flask_pymongo import PyMongo,MongoClient
@@ -18,7 +17,6 @@ app.config.from_object(Config)
 app.config.from_pyfile('config.py')
 
 MONGO_URI = app.config["MONGO_URI"]
-logging.info(MONGO_URI)
 
 
 admin = Admin(app)

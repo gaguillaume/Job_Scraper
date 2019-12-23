@@ -1,0 +1,34 @@
+2019-12-23 15:47:28 [scrapy] DEBUG: Redirecting (301) to <GET http://www.alfa.com/robots.txt> from <GET http://alfa.com/robots.txt>
+2019-12-23 15:47:30 [scrapy] DEBUG: Crawled (403) <GET http://www.alfa.com/robots.txt> (referer: None)
+2019-12-23 15:47:30 [scrapy] DEBUG: Redirecting (301) to <GET http://www.alfa.com/> from <GET http://alfa.com>
+2019-12-23 15:47:32 [scrapy] DEBUG: Crawled (403) <GET http://www.alfa.com/robots.txt> (referer: None)
+2019-12-23 15:47:32 [scrapy] DEBUG: Crawled (403) <GET http://www.alfa.com/> (referer: None)
+2019-12-23 15:47:32 [scrapy] INFO: Ignoring response <403 http://www.alfa.com/>: HTTP status code is not handled or not allowed
+2019-12-23 15:47:32 [scrapy] INFO: Closing spider (finished)
+2019-12-23 15:47:32 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1077,
+ 'downloader/request_count': 5,
+ 'downloader/request_method_count/GET': 5,
+ 'downloader/response_bytes': 2364,
+ 'downloader/response_count': 5,
+ 'downloader/response_status_count/301': 2,
+ 'downloader/response_status_count/403': 3,
+ 'elapsed_time_seconds': 8.415553,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 23, 14, 47, 32, 757839),
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/403': 1,
+ 'log_count/DEBUG': 5,
+ 'log_count/INFO': 8,
+ 'memusage/max': 173404160,
+ 'memusage/startup': 173404160,
+ 'response_received_count': 3,
+ 'robotstxt/request_count': 2,
+ 'robotstxt/response_count': 2,
+ 'robotstxt/response_status_count/403': 2,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2019, 12, 23, 14, 47, 24, 342286)}
+2019-12-23 15:47:32 [scrapy] INFO: Spider closed (finished)

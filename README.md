@@ -11,7 +11,7 @@ Dans le répertoire courant de "app_dataengineering", `docker-compose up -d --bu
 Puis `docker exec -it mongodb bash`.
 Puis `mongo`.
 Puis `use mongodb`.
-Puis `db.createcollection("Indeed")` afin d'avoir la bonne table créée.
+Puis `db.createcollection("Indeed")` afin d'avoir la bonne table créée dans la bonne db.
 
 L'appli flask se trouve sur "localhost:5000".
 Le scraper Real Time sur `localhost:9080 + requete` (inutile d'y toucher).

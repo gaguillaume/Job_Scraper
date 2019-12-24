@@ -1,0 +1,1 @@
+2019-12-24 01:16:57 [scrapy] DEBUG: Retrying <GET https://indeed.fr/robots.txt> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]

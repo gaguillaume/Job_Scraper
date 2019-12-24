@@ -1,10 +1,16 @@
 version: '3'
+
+
 services:
 
 
   app:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile_flask
     hostname: app
+    restart: unless-stopped
+
     container_name: flaskapp
     environment:
       APP_ENV: "prod"
@@ -20,6 +26,9 @@ services:
       - ./app:/home/dev/code/app*
     links:
       - mongodb
+      - scraper
+
+
 
   mongodb:
     image: mongo:4.0.8
@@ -35,6 +44,24 @@ services:
       - mongodbdata:/data/db
     ports:
         - "27017:27017"
+
+
+  scraper:
+
+    build:
+      context: .
+      dockerfile: Dockerfile_scraper
+    hostname: scraper
+    container_name: scraper
+    restart: always
+
+    ports:
+    - "9080:9080"
+    volumes:
+    - ./Scraper:/scrapyrt/project
+
+    links:
+      - mongodb
 
 
 networks:

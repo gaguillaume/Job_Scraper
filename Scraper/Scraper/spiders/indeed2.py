@@ -13,7 +13,7 @@ class IndeedSpider(CrawlSpider):
     name = 'indeed2'
     allowed_domains = ['indeed.fr']
     start_urls = [
-        "http://www.indeed.fr/jobs?q=Informatique&l=Paris&sort=date&start=00",
+        "https://www.indeed.fr/jobs?q=Informatique&l=Paris&sort=date&start=00",
     ]
 
     def parse(self, response):
@@ -43,5 +43,5 @@ class IndeedSpider(CrawlSpider):
                 crawl_url = crawl_url
             )
 
-        next_page = ''.join(["http://www.indeed.fr", response.css('.pagination a::attr(href)').getall()[-1]])
+        next_page = ''.join(["https://www.indeed.fr", response.css('.pagination a::attr(href)').getall()[-1]])
         yield Request(next_page)

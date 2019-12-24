@@ -1,0 +1,56 @@
+2019-12-24 00:58:03 [scrapy] DEBUG: Redirecting (302) to <GET http://www.indeed.fr/> from <GET http://indeed.fr/>
+2019-12-24 00:58:04 [scrapy] DEBUG: Redirecting (301) to <GET https://www.indeed.fr/> from <GET http://www.indeed.fr/>
+2019-12-24 00:58:04 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/> (referer: None)
+2019-12-24 00:58:04 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/
+
+2019-12-24 00:58:04 [scrapy] ERROR: Spider error processing <GET https://www.indeed.fr/> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/franck/Documents/E4/Data_Engineering/app_dataenginnering/Scraper/Scraper/spiders/indeed2.py", line 46, in parse
+    next_page = ''.join(["http://www.indeed.fr", response.css('.pagination a::attr(href)').getall()[-1]])
+IndexError: list index out of range
+2019-12-24 00:58:04 [scrapy] INFO: Closing spider (finished)
+2019-12-24 00:58:04 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 724,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 48495,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/301': 1,
+ 'downloader/response_status_count/302': 1,
+ 'elapsed_time_seconds': 2.286061,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 23, 23, 58, 4, 746050),
+ 'log_count/DEBUG': 4,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'memusage/max': 60059648,
+ 'memusage/startup': 60059648,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'spider_exceptions/IndexError': 1,
+ 'start_time': datetime.datetime(2019, 12, 23, 23, 58, 2, 459989)}
+2019-12-24 00:58:04 [scrapy] INFO: Spider closed (finished)

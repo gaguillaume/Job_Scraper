@@ -1,0 +1,38 @@
+2019-12-23 22:45:44 [scrapy] DEBUG: Redirecting (301) to <GET http://www.indeed.com/robots.txt> from <GET http://indeed.com/robots.txt>
+2019-12-23 22:45:44 [scrapy] DEBUG: Crawled (200) <GET http://www.indeed.com/robots.txt> (referer: None)
+2019-12-23 22:45:44 [scrapy] DEBUG: Redirecting (301) to <GET https://www.indeed.com/> from <GET http://indeed.com>
+2019-12-23 22:45:45 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.com/robots.txt> (referer: None)
+2019-12-23 22:45:45 [scrapy] DEBUG: Redirecting (302) to <GET https://www.indeed.fr?r=us> from <GET https://www.indeed.com/>
+2019-12-23 22:45:45 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/robots.txt> (referer: None)
+2019-12-23 22:45:45 [scrapy] DEBUG: Crawled (400) <GET https://www.indeed.fr?r=us> (referer: None)
+2019-12-23 22:45:45 [scrapy] INFO: Ignoring response <400 https://www.indeed.fr?r=us>: HTTP status code is not handled or not allowed
+2019-12-23 22:45:45 [scrapy] INFO: Closing spider (finished)
+2019-12-23 22:45:45 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1671,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 7,
+ 'downloader/response_bytes': 36790,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 3,
+ 'downloader/response_status_count/301': 2,
+ 'downloader/response_status_count/302': 1,
+ 'downloader/response_status_count/400': 1,
+ 'elapsed_time_seconds': 1.889326,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 23, 22, 45, 45, 802464),
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/400': 1,
+ 'log_count/DEBUG': 7,
+ 'log_count/INFO': 8,
+ 'memusage/max': 56844288,
+ 'memusage/startup': 56844288,
+ 'response_received_count': 4,
+ 'robotstxt/request_count': 3,
+ 'robotstxt/response_count': 3,
+ 'robotstxt/response_status_count/200': 3,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2019, 12, 23, 22, 45, 43, 913138)}
+2019-12-23 22:45:45 [scrapy] INFO: Spider closed (finished)

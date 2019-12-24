@@ -33,7 +33,8 @@ db = client["mongodb"]
 proposals = db["Proposal"]
 #users    = db["users"]
 
-#admin.add_view(ProposalView(proposals))
+admin.add_view(ProposalView(proposals))
+
 #admin.add_view(UserView(users))
 
 

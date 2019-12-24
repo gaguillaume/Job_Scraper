@@ -18,12 +18,13 @@ from scrapy.exceptions import DropItem
 #
 class ScraperPipeline(object):
     #on overwrite ces 2 fonctions
-    def __init__(self):
-        connection = pymongo.MongoClient("mongodb://mongodb:27017/mongodb")
-        db = connection["mongodb"]
-        self.collection = db["Proposal"]
+    #def __init__(self):
+        #connection = pymongo.MongoClient("mongodb://mongodb:27017/mongodb")
+        #db = connection["mongodb"]
+        #self.collection = db["Proposal"]
 
     def process_item(self, item, spider):
+
         item['job_title'] = self.clean_spaces(item['job_title'])
         if item['company']:
             item['company'] = self.clean_spaces(item['company'])
@@ -31,6 +32,13 @@ class ScraperPipeline(object):
         item['salary'] = self.clean_spaces(item['salary'])
         item['summary'] = self.clean_spaces(item['summary'])
 
+
+
+        return item
+    def clean_spaces(self, string):
+        if string:
+            return " ".join(string.split())
+"""
         valid = True
         for data in item:
             if not data:
@@ -38,12 +46,10 @@ class ScraperPipeline(object):
                 raise DropItem("Missing {0}!".format(data))
         if valid:
             self.collection.insert(dict(item))
-            log.msg("Proposal added to MongoDB database!",level=log.DEBUG, spider=spider)
-        return item
+            log.msg("Proposal added to MongoDB database!",level=log.DEBUG, spider=spider)"""
+        #return item
 
-    def clean_spaces(self, string):
-        if string:
-            return " ".join(string.split())
+
 
 
 class DuplicatesPipeline(object):

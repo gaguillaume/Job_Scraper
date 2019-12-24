@@ -1,9 +1,24 @@
 from flask import render_template,request,redirect,url_for,render_template_string,flash
 from . import app,proposals,mongo,db,MONGO_URI
 
+import json
+import requests
+
+
+
 @app.route('/')
 def base():
     return render_template('index.html')
+
+@app.route('/indeed')
+def show_proposals():
+    params = {'spider_name':'indeed2','start_requests':True}
+    response = requests.get("http://scraper:9080/crawl.json?spider_name=indeed2&url=https://www.indeed.fr/jobs?q=Informatique&l=Paris&sort=date&start=00")
+    data = json.loads(response.text)
+    result = '\n'.join('<p><b>{}</b> - {}</p>'.format(item['author'], item['text']) for item in data['items'])
+    return render_template("indeed.html",result=result)
+
+
 
 @app.route('/db')
 def show_db():

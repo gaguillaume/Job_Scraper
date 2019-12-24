@@ -5,11 +5,11 @@ from wtforms.validators import DataRequired
 
 
 class ProposalForm(FlaskForm):
-    name = TextField('Name')
-    lastname = TextField('Lastname')
+    name = TextField('Job')
+    lastname = TextField('Salaire')
 
 class ProposalView(ModelView):
-    column_list=('name','lastname')
+    column_list=('job','salaire')
     form = ProposalForm
 
 class UserForm(FlaskForm):

@@ -1,0 +1,56 @@
+2019-12-24 11:43:38 [scrapy] ERROR: Error downloading <GET https://indeed.fr    /robots.txt>: Invalid URI b'https://indeed.fr    /robots.txt'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 1416, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/python/failure.py", line 512, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/utils/defer.py", line 45, in mustbe_deferred
+    result = f(*args, **kw)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/__init__.py", line 71, in download_request
+    return handler.download_request(request, spider)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 75, in download_request
+    return agent.download_request(request)
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/handlers/http11.py", line 345, in download_request
+    d = agent.request(method, to_bytes(url, encoding='ascii'), headers, bodyproducer)
+  File "/usr/local/lib/python3.6/dist-packages/twisted/web/client.py", line 1735, in request
+    uri = _ensureValidURI(uri.strip())
+  File "/usr/local/lib/python3.6/dist-packages/twisted/web/_newclient.py", line 648, in _ensureValidURI
+    raise ValueError("Invalid URI {!r}".format(uri))
+ValueError: Invalid URI b'https://indeed.fr    /robots.txt'
+2019-12-24 11:44:10 [scrapy] DEBUG: Retrying <GET https://indeed.fr    > (failed 1 times): TCP connection timed out: 110: Connection timed out.
+2019-12-24 11:44:42 [scrapy] DEBUG: Retrying <GET https://indeed.fr    > (failed 2 times): TCP connection timed out: 110: Connection timed out.
+2019-12-24 11:45:14 [scrapy] DEBUG: Gave up retrying <GET https://indeed.fr    > (failed 3 times): TCP connection timed out: 110: Connection timed out.
+2019-12-24 11:45:14 [scrapy] ERROR: Error downloading <GET https://indeed.fr    >
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/core/downloader/middleware.py", line 44, in process_request
+    defer.returnValue((yield download_func(request=request, spider=spider)))
+twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
+2019-12-24 11:45:14 [scrapy] INFO: Closing spider (finished)
+2019-12-24 11:45:14 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 4,
+ 'downloader/exception_type_count/builtins.ValueError': 1,
+ 'downloader/exception_type_count/twisted.internet.error.TCPTimedOutError': 3,
+ 'downloader/request_bytes': 858,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'elapsed_time_seconds': 95.884715,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 24, 11, 45, 14, 443680),
+ 'log_count/DEBUG': 3,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 125366272,
+ 'memusage/startup': 125366272,
+ 'retry/count': 2,
+ 'retry/max_reached': 1,
+ 'retry/reason_count/twisted.internet.error.TCPTimedOutError': 2,
+ "robotstxt/exception_count/<class 'ValueError'>": 1,
+ 'robotstxt/request_count': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2019, 12, 24, 11, 43, 38, 558965)}
+2019-12-24 11:45:14 [scrapy] INFO: Spider closed (finished)

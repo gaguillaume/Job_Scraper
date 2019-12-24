@@ -1,0 +1,29 @@
+2019-12-24 11:39:26 [scrapy] DEBUG: Redirecting (301) to <GET http://www.indeed.com/robots.txt> from <GET http://indeed.com/robots.txt>
+2019-12-24 11:39:26 [scrapy] DEBUG: Crawled (200) <GET http://www.indeed.com/robots.txt> (referer: None)
+2019-12-24 11:39:26 [scrapy] DEBUG: Redirecting (301) to <GET https://www.indeed.com/> from <GET http://indeed.com>
+2019-12-24 11:39:26 [scrapy] INFO: Closing spider (stop generating requests, only 1 requests allowed)
+2019-12-24 11:39:26 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 709,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 11837,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/301': 2,
+ 'elapsed_time_seconds': 0.694482,
+ 'finish_reason': 'stop generating requests, only 1 requests allowed',
+ 'finish_time': datetime.datetime(2019, 12, 24, 11, 39, 26, 508984),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 7,
+ 'memusage/max': 57229312,
+ 'memusage/startup': 57229312,
+ 'response_received_count': 1,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2019, 12, 24, 11, 39, 25, 814502)}
+2019-12-24 11:39:26 [scrapy] INFO: Spider closed (stop generating requests, only 1 requests allowed)

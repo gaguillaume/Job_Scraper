@@ -18,10 +18,10 @@ from scrapy.exceptions import DropItem
 #
 class ScraperPipeline(object):
     #on overwrite ces 2 fonctions
-    #def __init__(self):
-        #connection = pymongo.MongoClient("mongodb://mongodb:27017/mongodb")
-        #db = connection["mongodb"]
-        #self.collection = db["Proposal"]
+    def __init__(self):
+        connection = pymongo.MongoClient("mongodb://mongodb:27017/mongodb")
+        db = connection["mongodb"]
+        self.collection = db["Indeed"]
 
     def process_item(self, item, spider):
 
@@ -31,10 +31,15 @@ class ScraperPipeline(object):
         item['location'] = self.clean_spaces(item['location'])
         item['salary'] = self.clean_spaces(item['salary'])
         item['summary'] = self.clean_spaces(item['summary'])
-
-
+        valid = True
+        for data in item:
+            if not data:
+                valid = False
+        if valid:
+            self.collection.insert(dict(item))
 
         return item
+
     def clean_spaces(self, string):
         if string:
             return " ".join(string.split())

@@ -1,0 +1,188 @@
+2019-12-24 12:42:11 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/robots.txt> (referer: None)
+2019-12-24 12:42:11 [scrapy] DEBUG: Redirecting (301) to <GET https://www.indeed.fr/Emplois-Informatique> from <GET https://www.indeed.fr/jobs?q=Informatique>
+2019-12-24 12:42:12 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/Emplois-Informatique> (referer: None)
+2019-12-24 12:42:12 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/Emplois-Informatique
+
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': 'metalvalor GmbH Deutschland',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Technicien informatique (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0APuIM4cdCoQnJeXP9-3p7wuKd8xI260ZgevPS09Bc222WQiZR_dAv1Iat-CJee-gozurXuMPyHoUG5O0rcRVS-8WJhSpF8mB0fo4OCpUiAQ3SCu3D0CV1yAEdBj1feTbdEK4bZ4fnHM-zxKDdIa5yFrezz9s7RKRWQ0_q4atcQDGeE8yYWoX07MWugBc4R_MZZE_evcPeVD3kymOrzk1vytfjldcgLkimm8MWBOUInPfRUJCM5pELykDNugRrYl5nfCDkyBYiML2NCUODZNiDbFqIjFsaTE4ZaCUK8Wj4JwC4xqholxLwRFg-K3VHKB-rkkv_ladBwdY71FJhWSd5DASSEOBvyEglKnqwfxd-DL4X-9aZDxSD1IOiXzaBCTsO9IRxfl32W3zPCpFVSZOdS7jzf7z8M8YizmYW6c28OR6AeNeWIGavo7NX0rINzT3Fp5FXQVZsCofK3qng1MruR&p=0&fvj=0&vjs=3',
+ 'location': 'Forbach (57)',
+ 'salary': None,
+ 'summary': "Vous êtes titulaire d'un diplôme en"}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': 'Bureau Vallée CHENOVE',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Responsable Bureautique Informatique',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AOKWlvEjQG6wWa09Cv8JTcgtzk8QNNvp-e5LhzXLSkbVdpZZkwBmQLWrbIINg5ghYBzIu2hu4AXGAX2EVFLSvt_X1lyj2qyQQkpHAUxQeUq9rEIX1KYcvm_GIApyI82IIqfnMdouLcArLUB07qPjHgzyVAZvP8CHwfJ_BzcMuVAXcKtF1AtPDuTbxFfJX3XYPavYFo05ocQsojq098CHtdUFwCmsyDOLjqznBkKmH_JLjvGGShe--9QOeuMayrr2qyc8NeRfXpNcqNyRi1lulWAWoVGCEgoizkYIsd83b1FDqz0s1fpXElqvtVZy_qISdvRpBY5hF7O4ToiCtEIwjhhrBdp_2TOwQbETusKYVE8VROeOLEAUf1PhSp5HXmUQbv4BCTCzMG4xEqmFyrsc_A3o7-ZG-4zjpVqr8nhbAJcjvPxXhFBE-lpKy-iy0YrQCs1VIqmFu0T6eF9wt9qs8y&p=1&fvj=1&vjs=3',
+ 'location': 'Chenôve (21)',
+ 'salary': '1 700 € par mois',
+ 'summary': 'Au sein du magasin Bureau Vallée à Chenôve, votre mission sera de '
+            'gérer les rayons et assurer les ventes consommables et matériel'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': 'SAS DESTAMPES EMBALLAGES',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Chef de projet informatique H/F / Ingénieur Développement H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BdmkLQbdnPrSB90_LFMFEsMOnniNuM9Q3XOmlOWdCvciOw4b4_AyJ3U0zT5w6_1QCXIDgLa59WuQVGTxHcDjJUuhEB2I9Ki2NSulaS-_gZYQ03KE8D5osfOuwkbJ1j_hAOCFEIMhmVqkNQoAhUPRM17AXUOf-B_vg4Q0GE1mrCOzKNqiA1fBLZWmzz_4fl0KZBbDzG8BiKSL94GIZqqAMyj2uX94MXYgpVYrrxeSNPw8mQCXHo4ntIXsLgxRk4ngxgIXvU3Jgd1jWpLuyd3ifFooJkzdjyrRnyAP8lBNxfuCCA27S1pGbdh_m8fqQNQ0fp81oRvg7T7kgliBkONkMVwhOPmonLXGWB3BRZchNLws4Rrq5opfLsDmeoXaecJcMSrfRnvmhZ0tt4df6tBcPYEweGAuBchiSQX3TYXSYhbVYhCaxsbXZ1SPtfPORYwxtvroGbqLPZPA==&p=2&fvj=1&vjs=3',
+ 'location': 'Étagnac (16)',
+ 'salary': '34 000 € par an',
+ 'summary': 'Installer et configurer les postes de travail et périphériques, '
+            'logiciels de base, paramétrage.'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': 'HaiSoft',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Technicien informatique H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CUQbU-IWvrvgOYjLRCnWJ32GiU0FfQbnVWnQGEWXGF2wkvpUxs7YVohbivIcLaLIPsuD2xOQUcUVy04PyyXGaBn-eqyAhk9ep4PGFYb6uC6HLz9IsbIJok3Fyx4zE1wsjmTltnGXyGzSBCjV2Wj0QzrUASNBzsZu0THn08ZgdsFHE18swTTei-mMB9lXXHxh_a6ZKUAy3-iTjJgXeICHXb090-FJUjyvULbZfQ6pxedkVKV6wjGSG2am0N5c-uVjOdzv7v_WPBWSUWKBLkyW8KHC2e8CUIVi9zPobUTh77xS5Y2J-bnO9J2D07AesGoOaYhJj2F8Qr4yomyhfA6fihN2TGe9V2bvtllH5BwL8-9HATzb6ubEJUB_TBKjhStGYZeieM5hOomDSavdbGJA01PmjH3jeqx_n4QAPfzs7_5GCqvun0rU5amlVZX18QT4w2PRLRs_1z_Q==&p=3&fvj=1&vjs=3',
+ 'location': 'Orléans (45)',
+ 'salary': '19 200 € - 21 600 € par an',
+ 'summary': "HaiSoft est une entreprise d'informatique basée à Orléans depuis "
+            '15 ans.'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Développeur Informatique C# / .Net H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Aq-PE3nMkwS4eKNiSCw2cZVqMYsZBQlIk0TS3ID_8BeYqujPNbMdpposR-ysyDgHKdu4wZpj8MhGMC9lYI8DSwAsjded9vNYJtYZF2JhAwK3FoOtUX_wyRP077Pj3RPF9b1DzmiXV3bVUZj7fYZOBz6qHxaRaB2fRZFaVrnA5dyheEB9JdM-Rcb3oxcFUgywVxte7Qww6nodObyhMbK7Q-KQrs7KWmTmWUuRVHh7K7IOJyr6uXI3ovH1180e2RnMnf7gRNb4SgvnKCr1lk7v6nq2ATwSm3qmILDYnk1uFFPlHQsp_HaKyhcMYmAbr8gvPwe_dxK2cU2jXlgYIVdYYsxAF69p_dFEQZpUbGkpfn3OYXXYIZH22HhXO4Sr_-vnfUIDH3-UhC00j32rgn_fmtBfyPZSBDX5DCgmzZVLBU8nVxy53wAfXdwdNg1CSUS5TQsDjEhStLeg2Z_LAvtpFc8wsgdz_rKBkoh58q2q2xvi50DyHNsfZCSHgSMLuwrL5nhUFQhU-SMSUCZ76Om3JZ1R2-4siwuOLz1ggvcpelAXd7tQ8XDEgAztHd4Y6m9GdEDqPwbMl6vmkCgu5aFDgF_hLdPpzuq7-nBaLhkKbPBkDzBtGd2FlAf4JqrMpgfLlfMoEsJ3mcVl9ZOkAIrgC8MbiflaqB0J1si9IpzdF6ugWeV8SlFJ0GQ-40PfkhwYcl5f2H8Zxh1Q==&p=4&fvj=0&vjs=3',
+ 'location': 'Beauvais (60)',
+ 'salary': None,
+ 'summary': 'Jeune diplômé ou plus expérimenté ; de formation supérieure en'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': 'SK2H',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Technicien Informatique & Télécommunications Expérimenté',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CMWUwKpGRq44c7qTXS9eSGi1Lb2tJC_x7pFa5mSbqaLr1C4f3OYrl3JwW4Iksurne33GkpYjKF3NF_kxSSZqUr8-eC-VkUQeii3QxqORSpyIrnqD5et5PPAxvoDEEQgcGE2SoFXvxTwmulxTa7d6GUpUi2S1W55QOXE5PjRVJcja-AEiUy-J375KkoiyR3JAn0EMtVmh08CSWb4QqqlafJzthdhMRf1PrlR3bOaWUa8xHSrl1yl53rM_Dg4Yqq5RMvhugjR5zn9YkVzkUQUQAarTqru9h7NyEix3Tss0AbxrP6tVw0G4ORxaeX1lqEXovwOFxEr_4Vx_r9BQ6Z2SfvjkzBoFJP8WOYOhtibiWCBLsGSOfaDEg9AK9cMfyvfX4vdik6qaXorxEzPdtLj2VNNVVo39d2PuqlXKCShjYLH2Nd3gKOim9EKUEGEwZOxmz-hZhHy9zdUAsMEmKePCydMoV32DtVNhcG2YAPQjLC4sPb02leIADWbNG3G98w_tdZwZJ_xFp-EUhoRMG4vwEExb4fj3WNtRU=&p=5&fvj=1&vjs=3',
+ 'location': 'Avignon (84)',
+ 'salary': '2 100 € - 2 300 € par mois',
+ 'summary': 'Dans le cadre de notre croissance, nous recrutons un technicien'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': 'BioFrais',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Responsable informatique H/F',
+ 'link_url': '/company/BioFrais/jobs/Responsable-Informatique-bf44735486a7a28d?fccid=3e7965c9f44e8b3d&vjs=3',
+ 'location': 'Épagny (74)',
+ 'salary': None,
+ 'summary': 'Le / la responsable'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': 'Département du Lot',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Travailler au Département du Lot',
+ 'link_url': '/rc/clk?jk=63ed250bc209fd9d&fccid=2ab62c2c8f53a7a4&vjs=3',
+ 'location': 'Lot',
+ 'salary': None,
+ 'summary': 'Travailler au Département du Lot.'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': 'NoToS',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Développeur / Développeuse informatique PHP (H/F)',
+ 'link_url': '/rc/clk?jk=ff6a453f566f8ec7&fccid=ec4a1021f849f8e7&vjs=3',
+ 'location': 'France',
+ 'salary': '1 800 € - 2 500 € par mois',
+ 'summary': "Vous serez chargé(e) de l'installation de ces applications, de la "
+            'formation aux utilisateurs chez nos clients nationaux.'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Technicien Informatique ( IT) H/F - CDI temps complet',
+ 'link_url': '/rc/clk?jk=3b09b79870b57b6c&fccid=af17ea0d1d6bbbba&vjs=3',
+ 'location': 'Saint-Étienne (42)',
+ 'salary': None,
+ 'summary': 'French CE QUE TU VAS NOUS APPORTER.'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': 'La Panière',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Technicien support informatique H/F',
+ 'link_url': '/company/La-Paniere/jobs/Technicien-Support-Informatique-bbd2f94b381d7816?fccid=aec2cf9fdcce0c10&vjs=3',
+ 'location': 'Aix-les-Bains (73)',
+ 'salary': '2 200 € par mois',
+ 'summary': 'Technicien support'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': 'ANABIO CENTRE',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Technicien support informatique H/F',
+ 'link_url': '/company/ANABIOCENTRE/jobs/Technicien-Support-Informatique-c92015530c338240?fccid=9e2fa292a58c83a4&vjs=3',
+ 'location': 'Orléans (45)',
+ 'salary': None,
+ 'summary': 'Assurer la préparation matérielle et logicielle des postes'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': 'AXIOM SERVICES',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Développeur informatique F/H',
+ 'link_url': '/rc/clk?jk=c5d8cd17984f7a52&fccid=10d2692e5fc3a45c&vjs=3',
+ 'location': 'Ergué-Gabéric (29)',
+ 'salary': '2 000 € - 2 500 € par mois',
+ 'summary': 'Forte de ses 50 années d’expérience et de ses 7 agences réparties '
+            'dans l’ouest, ALT se positionne sur l’offre globale avec toute '
+            'une palette de solutions…'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'RESPONSABLE DU SERVICE INFORMATIQUE H/F',
+ 'link_url': '/rc/clk?jk=78a753ad7bf07c94&fccid=52208859099a6ba6&vjs=3',
+ 'location': 'Bourg-en-Bresse (01)',
+ 'salary': '2 098 € par mois',
+ 'summary': 'La gestion du réseau'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': "Direction Systèmes d'information - Informatique & "
+              'Télécommunications',
+ 'link_url': '/rc/clk?jk=80dd7aa9f7b37067&fccid=d650792cc5fca7f8&vjs=3',
+ 'location': 'Lyon 7e (69)',
+ 'salary': None,
+ 'summary': 'De formation bac+5 (école d’ingénieurs ou universitaire ou '
+            'équivalent) en'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': 'Mairie de Plouguerneau',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Assistant informatique H/F',
+ 'link_url': '/company/Mairie-de-Plouguerneau/jobs/Assistant-Informatique-d762c11ef324a8bc?fccid=afa56701d1e118a7&vjs=3',
+ 'location': 'Plouguerneau (29)',
+ 'salary': None,
+ 'summary': 'Techniques d’installation et de maintenance d’outils, de systèmes '
+            'et de réseaux.'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Ingénieur Développement Informatique H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Aq-PE3nMkwS4eKNiSCw2cZVqMYsZBQlIk0TS3ID_8BeccLVIBQtcKS2J-vbIcSYUnZmWxifqa_SW9qt695tal8TKSWhO0c07x1g-c4TwrFFGfTeihBQ6-Jik2FeODM8sMyje0WF_9Oit51tLbjSmXQNViANp-Uj4yimNkPQtDwOAJUr4vv-Iodbirk4XscLwLqmhfqP9W5JKJ5l1MbWGnXYKeAapdxKHQ3tRNODgAzRRDggPfoOIG2UVzJ6u04HtzELcMyHIddfPJNXghQlv2oQZWcyone_wjnKUpIYKeylxg1q5KG_B_jaIK-CN8_zDE66iCsdjrhW8bUmjEL19KtIv2WOwSyXGYslOPV0k0CC1S4HBRiKrz9H4Eo3gsDhNLcrIUC-pyhdBKVPWJZNXIjHKjDqgmmvSBPGZeyVblDzUrfOo55bSfmowB68uOFhoTq5nNAHzuQ-Vo4WgFnAwAwAlxFEIyU8TAvM9DXhz8NBeljtBXLP236d4R4ohIAS_RBfQZrjwOVTyVZbAMrFSy5LDlqwbKVrgXZAQqGe2RnREUOT5QNPnGVQ9ufBIB0ur_PwrTOg4S9aruriMthnjEhFJDrWlLwMzY4rmZYSHQYVVpJx9f0fTdfm0BV7Rzykpvf8gKmpoqvuBXM94DlSIU5dTIkgZBcb_jWCRUmykHZVcBSRqPdDhxe7rkRG8X1abXHkDCtpK4Gk3iu4cWMK1EI&p=16&fvj=0&vjs=3',
+ 'location': 'Beauvais (60)',
+ 'salary': None,
+ 'summary': 'De formation supérieure en'}
+2019-12-24 12:42:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Informatique>
+{'company': 'MODULO COM',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Informatique',
+ 'job_title': 'Technicien Informatique / Telecom',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DVyTAE3TLdIxWAjvEVXzxhqmGPEbYF8WOGSVnGtw_GR5W9NXAGf6VtLz3RZwi8F1ZGL_TsBGHguUoy8WynuQqZZMt2gGIYAcfPNyvZ_rJge48CDNc-mpl08nGtsBKeCPdKoAYEjMI1Bk8teOoLJhSSttrm9Zb7G1aR_z1mL9Q4liBF5emQpAfR0GxFmpY_qu5rKHYQjEvucZtn0Cu7IFoqjhqrIvrr7jYb-s7ojS21ejrCDkFqBLfbqOg4x5nIcTfAgwHzlFxvfy0y9j-zepcT0eU16Sgm5fdgkghA9ckcVX65-RmVInEfbzTySiIsq5XP992KcQwxIRJVCM-gTZJOVbSkSIsTIeVbNdnX4bd-ytNYJgvOpWEvj3Cqb19TxTw2AJJYofTirkFkLMiDVESJDd1ow4qAg1ZtZ_Ngy7xA_Gr9RikzVOhqumzBapNqzfs8N8FpT4Q7G-VmT-hwhS2-&p=17&fvj=1&vjs=3',
+ 'location': 'Le Mans (72)',
+ 'salary': None,
+ 'summary': 'Configuration et mise en service d’équipements et logiciel'}
+2019-12-24 12:42:12 [scrapy] INFO: Closing spider (stop generating requests, only 2 requests allowed)
+2019-12-24 12:42:12 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 888,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 104122,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 2,
+ 'downloader/response_status_count/301': 1,
+ 'elapsed_time_seconds': 1.21984,
+ 'finish_reason': 'stop generating requests, only 2 requests allowed',
+ 'finish_time': datetime.datetime(2019, 12, 24, 12, 42, 12, 531418),
+ 'item_scraped_count': 18,
+ 'log_count/DEBUG': 22,
+ 'log_count/INFO': 7,
+ 'memusage/max': 112861184,
+ 'memusage/startup': 112861184,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2019, 12, 24, 12, 42, 11, 311578)}
+2019-12-24 12:42:12 [scrapy] INFO: Spider closed (stop generating requests, only 2 requests allowed)

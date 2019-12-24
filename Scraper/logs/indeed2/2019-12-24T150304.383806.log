@@ -1,0 +1,187 @@
+2019-12-24 15:03:04 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/robots.txt> (referer: None)
+2019-12-24 15:03:04 [scrapy] DEBUG: Redirecting (301) to <GET https://www.indeed.fr/emplois?q=Vendeur%20> from <GET https://www.indeed.fr/jobs?q=Vendeur%20>
+2019-12-24 15:03:05 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/emplois?q=Vendeur%20> (referer: None)
+2019-12-24 15:03:05 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/emplois?q=Vendeur%20
+
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'CDDS Saison Hivers Photographe / Vendeur (H/F) - AQUARIAZ (74)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0B2vTMfEB63yVcN7N4b3lIzu00DtgSoWgTjkljNUGa9av0JgfN_JzKPPVBNPebjajZFH4rekcTBx-PgvxLWlLDFnMS5sfj8NNDGQHXSa1tLu8AowFxffJtGhaYi3JBOgnBRqZMYggJo5w1B5WuR9To0b6Hj5KyF1MSmPqYR1CvYilEZJDb0Z7LdwL8C2pY1XW1sDZyljZx7HG4rad_DL93RUZNNWKMDSTvbNFaiGQm1j7m7Jzl7r2ZLTs17Na6VineLQ_lgMpfy3INfXG2hkzvUHNupHoAWEFMOyi5gDuN8EtIDxJkx6b1oh_X3pdSOcv-5kx1am8cScFA83u6_ksZux6Yxo79U6uizNQiMI7L_9LpyFTjHnLyECpgEWLqZbbUZYtxO01DpJ8X2qupjzBbpO4nlmRiQe0eoA2i4iEkgNaM-NkgT0td7X8EiNgkLs4k=&p=0&fvj=1&vjs=3',
+ 'location': 'Avoriaz (74)',
+ 'salary': '1 523 € par mois',
+ 'summary': 'POSTES DE PHOTOGRAPHE /'}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': 'iTEC SERVICES',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'VENDEUR / TECHNICIEN INFORMATIQUE',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CMaIGKKnAaKvx2QqL5-TICB9gphmcduogrHUMqdPt3fN885devQBTSu0WObbpE--mHGdYvWTTSJWWRTGc10_GVQ9xQjptY47zYltkmW7PeOxlVcZPGYoDblAIM9sqOeuWuzpTExZ1yFooIX5Rd_3z_8f5IV_EoRZkaE-Un9r7w7938jjzF87D8oMuD0OkhSSAZjdTxC0y2SIqRJe3O9WaDYc9TcvpvD0vMnusq0Ke6OEMdhsYG4bu_5DZ6xG39T-WzxdoqB9KbvAPrnjxsZSYUItmIO5h6fI5OdKp9eb3HoEqFSJDL-YNRSuNh_5jGf4NADFEFotzQaEXjtTavhCbSm623aRkSWsbDz1ROhSOQ0Sf8-111vxHfW4RqCk2MaXCCLFitOz5JRQ2I2HT1TV36a_Cm62s87GETCVQbQlpV6mxfJ4qTvGyRMu_ao_aAIpwyAfLGgzPw0Q==&p=1&fvj=1&vjs=3',
+ 'location': 'Saint-Mitre-les-Remparts (13)',
+ 'salary': '1 300 € par mois',
+ 'summary': 'Vendeur / technicien informatique ou similaire: 1 an (Souhaité).'}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': 'BRICOMARCHE',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'VENDEUR SECTEUR BRICOLAGE',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0ByGybKxSxr-cTo8Orr_0ad8WsIP82DNDwHkb6XreqqPBm6z0xTQh3MGobW1FIrs_xnQUwhvbWQTLS7Gn9krz_mpbwjZzs00WADDjipWRV1AgAUqoHWhz6WAN7QddV8YOXkpz4hhy3yUMMeQ6aetSdjckD0_PP--fA3dtiy0ujzAiJxm4ACztNRkJ2zdfpgxlhqbLF9rlNWzYl6LswFDwOYfkz2YVhHezHWL7AWHjhopfro1Qoeo9ket0BpD2xpl1vxYakQSiau7hXucqAdGTNk-2UcPg1COQBMCaF_Ozu7vJ-B_z16Wnixdc7uNCgkoNsklrfQxbqLkukv0VfkieE9pfo4SrOD0yaFGqXUIO7hXTqk0Xi8mzhvzXk5Sg63EpO7CSKDFJ1lvAA0l5NJV54zsWlZG8c3YUhyZ1DTEiWFCkZlT-eLiGltjKVz7qN1JBn6XfyHVYtf_w==&p=2&fvj=1&vjs=3',
+ 'location': 'Aubigny-sur-Nère (18)',
+ 'salary': '1 683 € - 1 775 € par mois',
+ 'summary': 'Vendeur secteur bricolage ou similaire: 1 an (Souhaité).'}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0B6OK5d8iJBTx__RiN2NjyPHFSU2WEGE__1_lHQfFJ-s6hdaKgrRhuzaWA4-MR81E2mJt8owLNFaGMIPKWv6LWGNBmluWa6ZpgIASbyJFz4OOfHUEyQ3JHDsLHqymQRW0P1dKzY9jqmdsAe1M6c6c7G6EY5CzpsoyzhuqykITwvIsv4byHuakWagrHwQo4bcGbM7MlAc9SYbGSuS2WqwhfAovCUFEQU6Kw-NO1pBZBAuEXv9S5xEnD03qnCzTW6TDxKKd4eCxR6uX2-sQovyVoiCmjfRcEg-LkaCZk8itrBdzx3MGdgREZTHLEggo8iTg-I4MCN0A5IGdztUeh8RYEDI33RRhrZsrbyivbaP0wNfQ6CzxBzivRJ9-o5aoactCqpm6K57dZrU2FO4UMW9Ybf2q4OIXLULlUOJernVs3ujfqGj8AkNQX8ZpnK6g0mmiU=&p=3&fvj=1&vjs=3',
+ 'location': 'La Roche-sur-Foron (74)',
+ 'salary': '1 800 € par mois',
+ 'summary': 'Vendeur H/F: 3 ans (Souhaité).'}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': 'goldunion',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Responsable agence achat et vente de métaux précieux',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CiMCIK10ECr7oVobbicpCI7yQQy55MFF2n7jIGSQo2M4kU4U0bn2_78xLBG59GqS6Pf9rzlWOPdjebGnLmaxYF5SJwPni30KRJAtZs0D2BEOaXW3fN0gJpZtdYVKA4fBQHX-C6BzlXYrq3xHiCqvm7VjakmIR_bOQOXT3_D3PuHfzb2fgA6TRAaokCHUX6kI9fyngWnbpq3zkE3Pqw-vtmf22k2jzW5G84kA07kQM9CVwoO4alZ_fgcgwxY2znQ4pQtZmjnj38d0oYFjyoMRJcwqBuHodjmXRojQwjkqu7StC_TZsjwWsiq82ivyvPMtdZcGLiQY2UXO0LIavoNnTqSpdtiWfwt4aGYi6HZokwmff6MyMmPQJFx8V0JyLWbQ5i7_5aSPqZJqsoGnS23_f4HJCRXGArYYwo5QXkRcCz-_1WDMxvZEUjYHlxBAEIBxgrtkXuUMwy5qpT1jVJQS3fA5obWDlK0676eD1dth9F608FObs0pfuOaHbxZoNDyio=&p=4&fvj=1&vjs=3',
+ 'location': 'Palaiseau (91)',
+ 'salary': '1 400 € - 3 000 € par mois',
+ 'summary': 'Vous etes extremement motivé et désireux de participer à '
+            "l'aventure d'une entreprise en plein essor ?*."}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0A41XU-qwA2_E6XwsjDct3yXXqbD14ViI8jS1dcz983vqpAC-QlTkYeY901mLeH91Lp3Ht0nGFFcIDZ1RTMxpyWEjbBQbQh2bDbHs4-OIJBnfu5gwEFjVn7xdXz8KHHX12XU0_hHeSAFttulEw1czP7QvDq19ZTcnm2vwg291HuiVfeqWlY0hcVErZbOJhIZvADm6UMghYPH6WokD75-HUUTbOi01gXdQf2qan49x_2ZSVr07O7d8pWVTF-MuEw6zuRCUYEw16zhZqzf6uDhvTVuQ-2ATzXyFfydl23hAbJH-4C-CAnNcPG3v2OUb5saXHjRkoLb6AAgj564OdHVEhChVlPzYEWJhAh8nb1ysp1NVtek_mSfBVE5J1Rbr6FqOukldkfp6QjYQQbCIREC09k3VV887J39NoSK5a-0E2TiIbo-Q0ksElhseTRyIKoZTbuMPmTO_BuW-yjtHQ7q1cDwDMqKVwtBqxWZl69x0yptQ==&p=5&fvj=0&vjs=3',
+ 'location': 'Aurillac (15)',
+ 'salary': '1 525 € - 2 025 € par mois',
+ 'summary': 'Nous recherchons aujourd’hui un(e) vendeur(se) (H/F) pour notre '
+            "magasin d'Aurillac."}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur H/F - CDD - Temps Partiel',
+ 'link_url': '/rc/clk?jk=25a56c61f2677b7f&fccid=af17ea0d1d6bbbba&vjs=3',
+ 'location': 'Montpellier (34)',
+ 'salary': None,
+ 'summary': "Tu aimes le contact avec les clients et tu es à l'aise pour les "
+            'approcher de manière amicale et polie.'}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur H/F',
+ 'link_url': '/rc/clk?jk=a611367e98282941&fccid=af17ea0d1d6bbbba&vjs=3',
+ 'location': 'Strasbourg (67)',
+ 'salary': None,
+ 'summary': "Tu aimes le contact avec les clients et tu es à l'aise pour les "
+            'approcher de manière amicale et polie.'}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur - H/F - CDI TEMPS COMPLET',
+ 'link_url': '/rc/clk?jk=9fe4c57290f406c5&fccid=af17ea0d1d6bbbba&vjs=3',
+ 'location': 'Clermont-Ferrand (63)',
+ 'salary': None,
+ 'summary': 'En_UK / en_INTERNATIONAL • You love customers and are confident '
+            'in approaching them in a polite and friendly manner.'}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur H/F CDD temps complet',
+ 'link_url': '/rc/clk?jk=5bbb63ffe8ce8a67&fccid=af17ea0d1d6bbbba&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'summary': "Tu aimes le contact avec les clients et tu es à l'aise pour les "
+            'approcher de manière amicale et polie.'}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': 'NIKE CRETEIL',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur caissier H/F 16H',
+ 'link_url': '/company/LIMON/jobs/Vendeur-Caissier-cf6e8c5fb282a13d?fccid=4121b996b64f711a&vjs=3',
+ 'location': 'Créteil (94)',
+ 'salary': None,
+ 'summary': 'Travailler en équipe avec les autres membres de l’équipe '
+            '(Merchandising, stocks, vendeur).'}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeuse/Vendeur - Annemasse - CDI - Temps Partiel - 25h - F/H',
+ 'link_url': '/rc/clk?jk=6c61808b0af1e91b&fccid=339fd0e07baa71f8&vjs=3',
+ 'location': 'Annemasse (74)',
+ 'salary': None,
+ 'summary': 'Disponible, dynamique et souriant, votre connaissance des '
+            'produits et votre polyvalence (stocks et caisse) vous assurent la '
+            'maîtrise de votre métier de vendeur.'}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur Polyvalent (h/f)',
+ 'link_url': '/rc/clk?jk=602cfea23172b746&fccid=98a961f3a80790bb&vjs=3',
+ 'location': 'Champniers (16)',
+ 'salary': None,
+ 'summary': 'En tant que vendeur(euse) polyvalent(e), vous êtes sur tous les '
+            'fronts à la fois.'}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeuse/Vendeur - Parinor - Aulany-Sous-Bois - CDI - Temps '
+              'Partiel - 15H - F/H',
+ 'link_url': '/rc/clk?jk=2a5e55bb6ee1b622&fccid=339fd0e07baa71f8&vjs=3',
+ 'location': 'Aulnay-sous-Bois (93)',
+ 'salary': None,
+ 'summary': 'Disponible, dynamique et souriant, votre connaissance des '
+            'produits et votre polyvalence (stocks et caisse) vous assurent la '
+            'maîtrise de votre métier de vendeur.'}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': 'CHEZ SWITCH',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur en boutique H/F',
+ 'link_url': '/company/CHEZ-SWITCH/jobs/Vendeur-Boutique-62058fb8a36b7274?fccid=36eb21574b1a0c13&vjs=3',
+ 'location': 'Reims (51)',
+ 'salary': '2 500 € par mois',
+ 'summary': 'CHEZ SWITCH est spécialisé dans les économies quel que soit le '
+            'domaine.'}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur conseil H/F - CHAUSSURES',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0D7OGK28FlniKb606uZjTxGbtUrB-shmYVeKDfXgKMgvNJCvv44IVZWSLwYjub_XjGL37rbDFVP14n_tzws_P84-mImlsjOJKYsm-ZJRlGKCcizDBhtVNXheRcNXDxTRlzr9RbmiCofT0Mpy2_UPD1CBZqkxiHvC-fIa5xcGNKnswfVe94nhVY1DG-RoQL630cV7lOJM5rKlKM8WHQ-vZ9dqycjyFOvKr9tc0hs8T37qTNhvxde_D8HO31w4alZS6WvlGru_Qjz0mw1dHRX9CHqYp-RJtibk_CN2HfoHTQLStIA7lFUTzZ4yOqQFByZZqMYl0gSKQqz_gjfNXNRp8W9N57c3PcVxs2LgWl44Ec36iOS2mkMG9o27O8-QHy_w9UXLcuCULlGSDcv2yCgJrhL-koR22oQDZQ23Kda5gpUV-M2JDzTtWECcVo660ODOOT6Fofb694Q3w==&p=15&fvj=1&vjs=3',
+ 'location': 'Cluses (74)',
+ 'salary': None,
+ 'summary': 'Vous serez chargé(e) du conseil à la clientèle et de la tenue du '
+            "rayon de l'Univers Chaussures."}
+2019-12-24 15:03:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'CDI 35H PHOTOGRAPHE / VENDEUR- VITAM (74)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0B2vTMfEB63yVcN7N4b3lIzu00DtgSoWgTjkljNUGa9av0JgfN_JzKPHAFOegi_8E149cRUiNYaNmKRa4BeTAoJeVYzQFw6e3vyaOCQa7mYrMA4VTgf3thX7R1Dl7QT9kxuhAaLLQYH2Z-12ET0u2NbtRGn5GeXYGWqSyx8ls0D2JPSZqtRoxCXC__A3i49oPvjxf696QtHh5koKu5J64Q8sOqF3DGAg9LUg_udgllLGxna8wFDO5QT_r5X9Gzdc9Mq1Khesh5WJvC1bL015eamLq82SZ8_uqw4xMQqNZPEPev3l3-yWnFU1g2h022PXaWrBxJCies2MI-nBiRKvqYyKaeK0AsPaY7OV0XO4DEZyiQ35YMjQePR4NRakCfCutfahJpoZGuhq3QQ_PB5LPn3UCaTaGD0pZKIYOOiyESAmPZfgtyt5zoL8i3ZLTaxS5w=&p=16&fvj=1&vjs=3',
+ 'location': 'Neydens (74)',
+ 'salary': '1 709 € par mois',
+ 'summary': 'Le métier que nous vous proposons vous apportera deux compétences '
+            'principales : celle de photographe et celle de vendeur.'}
+2019-12-24 15:03:05 [scrapy] INFO: Closing spider (stop generating requests, only 2 requests allowed)
+2019-12-24 15:03:05 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 886,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 103125,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 2,
+ 'downloader/response_status_count/301': 1,
+ 'elapsed_time_seconds': 0.993067,
+ 'finish_reason': 'stop generating requests, only 2 requests allowed',
+ 'finish_time': datetime.datetime(2019, 12, 24, 15, 3, 5, 422375),
+ 'item_scraped_count': 17,
+ 'log_count/DEBUG': 21,
+ 'log_count/INFO': 7,
+ 'memusage/max': 137969664,
+ 'memusage/startup': 137969664,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2019, 12, 24, 15, 3, 4, 429308)}
+2019-12-24 15:03:05 [scrapy] INFO: Spider closed (stop generating requests, only 2 requests allowed)

@@ -1,0 +1,179 @@
+2019-12-24 14:55:50 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/robots.txt> (referer: None)
+2019-12-24 14:55:50 [scrapy] DEBUG: Redirecting (301) to <GET https://www.indeed.fr/emplois?q=Vendeur%20> from <GET https://www.indeed.fr/jobs?q=Vendeur%20>
+2019-12-24 14:55:51 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/emplois?q=Vendeur%20> (referer: None)
+2019-12-24 14:55:51 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/emplois?q=Vendeur%20
+
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'CDDS Saison Hivers Photographe / Vendeur (H/F) - AQUARIAZ (74)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0B2vTMfEB63yVcN7N4b3lIzu00DtgSoWgTjkljNUGa9av0JgfN_JzKPPVBNPebjajZFH4rekcTBx-PgvxLWlLDFnMS5sfj8NNDGQHXSa1tLu8AowFxffJtGhaYi3JBOgnBRqZMYggJo5w1B5WuR9To0b6Hj5KyF1MSmPqYR1CvYilEZJDb0Z7Ldo7CCTNwbTPL5c_I4rVlChIFtUaVETawMkPF8uqP88MISMDSXmDFw78v7_Ese4r1gU4AAOGBfGZi6WNmC5IJYnm6QnxIuaOiAjbhdfJqlI669PF_eEQmrXA2kv4nzIHHZIdKu8Xwj3zsBHnQ8AqrnVd8W-h8lYBJ9EZi5PpcZ9sGYgaCKsD_ciARA6ojtXCfNMhdF4j5WVccrLtAn_hAiAhvPi_3_wa5ag7Wx4Rc_O5wLkeu5MKzE6nOskCN2tVVx3EaDuMOS5M4=&p=0&fvj=1&vjs=3',
+ 'location': 'Avoriaz (74)',
+ 'salary': '1 523 € par mois',
+ 'summary': 'POSTES DE PHOTOGRAPHE /'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'CDI 35H PHOTOGRAPHE / VENDEUR- VITAM (74)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0B2vTMfEB63yVcN7N4b3lIzu00DtgSoWgTjkljNUGa9av0JgfN_JzKPHAFOegi_8E149cRUiNYaNmKRa4BeTAoJeVYzQFw6e3vyaOCQa7mYrMA4VTgf3thX7R1Dl7QT9kxuhAaLLQYH2Z-12ET0u2NbtRGn5GeXYGWqSyx8ls0D2JPSZqtRoxCX17l98B9ir9Du7RkBMbCttFq3VZX5bp4GQvKr2m21HQUfKKCRoe5v9AynqYA4R3ol9XtbxtbIoJdddrmTKCHRM3WInK-JKI5-nFqrahEvk1KgbN96AugkVHXLUfWrqeBTMDLwIuX3PeM7AYmk6WsC04xwdteMF8GpPGq3QLgwpDSshrvleoBsJBiGHE2pnotb-6Vnn4FE2rYE0kUZ4vmLimlRubL1kIDnkPkg55_8YVFFvT5rVrmAjTl1FX8F4rpgbuv-DTinFjc=&p=1&fvj=1&vjs=3',
+ 'location': 'Neydens (74)',
+ 'salary': '1 709 € par mois',
+ 'summary': 'Le métier que nous vous proposons vous apportera deux compétences '
+            'principales : celle de photographe et celle de vendeur.'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': 'Libert e clope',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur/vendeuse',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CJF7w8YpNnCFQZgo3D8-ZCo1FCcuXYbbYsiUieQtGsBbFEJDq96zsNT_Qa19ihdFVAR9U9-Nk51rQIOC-ZPaABzLySL_G8lrkpW7KzApX-Or8lZ4YfTZ9KTRM25MjDH6Z0OY4enYSPoZ7-6XoRyYq0DU3INIInGMbLUho5CNFhYXWDalv5tpGFKg2rKRF-cdjMRB4P1HtzZzk2CiTmyGN86tv_OGAcvj8UzWUSr2tsi0r2HOnd_lELrhyAsJU6FoSr7h_FPoQkbQtyID7tAjMEwxOBqnmayfFwn5kiEZ66SXOy71ss89KK6dUJFwqtXn8MdN7ft17bwqZuTLtL7j_aGGgTg3X6y635v1pXLRtc7aXBMX7m9c6gwmcxJcP5Kz3ZUpuUPbq83Rm89C6J6MscS4d-jKiqLsN9TWVdTUDAZT1O92D5klcP&p=2&fvj=1&vjs=3',
+ 'location': 'Saumur (49)',
+ 'salary': '1 100 € par mois',
+ 'summary': 'Vendeur H/F: 1 an (Souhaité).'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': 'Les Bons Artisans',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Prospecteur vendeur start-up H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C5ypI5yuINrjlka_I_I5fX6qnFFB5qxclgrXf3jm5rv-hyBKkCAQ_wMPyj5hAitAbN5PqI8T_WK-K2Fpxwc9oGZGsbo-rAsRRrxy3uhYvrcL9b27iyIkn6kjkEHwqJmOU-60TGRGHM9Ia-LuUlhJT0fhekTG4XkgHr_WJCWrcQVh-Jmw4yz_cbHeOYUkGZr9JhN-p19NdCvcPDAukMvR7sALwJJARuFFo8EqfRUMFUtaJ_myOR7W8UTQpghxvngnRFQjlZf9G6TdoSzF4-Qer_s7MiXecojcPUNvmAu4opiyT4riBqoW5vqjc85IrE_iNNk4cccgSP5A1DuZoSYqJAXrFGt63eQCp_nYnSEJRfFTa8tMcDwYp0L8of4HWO9Co1fVlZIHY9UTARTNflmYJSqRHKQC28MzTLV0mnuKCu_cezYmhCrgzar-gXs-nWGgI=&p=3&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 800 € par mois',
+ 'summary': 'Vous pouvez essayez de nous CONVAINCRE que vous êtes fait pour ce '
+            'poste par téléphone au 07 57 93 95 65*.'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': 'LITERIE DISCOUNT',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur polyvalent H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0D8sg7d5A0P0RZ0yScL79EDd752KicfccPNyOhbuq-LsupG9nzDMNky4voUiruS-nERLsM8eQxsVyqAO-5E6WHm2rB-JdhIYxJKWGMTIkLLMMjDDdUWCwr7ncf5FympfFbWKvp9ShYFpe8OM9Gt6g1T1kWw1FVtH197wLhYCZt3oVkGAe2n_qNNJosDDvlFRRaGXG3HbmRhx8VuPV1CUGeibGE5VmEJ8bZPESkDNtgUrN7_txahX9i-te4S_VXMohb3Ie_9Uim3hGB3GZXknsTiQ2xrtvVYN1esJ6K9us7-Xzy8LgUd4tkizTIandAs6ZMEhRN_zjvAl2KLHQ5oxjgsle5y5jLr-NPZbcY81wnRPjdYVS9vMg1vV1JbMFR4wizPJHYuE9M3VgVGZCDVUx9DSQZcgrD0NszMORryAB7noglIxYtbPWex&p=4&fvj=1&vjs=3',
+ 'location': 'Le Plan de Campagne (13)',
+ 'salary': '1 950 € - 2 800 € par mois',
+ 'summary': 'Vendeur H/F: 3 ans (Souhaité).'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur polyvalent (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CEEbSAw6QHdjwGmAWCkER0nQI6IZFMQC-o1FhOpQMl2B7CrKbFki_BGdJeXShWMZYJcb2ezjuTT5KNKygJswAyewvP-1WZ5hxCUIcj0a7oDaS-cimrPiWY6OxwzcFYggQralQvSLr5TwXuhtKiIh7wcUWDc0MKDTTerrbR-Nl_WbUVzbit6UkZhJGXkUK7Dkle_4RGXAn6RvNyzFsS03xn4JW3vZJmqX0G2DMUon1OIQZmuA_PreLpQhG19UOk5OByI73b9JXPU0790HoH-Kr9IwmHj9RIJ6GRiM7eh50nCqIUIjB6vI_-VO-7d742yUwiBxsGCf4XlfAtaZhHCelOOB2lkiha6EpR4XZEsKBEx0f5bu403qkOor6nvpc0LgD33ml1-x49cGTbwpAZCy-nmfG6H0KepKZCj5L8W8TB5q1I-wUtWFrGa1x1PMXcRuX9xBJvg8j0ePCdB-G9hxn2lLhQg1h3uiM6pLNPktg7GxPIiSwZAH0_63S2SRUjoi74oTTl90oSGJSAs2IfSO9_OR8ejXMLNwYDYjXSCuU7ocwBptJ-4DX7AGd4V3IE7qOt1rFTO7PBWpcpf45a0JoJPDFpMiZP6seYsR3M46eyRc3kaYcbNe-wqD7qVjj6KswjAf35PXIuAVYzE-1R5KWn1XASV1l0hWMngrmxPzOSMU-pwklxq_eXeJjnQ1KVyhhqS1g1AnKvmN4AffGMFNQ4H9xOIDV58kA=&p=5&fvj=0&vjs=3',
+ 'location': 'Neuilly-sur-Seine (92)',
+ 'salary': '690 € - 834 € par mois',
+ 'summary': 'Nous recherchons pour notre client, Traiteur pour particuliers, '
+            'un'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur H/F',
+ 'link_url': '/rc/clk?jk=a611367e98282941&fccid=af17ea0d1d6bbbba&vjs=3',
+ 'location': 'Strasbourg (67)',
+ 'salary': None,
+ 'summary': "Tu aimes le contact avec les clients et tu es à l'aise pour les "
+            'approcher de manière amicale et polie.'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': 'NIKE CRETEIL',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur caissier H/F 16H',
+ 'link_url': '/company/LIMON/jobs/Vendeur-Caissier-cf6e8c5fb282a13d?fccid=4121b996b64f711a&vjs=3',
+ 'location': 'Créteil (94)',
+ 'salary': None,
+ 'summary': 'Travailler en équipe avec les autres membres de l’équipe '
+            '(Merchandising, stocks, vendeur).'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur(se) polyvalent(e) (H/F) Etudiant 8H',
+ 'link_url': '/rc/clk?jk=ceda926cd40c44ce&fccid=b1a1dea659b6cd13&vjs=3',
+ 'location': 'Dijon (21)',
+ 'salary': None,
+ 'summary': 'Vendeur(se) polyvalent(e) (H/F) Etudiant 8H le samedi.'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeurs (h/f) - CDI 25, 16 et 8 h - Tours',
+ 'link_url': '/rc/clk?jk=6a4fe59ffd08f5ff&fccid=7c13ea7d2941e927&vjs=3',
+ 'location': 'Tours (37)',
+ 'salary': None,
+ 'summary': 'Le poste de'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur(se)',
+ 'link_url': '/company/Naturalia-France/jobs/Vendeur-35e7b7dc4a51ac9d?fccid=317a9b53afe89814&vjs=3',
+ 'location': 'Schiltigheim (67)',
+ 'salary': None,
+ 'summary': 'Vendeur H/F: 2 ans (Requis).'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeurs (h/f) - CDI 25h/35h - Villeneuve la Garenne',
+ 'link_url': '/rc/clk?jk=a02055b505aa7111&fccid=7c13ea7d2941e927&vjs=3',
+ 'location': 'Villeneuve-la-Garenne (92)',
+ 'salary': None,
+ 'summary': 'Le poste de'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur H/F Contrat étudiant',
+ 'link_url': '/company/Naturalia-France/jobs/Vendeur-Contrat-%C3%89tudiant-99588aeba7602460?fccid=317a9b53afe89814&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'summary': 'Vous souhaitez partager votre passion du commerce ?'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': 'Micromania Zing',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'VENDEUR / VENDEUSE MICROMANIA ZING - H/F',
+ 'link_url': '/rc/clk?jk=83f8c09a2698384f&fccid=386e39d3c2009a97&vjs=3',
+ 'location': 'Strasbourg (67)',
+ 'salary': None,
+ 'summary': "Lancé il y a 35 ans, Micromania s'est vite imposé comme le leader "
+            'dans la distribution des jeux vidéo en France.'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': 'CHEZ SWITCH',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Vendeur en boutique H/F',
+ 'link_url': '/company/CHEZ-SWITCH/jobs/Vendeur-Boutique-62058fb8a36b7274?fccid=36eb21574b1a0c13&vjs=3',
+ 'location': 'Reims (51)',
+ 'salary': '2 500 € par mois',
+ 'summary': 'CHEZ SWITCH est spécialisé dans les économies quel que soit le '
+            'domaine.'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': 'ZEOP',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'Conseiller Boutique H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C_vfsE4mdAe_PlDb6x7TTAOv66zeVHPUClUIwBro1i-WJbv8qLsagmIioCcCoaCu4iJi6UxjqrzM1AQKROwn9AC0TGLNv2FR5fFazYSqQvQ0BgQ93A__3xOhYghj2axTTHkBaAp4TAknPfPMmpCehNl1mf7tvtpBNX26U-NKu-EzdUs5GYNy60yrzSwMSLdNKUISkeh_Zvk4zs5CcYymJ8Le9HvOCzAkSXKk46JFaZyM2AkvAkS3hbb2SU_4AwqIEhQtAqBFV4bvOIdmnxc9pY50PMXY9IiZcKEHCaKJK92Mvd-cNPe5uf7x1bFjiLuTw3ywKtXk3nBTKbP6zQ9TmIn7LHp9DjWP_SI-NnFsdhDBBBCQKBbhoQND66ZPUE6q7wTGInFHGYhp9NduwMeivFYfAX1wiroCGfrzkrlmzNqik10DCcU2EeP0wjmN-zSL_wjxYOzvF6Aw==&p=15&fvj=1&vjs=3',
+ 'location': 'Le Port (RE)',
+ 'salary': '1 786 € par mois',
+ 'summary': 'Zeop, leader du très haut débit fibré à La Réunion, recrute des '
+            'conseillers boutiques (H/F).'}
+2019-12-24 14:55:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Vendeur%20>
+{'company': 'ROADY',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Vendeur%20',
+ 'job_title': 'vendeur(se) commercial(e)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Cxf19mmgcxqPK5mpejfvAf-bDJuf8lOqj8OHjmRhB0MPkdWfdj7WC692bg_-mPVuj4nWFiJKF0K0B7pprmNUWBW-bZ-SsVy49tv1l7RNDV_9id1iVOeO1TUD9nnpZqF7s6RQefPDb0mReUNU74HbhHlFwvjihJKYtjOGtfbwXPrguVQwqOe_wtaUrMeGkHGs0mrfR2k0spoyFiuhJ3whglsd3YhDzOFWFtSmXkWV7npqSXaAuadotAqiCiKZVmgY5qLbVcPPYOuIjIzasfjpozck_zzIJQ-yyVrahXJNsyo3_DOAsho7GnHp84Ah-Pi9cH2CcT1lxz4IwZ9XZlJ2ZoRi1G--oJoGg2ggr4fDO6oItnKbrd-karHqYgdNnn2kZ7QfBnZgQ2gWJmf_KMBcW4cdHx5GWvemx06nWFhbNpOvDEdQwbpMtHPBoLmeMEd5k=&p=16&fvj=1&vjs=3',
+ 'location': 'Beauvais (60)',
+ 'salary': None,
+ 'summary': 'Vendeur H/F: 1 an (Souhaité).'}
+2019-12-24 14:55:51 [scrapy] INFO: Closing spider (stop generating requests, only 2 requests allowed)
+2019-12-24 14:55:51 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 886,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 108294,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 2,
+ 'downloader/response_status_count/301': 1,
+ 'elapsed_time_seconds': 1.214428,
+ 'finish_reason': 'stop generating requests, only 2 requests allowed',
+ 'finish_time': datetime.datetime(2019, 12, 24, 14, 55, 51, 291918),
+ 'item_scraped_count': 17,
+ 'log_count/DEBUG': 21,
+ 'log_count/INFO': 7,
+ 'memusage/max': 54648832,
+ 'memusage/startup': 54648832,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2019, 12, 24, 14, 55, 50, 77490)}
+2019-12-24 14:55:51 [scrapy] INFO: Spider closed (stop generating requests, only 2 requests allowed)

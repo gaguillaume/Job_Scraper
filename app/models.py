@@ -1,6 +1,6 @@
 from flask_admin.contrib.pymongo import ModelView
 from flask_wtf import FlaskForm
-from wtforms import TextField,BooleanField
+from wtforms import TextField,BooleanField,SubmitField,StringField
 from wtforms.validators import DataRequired
 
 
@@ -32,3 +32,8 @@ class IndeedForm(FlaskForm):
 class IndeedView(ModelView):
     column_list = ('job_title','company','location','salary','summary','link_url','crawl_url')
     form = IndeedForm
+
+class FeaturesForm(FlaskForm):
+    what = StringField("What",validators=[DataRequired()], render_kw={"placeholder": "What"})
+    where = StringField("Where",validators=[DataRequired()], render_kw={"placeholder": "Where"})
+    submit = SubmitField("Submit", render_kw={"placeholder": "Submit"})

@@ -33,7 +33,7 @@ class ScraperPipeline(object):
         item['summary'] = self.clean_spaces(item['summary'])
         valid = True
         for data in item:
-            if not data:
+            if not data or item['summary'] in self.collection.find({},{"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
                 valid = False
         if valid:
             self.collection.insert(dict(item))
@@ -43,17 +43,6 @@ class ScraperPipeline(object):
     def clean_spaces(self, string):
         if string:
             return " ".join(string.split())
-"""
-        valid = True
-        for data in item:
-            if not data:
-                valid = False
-                raise DropItem("Missing {0}!".format(data))
-        if valid:
-            self.collection.insert(dict(item))
-            log.msg("Proposal added to MongoDB database!",level=log.DEBUG, spider=spider)"""
-        #return item
-
 
 
 

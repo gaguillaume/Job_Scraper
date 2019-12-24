@@ -1,0 +1,727 @@
+2019-12-24 15:45:32 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/robots.txt> (referer: None)
+2019-12-24 15:45:32 [scrapy] DEBUG: Redirecting (301) to <GET https://www.indeed.fr/Emplois-Ing%C3%A9nieur> from <GET https://www.indeed.fr/jobs?q=Ing%C3%A9nieur>
+2019-12-24 15:45:32 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/Emplois-Ing%C3%A9nieur> (referer: None)
+2019-12-24 15:45:33 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/Emplois-Ing%C3%A9nieur
+
+2019-12-24 15:45:33 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': "INGENIEURS BUREAU D'ETUDES MECANIQUE DEBUTANTS H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BNQNW-ZS2hJ0mLxf5rOMmcfyDszTUn7URuJfLvpB7ilgiTzMV__XtWHm-PaSvRAWSzxXgp7XmJRh0LnGpaFOiB-MszTK97_BVoYzY140fPiDmT45tSEfWH1aRInX9Sf1DEQ3w5Tf2DiEGqTlou2ySrBc3OQkgEnHMKQd2ko6oa5efL1LPA8vRJvbYXSd4BY9oUNBZ5Z15rVLAsA-9r9homw05s1rTGO_ToIt1XBH1LOgmO5S2uhOswvvAxzV-2EOhZVxjPsmEz9xSIPWErC_6A4RHOIJ5LJ26gsswfu7I1mU745SRlFpn0Q4CR4cZFhunbkc1zv0S-t4Vo-sKPcUjBpTm2WRrWVcSiT08GpRRRCC32hvcnLZ9X75AYYIH9OOhTDnJoDV4WVhKsv826eQVdqzuwAUbAYtZCYYTSYVhlKUFoVJc_yxVPJch3zPPo2XInGqQYPy7PnFM066DcUTLqdCL3i3lZCo_xPcaH62QxV8ZaUd6E6zWqkHWG7tdJQ62uhAZPIFizWTcek_OaL_V6zSHk1wnoBqSd-Z8pgX7fQC005gYduOTwownGrCABaxfjndMQ7XT_GKiKCoPAg_odPwxokIbEVl3wC7aEl5ZWHE6dMz4yYGb9EP0-jEIHuM94ooXUNeItpX0MaCfgPgvpyPC1Zp7QaPCcVUUBEvgEMVMcviqzbz_lDNpvf5qVBOhqcncMSiMPGEE2dhsNZ-KAOJW0FYhm_3qdVlUquK-VXRxlb5rBFTC-UELKwD-3n27xxCEiJJX5CsF-AamnUXt0oUg9gqR2QztIRMc5Op3BtPXDEH_dts7hIFxzbxns1qaajAngaAKHV8F1Xs1D6aMQFQNVi5mYdOLHQs0lOLOlbsZgj5BBKgN3-zwY5Yd-zNzwV_5GbLBs-7p9FElzvzdy7g51NMWpE6FoyLP4jKzHRHpJ4FKGixkbP6r5Rk2G2mxulY77emN-Ebp1vcG6IzibzSJXBAE-AK8=&p=0&fvj=0&vjs=3',
+ 'location': 'Seclin (59)',
+ 'salary': None,
+ 'summary': 'Vous êtes donc amené à occuper de larges responsabilités sous le '
+            'contrôle d’un'}
+2019-12-24 15:45:33 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Instrumentation des Procédés',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DqrfHtRRe0-zIY7MLkvyzHNFm__ZI9KZw58DSPVscpXxkCE8o8jvW-_QgV9wXaRWe_LwxgDya3GjsOOTUjbD9T9yXoVXpwm61Y6VT484VeyC5Rman25v6kjcoMgvN3X1O4zVZKaOlDRsMWlzETDIK5xsgbkixsuPTEy8unG4o9cHOQ7WCCZJ95D-mtvnJgko0CYM8EK6lEMcl-jyhXLazVjVEs0_YIxXxP2jj7XqoFBlXdv3TLOyvBGXFfGH2-QwhLqOTjR0_yJCp2pSkmrzA_va5BO_shqTtRTeaWX3imR0Tj6LtJvL9t-3Zk5uL7f6VIgpz68USVtNSh8syltltdcpOfxdHNHpqLpD5yL-EcuiW6ECAkngXoJZj9L3MoFs2POm7FpxMnipBhx8fkaOXGCj25J1ow_hJD_1TmGCqSooN8uvFE0LSf6F-Adb-I0X8ZDM7ZkeUU0QZpr_PG827XHCtek2CjSPVFbYT_Oy6LsDY67S863mcPUDX5oVYYfUsYGDx7_ciuoEvY7hwH4rM2BrygvGqeCKiUluUQKEZGM5UBvQIZS45CBNe7pPYtgfLI0hhd1mGHIxTkG2ZhT93lRhNGwn_zXczeyFQwfyocbCbhL94Jz-C6NgdfPQMUa9QlZ9lBVN_TxuumRK4GkMfAKXsIwu7ZdQtPZ0EHPHH-maku74xEfFRqzFLUP-o_kMapnA4l2v7U9PmXYbWQbK2c77BVWnvedA4=&p=1&fvj=0&vjs=3',
+ 'location': 'Notre-Dame-de-Gravenchon (76)',
+ 'salary': None,
+ 'summary': 'Issu(e) d’une école d’ingénieur, ayant une spécialisation en '
+            'Génie des Procédés, vous avez une expérience réussie de 3 à 5 ans '
+            'dans ce domaine, de préférence…'}
+2019-12-24 15:45:33 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Data Engineer H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CDyWCk2bf-hB079XA31Tw5ngkjovj5vvTWFlkYAEWq5MVWrx7cKL1KUiRPn09UUbBfq8DhAI3-H2JpyoLJ8sdoomhw-eAi5wuexWy25pL-D0LPoGpXMdIxWb_cDMTzkASbS_0T8nyXYmRfbdNPnH_WnI2fycWo8AjWdTxlVIFsQbIa-oCsVgdX1o5GXa8gxLlBJAu0mvxr7dNXWRfZhAhGEvJGCfa9JQq55n35kW1hP2ThqC40lv0AC0sS0vZ9I6_Mcjq_3068qnPbnoDordKVHm_2AWR5g03LbBEroIt9_0dHoXswfTMG_65CmxJva-XnWLlIlTpUn3SI0V0TQ06lZroDnAcSN_fOtrkIorHQqzo9UAmJ6r_539oHm2a7-t40w66Jh2cRfZvw7CnrXsYDKZUXLB7e7wZAsuX27p_zSwg8OrAk8iOoX7cmwYeCn3Y85zniEPAe3Tf6GflZBOqo5kJ6UEwqbc0=&p=2&fvj=0&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'summary': 'Vous êtes un'}
+2019-12-24 15:45:33 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Service Clients Invitro H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AjEwmQG_uTh9Ci1OoLMkF9Q_PifQRVR2slK6MYbgOXENeVgkcyhyYolCZFrBezoIO_aXwNHaNWRh_TWBkusVJ3KcqTJP2uUJnhVvAz48bXB2jFcymB0GkrYkPCJNvXphqwLwc-ADVyhiZBAjP1jMDNjig2ZtzbRUmnNCGmyuAdQXilV025Quft5pzHgbPqfvPjQbYxGBTvEKj-MsIQsA9nGIJ-cLoE38iX-lvx8rTi-om9VbbQpCsbrXfWUg0WJ2kIqLdT7hLpG4ek-PmbfAZhj6QA0ZIzcY1YgUPo4DXVzJndLAapDLyDd00nzqHgmHYeILdkA5F_E5n2BVaGJwsEAcg8uygVSJmJnbTAdoouFiLgkZjdaS_yIEcn5zAYJ0ea-yf01k2iukKY1laA9cL5J5wiS5S6R3im739esjFE8gU1Si_-8ZGiqbJyI0BV47hR_iBh7r2cCucg4cwnjH1Zch0WNTtIWVDvvDvh0iHqVMOGdNc_9ITJ&p=3&fvj=0&vjs=3',
+ 'location': 'Villeneuve-Loubet (06)',
+ 'salary': None,
+ 'summary': 'Siemens Healthineers aide les prestataires de santé du monde '
+            'entier à améliorer les soins.'}
+2019-12-24 15:45:33 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Produit SI F/H',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CvCzHKCV0pBpk3dBljYpIK7giJwAvpA3QpNppQJMstrWkKjd_cowXT3mk-TAFlld20r91f5JWg1edjq7PjpwSNnMgcyb_P6PR1RHxgOq_4FBb-dxnuHL0pLhEBdYTWrM0nK-RqY_2aMGnNoGBM5DdpmmMkH5y92UiFT8AzTH_zJvmpLy6tC3_UFiBeb3niAR6ewLT7sHHEjBSPWwh6u1yYHG9WwD9F7rslpZtisKC8rE0AoMbybhoEMe-lnljElDjTd7UjAqy4LzpppK_ScwOtn0Ad3LXGY69lspFoW-EWiRXAZcpNWYDiPpYy-76JkQZH8tlfbLUqdrOvzlOj4rRjk5i279wRODDmcTM69Niq50bywcA0TQ4zqjgmh3MwgcIbQU97mLcYp36cRDPkbEgO5KSpHcp2LWC3-Ffo2LpoFF2hsB2NMcBY8US5sCpH3tdiFwe8wQhCyrXk3f2DbqVRW2_lrk5EYpL4yp0d9XQPld07TpP_Vf9NDx0X2TAXrPH2KUU6RxeaHcSbVfMOWU_Z1LFaGVHneInXpnArtcgW_ucUbZTrass5e36EkMOkpz_xL5hGcf-dI2FM6JUNYbQ8d5UeFxoCTRgsjZ7sWp-8jCJJaQZXdJ-4TmOlT6F0TX964Zy4sTZfxADHv5AUMnL6z1-hz1j-O3w=&p=4&fvj=0&vjs=3',
+ 'location': 'Hauts-de-Seine',
+ 'salary': None,
+ 'summary': 'L’ingénieur Produit SI a en charge la gestion des applications SI '
+            'en mode run.'}
+2019-12-24 15:45:33 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur de recherche systèmes autonomes de recharge (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Bn5rsqkZHxBEDw3xL6Hxp42vapmtQ6XdOOxFqZUUgKUL8_KvWSsfjb2-O97WAxznvnXZrPitSAF1C8yvletpsO9Vy2lL1LUwsodM1unsGmfXwNBe9y8tbTw7sqiA5LqQH5yFEZoBdSbeSvbnrpNakVvnNzErp5PVBEnMvlEGaTscanCOq89gYHVm4L39bgLju7DZe5LdyYxsbUioSwggR-7KUn5xLqfKJszL7KghXr56ys9rN7ysh-h5N3yRpfDiLZmI6oZn1DOlEQa1Nyoj_WK1CWGhrgUVrlILWSCrdJoahbhSn1ccOCJ_bAXA34aycTgY71S6xGZYD8bjRHU0L_b31NeKm_InL10zA40klQzmzjfPZFccoIfUgu4nCtDU0AlVNmtLXh8ohfdKlGZmCqY2LYZth2nBE5Crz6z2AabXYajRDloSm7CrWDnjKqRGfSZOheqQ44Ibl17F_XFsn_S7n1wCT2OEzU0EgIxuPTMUDNyHHXNNWqsPQZVcSEQo97xWsUaQXqJw==&p=5&fvj=0&vjs=3',
+ 'location': 'Versailles (78)',
+ 'salary': None,
+ 'summary': 'L’équipe est composée de chercheurs,'}
+2019-12-24 15:45:33 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': 'Département du Lot',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Travailler au Département du Lot',
+ 'link_url': '/rc/clk?jk=63ed250bc209fd9d&fccid=2ab62c2c8f53a7a4&vjs=3',
+ 'location': 'Lot',
+ 'salary': None,
+ 'summary': 'Travailler au Département du Lot.'}
+2019-12-24 15:45:33 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': 'Electricite de Strasbourg SA',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Stagiaire Ingénieur Généraliste ou Ingénieur en Energie (F/H)',
+ 'link_url': '/rc/clk?jk=9d5a7b8a4475b863&fccid=057699a3eaa19eeb&vjs=3',
+ 'location': 'France',
+ 'salary': '1 112 € par mois',
+ 'summary': 'ÉS, l’énergéticien alsacien engagé pour son territoire, recherche '
+            'un(e) stagiaire pour sa Direction Marketing Services et Habitat '
+            'dans le but de venir en appui…'}
+2019-12-24 15:45:33 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Assurance Qualité',
+ 'link_url': '/rc/clk?jk=fb417984b202e4ab&fccid=2d0740e02e80cf22&vjs=3',
+ 'location': 'Saint-Nazaire (44)',
+ 'salary': None,
+ 'summary': 'STELIA Aerospace is certified "TOP Employers" France 2019, thanks '
+            'to the efforts made to improve the working conditions of '
+            'employees and their development…'}
+2019-12-24 15:45:33 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur qualité et amélioration continue (F/H)',
+ 'link_url': '/rc/clk?jk=5a61e4c39d7dd787&fccid=4b8e019bd6ecbb09&vjs=3',
+ 'location': 'France',
+ 'salary': None,
+ 'summary': 'De formation'}
+2019-12-24 15:45:33 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': 'Tecsol',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur chargé de projets solaires (PV, thermique',
+ 'link_url': '/company/Tecsol/jobs/Ing%C3%A9nieur-Charg%C3%A9-Projets-Solaires-4b1bedb2a7eaa754?fccid=aad4dbd239815123&vjs=3',
+ 'location': 'Strasbourg (67)',
+ 'salary': '29 744 € - 59 170 € par an',
+ 'summary': 'De formation'}
+2019-12-24 15:45:33 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur méthodes conditionnement',
+ 'link_url': '/rc/clk?jk=55d66690472296fc&fccid=824e86658e35aee4&vjs=3',
+ 'location': 'Haute-Savoie',
+ 'salary': None,
+ 'summary': 'Le site d’Allergan industrie recrute un'}
+2019-12-24 15:45:33 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Méthodes Industrialisation et Lean Manufacturing '
+              '(H/F)',
+ 'link_url': '/rc/clk?jk=1ea187bdeb9701d6&fccid=03e850177b0beb3f&vjs=3',
+ 'location': 'France',
+ 'salary': None,
+ 'summary': 'Diplômé(e) d’une école d’ingénieurs ou équivalent (Bac+5), vous '
+            'justifierez obligatoirement d’une première expérience '
+            'professionnelle sur un poste similaire.'}
+2019-12-24 15:45:33 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Métallurgiste Qualité Matière',
+ 'link_url': '/rc/clk?jk=be73b5a4c39d0b5b&fccid=9d43ca03dd32c7d8&vjs=3',
+ 'location': 'Annecy (74)',
+ 'salary': None,
+ 'summary': 'Expert reconnu dans son domaine, le groupe NTN-SNR ROULEMENTS (5 '
+            '000 salariés) est un équipementier Automobile, Industrie et '
+            'Aéronautique avec une présence…'}
+2019-12-24 15:45:34 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': 'DI SANTE',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': "Ingénieur chargé d'affaires",
+ 'link_url': '/company/DI-SANTE/jobs/Ing%C3%A9nieur-Charg%C3%A9-Affaires-5e13c3e93f574951?fccid=bb695e85049f1612&vjs=3',
+ 'location': 'Saint-Jean-de-Maurienne (73)',
+ 'salary': None,
+ 'summary': 'De formation Bac+5 école d’ingénieur ou Bac+2/Bac+3 de '
+            'technico-commercial, mécanique, chaudronnerie avec une expérience '
+            'd’au moins 8 ans en tant que chargé d…'}
+2019-12-24 15:45:34 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'STAGIAIRE INGÉNIEUR MÉCANIQUE & MATÉRIAUX',
+ 'link_url': '/rc/clk?jk=165dd98407c310e9&fccid=ffac1b3685b3c240&vjs=3',
+ 'location': 'Annemasse (74)',
+ 'salary': None,
+ 'summary': 'Pour relever les défis nous te proposons d’intégrer le site '
+            'd’Annemasse en Haute Savoie (74) à proximité de Genève.'}
+2019-12-24 15:45:34 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Méthode Process Logistiques (F/H) CDI',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BTWM6_IZvLndQvh41fKhmjfxY0spMAncOvH2rr-akyFtuC9I5z8FvQrUU6CfDfoPcD4GMkfSSdLVSQHE7kKbbH5Qz6vJNcjvSa6FNTqK6tbzCF-xjPtxfBKVF2lBl3OH6ABaGJMz4APUNqpRgKpFZ1eNYPSZS627PfDnYAh9H1Z3TXtu1eI4tTFl1X_Dm_D4FXE1E_aU45vAAUKxeHDwPzia1T841nqtzmyaE_2xK7YPoztOkSK_48zPQ7l3qJsT-g0LDATiRHlFR4KrHHSUQy88AKByA6Yl2aRU-DyaSXvCfyRxtkuoy3VLQxwcT1R9pXuPPm00hx58FBslPkkvE30QpDs3v-qkBmaH3JizMTiUpaDn-TXvznfdvedNhWkmFMwrAtDyTMMh6P0Z7JhPk0n-mYtE6h4z3Q3filYFATR2WM09grWcckG4LVDP3Cv9tFPRjG-a4dtQP6RxA80y3n&p=16&fvj=0&vjs=3',
+ 'location': 'Castelnaudary (11)',
+ 'salary': None,
+ 'summary': 'Rattaché au Responsable de production, vos missions seront les '
+            'suivantes :'}
+2019-12-24 15:45:34 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'INGÉNIEUR TRAVAUX LYON (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BRi3R4cW5hX_OkPdJagcwJu-vXDHxLzSClOjLc3qmjcydioQNmVi09NYRvA9m43xM8kpkJBtID8eC-rDHiirL3PlFFjvf9E3hdleyVUiBjrB0uDEk2Q8TOvlRPF2uaEX_sYnjQk361kpFF19bH_RZ1SqbYdpZ735PYwKTD1VlRvyC8lwJgLgLQC6eRvskhX62rhsfvm5y4URgVQTugQleHnxy8lKAhMDP7tt30_t1KoCDR2k3t7VOqhdYcJ7dv4S3Im8rsJf5lR80gVrSkpqfy1Apy2gVMC5jT8GL5zInzM1uiX3f97sS_tKezJwtJDICgTQ2KJcrgnr4VGWS8_-zdwNC6Qf_LcT_P8fEvSkJ1rHpBgT1AQdDkCBMnNqwvLDEHGZxbzHGZs-uHLcWs3T-9m509Fc3Z7HMZKXpf3ZQzctCLJy-q7c4CGGLMrvIOxe5Zp-e0rc7EwLrusJ-6Q89_EunHqZQQLmJg1uyHycp21_cN2kloVylW&p=17&fvj=0&vjs=3',
+ 'location': 'Lyon (69)',
+ 'salary': None,
+ 'summary': 'URBAT, Promoteur constructeur depuis 1975, implanté dans le Sud '
+            'de la France (Lyon, Marseille, Montpellier, Toulon et Toulouse) '
+            'représentant une offre de 2 500…'}
+2019-12-24 15:45:34 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10> (referer: https://www.indeed.fr/Emplois-Ing%C3%A9nieur)
+2019-12-24 15:45:34 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10
+
+2019-12-24 15:45:35 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Spécialiste Electricité',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DqrfHtRRe0-zIY7MLkvyzHNFm__ZI9KZw58DSPVscpXxkCE8o8jvW-_QgV9wXaRWfQ8fH1i4Uw7ufX4wjprRxMkwHtAcsjyp8JgTuEsHXj_J0WYVfgn2vBP3fd2VEUdvEqW8rSCh-14f7Z4jw3_G7FGPVvqM0Y4lblDXOFTdVkoxmhP7EoZiwZYSP1yMz37TIsjG0fxVV6AE01chgMYuQ-5eAYV5I-ueAbowHusSbzWOPi6dzNauKnYX0AB0O2I9ybdGitKM_m1u2-gamc-qFcloYuO9GZf9xyLPJu-oPe9A7fXii2Stfn81qzMC5eBEWbvN-nFcyysIVXaJ3xDkx4I4rxun8q_WTY6ETC-wG68I-lDVOU6NlDnSjrdEHYZz01yzJ7yVH83aCfXcb876u_X1ZLelOG1bFNrYbK0MaS1veon0Wj2p75CntVVgEbJ_Yg1CUrlJnVyRc8LUSPURmEAgWxDbYXRoi5h-GIeXpvG3eXYJVHzOrCDAmPyHGsvNuVLffmL3KF2woQyEdDBZbY8VOiDMzD_qaEzpu51iDeKpJjkekj8QTijp_G2w0M-GQBQRA3LvM4BqIXSbJ3nViQ0BsN34pCf6qH0qpwK69qeeFWPWvWL_uiT7fPEbX7IvShKBrDmzsU4nNpkXaPxwxo3a2NFv8PSP2t0y4zLakxFPgNszBcPMrcMGCdh4nX7J4=&p=0&fvj=0&vjs=3',
+ 'location': 'Notre-Dame-de-Gravenchon (76)',
+ 'salary': None,
+ 'summary': 'Au sein d’un groupe d’ingénieurs spécialisés en électricité, vous '
+            'êtes référent technique et réglementaire de la plate-forme de '
+            'raffinage et pétrochimie sur les…'}
+2019-12-24 15:45:35 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Instrumentation des Procédés',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DqrfHtRRe0-zIY7MLkvyzHNFm__ZI9KZw58DSPVscpXxkCE8o8jvW-_QgV9wXaRWe_LwxgDya3GjsOOTUjbD9T9yXoVXpwm61Y6VT484VeyC5Rman25v6kjcoMgvN3X1O4zVZKaOlDRsMWlzETDIK5xsgbkixsuPTEy8unG4o9cNBLx2RiXtqHg-sRqJ14EC7myH1j7YOWp0PxmErquBouB1J3SI7y3jX6Z7YBz1kZwhFPmT_9oCDijXl5Ikaf_r_BtKX5iW0Du3GMZ0ogth7tr3XRxc8TFMRV2wA44oMgKRoJLSG5CuNDiT8RDAOyNQuNs2oH-A6l_v1ihIAmFX65m3WFccXlOiGVyKegkz1__jzUA5n3RlVJhhG0jO9A3Fw3VLQ_gF-vZInL7blNzjv85cNqvhNX7f8hCUNUEghUSc9ackSCCxZkZ30010aFeiC9ZDjaf61Uc8-aHNXIxDA1tOg8UNz_WUNvqvWmUUKfoMR-g3XguEt5mXc8wZhA9KSsSIRcyXiEsiCzdgZDg-dVkX9JfkJtU-pGhnhTovQUneDP2W-2v76PmANHSYmBwBGQhh3iJVRrK1MFs3pZTyfmhPjNKr9PVRnl02e4E80oxbi1zkh53IBUc_esnOL_g8suNk_lm1oVgt9HvYBgdx0sMxPHzzPXN5KyjRywDmRZUOmBxoyk5ry5AITXbsaD-zovqrtrJdK6mHWHd9E2v60Pd0x57fShTlo=&p=1&fvj=0&vjs=3',
+ 'location': 'Notre-Dame-de-Gravenchon (76)',
+ 'salary': None,
+ 'summary': 'Issu(e) d’une école d’ingénieur, ayant une spécialisation en '
+            'Génie des Procédés, vous avez une expérience réussie de 3 à 5 ans '
+            'dans ce domaine, de préférence…'}
+2019-12-24 15:45:35 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Produit SI F/H',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CvCzHKCV0pBpk3dBljYpIK7giJwAvpA3QpNppQJMstrWkKjd_cowXT3mk-TAFlld20r91f5JWg1edjq7PjpwSNnMgcyb_P6PR1RHxgOq_4FBb-dxnuHL0pLhEBdYTWrM0nK-RqY_2aMGnNoGBM5DdpmmMkH5y92UiFT8AzTH_zJjTtoAr5et0OdIlQiuMkKNf3zS0K_Kw75_ahocibdnP3IKv51HlDAXLrqzXpc-DTemQUiHM2vSTmRfpSJXZWmMLf1u-zJU43TQsB226xucI2_fHwE-NbLUv5k9U00CKEb5B7IBpaZnl7MjyjGqRbuIsSYze3ykaC-vfyeZLP2MhTScQRz5pgoxli54zxu0hSXS60c54PNOtU35C8G9l6MdT_SZvwwJ2FTASay0TrSbXbIergxIgK8tqLnyfc_Tn4dSMI_EfxOqZrGWxXBc1HdkgwPi-mLC-z5tAZ7CzZUXee2jKhuQMCXmRhp74bKj9tjFmaMXLJhRsVeouX0NLTc2vL_tLUt7bc55DT0mMMLNEW0S08nQlGYYkNoy6ZLeDdZVQp4DFqHgfblsIDL2CiIsDmiPEuAYsC8WG3RobVhR5UQi8tq4osbNaQ9nk93n0McUvBy9DNfQcqjW6eyHOUepync5Ex2Mal2vR3X3LhKgTtCk8qEQ9FP1A=&p=2&fvj=0&vjs=3',
+ 'location': 'Hauts-de-Seine',
+ 'salary': None,
+ 'summary': 'L’ingénieur Produit SI a en charge la gestion des applications SI '
+            'en mode run.'}
+2019-12-24 15:45:35 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur de recherche systèmes autonomes de recharge (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Bn5rsqkZHxBEDw3xL6Hxp42vapmtQ6XdOOxFqZUUgKUL8_KvWSsfjb2-O97WAxznvnXZrPitSAF1C8yvletpsO9Vy2lL1LUwsodM1unsGmfXwNBe9y8tbTw7sqiA5LqQH5yFEZoBdSbeSvbnrpNakVvnNzErp5PVBEnMvlEGaTscanCOq89gYHVm4L39bgLju7DZe5LdyYxsbUioSwggR-keQX0lU5WsoSEZkYx3mQdS6aZ7qPE1aPxQvfv5lctDnyN0wpT957h090P0IkubRx1n3OGs6SiDtBQ0gx1_Km-nYr9GdUB_MkiyjdFUi0Om_DnxMOKPXo_e_h1g4uIAqMqlT2KegM1veZxZRll3Ij0-nCgNluoUi73Z_dy79i6utCsMEZG7YDpCAZ5d1FJmT1F5LEz16gkoCtiRK3C_PrBTHvwkP9sIg6OI1DGFqLHBLYjnmuuRvs1tajhBnDNvsYsAs3z4DRYFJXP2c2twbp26Fusk6JZJHn_Rbvaemo122YQ9Rbl5GRHg==&p=3&fvj=0&vjs=3',
+ 'location': 'Versailles (78)',
+ 'salary': None,
+ 'summary': 'L’équipe est composée de chercheurs,'}
+2019-12-24 15:45:35 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Service Clients Invitro H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AjEwmQG_uTh9Ci1OoLMkF9Q_PifQRVR2slK6MYbgOXENeVgkcyhyYolCZFrBezoIO_aXwNHaNWRh_TWBkusVJ3KcqTJP2uUJnhVvAz48bXB2jFcymB0GkrYkPCJNvXphqwLwc-ADVyhiZBAjP1jMDNjig2ZtzbRUmOl_XARhUdugwiW8GIUCS-R4esipzyrhKSZf8nPdq44sKhLfynk3chxbqCdglBibeqks74a2BS2pOYh0n_gZyAeuMu3FNI3wKmwAUjRfTvUL2bMg9TOzV0hBnlI-kscDz8RQRqWG4JG7r3rhPoDIB0194UdnHCZAJwgbhOfKFkUWGXc1-FS7qEOLKjO27yHZREwVWM8f24GKJo7gWmvYK8M8GVCJm2JSZlPfjsOwJap1njLVxM5tcM1MGFH8_yBIXbGL-u7Sp8yTx3LCJJP-nniejc4no1beTtXWT7mD3DJwv-MVfEGsuLWY6c9NiRHVVzBDZ2q6cFEkF9x3GR3Cm2&p=4&fvj=0&vjs=3',
+ 'location': 'Villeneuve-Loubet (06)',
+ 'salary': None,
+ 'summary': 'Siemens Healthineers aide les prestataires de santé du monde '
+            'entier à améliorer les soins.'}
+2019-12-24 15:45:35 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Méthode Process Logistiques (F/H) CDI',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BTWM6_IZvLndQvh41fKhmjfxY0spMAncOvH2rr-akyFtuC9I5z8FvQrUU6CfDfoPcD4GMkfSSdLVSQHE7kKbbH5Qz6vJNcjvSa6FNTqK6tbzCF-xjPtxfBKVF2lBl3OH6ABaGJMz4APUNqpRgKpFZ1eNYPSZS627MTM4Kaf-Eo7bMz6A9ZoOUqJL7EjvCqtSNCZr8UzXPR29VfkxdDcb1_kaa_PkAs4w1zPF2RUfRQHhjc8cf5Ap7W1hL1vBtqkedDHKRHyXhhejgB7pndOJrLMCoar5_ohdwujeEHs2VsEWVtiTk6vCnWCAig85yC0XoklNCOxLK0HsFdQ_NYCwCYYhiAn0UMysyw_iu1_rdsaB2jF7y1nFKCdDa5IRLDWCquornUmE7_1z9Y1WN_bsl7HPZVZA5zQXhoRK-0cpCwiOpVB_brCssBhVQw9KI3XMRTHJDy-zzPG_uq068l0hG4&p=5&fvj=0&vjs=3',
+ 'location': 'Castelnaudary (11)',
+ 'salary': None,
+ 'summary': 'Rattaché au Responsable de production, vos missions seront les '
+            'suivantes :'}
+2019-12-24 15:45:35 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': 'Sté des Ateliers L.Vuitton',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Assistant Ingénieur Méthode (F / H)',
+ 'link_url': '/rc/clk?jk=aa731db4acdaa6d1&fccid=5eaa3d8844f9a0f6&vjs=3',
+ 'location': 'France',
+ 'salary': None,
+ 'summary': "Louis Vuitton, c'est une croissance dynamique, une présence dans "
+            '60 pays, 21 000 salariés dont un tiers en production, 22 ateliers '
+            'en France de production de…'}
+2019-12-24 15:45:35 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Stage - Ingénieur - Amélioration continue (F/H)',
+ 'link_url': '/rc/clk?jk=20988d242ab40c6d&fccid=aaec0480e2e19692&vjs=3',
+ 'location': 'Sainte-Julie (01)',
+ 'salary': '1 300 € par mois',
+ 'summary': 'Au sein du département Engineering et du service performance et '
+            'méthodologie, vous serez chargé(e) de l’amélioration d’un sujet '
+            'dans le périmètre Engineering.'}
+2019-12-24 15:45:35 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': 'Aquantis Consulting',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'INGÉNIEUR D’ETUDES AUTOMOBILE H /F',
+ 'link_url': '/company/AQUANTIS-CONSULTING/jobs/Ing%C3%A9nieur-Etudes-Automobile-H-37f159b395f8caa7?fccid=3267da528c478a7d&vjs=3',
+ 'location': 'Colmar (68)',
+ 'salary': '45 000 € - 52 000 € par an',
+ 'summary': 'Sous la Responsabilité du Responsable Développement Produits, '
+            'l’ingénieur d’études automobile devra :'}
+2019-12-24 15:45:35 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Stagiaire Ingénieur Essais Dynamique du Véhicule',
+ 'link_url': '/company/UTAC-CERAM/jobs/Stagiaire-Ing%C3%A9nieur-Essais-Dynamique-Du-V%C3%A9hicule-bb2eb15896bef774?fccid=9945afd63e78914f&vjs=3',
+ 'location': 'Mortefontaine (60)',
+ 'salary': '900 € par mois',
+ 'summary': 'UTAC CERAM, groupe privé et indépendant, propose des services '
+            'dans tous les domaines de la mobilité terrestre : réglementation '
+            'et homologation, essais et…'}
+2019-12-24 15:45:35 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'STAGIAIRE INGÉNIEUR AMÉLIORATION CONTINUE',
+ 'link_url': '/rc/clk?jk=eb36e8f031ffcc27&fccid=ffac1b3685b3c240&vjs=3',
+ 'location': 'Annemasse (74)',
+ 'salary': None,
+ 'summary': 'Envie de relever les défis du véhicule de demain ?'}
+2019-12-24 15:45:35 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Procédé Traitement Thermique (H/F)',
+ 'link_url': '/rc/clk?jk=87ae18d759aa00e8&fccid=9d43ca03dd32c7d8&vjs=3',
+ 'location': 'Annecy (74)',
+ 'salary': None,
+ 'summary': 'Expert reconnu dans son domaine, le groupe NTN-SNR ROULEMENTS (5 '
+            '000 salariés) est un équipementier Automobile, Industrie et '
+            'Aéronautique avec une présence…'}
+2019-12-24 15:45:35 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': 'BUREAU ALPES CONTROLES',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur.e Contrôle Technique Construction Junior - Annecy',
+ 'link_url': '/company/BUREAU-ALPES-CONTROLES/jobs/Ing%C3%A9nieur-E-Contr%C3%B4le-Technique-Construction-Junior-a2328def60cc841a?fccid=cbc27b138605bf54&vjs=3',
+ 'location': 'Annecy (74)',
+ 'salary': None,
+ 'summary': 'ALPES CONTRÔLES* opère dans le domaine de la prévention des '
+            'risques : contrôle technique construction, coordination de la '
+            'sécurité sur les chantiers,…'}
+2019-12-24 15:45:35 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': 'Science me Up',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur en électronique FPGA / US&US+',
+ 'link_url': '/rc/clk?jk=b52882ed1f7e78f2&fccid=838e78b6cb0dac4d&vjs=3',
+ 'location': 'Annecy (74)',
+ 'salary': '55 000 € par an',
+ 'summary': "Stagiaires en dernière année d'école d'ingénieur acceptés."}
+2019-12-24 15:45:36 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur amélioration continue (F/H)',
+ 'link_url': '/rc/clk?jk=eb77cc4baf17541a&fccid=4c1dc7d9791a6941&vjs=3',
+ 'location': 'Marignier (74)',
+ 'salary': None,
+ 'summary': 'Formation supérieure de niveau Ecole d’ingénieur avec une '
+            'expérience de 5.'}
+2019-12-24 15:45:36 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Qualité',
+ 'link_url': '/rc/clk?jk=3fe0eff135cb4f4d&fccid=45a81674c575f6bb&vjs=3',
+ 'location': 'France',
+ 'salary': None,
+ 'summary': "Niveau Bac+4/Bac+5, type école d'ingénieur ou équivalent."}
+2019-12-24 15:45:36 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Data Engineer H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CDyWCk2bf-hB079XA31Tw5ngkjovj5vvTWFlkYAEWq5MVWrx7cKL1KUiRPn09UUbBfq8DhAI3-H2JpyoLJ8sdoomhw-eAi5wuexWy25pL-D0LPoGpXMdIxWb_cDMTzkASbS_0T8nyXYmRfbdNPnH_WnI2fycWo8Aj_7DMBzTBdaaJN4znKaSvVb-UxIuCq-x4ntfzoIyFziExXSN1YqIX0rF8jjQAFxHx6nija7eqTd6ZxKt-jdOpwfcPh6Rfo1VxRp7PWnp2GeJaKRbx8rbtM3ou6RoiXUhxZo9-fzXvL1AEAB84Zq8kNXHnlER2vVm2kWPxMM2l7tX-Iq95D7sybRG2ceSyygEvm_i9N_hJijOTXllFQZmk9GB3lRZhN51VvyBqhcWGd1fLEClsf13CJvrfH4l1wh2CbmrFOmF3D3Fc-C9RLSGv8Tt8yHU65zb4JNgvfKhtWFsWVP1f-YTWFDbyksonfyEI=&p=16&fvj=0&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'summary': 'Vous êtes un'}
+2019-12-24 15:45:36 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'INGÉNIEUR TRAVAUX LYON (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BRi3R4cW5hX_OkPdJagcwJu-vXDHxLzSClOjLc3qmjcydioQNmVi09NYRvA9m43xM8kpkJBtID8eC-rDHiirL3PlFFjvf9E3hdleyVUiBjrB0uDEk2Q8TOvlRPF2uaEX_sYnjQk361kpFF19bH_RZ1SqbYdpZ735PYwKTD1VlRvyC8lwJgLgLQROvQcY5tDmeyd2PeGzaXayOAikmJ0X70Ta1cOjWv4IKD_Ru_0p26BnT5w8ShOcVlrEQHHK7vwvF4Nd-NRXSFjNTzq6soOR7s3QjGAx7SQqdmjxHYFjC_I36GkUmfYB3J-v7MVrC0AAXTP58t4zrylKDUDdvEdrthIxXFdZ_ufkmp_a1QaX-mjTHDbvAAny03XAf_TE6yhHdBlJplT3ugCeZHVCZlfmkDZrF-sNaS2QKYASJwG5XOunvLEiuiCrxxMJlP5HOB3JkGhH6t2ALqTzVULdegF6pnK8P9_ovQYlzIJcn3Nv4XoI-kU-CFKmbX&p=17&fvj=0&vjs=3',
+ 'location': 'Lyon (69)',
+ 'salary': None,
+ 'summary': 'URBAT, Promoteur constructeur depuis 1975, implanté dans le Sud '
+            'de la France (Lyon, Marseille, Montpellier, Toulon et Toulouse) '
+            'représentant une offre de 2 500…'}
+2019-12-24 15:45:36 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': "INGENIEURS BUREAU D'ETUDES MECANIQUE DEBUTANTS H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BNQNW-ZS2hJ0mLxf5rOMmcfyDszTUn7URuJfLvpB7ilgiTzMV__XtWHm-PaSvRAWSzxXgp7XmJRh0LnGpaFOiB-MszTK97_BVoYzY140fPiDmT45tSEfWH1aRInX9Sf1DEQ3w5Tf2DiEGqTlou2ySrBc3OQkgEnHNnsLZ-8Sk9sfrP5PX2pefkG2ReOVVUiVIBk0oyTnByQlvJLUzmqiSAYfmyYCCwst8N8_jjeqHxlUsukULOdLwe2fNzeSn_UqGWEuHf7yBLpLG4tzNCVkgrKAbYAVwGpCK3jSKLnahZL9xpn20AR0-azVBMiUh5UQDdy9d0LBil-W6QxABA0081HtjyIG6Vx4ftyi1FplzdgV3fTduzBoqDleBuWQVp94SJ9IJFeh-B9BjFMIF943PE4CWQJGlpEFEgY8xW1nWMQG79u1it6HnjC2CkpusqRUTAiOhmNB4rL9Oi2BC8ug6KuWPX9P0H4dlBDBtIa9FddqXFLMpnzxAV0p4nMxJP44167Y0VKyCzODWqTFPZRChm0_Opm2D91y8iOL6VMW7SFY5mvJ16CtmPjA6Zr2jqdVeZxoTNPWg-g_XBgN5Z0Ab6PML30D2GuQQ0xLVp8v6T3ZPW7UzP2S-yhRJ8y0q8b_ZVlQeAWSO80NoZjOZv3wOHkMFRULRAh6BOHx3W0V-V6OIkMeZwyExuyE4b3BEmxSJlM5mi-bVHgnk6QbdUXmS4TWQNtGnK635g9RfV4D6urG2eIEW4rsVm_TwXvDk2p-_s2DgH5i2CN37HqOnstCUljUfgjQYr0O8sRDyB1VOGCuKpzSkZ1aIqZeFoPQ_gp10CZdwGhhszifo9teyteBIEFY3kF1FHjilfeJXtSictD2jrbZ85nMLkIZbDIZ-FjPwLY6RcMfDLU_9kv7zpTgwzMERR3Q1WeYu5CokceQVuLag_juJT2ZPHZ5VwGf2dExlWRG9tu4_0qUk17LOhHAOsSR7r9U-hDOk=&p=18&fvj=0&vjs=3',
+ 'location': 'Seclin (59)',
+ 'salary': None,
+ 'summary': 'Vous êtes donc amené à occuper de larges responsabilités sous le '
+            'contrôle d’un'}
+2019-12-24 15:45:36 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20> (referer: https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10)
+2019-12-24 15:45:37 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20
+
+2019-12-24 15:45:37 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Produit SI F/H',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CvCzHKCV0pBpk3dBljYpIK7giJwAvpA3QpNppQJMstrWkKjd_cowXT3mk-TAFlld20r91f5JWg1edjq7PjpwSNnMgcyb_P6PR1RHxgOq_4FBb-dxnuHL0pLhEBdYTWrM0nK-RqY_2aMGnNoGBM5DdpmmMkH5y92UiFT8AzTH_zJiUVB--YADhQsREVPUADldVZTxlr83avnQ861I2VcwQaTujd7Qy47bum4oYI9JxEa_JrQDHasjkxWEs4MZSdAEFZTBIFCZdpu9Cja026NFxeV2ltjlNh27W7ypkiGEJD6RJXs3CGlBaQY2jwS7Y9bpnAF6kQj3xekZlD6_w9d0S1VyoLGGikx58JXVIOde_nfEjpPijMcFMORn60CXUnuwKnZ1WZSnmgg-8swYCXs1CezNdT4p7O-q5OJ4hX-v_3iyeLcSFHsFvbyyyPovMApkcw-WE3-Xz7DD_Hx-DlUii-3c0aAFbnDiLyKhJETm-vd2l1pV_FMWVZZM-wRM4qAemxWXYMY7s5mxBPzI-PKUinP5_PskEAqaa8u4dRdNALAoFht81GWr2FRbfkJWlsPpUnRVVT_n6OSnnnaYP5S0I6hTazaQ0L1FKZHAE7kkA7UgAzc1H23nD9sI0p5hD5C9V1nv7BfwTb0ZX3pW7F_9AQ-Atftr8oasc=&p=0&fvj=0&vjs=3',
+ 'location': 'Hauts-de-Seine',
+ 'salary': None,
+ 'summary': 'L’ingénieur Produit SI a en charge la gestion des applications SI '
+            'en mode run.'}
+2019-12-24 15:45:37 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': 'Serinya Telecom',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Exploitation Réseau (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AWOFegFNqHvvC5zf9LOC1uNIzJhAtKooiO5oQpEvlLFYBj6D__YXqPnjmUoF5uoXKodV_lLfLFoLUsIMzw0TWcNfEB4u8MTUf9WmhGku1vCyB9H8yaq88l_wE5gOX4OlbaYjT4qCISSy2xLPXkA73rj1UAiRfL5daGWWxuILl2cKRhCRIn9nci1OEp8i-aO4J-N6PWanMsgY4wui29jOtnr7QFZ7uL2hfWX5CgRdkXv2OUoFnjOHU-mkzzueAtV5tswcT7n9VOBj2xzGXYov3QmQ6jPDDYJ-Tohclo7ZIses0c03gJkwVJy_C4JIfC-HQVXpwJyMGoJqhsxvSUWaCflfQzj76TdvIKvRUPegvtTz4e3wIVHw6qy0cQQBrKezZlJmUcTWwowPW6Z5SyaM_QqNuLVSBgeUTZ8Qf4TFDtoQNycjZ910e6utayYUCfb04KownBsoNOqJaUFg6w0-eVPhl7hTJLRfGh7hs3-FzSzw==&p=1&fvj=1&vjs=3',
+ 'location': 'Rouen (76)',
+ 'salary': None,
+ 'summary': 'Un opérateur de services de télécommunications Data et Voix.'}
+2019-12-24 15:45:37 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': "INGENIEURS BUREAU D'ETUDES MECANIQUE DEBUTANTS H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BNQNW-ZS2hJ0mLxf5rOMmcfyDszTUn7URuJfLvpB7ilgiTzMV__XtWHm-PaSvRAWSzxXgp7XmJRh0LnGpaFOiB-MszTK97_BVoYzY140fPiDmT45tSEfWH1aRInX9Sf1DEQ3w5Tf2DiEGqTlou2ySrBc3OQkgEnHOrsKzEJXplZsCEdKb-iXsBWYDnHm1Blln4_PwWVDq2WReCTPEGJ8E_GeLXIYxqf7hWoPBngzZBqBo0AkOIbguEAtncvQ0sSTVnNyjD83QThNxrg9NXFdVMDwb28YQqXtBIAKDchEMgeSBS0JSnL_w2VoUBvl1jLSsAUHLLyuqGmyuHTX3hfDbGHinDE-_C44NzHNPUVpr_ehLdyJhFETTgD4TtcQaRUW2l2rcCxuGFmv_GIeH4d6KbFIRtlQB6k6m8EC8kYy_afWv-hff4PNIacEoRSkyd0ENnmsI7JjV1TUCsvak_mxtztjDWH1G54JRWXkGfi62Li_P54-bkgYIQiV0Uh0wyPLOsg8937vFTS12kgcupsvdF7TxWj3mpUooNAfl8th992LjAikMFRxCYWOz8lPCd5Gag-FeYASVSPHjk2jpdYy5azFVYs-zLnXjjOMleAGW54K5I4hQzwON6Y9ycff4Km62Hn1-q57XrqinKCgfIRk8tF9oT6rEtSsj-Y8z3bnpmpzvkj2Sf5XtNJSrp4XzfJq_QbbSclzHAQM8LHOlkfoRzLCiOmne7EwnQII_gDZZsy2-4JqrH0Wwjz91SIvd8-RJY1FRNSDqwiQaqnWPiU4koKqcJ81Nmez0pxv_yEKc3M3GcIlgJAosSBSPfFIVoF0vROCdF2wNA2uHF2Y_7Ccvoxteq3A760dXg0-GPkA3gujOhrzt85-NZYgTzk0xjopSBrDHmPQjpWQqDrqN3ybHZ7jbmZGEUB0e0yHkRxR2Ge4vudnF89H68heOPP6M-lh2vM00kCYWjeTHZoxykGMEORsbhkCfOfPQ=&p=2&fvj=0&vjs=3',
+ 'location': 'Seclin (59)',
+ 'salary': None,
+ 'summary': 'Vous êtes donc amené à occuper de larges responsabilités sous le '
+            'contrôle d’un'}
+2019-12-24 15:45:37 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Instrumentation des Procédés',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DqrfHtRRe0-zIY7MLkvyzHNFm__ZI9KZw58DSPVscpXxkCE8o8jvW-_QgV9wXaRWe_LwxgDya3GjsOOTUjbD9T9yXoVXpwm61Y6VT484VeyC5Rman25v6kjcoMgvN3X1O4zVZKaOlDRsMWlzETDIK5xsgbkixsuPTEy8unG4o9cKgeRw-Tyt3rHqe1YTFtb_-F6HVtSxAZEEUlEb9Jf5khhp4SJKTW0sibk4QiUNgYd8XaXwIbcvZOjNIRiprJ1vsPzpcQxBh01gtIQw4AynqZyPo8Tn72DjY033d4rfGikosQqGrAfo6zh2hPpk4MuZerXjIzBa5U3yAr48xEeIx8DrXlNz_umvGuInJQbhC_bNmsNoKOIxHE2iyF6JZ1uhO17WXNryi9zlZPtzSOouogUuHFZsR9HmQLuU_R1zgQHiX1-NHuvRhYuiU5liPdupsHh2-J_gqcggT5_sswgEXS0Fs2lIy0t3syc4e_n5Oy_rTqLDBLU9XdtZS_bh-YC68oKTvkAJc7-aq36b6cyX6f9ugy-RO5XuyEzkMdrCboezt6JTW_HcdBj9kzLI3yWKzzSkAw4cUs2sQDXBMrnfby5iUvouIZ1M4FGLIMI2MROrnsWfREncLFgCdEeYBBKayx1sfmr1zNMoslmU7XNBQXAAj0kFSscCCWHis9yp1gQbyc0gn7TQVQT28X2ZEkaLjLJ7eTZW1raSNrR9xht3z3Njkv6h3SeTc=&p=3&fvj=0&vjs=3',
+ 'location': 'Notre-Dame-de-Gravenchon (76)',
+ 'salary': None,
+ 'summary': 'Issu(e) d’une école d’ingénieur, ayant une spécialisation en '
+            'Génie des Procédés, vous avez une expérience réussie de 3 à 5 ans '
+            'dans ce domaine, de préférence…'}
+2019-12-24 15:45:37 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Télécom VoIP F/H',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CvCzHKCV0pBpk3dBljYpIK7giJwAvpA3QpNppQJMstrWkKjd_cowXT3mk-TAFlld20r91f5JWg1QtuIN1wquQV84jJ2Efk5ua08u_pB6PpggPJbFegskH8Mt5Yk2uzyvCnwbz9Xt64b2XNHaiqiJLEnGKBc_H3G9ik2YEM3rQfMPfaAW432IZ6RRAi_9grzLd-C9ec-j0OCT9RlZDojS_UIZ1r719a0Vv-rkx6YMZfE_trv0u5Zwweh-CzOvdjF-4K2OV6THRbRFEXyBVVXUF_7ohDs_-b33Y38bepZ_WLXs23Uy-Rm5BDjtt9bCSN9_QZz18uTHscF9PWgmZxh6BNMZzmQbjfuPdeJPNsdGrEgLZSkMJS86nwE0rHie_Ai5_6bwIxGWvV5u3xQSKRTdpJEwrSMvitAR6VdAlQPRqIjAsiqT_DLCv5wvcStkoBCvHhoWGC64oEiUHahX9HHZqJWIcLGDCCccpFWlPX05sT6ZV5_gxJuDOsujHbP3LJyyZFMVj2FLGFTgpnbGDz6x-ZsbT_w2pGl6zc0NHYagjrrCXGy5nalBfpj-z48Ke2og1xpXzEMpaZakBb92ah_SXdJOvbBWaBXqdBInBZ-r1inzi0TgOCcJu2lc7XFkAIE1b9ckPydXSQ0ISbSiaC-MNelq-4cyXdvUmfL94rWSzPavvYVTF8RxJnhhXY1kTky6o=&p=4&fvj=0&vjs=3',
+ 'location': 'Hauts-de-Seine',
+ 'salary': None,
+ 'summary': 'Odigo connecte les grandes entreprises et les individus grâce à '
+            'une plateforme cloud de gestion de centres de contact de renommée '
+            'mondiale.'}
+2019-12-24 15:45:37 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': 'OUTREMER TELECOM',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Réseau Core & Vas (NSS) H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0ANVR7qhJ2D3RLJwT2VKKKxIAtenSzWuHAexBhM6KtDoaBXZroVjMdsdNxpmHZ8xS0agr55qgzsjkOFlWdxyDRDVuY6je58IkWiuPGDC7IYciRsDtWCGjpOXh6VFI17_yBYIfe0uN-8xhuyGSvt_Fqs092slSytq20fJE8zZyT1OrQymGksUaTy4YVR3TiHMuIqwF5kkKrYpwGhb72cGT2U7tsdVptbPhm6DidVDcB1Q8Dhu3DgI80KoBgo6zYUQCQRjJscxxIeeXTZYASIALaads23VxnH1LO--XYvslLHoKlg6KbYuUcHXD9yFuGpANWyJlr0zx1OaATsSgHDnjb2rIpjWQq8-BfdxIY6DOhMG-E7Cu9GEFdjB_K12NKy3pWivKttVYj74tKWcJptugCoibpuOtCQpi6JcBHFF3bKZX8dyzbmAefP&p=5&fvj=1&vjs=3',
+ 'location': 'Fort-de-France (MQ)',
+ 'salary': None,
+ 'summary': 'Ingénieur réseau core & vas (nss) ou similaire: 1 an (Souhaité).'}
+2019-12-24 15:45:37 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Nous recherchons des ingénieurs matériaux ! H/F',
+ 'link_url': '/rc/clk?jk=37932891d2dbf214&fccid=215c366cd4fc84aa&vjs=3',
+ 'location': 'France',
+ 'salary': None,
+ 'summary': 'Bac+5 à Bac+8, de formation'}
+2019-12-24 15:45:37 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Stagiaire Ingénieur Fermentation',
+ 'link_url': '/rc/clk?jk=761cdf6804fd31b2&fccid=fa6f7248f9bcb933&vjs=3',
+ 'location': 'Pélussin (42)',
+ 'salary': None,
+ 'summary': 'Vous préparez actuellement un Bac +5, en école d’ingénieur dans '
+            'les domaines de l’agroalimentaire ou du génie biologique, une '
+            'expérience en fermentation serait…'}
+2019-12-24 15:45:37 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'INGÉNIEUR QUALITÉ UAP H/F',
+ 'link_url': '/rc/clk?jk=905ef3576be3fbc2&fccid=ffac1b3685b3c240&vjs=3',
+ 'location': 'Annemasse (74)',
+ 'salary': None,
+ 'summary': 'De formation supérieure type bac +5 issue d’une école '
+            'd’ingénieur.'}
+2019-12-24 15:45:37 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Qualité Projet H/F',
+ 'link_url': '/rc/clk?jk=298c241609d6b78a&fccid=865214cc5e8fd92a&vjs=3',
+ 'location': 'Haute-Savoie',
+ 'salary': None,
+ 'summary': 'AKKA Technologies, Leader Européen de Conseil et d’Ingénierie en '
+            'Technologies, accompagne les grands comptes industriels et '
+            'tertiaires sur les différentes…'}
+2019-12-24 15:45:37 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': 'GCA SUPPY 4 INDUSTRY - Groupe Charles André',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Méthodes Logistiques / Amélioration Continue F/H',
+ 'link_url': '/company/GCA-SUPPY-4-INDUSTRY---Groupe-Charles-Andr%C3%A9/jobs/Ing%C3%A9nieur-M%C3%A9thodes-Logistiques-eb9bf0f2b22741ae?fccid=6e9c1cc3a63bf110&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'summary': 'Ingénieur méthodes logistiques / amélioration continue f/h ou '
+            'similaire: 3 ans (Requis).'}
+2019-12-24 15:45:37 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Commercial B to B H/F',
+ 'link_url': '/company/Talentpeople/jobs/Ing%C3%A9nieur-Commercial-B-B-454e73c6e5db3394?fccid=44ec5fbac93ef0a8&vjs=3',
+ 'location': 'Annecy (74)',
+ 'salary': '32 000 € - 42 000 € par an',
+ 'summary': 'Ingénieur commer ou similaire: 1 an (Souhaité).'}
+2019-12-24 15:45:38 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Assistant Environmental Security Programme',
+ 'link_url': '/rc/clk?jk=15c5b44c41bd59bf&fccid=71effd2aba4fa6b5&vjs=3',
+ 'location': 'Lyon (69)',
+ 'salary': None,
+ 'summary': 'Please read the Vacancy notice that is available at the bottom of '
+            'the page (bullet point).'}
+2019-12-24 15:45:38 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'STAGIAIRE INGÉNIEUR PRODUCTION',
+ 'link_url': '/rc/clk?jk=f2821ad05299fe05&fccid=ffac1b3685b3c240&vjs=3',
+ 'location': 'Annemasse (74)',
+ 'salary': None,
+ 'summary': 'Envie de relever les défis du véhicule de demain ?'}
+2019-12-24 15:45:38 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Logistique - Approvisionnement H/F',
+ 'link_url': '/rc/clk?jk=ebab07760dc370b9&fccid=865214cc5e8fd92a&vjs=3',
+ 'location': 'Haute-Savoie',
+ 'salary': None,
+ 'summary': 'De formation d’ingénieur(e) généraliste ou génie industriel avec '
+            'spécialisation logistique / supply Chain, vous disposez d’une '
+            'première expérience réussie sur…'}
+2019-12-24 15:45:38 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur R&D séquençage NGS, biologie moléculaire',
+ 'link_url': '/rc/clk?jk=f90aed8cd2545a64&fccid=126e3afd205caa95&vjs=3',
+ 'location': 'Lyon (69)',
+ 'salary': None,
+ 'summary': 'Lorsque vous faites partie de Thermo Fisher Scientific, vous êtes '
+            'amené(e) à relever des défis et appartenez à une équipe qui '
+            'valorise les performances, la…'}
+2019-12-24 15:45:38 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Systèmes et Réseaux - H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Djw8SN3gNsoczWBTRibZQsSK83yu4hguPJOEkmqPjUFZsX-2D3uAv1NaXOM0e2gGM6UaHtEmPLvUZ-Xlxe4eMnjZ5NaKK-OHq73ZzQsjlIOtvcQiHZsYqhBwMVA_YdwW5GusaCaxZ6WJm0CiNG15bLnkVUw2pHMS1gKrFwDX7ViAoLJVWdRGwVsRRh7b7LJFUKfv_QYYJYExrnmjxm8DluQ0Z5oxNk-hxKosczUsZ-AiCVmOKu3FNMQRLgp8Skw0oGpj2dQtCEl0-eSqMDWkxEcvQvqWzoTOV0cyY3_OzYsJjtmO7goFIp1DLL8wQPaWI4hUss8OTEHjh9zSRxMgWlL5f-3bxxp5WbK2M3dnxeF19tOL1wGhNj1yX1GoRcNTUTMw78UmXLXv7UlxZcneL2Lszqz6kc188KRdg8-qL5Jh_2NsWzerdaeM-BPYn50Xvo0-_t9EGspLfwj9KHkq26sBVhxKIS7lZro7xTS05W7jhyiqoaJWbZhzOkHassoXgsGoEuHS2OYw==&p=16&fvj=0&vjs=3',
+ 'location': 'Glisy (80)',
+ 'salary': None,
+ 'summary': 'Assister les'}
+2019-12-24 15:45:38 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': 'Extenso Telecom',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Avant-Vente Télécoms H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0B8XeBv7DD8WNUBL4k3GlBMpDqOvYw0Yi8pFi9rxrxwckil9PwckVHod4hGpuPHuaNnzKSY9pumkrFzaHyJa_-MuwHQqtTpK7YuBSPAipSvFNQW3S_RE6WpB5fPBjWltK9GlaAHUJ993YmUPQ40gXkxP5XFknwOV2Da4gCBbOGY3UgbylSaW21e8xsf8LkDHkBbSMQheCmvXpy7efpOtnq9kIxU-qEr2wm_x4N726uy-ok31jSP48I0-AEXEuvSR6_9tt3j76m3TTd36kB49zuv3OWTAf-s_CMLTpSxUO22qzNUfzsfIlIxe7vfTzsXTPiC0XxnrFY6KjcMwmLayrDsxfK88Q47FqmfNpxRst8bi6SBvy9UNQEWHTjmcycKDg9wAaLjmpdNxHO4IrPLbURC-TpRz8jL-9JXO51QilLnrk1QC-qJbtBTfRQD39-GtIwvKq6Od1EZu-beWqQ223uhwIixjk1gacyGhRb2af32oWAIFf3wG95q&p=17&fvj=1&vjs=3',
+ 'location': 'Lyon (69)',
+ 'salary': '38 000 € - 48 000 € par an',
+ 'summary': 'Ingénieur avant-vente télécoms h/f ou similaire: 5 ans '
+            '(Souhaité).'}
+2019-12-24 15:45:38 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': 'Agence FRANC',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Travaux Principal H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AJixaGRVSRZJMC7U2wwIg_xYZRJs0O-xwx7ZvNhKv0B8ZBYV7dZMVtGIaiZaPY1d_DrO46EDZ80x038lt8bByKr5v1G_Vjp1BX8wsjwweD7dENGO1GS1k12ezzyF-D3wVp2VXV4nz_y_kuaEHkyb6nyquA2IIYDJUYX4YnUZKrphGMcPDpdtJWFgabbfqZ1pHRL-wihqGk9Ei343q4JErC4Np1Wlnn_DuYwE-WfVX3TIOzdcDpJOn-RcQ-8B5_-gQm9c8MlQgy3sFlgaAZs_9y_wv1W9S5sc1B3G6nZi9fa6Hg0_RzGlSPGj6VlzJeziWosMX6U8jVV7XOrrPzR_rlB1N6loJUnpNH32zKv3CttBuNHGsQLxnovu0DqlOwn4TjJ2vtzlHHJ6UGLtfl_9QpJV6W314sz9ZlzZk93ypQPIvhek37GmmBsLD6aBFSxnLWhMgewDSRKFVVCTLGklniMYZnOzGorE8=&p=18&fvj=1&vjs=3',
+ 'location': 'Paris 8e (75)',
+ 'salary': '30 000 € - 40 000 € par an',
+ 'summary': 'Ingénieur travaux principal h/f ou similaire: 2 ans (Requis).'}
+2019-12-24 15:45:39 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30> (referer: https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20)
+2019-12-24 15:45:39 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30
+
+2019-12-24 15:45:39 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Isagri',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Développement Informatique H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Aq-PE3nMkwS4eKNiSCw2cZVqMYsZBQlIk0TS3ID_8BeccLVIBQtcKS2J-vbIcSYUnZmWxifqa_SW9qt695tal8TKSWhO0c07x1g-c4TwrFFGfTeihBQ6-Jik2FeODM8sMyje0WF_9Oit51tLbjSmXQNViANp-Uj4yimNkPQtDwOAJUr4vv-Iodbirk4XscLwLTotAs2CdDt1XaYbyV0KDQ1usVKVnjouyVtRAWiFo7uyWKdOo0qikiciv_ThFmZj9Ap6Kf3OBoiWSSmJw0BRqYZUxSqR-R58riONWBaLF1iyvJpZMLqTfqSYsgCwAMKffvZVTReYczHkApFYwuZu5b2zqdYIzHNdmKa0Lrc7c74wI41s_DZQL-6hwqwDB90SMI-pOqq9X7eB2Bin4bS9lb8woJDAr69ialT3uoVugVdMTYWW9-DtaYAemEkxHtsrN72iXMauHOhpH6rv1joXYC_CEnm6F_zXDoF7cNYy2WLYh38w115wcZoRVgcgAKoHIA0-GXctLtHGY1ekNxv283N1tk4fWiGk5aV7TK0k-LIaY1cnw7tnBGU6OAViCNdwJo0m5ejqY3NGCrPNM0R3hIZV7-aNi8_7qPbGUd3rj0a8sfmuPlugdeVqHr8E25wTEdM-t15gEkViB_aJ4snVWQhR5PcbvT5FsMwpjJM1g9QCJp7aQk-HgBide6KWKpt9-Z_1BYnqsj6eH5A8sc18Mv&p=0&fvj=0&vjs=3',
+ 'location': 'Beauvais (60)',
+ 'salary': None,
+ 'summary': 'Au sein de la DSI, le projet GRC se renforce et recherche un'}
+2019-12-24 15:45:39 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Siemens AG',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Service Clients Invitro H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AjEwmQG_uTh9Ci1OoLMkF9Q_PifQRVR2slK6MYbgOXENeVgkcyhyYolCZFrBezoIO_aXwNHaNWRh_TWBkusVJ3KcqTJP2uUJnhVvAz48bXB2jFcymB0GkrYkPCJNvXphqwLwc-ADVyhiZBAjP1jMDNjig2ZtzbRUl2MguyNbPspCaXLOb-H9nEohF1I9IgNCElgmRWrLkHuB23e4ihOmbMBJu5AyzPjI4IQjyJOQV6FImnJTow2fW5J0SqxDL7tqnAle68Bj6obgkE2KzaAzJwUvJdly4vy6WeqvOG7kD0G7xSkpkoWd-hQNPRn7eRIbA0dz0W7YNf774HVtTv2LA4JMXv9mJga9dVBsCZN7WkPXo8tMsJChgSSIsz-1kH72POdu14yP1h35gwLtEb7PhY3U2vXrK3dWSUY1uZJENcWYAUN_OVZihalUHWQ3wb6hKB8vk5ATygVsSsZlVOhVdartlz4sC5ELCCWrUJepqQY8YJWP1aOGNI&p=1&fvj=0&vjs=3',
+ 'location': 'Villeneuve-Loubet (06)',
+ 'salary': None,
+ 'summary': 'Siemens Healthineers aide les prestataires de santé du monde '
+            'entier à améliorer les soins.'}
+2019-12-24 15:45:39 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Extenso Telecom',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Avant-Vente Télécoms H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0B8XeBv7DD8WNUBL4k3GlBMpDqOvYw0Yi8pFi9rxrxwckil9PwckVHod4hGpuPHuaNnzKSY9pumkrFzaHyJa_-MuwHQqtTpK7YuBSPAipSvFNQW3S_RE6WpB5fPBjWltK9GlaAHUJ993YmUPQ40gXkxP5XFknwOV2Da4gCBbOGY3UgbylSaW21eY8QL5Wuw0tDoB1HyNdKnKDn54SwXvB-Im3232Ed4dSOLTZoXj_Jbvqi2RdoQXh7qe0mM744_EsMuwTb8aO2W2SjzyixkvdRY9V-CUdi7E_LeqDIu0cEs-ikwydR1LiOYXOBPJtpRZBSwm7dPeNLJrIdqZel0mVtKPI7XfiEBkfpsweqQAO_cipTzKbedC1tGY9O6gVbRgT9jMcvPCdVk2E0IPLe30fJM9culqvt1cTD3MvJ99TilD5WFURpAnyK5yv1O8Rt6njoT-F98jkUPNJ_ZpaE5L_1njN3eRR8YRzVISzgnqjMSOyBphp444Wog&p=2&fvj=1&vjs=3',
+ 'location': 'Lyon (69)',
+ 'salary': '38 000 € - 48 000 € par an',
+ 'summary': 'Ingénieur avant-vente télécoms h/f ou similaire: 5 ans '
+            '(Souhaité).'}
+2019-12-24 15:45:39 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Universign',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Devops (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CfNWPNVmY518qXJCXgKr8LztMrbmrQnLSX_v0Y3KfTQ0j_-_sS1TSS-q7uBcboYThWLcMlaX3G-nVQjEKrIlLgaDzQu_HDoqGEkqqgLfrOQjXrUAkfXym9wI_2pSB8ahyIjRoDm8pEy5FN8SCA-9OjyvAK2QUXFVeZnp0XlnMRWc93Su8Dq109BsxuJvKlkIg6-cGZguVtESilR42iDjWPExBHIZGHIyDWV6fuWifIUcz60c9nVy3T1Lj8FJtkVSP4hAbllp9pxTqZLvU085E4aGwOZArwPpiBfaH1gTpkjT_lzFbGj2L8u1ln4vxucmbvBuh72gSmwfPmJsN2VKPhnq3OV0qGh0gkHTR0NQfc2D5kTah74e73NXj_QqyMB8VyOzoCxCrLrZMft-yWxyyJ8GYyO0QxfVX-nea7GKT4NxwnlHodHVVn1VC-af_x_0CHWclQrIMYndxMXI01bxq-&p=3&fvj=0&vjs=3',
+ 'location': 'Paris 9e (75)',
+ 'salary': None,
+ 'summary': 'Universign est le pure player de référence sur le marché de la '
+            'confiance numérique.'}
+2019-12-24 15:45:39 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Groupe ROULLIER',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Stagiaire Ingénieur Produits et Procédés',
+ 'link_url': '/rc/clk?jk=37011adbd4fe050b&fccid=a94c22913417566d&vjs=3',
+ 'location': 'Dinard (35)',
+ 'salary': None,
+ 'summary': 'Relever les défis nutritionnels de demain.'}
+2019-12-24 15:45:39 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'ABMI',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Supply Chain - Approvisionnement (H/F)',
+ 'link_url': '/rc/clk?jk=067d59b9b718898f&fccid=05f9113dee39ce02&vjs=3',
+ 'location': 'Saint-Nazaire (44)',
+ 'salary': None,
+ 'summary': 'Depuis 35 ans, ABMI s’engage pour la conception de produits de '
+            'qualité et pour l’optimisation de la performance des processus et '
+            'des installations industrielles…'}
+2019-12-24 15:45:39 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Allergan',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur méthodes production',
+ 'link_url': '/rc/clk?jk=9dbe4d6693163fa8&fccid=824e86658e35aee4&vjs=3',
+ 'location': 'Haute-Savoie',
+ 'salary': None,
+ 'summary': 'Le site d’Allergan industrie recrute un'}
+2019-12-24 15:45:39 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Plastic Omnium',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Stage - Ingénieur (e) R&D - Matériaux recyclés',
+ 'link_url': '/rc/clk?jk=eae2e30e76a497b5&fccid=aaec0480e2e19692&vjs=3',
+ 'location': 'Sainte-Julie (01)',
+ 'salary': '1 300 € par mois',
+ 'summary': 'Au sein des équipes expertises matières, vous serez chargé (e) '
+            'd’é valuer les propriétés mécaniques et physico-chimiques des '
+            'nouvelles matières recyclées pour…'}
+2019-12-24 15:45:39 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Forsee Power',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Amélioration Continue/Process',
+ 'link_url': '/company/FORSEE-POWER/jobs/Ing%C3%A9nieur-Am%C3%A9lioration-Continue-Process-a2bfc4d0efe30112?fccid=3206e6a64e5b7596&vjs=3',
+ 'location': 'Chasseneuil-du-Poitou (86)',
+ 'salary': None,
+ 'summary': 'Vous êtes diplômé(e) d’une école d’ingénieur ou d’un Master '
+            'équivalent,.'}
+2019-12-24 15:45:39 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Carlsberg',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Stage Ingénieur Energies (H/F)',
+ 'link_url': '/rc/clk?jk=791c85100ae5440c&fccid=e7a5d6a11b9a18ee&vjs=3',
+ 'location': 'Obernai (67)',
+ 'salary': '1 300 € par mois',
+ 'summary': 'Issu(e) d’une formation de type BTS/DUT ou Licence '
+            'professionnelle en Génie Thermique et Energies, tu es en dernière '
+            'année de ton parcours d’ingénieur .'}
+2019-12-24 15:45:40 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Kronenbourg',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Stage Ingénieur Energies (H/F)',
+ 'link_url': '/rc/clk?jk=46d1e0d4272e65f7&fccid=13cacffbee5ea4e5&vjs=3',
+ 'location': 'Obernai (67)',
+ 'salary': '1 300 € par mois',
+ 'summary': 'Issu(e) d’une formation de type BTS/DUT ou Licence '
+            'professionnelle en Génie Thermique et Energies, tu es en dernière '
+            'année de ton parcours d’ingénieur .'}
+2019-12-24 15:45:40 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': "L'Oreal",
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Projet/Production - Usine de Vichy',
+ 'link_url': '/rc/clk?jk=8cfb7a4970de20fa&fccid=ec8a0bd60be9a6f5&vjs=3',
+ 'location': 'Vichy (03)',
+ 'salary': None,
+ 'summary': 'JOB -'}
+2019-12-24 15:45:40 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'GROUPE TECHNOLOGIA',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur QHSE et risques chimiques notamment amiante H/F',
+ 'link_url': '/company/GROUPE-TECHNOLOGIA/jobs/Ing%C3%A9nieur-Qhse-Risques-Chimiques-Notamment-Amiante-cf6ce382ba5f40b3?fccid=541ab95daac702f2&vjs=3',
+ 'location': 'Paris 10e (75)',
+ 'salary': '3 000 € - 4 000 € par mois',
+ 'summary': 'Ingénieur sécurité h/f ou similaire: 3 ans (Souhaité).'}
+2019-12-24 15:45:40 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Ugitech',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur de Production (h/f)',
+ 'link_url': '/rc/clk?jk=91b39ccbbf0c64a7&fccid=3409817ac422abd4&vjs=3',
+ 'location': 'Ugine (73)',
+ 'salary': None,
+ 'summary': 'Ugitech, une entreprise du Groupe SCHMOLZ + BICKENBACH, est l’un '
+            'des fabricants leaders de produits longs en acier inoxydable, '
+            'dans le monde entier.'}
+2019-12-24 15:45:40 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Agence FRANC',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Travaux Principal H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AJixaGRVSRZJMC7U2wwIg_xYZRJs0O-xwx7ZvNhKv0B8ZBYV7dZMVtGIaiZaPY1d_DrO46EDZ80x038lt8bByKr5v1G_Vjp1BX8wsjwweD7dENGO1GS1k12ezzyF-D3wVp2VXV4nz_y_kuaEHkyb6nyquA2IIYDJUYX4YnUZKrphGMcPDpdtJWXyWuZRvgfWQOcgSuTwFf8xAfKnsgZjXNGYm7viBlXMBc_WVpgRCayeDrKgrFbWA-qiBMvm3XX5ax0Wz1Zq_xWSM8hYoBuRsZMXRVnSREPfty6TNt6FatvbzXns_pB2N6llqFSDuzvbLZgRDOqgEFdF808c0N59amjzmBMWQ-geR5kBDgJbTBEeKAfSfnwO8DMhQtiRjeieyTP4ENK1bQ0cf_-IE1Nr_KLNZVx2reU1jG_4Ndh0lYorjlEtztJw00CZ5iicBE9QpJxF1Kv1T-p3onDKuj-uf6L20e7wd2vqs=&p=14&fvj=1&vjs=3',
+ 'location': 'Paris 8e (75)',
+ 'salary': '30 000 € - 40 000 € par an',
+ 'summary': 'Ingénieur travaux principal h/f ou similaire: 2 ans (Requis).'}
+2019-12-24 15:45:40 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Fives',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': "INGENIEURS BUREAU D'ETUDES MECANIQUE DEBUTANTS H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BNQNW-ZS2hJ0mLxf5rOMmcfyDszTUn7URuJfLvpB7ilgiTzMV__XtWHm-PaSvRAWSzxXgp7XmJRh0LnGpaFOiB-MszTK97_BVoYzY140fPiDmT45tSEfWH1aRInX9Sf1DEQ3w5Tf2DiEGqTlou2ySrBc3OQkgEnHPLExNjdKlKR_kVs7T-PgqJGZ2LIIJmlhifdWWwDTwXTUtsPKsERQYCLu6iAhoUfYUssck4UeHD16AH_PZUyZ5KS3YKvES0ylwq5sRHe-8BzC0lcKo1qy3kVmasvmeiqUGNzIcO5N4Em5x33P9qgNwJQX7jGsLkg3WTMQwETVKINdAocdc8oH_Gfa0NgkdaPWi6qv1a8CJsEE_S34FcGMMmAGnOpL9rnbGmSw3-pp9kjTD3Q6mpUSMQa_-FMJ5TiZ7KRwN-3yEnZyBZi6IebWxXEtP4f5ZLtWGLHW8qLpIEOoKSR4s4SBtYHoNpHkC3NhCta-kjNneRBfM43HXRyVhl69pUDrLsX6HD383x10vYX-mq-TomJZSJiAgbrULqWn9SmR3x39QuQ8Lt3uyuqrCmy_eud9QzAXguM8vjiRLDzPblZLIC2qG2nt0Z1DoxEdxlUFtFdAw1bs3yYOaSMB9IQE13Ml81jNsiDPXjdFDpomnQO0LqsqgZnffNk7ovv4u-AtyDpNxBcAk9hNn50cbaC6n7fWkEjEk_AHx5UH_CeSnFo7Uc5kmzoOPQhDuWnC3cJh1zIcS13mceckwOUyNseSNj7iIYlNdi3A1v2HLdw7JydPHQ6IO0F5TMEPdEZYZ6cRKcMb3OWUs9RFL_VZinEbYJsoWOd6BYov0Lj-PTbkJIwiRYkNlcE5C63aKUIuAaZQ7v6OwQ6Scl1cNrlN3VgEtNdAjPMWkKYvakpm6-qvoDLrKgd9Zibcd922lDU223whqSksOssyfUBkIjpAT6Wa7qQz3Whwx3x1hpKp9-9Z9wK_44hSLQlD5qKaDQ8IQ=&p=15&fvj=0&vjs=3',
+ 'location': 'Seclin (59)',
+ 'salary': None,
+ 'summary': 'Vous êtes donc amené à occuper de larges responsabilités sous le '
+            'contrôle d’un'}
+2019-12-24 15:45:40 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Novencia',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur d’Affaires – Business Developer (F/H)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Daqc6iXyKFbG6VVD0ldd2zgLQxuS1gW8w6A9JOLP9whLdjh8IE3mWln1F0Vg4kYck6e9BSWtXvGOYlYi3cW6z61NVuMpMV2Y106HkFoH0HfBqyz_3JbtuTLV1nNZhG257qaikhXZ0iL7hXnm3kffzP8hVCpu1fNsa02qO0UZX-2U5RGbVxY9nmYZnIcypLcTLP_Z7twgrM8oD_l3Y7QGJ66aiu1i5QSBoBvYb5Hlj_mq_Y2Y_9dhiLVBEAMC-BiZZzwxg2EHYLTfZuMm57HPqRRlUJnUXm3XdzmFcp79maX1V4DL_eA23EjDauim81ECzK2goLEtVeOs8Y74eq5IBu7QlwGnLKGE_WxvG0mh_P1mg5Ilaju11segMQTcUqpOwLfOmXaCOPpp94wzSq_Y0RnSrI5R5jamvNJpdKiIh89Wj1G_wgdeTeBthUJSnPTs7ZsoCzbDg0fIzr0HMOkAl0AgtTSOcO-3moY3cC7aNH7ZXS8uzWrxeqwRncDXKrWDSDRE4bUbThBA==&p=16&fvj=0&vjs=3',
+ 'location': 'Lyon (69)',
+ 'salary': None,
+ 'summary': 'Rattaché(e) au Responsable d’agence, vous serez en charge de la '
+            'prospection et du développement d’un portefeuille clients et '
+            'prospects dans le cadre de contrats…'}
+2019-12-24 15:45:40 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'EEWORX',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur tests QA',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AwYEu9kRAuEhiMMzIHzS989oW7zraQRVb7VnTKP4bSj2SJopVTyXGytHeWCmeD_2OjwiNw9skp1HR1eTnJ4aJSMglma3NDoL8Cju1I2k-n2w81aw7mlWP_eI26vXgZxUcgN-U0QGIq53mO2QhK08GwdU060c45EkScbKOoDCZihxxLp28u2pmT6wQZCm0EA5bPw3t0hmf2ZISowqNcDZdlwhKglg08rMyD9JHTthaMq1L08O49Og6MzTls-0T7jcH4SuzvJoEpM63KLtm2q7UixQ3YZy0wJV3yTTIBzESozRb2P0KYBw3Rwx1-wjTy3CsPcHZUrbcA1a9dAWD14UAI9pei89XEW7ywlbpyHnsgx3NMtKO3fPs_dVVD7zvis21psVfQfztRdXQv1bwIP2IuPnVQf_7w5kI12-TeWBnWSfvfpWWj1iCx5kVw-HYEtRnORYzltwOvcQ==&p=17&fvj=1&vjs=3',
+ 'location': 'Marseille (13)',
+ 'salary': '35 000 € - 40 000 € par an',
+ 'summary': 'Ingénieur tests qa ou similaire: 1 an (Souhaité).'}
+2019-12-24 15:45:40 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'ExxonMobil',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Spécialiste Machines Tournantes',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DqrfHtRRe0-zIY7MLkvyzHNFm__ZI9KZw58DSPVscpXxkCE8o8jvW-_QgV9wXaRWfQ8fH1i4Uw7h3DtCCMxiyeNqyQYjatDjzcD26-r1lguAyDDaAcv8eTz3zxdsXKT71xrL3rh-p1cFdcOsJallUuhaaZMJ9-puDgOSHR95swIp_dV2wAvIu8yvZCjQ9GOwkEPkm-MzsoJ2PhwKc_5SXbcDbZyaeGACxM8DXasG3xuGowM5oL8BUsWstkGcq6Jbe6YgAjiZ2u6-kMH57_HfhbaveSdJ2QV2_zu9la3Wq9bfL57eJvYt41DrKaXkIoM3OOCK0b98swu1sA5Oh6gG4oCAxXSqUI_tPJw_dgWwC1xiwt01mGKb1KN9PXCszp-8CJJW_WrK6XDtxVoqGsFRLIt94bGFwFe6wpmdFk7D128TkoE4guAe8uvrm9vEx76kb5Zc_Y9fPGCyffu9xeEGBn3n0QNlqe76KPeLm8SM93-4oNmrSGJ8yif3PDvLSUQpSXfVmeCSzzX_RF3kjrqeebBV5VdRkOdBL0Q6xwz_o2z66lrbRV0dm0kPIRCCVqRlRqsS7jwqiKpNB5yjje3QkE1q_vBlgmUpOHU35SHTjCVaL34AK6RTkazwzxq2r6rtpYBJs3W6LxWeFRn0v1LYDugPibBhxIt3GBTP_GPE9_5OMgsVECzfXZn0qVsqtba9U=&p=18&fvj=0&vjs=3',
+ 'location': 'Notre-Dame-de-Gravenchon (76)',
+ 'salary': None,
+ 'summary': 'Issu(e) d’une école d’ingénieur à dominante mécanique.'}
+2019-12-24 15:45:40 [scrapy] INFO: Closing spider (stop generating requests, only 5 requests allowed)
+2019-12-24 15:45:40 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2825,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 412560,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 1,
+ 'elapsed_time_seconds': 8.757392,
+ 'finish_reason': 'stop generating requests, only 5 requests allowed',
+ 'finish_time': datetime.datetime(2019, 12, 24, 15, 45, 40, 578225),
+ 'item_scraped_count': 75,
+ 'log_count/DEBUG': 85,
+ 'log_count/INFO': 7,
+ 'memusage/max': 70397952,
+ 'memusage/startup': 70397952,
+ 'request_depth_max': 4,
+ 'response_received_count': 5,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2019, 12, 24, 15, 45, 31, 820833)}
+2019-12-24 15:45:40 [scrapy] INFO: Spider closed (stop generating requests, only 5 requests allowed)

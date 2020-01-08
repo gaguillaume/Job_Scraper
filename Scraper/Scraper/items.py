@@ -8,6 +8,7 @@
 from scrapy.item import Item, Field
 
 class ScraperItem(Item):
+    site = Field()
     job_title = Field()
     company = Field()
     location = Field()

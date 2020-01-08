@@ -34,6 +34,7 @@ class IndeedSpider(CrawlSpider):
                 company = annonce.css('.company::text').get()
 
             yield ScraperItem(
+                site = 'Indeed',
                 job_title = job_title,
                 company = company,
                 location = location,

@@ -5,7 +5,7 @@ from scrapy import Request
 
 from Scraper.items import ScraperItem
 class IndeedSpider(CrawlSpider):
-    name = 'indeed2'
+    name = 'indeed'
     allowed_domains = ['indeed.fr']
     start_urls = [
         "https://www.indeed.fr/jobs?q=Informatique&l=Paris&sort=date&start=00",

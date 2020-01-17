@@ -14,7 +14,7 @@ from scrapy.exceptions import DropItem
 #db = client["mongodb"]
 
 #proposals = db["Proposal"]
-#
+
 class ScraperPipeline(object):
     #on overwrite ces 2 fonctions
     def __init__(self):

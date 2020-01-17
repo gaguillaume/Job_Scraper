@@ -26,6 +26,7 @@ class ScraperPipeline(object):
     def process_item(self, item, spider):
 
         item['job_title'] = self.clean_spaces(item['job_title'])
+        item['site'] = self.clean_spaces(item['site'])
         if item['company']:
             item['company'] = self.clean_spaces(item['company'])
         item['location'] = self.clean_spaces(item['location'])
@@ -33,7 +34,7 @@ class ScraperPipeline(object):
         item['summary'] = self.clean_spaces(item['summary'])
         valid = True
         for data in item:
-            if not data or item['summary'] in self.collection.find({},{"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+            if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
                 valid = False
         if valid:
             self.collection.insert(dict(item))

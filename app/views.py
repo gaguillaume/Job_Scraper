@@ -1,6 +1,6 @@
 from flask import render_template,request,redirect,url_for,render_template_string,flash
 from . import app,proposals,mongo,db,MONGO_URI
-from .models import FeaturesForm
+from .models import FeaturesForm,FilterForm
 
 import json
 import requests
@@ -26,7 +26,13 @@ def scraper():
 
     return render_template("scraper.html",form=form,result=result)
 
+@app.route('/search',methods=['GET','POST'])
+def makeResearch():
+    form = FilterForm()
+    dreamt_job = form.dreamt_job.data
+    
 
+    return render_template("search.html",form=form)
 
 
 #@app.route('/admin') existe via l'admin

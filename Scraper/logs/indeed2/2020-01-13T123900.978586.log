@@ -1,0 +1,699 @@
+2020-01-13 12:39:02 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/robots.txt> (referer: None)
+2020-01-13 12:39:02 [scrapy] DEBUG: Redirecting (301) to <GET https://www.indeed.fr/Emplois-Vendeur> from <GET https://www.indeed.fr/jobs?q=Vendeur>
+2020-01-13 12:39:02 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/Emplois-Vendeur> (referer: None)
+2020-01-13 12:39:02 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/Emplois-Vendeur
+
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': 'TRIO FRUITS 18, Avenue Sylvie 77500 CHELLES',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Vendeur libre service H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CYdeF5MsF6vhrnDpgH0-6MeYQSBGqjEnAWLeXrAwT5N1BWQsdP1yiaZXN8TE2F0mCCLjVD_XndtzHqa8NdPM9jRGfz4DrvmsVbcpb40KlhccZMGQW3DhLyD2-UGABzLYfi6GOUSdEvp4lmjgddmndZ_5nFM_OG2VpJKyym-kHzIYz2VR3mqm-1pm-_I1TaGRXmkDPz42C3RhODfmhTVtwcC7rZiEVuzEs3fBWFwPHautZQES2SSaG29ycBW6hNBOdRBmaaEZIeuxFlH9aB4eXk-FrrCNX_S2Ns9hHrwU750pDV0BXA0A5PeKh-DMmsX4GA85Agxbvfe9VNUK7ijhrAAy1DRe4nHZEQ0mpJ4AN_CB6TVPEpV-QLstbw3Fx9eW9urS0NpsEK-FL-6UCU-Ir4mOPyELFQ7CzQon5PxcHO3eK3bSydMx7d&p=0&fvj=1&vjs=3',
+ 'location': 'Chelles (77)',
+ 'salary': '1 521 € - 1 522 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Salaire : 1 521,22€ à 1 522,22€ /mois.'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': 'NOUVELLE LITERIE',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Vendeur H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Cccz3v-P-DtuxkyyS5xoGfj-y5tnvcX0BWnRAk9Bxwu9j6aUh9OBcCxF-arwEWV9XyDsE0XmwWbFo3fZMzva6n5NfSFmgIoscnpEZGB-vTGl3UlLsG6KB6LFaCPcXS3rK5Y9sWSRggd4NOr9Ruv05Kp8WJ7nFAKQG39LhSrTU-vZV7K5dowcSTGzbkWhXhqj9SobxbMqUspd9PfaSgT3oxEDNv5ssJwb9wKhjeKYNqAOwWQCeTG-X7eL10YCpxaC4CT6kFMfk6HQcljuO2DQA4SKSQ8fqf_j22G0WexTl6yhxXypVzKx7SwwOmNQmoI_KawoBbi9OoJdakDaG2rc72I45K6W2uXbgib6Zr5GLzQXIk7t1_hvTWw76tDgPQHPiDjhsnG24ZZyEj-FRk4n586VeiUxupzr1Ac7B7BuZvhe8uTcJD4Ttl&p=1&fvj=1&vjs=3',
+ 'location': 'Chennevières-sur-Marne (94)',
+ 'salary': '2 000 € - 3 000 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Veiller à la bonne tenue du magasin.'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': 'UGG',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Conseiller de vente H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AJI9Wp2BkTx-QXeP_nzCPoQSGPLq0r4hj-QecrZNt_t-xOugqkpct4KmtYVQAkCEG2ltoxEcc2nClyClerZHCG5BTL5imzNfFzuotCxCfPL6tAfd05cTj2Im5jDbAbghDW5mmoaKihDvjj_fBUMbvkhr0lMZXqGPGDEh-SeoaXng284rYJxp0U4IyRQZkQTNlgux2trrpbiJOM_cLOTznxKpymEPQltjmiafBhkCAGRAV5uZPyK0VBeb2jIar4jUTs-gGnXefMJ33ynIIFGAL5OjwBI2yhlB07NLZJcrTWkLzlkfOTpWNrNFiVN4cX6q-bkp6bg4Q8upb1y0fyxvycIO-H4hPNnsz2eN7wB3zI8O2ZLSdKo0mjSnwA9dIVfaf0cR9t4oAsvCDSuSxz7ubvHP7IXdoK_ihiVYL9hsSsRLDo91RN5EzB&p=2&fvj=1&vjs=3',
+ 'location': 'Marne-la-Vallée (77)',
+ 'salary': '1 800 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Salaire : 1 800,00€ /mois.'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': 'Métin-Gueudet',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Vendeur automobiles VN - (F/H) Citroën',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C33Q6zPA6I01Rqm8ZO-KJmlVvxE6AN4yZSi-OR8VoThXYzyWhxdCM3-nzwT2vtdt_Z3dcj9IHZ14Y3L6fmUVCB2uLQYaZtJV3LX1Ab2uc97aTJ38z5IGvGfEyJe4P0V0JhvMKK0_H30a54RQlktBmf7JZ5ioJCq08mlIT-GtrH7vrvJpVrW_HBP4nck1xTddU_8VZMpnyOeOduIFoSMSNWP-XlDmuRtToZsm-kd4Y-20sig6iMji-oDKdWrVE4gK0bAh60leiD95YKL3B5nZogJEeLzGM5Ur7HL3VIzGVpONv8kKbsxQMV9Xm0AVEyoAT45VsAH4u4JI0LtCyj2LcvfXrt8CWMEyxuIQ_R0FTZQoD1x794C8SdnaAsDrySvHOtlfPHV9r39EA__n12QW69XKTWM-CG6B2MjLQX3RNmRMVH0pDk3N6BK2PFIQBtN6VZdoE1gkvR4W6Sa2iJjKKF&p=3&fvj=1&vjs=3',
+ 'location': 'Neuilly-Plaisance (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Dynamique, tenace, vous appréciez le challenge mais surtout êtes '
+            'attaché(e) à la satisfaction clientèle.'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': 'TRIO FRUITS 18, Avenue Sylvie 77500 CHELLES',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Hôte de caisse polyvalent H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CYdeF5MsF6vhrnDpgH0-6MeYQSBGqjEnAWLeXrAwT5N1BWQsdP1yiaEeBrA0jlmNqhr3p_Rp05gJWSlbv_kdqrc1OZPdDG9EestL3h2ehu35DqyVUL6rPnU4hwyjlu1Q6fAbtZFhn6hjA7dX5TsFVkTZ7oMcXw1ECVUXe-qzCN45tttZju5u6StILhzg3LZkKpll9soDkF0eHVRHD4CkbsYHiW8tZqHnJkW5ci6B1OJBiqFG-xBtiqHGbgN-i17_o7_ZoYlb_xORD1OUGLIAd-ON70bquM-foMJMxdcOEyxrTK2RrqeBW_JPVkSnM5AKCr-1JgxnT7tSCEUGHdQgIVSlP_WgeIIyShGmA_Rr3b9GNa8vqEP4qhVc77S1-xFytTkpILIlUeeOvFSxL_975AUJabnR6tTJ6iuFk1b-hUddml0ED9hkreaXpVWWMDglEDzarawIow0g==&p=4&fvj=1&vjs=3',
+ 'location': 'Chelles (77)',
+ 'salary': '1 521 € - 1 522 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Salaire : 1 521,22€ à 1 522,22€ /mois.'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Vendeur F/H CDI temps complet Paris',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C8SyVWDloTuZR2lnvX77LrlJhc_4nWaJZBL3tXgVs41pW-5xUXnjm2Po5ZGwDFwjc6ufS19zbAowRM_t4mp2Y9tUfxfyYvJkDsSnBs8YzHuzde6YZZjWhjum8CgSX087DadlFDC5w3g0RE4A_fOFucLimGAHn9MDsW3dYUi2fB8UkDlMarafHqoEE0bGtFlyraJN-tl3I0jXg5QJStFcjO-Uz4vqp9dFaAnKBs1wWS7lXjCJRv5ITtRhyOWcUGSHXOosCoRkfvOu-MTLy4adxx442PLJuGbo40n_bEpmyawIkpitvlZCnaanrynT2X9OXWLkwlov9D5fOeMIBR0M6eq1Rv-RhNDBQVfISf0CKQInnjJlGkD5bpdQi2ESLJCf6vuEkGGL-Y3b6rgqD9uxVT-phkvhqrzFqx308sot5N_o8Fbcg6f5XV&p=5&fvj=0&vjs=3',
+ 'location': 'Paris 1er (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Je suis responsable des encaissements, je participe à la mise en '
+            "rayon, à l'approvisionnement et à la bonne tenue du magasin."}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Vendeur H/F',
+ 'link_url': '/rc/clk?jk=8a6e4bb54edf9e09&fccid=af17ea0d1d6bbbba&vjs=3',
+ 'location': 'Villiers-sur-Marne (94)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Tu as envie de contribuer activement à la mise en place de '
+            "l'ensemble des services disponibles dans le magasin afin d'aider "
+            'les clients à prendre des décisions…'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'ETUDIANT WEEKEND (EMPLOYÉ COMMERCIAL) H/F',
+ 'link_url': '/rc/clk?jk=beb7722722a200f8&fccid=3aba27feae97e626&vjs=3',
+ 'location': 'Neuilly-sur-Marne (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Sous la responsabilité de votre manager, vous participez à la '
+            'bonne marche des rayons frais en assurant leur approvisionnement '
+            'et la mise en rayon des produits.'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': 'Micromania Zing',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'VENDEUR / VENDEUSE MICROMANIA ZING - H/F',
+ 'link_url': '/rc/clk?jk=4ee9d5d3959ef316&fccid=386e39d3c2009a97&vjs=3',
+ 'location': 'Torcy (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Mais notre vraie force, c'est d'être proche de nos clients, de "
+            "partager leurs passions et d'avoir la volonté de répondre à leurs "
+            'attentes les plus folles en…'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Vendeur H/F - CDI Temps Complet',
+ 'link_url': '/rc/clk?jk=261b3ef94c2e94c5&fccid=af17ea0d1d6bbbba&vjs=3',
+ 'location': 'Villiers-sur-Marne (94)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Tu as envie de contribuer activement à la mise en place de '
+            "l'ensemble des services disponibles dans le magasin afin d'aider "
+            'les clients à prendre des décisions…'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Vendeur / vendeuse magasin I AM Noisy le Grand (93) - CDI 35h '
+              '(H/F)',
+ 'link_url': '/rc/clk?jk=c998da6ac53a3dc3&fccid=3f24b309557a3d43&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Veiller à la bonne tenue du magasin en vous assurant que nos '
+            'bijoux soient bien mis en valeurs selon nos préconisations '
+            'merchandising.'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Vendeuse/Vendeur - Rosny-Sous-Bois - CDI - 35H - F/H',
+ 'link_url': '/rc/clk?jk=30a835bc3468f653&fccid=339fd0e07baa71f8&vjs=3',
+ 'location': 'Rosny-sous-Bois (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Rigoureux et organisé, vous veillez à la bonne tenue et à la '
+            'propreté du magasin ainsi qu’au respect des normes de '
+            'merchandising.'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Vendeuse/Vendeur - Noisy-Le-Grand - CDD - Temps Partiel - 30H - '
+              'F/H',
+ 'link_url': '/rc/clk?jk=54ab80ae29f1c81e&fccid=339fd0e07baa71f8&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Rigoureux et organisé, vous veillez à la bonne tenue et à la '
+            'propreté du magasin ainsi qu’au respect des normes de '
+            'merchandising.'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Vendeur h/f',
+ 'link_url': '/rc/clk?jk=a0efdd35308114fc&fccid=6ca58ca2f774ef0f&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Entreprenant(e) et motivé(e), vous participerez également à la '
+            'mise en valeur des produits (displays et vitrines).'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Vendeur polyvalent H/F',
+ 'link_url': '/company/SAN-MARINA/jobs/Vendeur-Polyvalent-ebcc1c85cf562509?fccid=0d996a763adca53b&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Nous recherchons pour la boutique San Marina NOISY LE GRAND et '
+            'TORCY une personne dynamique, souriante, pour un contrat de 25H '
+            'par semaine.'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': 'SO.SA.CA.',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Vendeur conseil en négoce H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0B3xEIJguavAyfhxM0PMf5lY9j_Kv8qB0dgbxwt7mF-giaHJ4zyLMlZ9D4SfgcG7SQxbcS6w0axg2EGLyyRheR1TdOSjn9VbfDJU1PX77PvFCBo6m37jVQnKqRile3K0Jz-rIlyOpzHQyq273L-K7NFOKVbMa4AyKs4Nk9oeunCmJJfJE8JeQfYmL74BMPIHU4qQOwd6Rvpnm3Dj_y18kGTCckszDgknGLga3VmAiQmszaxWaS1DZF54HYt3D3AI_QIhhM3RWZVlwrmREWypy-0n5HzocvFmwErBVCXkS8kfPMCYOChXwnJOS0W3FQ4wOhbH1w_XI7uhEYsPR9EZ2bJuQgJMFloDGrAazJUGOBTpyJQMgj8ptM4BA6cYswnZyPuhXZBpKRGyFLgJqD4pnSJIxll7ZgmPFvkgCizr4BViak4LbrP32rQ6En0J4lkJmwRqlTzBzbIOkwIyO-TT3sJ&p=15&fvj=1&vjs=3',
+ 'location': 'Le Luc (83)',
+ 'salary': '18 500 € - 22 500 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Accueillir les clients, répondre à leurs attentes, les conseiller '
+            'selon leur projet.'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'Vendeur H/F, CDI Temps plein,Saint Maur des Fossés',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C8SyVWDloTuZR2lnvX77LrlJhc_4nWaJZBL3tXgVs41snKFeCoQycrHM0CQl-3rLA3uEokFWxMtaydEXAUiajrhjxn-i2isSqnU-Q1lZhVp9eIqH7yAHJzISQd8-v2csCeuvcOUoVp7-DwDBufDe8RZBFeCJcqcCWP8lgLov67NpiQNS_nGN1Wkm5oqfNjXaF_F92dBJmy18PJY_UOyPkgKlkcJRLosdHDyGvnMKkXvSsFSzu5bhthM1f_1Rv8AeRtkKZm5ONfWdBxW964xnxEqeNhzYUfbpH6S1WN9Hv6kxK3WIeEd9VHK5i2PQIj15PfOVkL5ZqCZUBwD827FMlMAbkns3g-cmm1v9agVrCVVLNbUDba3D6Atip5LFaOrARq6OHm90j75hNmGKMeq3b2DNLYOAkQKxv_MnCSJ2tshYBjYadTZ-E5&p=16&fvj=0&vjs=3',
+ 'location': 'Saint-Maur-des-Fossés (94)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Chargé de l'approvisionnement je participe avec mon équipe à la "
+            'bonne tenue du magasin.'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Vendeur>
+{'company': 'SAS SPORT VOLCAN INTERSPORT',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Vendeur',
+ 'job_title': 'VENDEUR RECEPTIONNAIRE POLYVALENT H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BUlKCCiEGABHIWLe1k7eamoSS4MtQAxXvalJRINjOc3PgTvKqsVOebOjkP6-BcR7qH43yEF-0eAVZP6cW0rtHpk4WA-U6fvDXOYf9o205PBgV7IO2gZ3sqLQFgGS7eVj0ZOtcbRZI6F14YuEAwPgt4h5NY6jVL17_qZWyP5_tn_5NVLrdld3U8zMMjdJdkBv_1w17BkxfKWLIJ4TlIRyhwaUmJDDsXUTyJLkNh37JpYEkTqymL9R5KCZVkjAJXkQM02BkC_1NXLPhLqaNMkowtJCyTlUssI7-5DKJMq8AbXk3Cl_67hYIWpE2c7PpE69uDM-cJiFQvvlsO3S-owcptt24raC7zkJkDS3E5E0oCf6cBv9B6jJ_kzpBFALC_d-GMoIyhXrtIQdhtIw70dWNTPNW_MuF7SraLn_THfI0qY6HPu29SzPy22BWl7ot87K0=&p=17&fvj=1&vjs=3',
+ 'location': 'Clermont-Ferrand (63)',
+ 'salary': '18 600 € - 20 400 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Vous assurez le contrôle du déchargement des camions, émargez les '
+            'bordereaux de transport, contrôlez quantitativement et '
+            'qualitativement les arrivées de…'}
+2020-01-13 12:39:03 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=Vendeur&start=10> (referer: https://www.indeed.fr/Emplois-Vendeur)
+2020-01-13 12:39:04 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=Vendeur&start=10
+
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': 'NOUVELLE LITERIE',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'Vendeur H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Cccz3v-P-DtuxkyyS5xoGfj-y5tnvcX0BWnRAk9Bxwu9j6aUh9OBcCxF-arwEWV9XyDsE0XmwWbFo3fZMzva6n5NfSFmgIoscnpEZGB-vTGl3UlLsG6KB6LFaCPcXS3rK5Y9sWSRggd4NOr9Ruv05Kp8WJ7nFAKQG39LhSrTU-vZV7K5dowcSTiNDCFzOGIgEMrkK3XgfL9pvH01Vn-Yhu2MjcOOpWZG8gWGi6HbUUbhrvNQYCSzTYUsAt6y2qK-Xha5F_UGElleAzVLcpv6CPVgxjBnuvU7jGVZKcHx_6j4KP7xoFoSXKJbjxEWjg6vbrl5nnPMYaYQsybeHnj0QaKtY7mI-PktFRqgQ8VjB7mJR8wKcL-8_HcIu_cncA_unJJGOdGRlrPbe_8X0QYf59wQUpN7iazzKVzPdmF6V_iX3E-MG4Jhjz&p=0&fvj=1&vjs=3',
+ 'location': 'Chennevières-sur-Marne (94)',
+ 'salary': '2 000 € - 3 000 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Veiller à la bonne tenue du magasin.'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'Vendeur H/F, CDI Temps plein,Saint Maur des Fossés',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C8SyVWDloTuZR2lnvX77LrlJhc_4nWaJZBL3tXgVs41snKFeCoQycrHM0CQl-3rLA3uEokFWxMtaydEXAUiajrhjxn-i2isSqnU-Q1lZhVp9eIqH7yAHJzISQd8-v2csCeuvcOUoVp7-DwDBufDe8RZBFeCJcqcCWP8lgLov67NtFwITR5XBdmU1QhtqdPiuo4kM96Y-bdwwfY3BW4L6O130FilqwnIEb7YYKVaIqRVybJzhI07JoqaLSIEoPKkEOLfJsbTEbUJErNJP3IbPwozyk8j32z3gGAk3mPJE_CU1E_zvkVeJ6MTZQm2fSaGsOS5np9AW2TXtUXLX8iNEmtqju1SmB1z2C0mVJsPBpXR2ri_8zcoAiePrP_OgQwc4nhN35MqxdyGz7hNfMrffj5c-3il2aP9gUAmd6tiLFlx8dA9lxSIwHC&p=1&fvj=0&vjs=3',
+ 'location': 'Saint-Maur-des-Fossés (94)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Chargé de l'approvisionnement je participe avec mon équipe à la "
+            'bonne tenue du magasin.'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': 'TRIO FRUITS 18, Avenue Sylvie 77500 CHELLES',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'Hôte de caisse polyvalent H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CYdeF5MsF6vhrnDpgH0-6MeYQSBGqjEnAWLeXrAwT5N1BWQsdP1yiaEeBrA0jlmNqhr3p_Rp05gJWSlbv_kdqrc1OZPdDG9EestL3h2ehu35DqyVUL6rPnU4hwyjlu1Q6fAbtZFhn6hjA7dX5TsFVkTZ7oMcXw1ECVUXe-qzCN45tttZju5u6S8hx54yt8mqXmvhubhFnOhOUhs7mOAa0Ex7K47FKhwrKXL2s0XrvkEOnCp-QwGUIvndoTKOYwvpjaQWxhrJkPRMpJ9uKHDjuMA9xrIFjOec5h-Xzqhia0iLspAr4-Lr8gF8w1mQpZOHB0IQ2G_cIL9QQJ5G2gbrEwmlerEuMIPFxFMps7Nss4l8cxaTY62bijSaTSqRv_SHRwVNOw9ALmmlvQ9m_PiGRikZ1qhkWyLK5074thnPcq9FXDV3bK_aj0YmBpUt9ZL3Oee9WU477ZCg==&p=2&fvj=1&vjs=3',
+ 'location': 'Chelles (77)',
+ 'salary': '1 521 € - 1 522 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Salaire : 1 521,22€ à 1 522,22€ /mois.'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': 'SUPERDRY',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'Vendeur conseil',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BSjK7UhEDVXGGG3oOD5njVGa_DSTmCcSQrrWrnI9L_GFoRZkBJn_dvDjXvIKjps726fRCRzFCw4fpas3ja-nlej-Q1koevEqMOrJefG3fVzHioTPwftmYutdwPC1FVo8E8VDYoYn_KrTTFiKYyjswUaMJidSq2WmgIYjt6R6lyvydmqdovSo_4ra3rAWCPFFMdnlx8UOzgvGPXrFUyYf14lOWHYFwnxyASAcL6lZJXVh7xJtQBmmMg0k_iPPW6afrcpQYfiv5MclTuvm2M0ATRJpVAzzIPBZq0S-imzR3IieJ2R4jc0f0IgPYife_hfro69k9tc1jXSvyVfSWScYWXAiD8OPRg-Uau_c70_jt0Vyhoagbn3ZYqjVdFeqFPyyVC4EfVktH-vM1vWql39Joirx-ZyqkV2ZRqQwND4vQRDQ==&p=3&fvj=1&vjs=3',
+ 'location': 'Rosny-sous-Bois (93)',
+ 'salary': '1 594 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'A l’écoute des tendances de mode, vous participez au '
+            'développement de.'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'Vendeuse/Vendeur - Torcy - Temps Partiel - 10H (samedi) - CDI - '
+              'F/H',
+ 'link_url': '/rc/clk?jk=cf637be2378a4dbd&fccid=339fd0e07baa71f8&vjs=3',
+ 'location': 'Torcy (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Rigoureux et organisé, vous veillez à la bonne tenue et à la '
+            'propreté du magasin ainsi qu’au respect des normes de '
+            'merchandising.'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'VENDEUR CONSEIL (H/F)',
+ 'link_url': '/rc/clk?jk=aa0f8c699e5fe192&fccid=61e9021fdada3b16&vjs=3',
+ 'location': 'Noisiel (77)',
+ 'salary': '1 656 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Vous êtes attentif(ve), respectueux (se), dynamique, réactif et '
+            'de bons conseils auprès des clients ( connaissances des produits, '
+            'de la saisonnalité,…'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': 'IZAC',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'Vendeur H/F',
+ 'link_url': '/company/IZAC/jobs/Vendeur-62cb141d70a18e90?fccid=7be8889da87d23ac&vjs=3',
+ 'location': 'Rosny-sous-Bois (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Animé par le goût de remporter des challenges, passionné par la '
+            'vente, vous justifiez de resultats probants dans le secteur du '
+            'prêt à porter moyen, haut de…'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'CDI Vendeur Pandora à Disney (H/F)',
+ 'link_url': '/company/Pandora-Jewelry/jobs/CDI-Vendeur-Pandora-Disney-55cf8139692d5ab8?fccid=d52b9b25e32242d5&vjs=3',
+ 'location': 'Marne-la-Vallée (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous veillez scrupuleusement au respect du concept visuel de la '
+            "marque ainsi qu'à la bonne tenue du magasin (réassort des bijoux, "
+            'propreté, entretien, rangement…'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'VENDEUR PREPARATEUR H/F',
+ 'link_url': '/rc/clk?jk=c57789cbb3cd76d2&fccid=6508102431d09d9f&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Reconnu comme l'un des chocolatiers de référence pour son "
+            'savoir-faire et la qualité de ses produits, Jeff de Bruges vous '
+            'invite à venir partager ce qui fait…'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'Vendeur H/F - Contrat étudiant',
+ 'link_url': '/company/Naturalia-France/jobs/Vendeur-ec5f1cbfdc3d418f?fccid=317a9b53afe89814&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Développer votre connaissance produits et assurer un conseil de '
+            'qualité.'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'Vendeur Ile de France Est H/F',
+ 'link_url': '/rc/clk?jk=5d71c80632fb8260&fccid=d9a4edb3e81f3258&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Véritable passionné de mode, tu es connecté afin de découvrir les '
+            'dernières tendances et impatient de les faire vivre en magasin.'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': 'Normal',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'Rosny-sous-Bois, Rosny2 - CDI – Employé Libre-Service '
+              'Polyvalent F/H',
+ 'link_url': '/rc/clk?jk=b01b4dfb437b30bd&fccid=831902c2f30d898f&vjs=3',
+ 'location': 'Rosny-sous-Bois (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'De plus, l’employé sera parfois responsable de l’ouverture et de '
+            'la fermeture du magasin et devra donc se familiariser avec les '
+            'procédures quotidiennes du…'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': 'Boulangerie La Marguerite',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'Vendeur boulangerie H/F',
+ 'link_url': '/company/Boulangerie-LA-MARGUERITE/jobs/Vendeur-Boulangerie-a40b44f1dcd80267?fccid=35625cc05e7506fc&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Connaissance des normes d'hygiènes, ayant motivation et sourire "
+            'permanent.'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'Marchandiseur-vendeur H/F',
+ 'link_url': '/company/SPG/jobs/Marchandiseur-Vendeur-0c52d91d7f82762e?fccid=ffa2fe78395919fa&vjs=3',
+ 'location': 'Villiers-sur-Marne (94)',
+ 'salary': '80 € par jour',
+ 'site': 'Indeed',
+ 'summary': 'Assurer le réassort et l’inventaire des produits.'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'Vendeur F/H CDI temps complet Paris',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C8SyVWDloTuZR2lnvX77LrlJhc_4nWaJZBL3tXgVs41pW-5xUXnjm2Po5ZGwDFwjc6ufS19zbAowRM_t4mp2Y9tUfxfyYvJkDsSnBs8YzHuzde6YZZjWhjum8CgSX087DadlFDC5w3g0RE4A_fOFucLimGAHn9MDsW3dYUi2fB8Tmk7w7hxPA7TfJyeJg72aK_Me4WX1Ls2eAIfFuXTdXk4yPgftUJxicxmmpMNe3O7Q0dK34gpDa8OKsnGDv3tuumCoj54llzlSFdR-9cl_LUtNpHcMT6v6SwGbua24uoZ5ajLiR2kPJEVMXN3QA3oaPz5G9Yp1A_BFp-dFhOUobZWbU55e_5N4n5H1FiC5UBXYZnxeBjKZsjxQKH2zIeIg1_OOLFHS7wNuxyGdfsdZmGvME50dgkGQFozCu5umxylnelaBD1nZt2&p=14&fvj=0&vjs=3',
+ 'location': 'Paris 1er (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Je suis responsable des encaissements, je participe à la mise en '
+            "rayon, à l'approvisionnement et à la bonne tenue du magasin."}
+2020-01-13 12:39:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=10>
+{'company': 'TRIO FRUITS 18, Avenue Sylvie 77500 CHELLES',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=10',
+ 'job_title': 'Vendeur libre service H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CYdeF5MsF6vhrnDpgH0-6MeYQSBGqjEnAWLeXrAwT5N1BWQsdP1yiaZXN8TE2F0mCCLjVD_XndtzHqa8NdPM9jRGfz4DrvmsVbcpb40KlhccZMGQW3DhLyD2-UGABzLYfi6GOUSdEvp4lmjgddmndZ_5nFM_OG2VpJKyym-kHzIYz2VR3mqm-1ZTTWE1ojI8TRdnqnk8PAaM1vv13e4npuB7j7B2j0LlxpXM9oRVeWK70kR70j57LkNlEfrRi--w3kEODcrELFeM_9dJ-bYxqXGrOnkIKikbbMrO3GciYxt5icJA7alVE12tsAfXmor6HCktEFjFN9agRIp8uNzB-4R2OtnzpC_j7a8UYS9ts4AIvVpeszYTMPAM1c5WwxWBA9vMYn1XKuBTMaLUcavMNoYZb8gqXRApcBaD0gA8USj6iruioz2I4g&p=15&fvj=1&vjs=3',
+ 'location': 'Chelles (77)',
+ 'salary': '1 521 € - 1 522 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Salaire : 1 521,22€ à 1 522,22€ /mois.'}
+2020-01-13 12:39:04 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=Vendeur&start=20> (referer: https://www.indeed.fr/jobs?q=Vendeur&start=10)
+2020-01-13 12:39:04 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=Vendeur&start=20
+
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'Vendeur F/H CDI temps complet Paris',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C8SyVWDloTuZR2lnvX77LrlJhc_4nWaJZBL3tXgVs41pW-5xUXnjm2Po5ZGwDFwjc6ufS19zbAowRM_t4mp2Y9tUfxfyYvJkDsSnBs8YzHuzde6YZZjWhjum8CgSX087DadlFDC5w3g0RE4A_fOFucLimGAHn9MDsW3dYUi2fB8bfOOqXXy1uqZPVp91L_jluCV0bAAlz9e2HNn-waEH_P1RQWVft9RiohFRvW2oYSpyVmddTiYOgWeVp0suuDsxdhLbxJwDhcXNZGVKL4P9UBh7q9NAIbyuPrbWLUpdiHuo1Eqk1VQmxVLHPQ6IjZdee8JXYnXN2-jBxVe_tFwp2Knwt1dWA4oPS1HG_uCjURAWU_USuImuOS32VN3FFgGk069MhUSWzJSPSTKC1_RUmCqU_HoA8953Q6E0Gz_8jPP8qwvN3hgmxi&p=0&fvj=0&vjs=3',
+ 'location': 'Paris 1er (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Je suis responsable des encaissements, je participe à la mise en '
+            "rayon, à l'approvisionnement et à la bonne tenue du magasin."}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': 'SUPERDRY',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'Vendeur conseil',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BSjK7UhEDVXGGG3oOD5njVGa_DSTmCcSQrrWrnI9L_GFoRZkBJn_dvDjXvIKjps726fRCRzFCw4fpas3ja-nlej-Q1koevEqMOrJefG3fVzHioTPwftmYutdwPC1FVo8E8VDYoYn_KrTTFiKYyjswUaMJidSq2WmgIYjt6R6lyvydmqdovSo_4gSl_LHez-Sa8HPvmwLYYBkuXmhQCe1Teeki0Vxhlf8LibHg362Tf8-HPmaNn6owTf1BLavxuXwZ6yE4veVZo8zkwaDkUM4hnkc5eytLQOWp4TnxW_IwdefxMJod8nLLnKAWJrH5vhDpiqMP_-JPQeyL-Pn5YaudHmHjjR-gsvGQbFrnnRwHCbFUsxOet02fsl-OsYXQYzzijUEAPapgRx1keFBMz_6JEHFpAmlwA_SucmuYi3yatgQ==&p=1&fvj=1&vjs=3',
+ 'location': 'Rosny-sous-Bois (93)',
+ 'salary': '1 594 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'A l’écoute des tendances de mode, vous participez au '
+            'développement de.'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': 'TRIO FRUITS 18, Avenue Sylvie 77500 CHELLES',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'Vendeur libre service H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CYdeF5MsF6vhrnDpgH0-6MeYQSBGqjEnAWLeXrAwT5N1BWQsdP1yiaZXN8TE2F0mCCLjVD_XndtzHqa8NdPM9jRGfz4DrvmsVbcpb40KlhccZMGQW3DhLyD2-UGABzLYfi6GOUSdEvp4lmjgddmndZ_5nFM_OG2VpJKyym-kHzIYz2VR3mqm-19XB4NJo_-Y1jwBAZSeOqS6x3EZZ4Z-MU5RjKghWwoJuD242qHB__6DiO2BxL6xIXgcZcMQFQmqGGQ3rzItMT6-vAEXx-TNfL8nHDYmWN5fm63o-LMwW1lDXgWv6sWQslAT0d6idAUI22sEooFKm8A77_A48YZzuxQ60Pyh7cOW1wzNtF6pqIWrhspBv-DDkqhXO1-x7-R2wbAwe6iCFQwLSy1bGegxy_7tJ_QavmymIZp147YrEKBaeee3ilBFi6&p=2&fvj=1&vjs=3',
+ 'location': 'Chelles (77)',
+ 'salary': '1 521 € - 1 522 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Salaire : 1 521,22€ à 1 522,22€ /mois.'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'VENDEUR F/H',
+ 'link_url': '/rc/clk?jk=1375eff5081b2aa3&fccid=e8338940d0db43f4&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous contribuez à la rentabilité des rayons par le respect du '
+            'plan de merchandising, la mise en avant des produits, la mise en '
+            'place des opérations commerciales…'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'Conseiller de vente H/F',
+ 'link_url': '/company/AUBERT-FRANCE/jobs/Conseiller-Vente-ade107e40d6951df?fccid=d416635049fe6bc0&vjs=3',
+ 'location': 'Villiers-sur-Marne (94)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Recherche'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'Conseiller de Vente (H/F)',
+ 'link_url': '/rc/clk?jk=9b305299a159d26b&fccid=3e28adac92c7c255&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous nous apportez votre dynamisme, votre sourire et votre gout '
+            'du challenge.'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'Vendeur H/F',
+ 'link_url': '/company/Naturalia-France/jobs/Vendeur-d2d818a0ad93222f?fccid=317a9b53afe89814&vjs=3',
+ 'location': 'Montreuil (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Développer votre connaissance produits et assurer un conseil de '
+            'qualité.'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': 'Festival-Sensation',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'Vendeur/Vendeuse (H/F)',
+ 'link_url': '/rc/clk?jk=6d655a1c2f8af491&fccid=e0179a39dc2babfd&vjs=3',
+ 'location': 'Villiers-sur-Marne (94)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'D’un naturel souriant, vous êtes en charge de l’accueil, du '
+            'conseil client, de l’encaissement, de la mise en rayon.'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': 'MORGAN (Réseau)',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'VENDEUR (H/F) CDI 35H',
+ 'link_url': '/rc/clk?jk=e7fa3718671fadb6&fccid=5f023574d25fd359&vjs=3',
+ 'location': 'Rosny-sous-Bois (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Vous participez à l'implantation du magasin: réalisation du "
+            'réassort et mise en application des consignes merchandising '
+            'transmises par le siège ;'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'VENDEUR CONSEIL FLEURISTERIE H/F',
+ 'link_url': '/rc/clk?jk=ec64d4fc09537313&fccid=cd323e1e03b19898&vjs=3',
+ 'location': 'Neuilly-sur-Marne (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous êtes dynamique, souriant, motivé et passionné par le '
+            "commerce, organisé et doté d'un excellent sens du relationnel."}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'VENDEUR PREPARATEUR CDI - CHELLES H/F',
+ 'link_url': '/rc/clk?jk=aabff0c21a47ff02&fccid=5f630c1de6bb3969&vjs=3',
+ 'location': 'Chelles (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Fabriquer les produits vendus en magasin en respectant les '
+            'procédures internes ;'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'Vendeur(se) 16h H/F',
+ 'link_url': '/rc/clk?jk=5d64490fba384b77&fccid=31b35ff4403258e2&vjs=3',
+ 'location': 'Vaires-sur-Marne (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Attentif à la satisfaction de chacun de nos clients, vous mettez '
+            'la marchandise à disposition, participez à la mise en place des '
+            'opérations commerciales et…'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': 'Maison Baltard',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'Vendeur polyvalent H/F',
+ 'link_url': '/company/Thomine-traiteur/jobs/Vendeur-Polyvalent-fd9133dad3f03fb7?fccid=cf91cb0968886567&vjs=3',
+ 'location': 'Nogent-sur-Marne (94)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Nous cherchons un'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': 'TRIO FRUITS 18, Avenue Sylvie 77500 CHELLES',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'Hôte de caisse polyvalent H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CYdeF5MsF6vhrnDpgH0-6MeYQSBGqjEnAWLeXrAwT5N1BWQsdP1yiaEeBrA0jlmNqhr3p_Rp05gJWSlbv_kdqrc1OZPdDG9EestL3h2ehu35DqyVUL6rPnU4hwyjlu1Q6fAbtZFhn6hjA7dX5TsFVkTZ7oMcXw1ECVUXe-qzCN45tttZju5u6Si_DA8CwmFxTSfncng0QxcuO_ZRZtlEEM1Bb8qe2VQ6sFUNAuH0gv_R0w9FHGIsHQNZ3JtqnwR4kTlpXE_jDIsW2ugYmYR_0zqgvBU1XcYckwYptPeDW7zHLJjJJV-Rzrr2zBst4Zb0nQ4_gVdBBRRq1rohPDRwDcr1E5rt03kfgfCSeDgKldCjgeiV_RHFJxepj04SU0nKdMUFCEpqu_Ur6KIBdpHTdNExuGs9XDmWfp-6pnIgpLj-UqIYe62iNITuUUygYjYDGtwxAyGlOy6w==&p=13&fvj=1&vjs=3',
+ 'location': 'Chelles (77)',
+ 'salary': '1 521 € - 1 522 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Salaire : 1 521,22€ à 1 522,22€ /mois.'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'Vendeur H/F, CDI Temps plein,Saint Maur des Fossés',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C8SyVWDloTuZR2lnvX77LrlJhc_4nWaJZBL3tXgVs41snKFeCoQycrHM0CQl-3rLA3uEokFWxMtaydEXAUiajrhjxn-i2isSqnU-Q1lZhVp9eIqH7yAHJzISQd8-v2csCeuvcOUoVp7-DwDBufDe8RZBFeCJcqcCWP8lgLov67NuwAHMAl4tggOKFnKSvjCk13ZqkOwXatg-L66AV6GVJMJdIcP2WWWOX3I-LmF_vLlAogPbpZ7TcZ44pCYiNXp2CaeCRW6gnGdYU_jKW3-YLIZHHjmK8TdQnbKtSEwt54pRAvPXX1FEm4uduZqs1ka1a1JJRAGexv6Wf5So5VCLMpkE5mBwd_OuNI8e68EIPmoSM17YyNcYybXVnNx_ebv4LXWYgvgM1-IG5YfEalN9jMOYMCpHigHJd_Y9HevpXNHWLkN0u8FD7G&p=14&fvj=0&vjs=3',
+ 'location': 'Saint-Maur-des-Fossés (94)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Chargé de l'approvisionnement je participe avec mon équipe à la "
+            'bonne tenue du magasin.'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=20>
+{'company': 'NOUVELLE LITERIE',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=20',
+ 'job_title': 'Vendeur H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Cccz3v-P-DtuxkyyS5xoGfj-y5tnvcX0BWnRAk9Bxwu9j6aUh9OBcCxF-arwEWV9XyDsE0XmwWbFo3fZMzva6n5NfSFmgIoscnpEZGB-vTGl3UlLsG6KB6LFaCPcXS3rK5Y9sWSRggd4NOr9Ruv05Kp8WJ7nFAKQG39LhSrTU-vZV7K5dowcSTXCNg9vfmfUjj5Rj5dZazh3TkY91xsnLV1dTj7fZSOf5i1ZNv_EbIsCtHdhtbH4tw83zownkaS6tiNIP9XVvcljmmM55qbD-cIU13L5cTj2y4nwLz8edx-VjIBz9cbn_Fz4pDESUYQ8HqRp51_eij8i0B0WhkU-C-TLRg-9GHHa3eWprCWXu_7oNZ-BFYCQz0N58WAV00FKRGwRtGEAIe1pcyJAKJI0TQpfnZrL1kafTOLpbdutrf8rhT_4jZIl5e&p=15&fvj=1&vjs=3',
+ 'location': 'Chennevières-sur-Marne (94)',
+ 'salary': '2 000 € - 3 000 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Veiller à la bonne tenue du magasin.'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=Vendeur&start=30> (referer: https://www.indeed.fr/jobs?q=Vendeur&start=20)
+2020-01-13 12:39:05 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=Vendeur&start=30
+
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=30>
+{'company': 'TRIO FRUITS 18, Avenue Sylvie 77500 CHELLES',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=30',
+ 'job_title': 'Hôte de caisse polyvalent H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CYdeF5MsF6vhrnDpgH0-6MeYQSBGqjEnAWLeXrAwT5N1BWQsdP1yiaEeBrA0jlmNqhr3p_Rp05gJWSlbv_kdqrc1OZPdDG9EestL3h2ehu35DqyVUL6rPnU4hwyjlu1Q6fAbtZFhn6hjA7dX5TsFVkTZ7oMcXw1ECVUXe-qzCN45tttZju5u6Sa8FqdSvYpIk8TgyFYMtGXQ8NoHZo9zRPct7Qh2ii1LS2sYflp5feq-ItT_PJrJO2pxv3MB6t9BHdUW7xXHM5SP9htTBfdKG2gsVjOsPZPn0ClOITbK_D6-gaCltAro5mGBCBRYRJE_II7Ek7ji1mD7qlojH-iJzabAzsU8a3niCG9v-7nYPEynqNR1tVPrItoL-SBlhtq_-ibXfQtSYpnWQeAHxDr-mGZxWGHePSoVWLSJvjcI76sUhd6YxsVcbBYJTCpeIrsQmaSGEFg6pvgw==&p=0&fvj=1&vjs=3',
+ 'location': 'Chelles (77)',
+ 'salary': '1 521 € - 1 522 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Salaire : 1 521,22€ à 1 522,22€ /mois.'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=30>
+{'company': 'SUPERDRY',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=30',
+ 'job_title': 'Vendeur conseil',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BSjK7UhEDVXGGG3oOD5njVGa_DSTmCcSQrrWrnI9L_GFoRZkBJn_dvDjXvIKjps726fRCRzFCw4fpas3ja-nlej-Q1koevEqMOrJefG3fVzHioTPwftmYutdwPC1FVo8E8VDYoYn_KrTTFiKYyjswUaMJidSq2WmgIYjt6R6lyvydmqdovSo_4ZL289eXHwbwV4J0IswLIqDdov1jZp75DCtXIaJw_jLOEXGjWPPMI__nBRoDVQNqSimHcEd0Y9Pix3RWP7JabYNuihlu-QlcCeG1yuJ3MWICYJmZ1NH53VmBM8ctMDb_y0heCzKuckVgW5gbHZxcGtRDpdZNKHFilkUEocq5XGFb6pM2HUd_wKtiuElcLV00Hu7r3-GY8pSIlpPbW-bDjfejIu6S7S5FEv5Mx511BE9bXRfwOBFzAeg==&p=1&fvj=1&vjs=3',
+ 'location': 'Rosny-sous-Bois (93)',
+ 'salary': '1 594 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'A l’écoute des tendances de mode, vous participez au '
+            'développement de.'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=30',
+ 'job_title': 'Vendeur H/F',
+ 'link_url': '/company/Habitat/jobs/Vendeur-49dda37d32c19dac?fccid=bfde35db4d2b27bb&vjs=3',
+ 'location': 'Rosny-sous-Bois (93)',
+ 'salary': '1 600 € - 1 800 € par mois',
+ 'site': 'Indeed',
+ 'summary': "Il s'engage en permanence dans un rôle d'accueil, d'information "
+            "et de conseil sur l'ensemble du magasin."}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=30',
+ 'job_title': 'Auxiliaire de Magasin H/F - Noisy le Grand (93)',
+ 'link_url': '/rc/clk?jk=d6544d483e8663aa&fccid=a4cd2f6890a2a328&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Présent sur le terrain, votre mission consiste à accueillir les '
+            'clients, conseiller et veiller à la bonne tenue du magasin en '
+            'assurant la mise en valeur des…'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=30>
+{'company': 'NIKE CRETEIL',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=30',
+ 'job_title': 'Vendeur caissier H/F',
+ 'link_url': '/company/LIMON/jobs/Vendeur-Caissier-e42288579a1632f8?fccid=4121b996b64f711a&vjs=3',
+ 'location': 'Créteil (94)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Le magasin Nike Créteil spécialisé dans la vente d’articles de '
+            'sport recherche des collaborateurs passionnés par le sport et qui '
+            'ont l’ambition de se développer…'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=30',
+ 'job_title': 'Vendeur F/H CDI temps complet 94',
+ 'link_url': '/rc/clk?jk=ad6c7b41d09f53c1&fccid=4bf8014d7cf3c57b&vjs=3',
+ 'location': 'Créteil (94)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Je suis responsable des encaissements, je participe à la mise en '
+            "rayon, à l'approvisionnement et à la bonne tenue du magasin."}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=30',
+ 'job_title': 'Vendeur Conseil Animalerie H/F',
+ 'link_url': '/rc/clk?jk=8d3bb360fe53c9f5&fccid=e65b1da45a08fec0&vjs=3',
+ 'location': 'Bry-sur-Marne (94)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous êtes dynamique, souriant, motivé et passionné par le '
+            "commerce, organisé et doté d'un excellent sens du relationnel."}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=30',
+ 'job_title': 'VENDEUR CONSEIL VEGETAL',
+ 'link_url': '/rc/clk?jk=b84268f4bb0369ae&fccid=cd323e1e03b19898&vjs=3',
+ 'location': 'Neuilly-sur-Marne (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous êtes dynamique, souriant, motivé et passionné par le '
+            "commerce, organisé et doté d'un excellent sens du relationnel."}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=30',
+ 'job_title': 'VENDEUR(SE)',
+ 'link_url': '/rc/clk?jk=b2ef36ec37879d76&fccid=1a9fc1c3994964b2&vjs=3',
+ 'location': 'Rosny-sous-Bois (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Aubert, c’est aujourd’hui plus de 1 000 personnes, 167 magasins '
+            'en France, un rythme de croissance soutenu et une position de '
+            'leader de la distribution de…'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=30>
+{'company': 'Nouvelle Literie',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=30',
+ 'job_title': 'Vendeur',
+ 'link_url': '/company/nouvelle-literie/jobs/Vendeur-80a925b9e044b945?fccid=a72e4368c07f5c8b&vjs=3',
+ 'location': 'Torcy (77)',
+ 'salary': '1 500 € - 3 000 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'En rejoignant notre groupe, vous bénéficierez d’une formation '
+            'interne à nos produits ainsi qu’à nos techniques de vente.'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=30>
+{'company': 'TRIO FRUITS 18, Avenue Sylvie 77500 CHELLES',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=30',
+ 'job_title': 'Vendeur libre service H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CYdeF5MsF6vhrnDpgH0-6MeYQSBGqjEnAWLeXrAwT5N1BWQsdP1yiaZXN8TE2F0mCCLjVD_XndtzHqa8NdPM9jRGfz4DrvmsVbcpb40KlhccZMGQW3DhLyD2-UGABzLYfi6GOUSdEvp4lmjgddmndZ_5nFM_OG2VpJKyym-kHzIYz2VR3mqm-1eBVjxm47ZgcHHKBlPHf8pbPmnhYWaTdi9tkrrr52_1pq1PJZotrfFLrcTsw_jel-EP6__w6dbSgB0W7iW_7tqsL5QIbs2Hf6VQLU--Q4a22N7KGqh461e-m-GoZ4DDI8y68vwDEEFCQCxmb0G2R5tjP-OZRvFqxc_faWV8oFZxe1bECsy0i3zn5ca3nt0GpspcsHpa4bxV8Fla2vSjfYsghGb9p3IfYs5FP9tutnRb1AEcuPajD4GqAVAl9du628&p=10&fvj=1&vjs=3',
+ 'location': 'Chelles (77)',
+ 'salary': '1 521 € - 1 522 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Salaire : 1 521,22€ à 1 522,22€ /mois.'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=30>
+{'company': 'NOUVELLE LITERIE',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=30',
+ 'job_title': 'Vendeur H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Cccz3v-P-DtuxkyyS5xoGfj-y5tnvcX0BWnRAk9Bxwu9j6aUh9OBcCxF-arwEWV9XyDsE0XmwWbFo3fZMzva6n5NfSFmgIoscnpEZGB-vTGl3UlLsG6KB6LFaCPcXS3rK5Y9sWSRggd4NOr9Ruv05Kp8WJ7nFAKQG39LhSrTU-vZV7K5dowcSTzhSjMXLYiMMEeBpTR9NuxMUFcr80IriAildVM3wWBzVfp-h5XnqgUEhQjRb5cKechQoLzNcTrFRS6lynsrKl8xUynWuMQc6BF2wIlj--UXHp3JrWvi2muwK6QiXwoSDrx_BtGtIzqiV8iU5JZis_HwZU_Vzl1xvUIQ_9aCzD92C_255_PYbA9G7RF_xKuH71mpO8HpOMSSiCgaj4L--BTKYdEy1E25Zxw44QbAdaABASRWEXqOoyNqUPusC2b9fv&p=11&fvj=1&vjs=3',
+ 'location': 'Chennevières-sur-Marne (94)',
+ 'salary': '2 000 € - 3 000 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Veiller à la bonne tenue du magasin.'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=30',
+ 'job_title': 'Vendeur H/F, CDI Temps plein,Saint Maur des Fossés',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C8SyVWDloTuZR2lnvX77LrlJhc_4nWaJZBL3tXgVs41snKFeCoQycrHM0CQl-3rLA3uEokFWxMtaydEXAUiajrhjxn-i2isSqnU-Q1lZhVp9eIqH7yAHJzISQd8-v2csCeuvcOUoVp7-DwDBufDe8RZBFeCJcqcCWP8lgLov67NmaU3HBT1XnvMCXyVhfk_xsxJg1Wd_KGh-CeQplwXJBtz756Uiy71BPBUilCGWZKx9F6PtuE84S6iNLeOEknS4_pHGaVe-KqGjjhMQwd-ymfC0Zjd3QCpVWWPt2Uz-mv9enkQKgitwMmOKDjT_ewQNv28pXFV5g_OUgeqRyVDlVlM6N38-ZReMnlvl6Sbhg6o6hvaP51cVAQfKAOLUPe3R5w0QcFbHwgP6ds-ahX_Zj_6nhINHuR88DEJpHfWNresZ-DU08rpH8w&p=12&fvj=0&vjs=3',
+ 'location': 'Saint-Maur-des-Fossés (94)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Chargé de l'approvisionnement je participe avec mon équipe à la "
+            'bonne tenue du magasin.'}
+2020-01-13 12:39:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Vendeur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Vendeur&start=30',
+ 'job_title': 'Vendeur F/H CDI temps complet Paris',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C8SyVWDloTuZR2lnvX77LrlJhc_4nWaJZBL3tXgVs41pW-5xUXnjm2Po5ZGwDFwjc6ufS19zbAowRM_t4mp2Y9tUfxfyYvJkDsSnBs8YzHuzde6YZZjWhjum8CgSX087DadlFDC5w3g0RE4A_fOFucLimGAHn9MDsW3dYUi2fB8X5KIhsqe9XpoUZC64UF4Ugo1VLYash2XmIcPTWXBRpM_4jt_EGPz0hyX7pGmFebsccBC9wFD_gzX_1vZusp0ldMdQywI5zd8LBj7IAlIiugGi6N2qwwr2OQJjGuwOBQRO503HTFPVwLI5zQgxTZtWIJP9zWPmstqbJdLWaviZFA7SptquONAVHrfDMzDpqonCawUqbXWWUcDIugC6pPBXgDTUTeG-6v0sE_Jyti05ZHGoFsYycv8IIpx2XJ0EDIl0F452iVJs4M&p=13&fvj=0&vjs=3',
+ 'location': 'Paris 1er (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Je suis responsable des encaissements, je participe à la mise en '
+            "rayon, à l'approvisionnement et à la bonne tenue du magasin."}
+2020-01-13 12:39:05 [scrapy] INFO: Closing spider (stop generating requests, only 5 requests allowed)
+2020-01-13 12:39:05 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2745,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 364643,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 1,
+ 'elapsed_time_seconds': 4.2247,
+ 'finish_reason': 'stop generating requests, only 5 requests allowed',
+ 'finish_time': datetime.datetime(2020, 1, 13, 12, 39, 5, 937800),
+ 'item_scraped_count': 64,
+ 'log_count/DEBUG': 74,
+ 'log_count/INFO': 7,
+ 'memusage/max': 53628928,
+ 'memusage/startup': 53628928,
+ 'request_depth_max': 4,
+ 'response_received_count': 5,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2020, 1, 13, 12, 39, 1, 713100)}
+2020-01-13 12:39:05 [scrapy] INFO: Spider closed (stop generating requests, only 5 requests allowed)

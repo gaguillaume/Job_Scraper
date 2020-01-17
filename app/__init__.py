@@ -7,7 +7,6 @@ from flask_pymongo import PyMongo,MongoClient
 from flask_admin import Admin
 from flask_admin.contrib.pymongo import ModelView
 
-from .models import ProposalForm,ProposalView,UserForm,UserView,IndeedForm,IndeedView
 
 app = Flask(__name__, instance_relative_config=True)
 Bootstrap(app)
@@ -33,6 +32,9 @@ db = client["mongodb"]
 proposals = db["Proposal"]
 indeed = db["Indeed"]
 #users    = db["users"]
+
+from .models import ProposalForm,ProposalView,UserForm,UserView,IndeedForm,IndeedView
+
 
 admin.add_view(IndeedView(indeed))
 

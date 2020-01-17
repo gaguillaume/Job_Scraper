@@ -1,0 +1,655 @@
+2020-01-08 11:48:49 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/robots.txt> (referer: None)
+2020-01-08 11:48:49 [scrapy] DEBUG: Redirecting (301) to <GET https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur> from <GET https://www.indeed.fr/jobs?q=Stag%C3%A9%20Ing%C3%A9nieur>
+2020-01-08 11:48:49 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur> (referer: None)
+2020-01-08 11:48:49 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur
+
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Rédacteur Technique Instrumentation H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CvAkBB-wLKBJwpk_QEebqWsMYGMubWCIlbd5f4RRvvMUqiVWWftwSLs6TZ_1yD9-z0-brXsAyBL-CT_ZlNHZ0Ov8a3Al2wKkrx5Dbe4ay9JoiKgSfDYpXoLcslFPvN8J8ZdyMoWMMpMTD7YP7dpKj-lLY0DDsivNAXN_Ay5_5TX7oBiKyzSn2E78uJpjlI9WEQJci3lfLoUwbR2ANpr_0DrHEGJ-2O33bSRiTwNqHahYFFf7glEeHrZISqgUddSDPbBcF9kTSNEWp87pmmlLPuVmGwrLGuJinCYfc04JvI3vcAU8iM_eUvCGSVbQNW3xiPqPv4k6fwstyWLh1bXvOZ55kvwgc7c7YbagZ5B95Zyvqd8Lj1J8uGxMU7F5TNLSJbsQSqGVQ7EwCknk7L9ZM7BJeiTbYxrd6XUX9SE9m5QCupiKKpuVFRXxSf-91fUBMXhE4JzXRTGWc_tuQ4oePAwiY5vWoMvbO1B54GZWSnbcY1gmGGi7WxnU-C0x53Wog2i-PLh7v8KMujnAsEXryK&p=0&fvj=1&vjs=3',
+ 'location': 'Croissy-sur-Seine (78)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur rédacteur technique instrumentation h/f ou similaire: 2 '
+            'ans (Requis).'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur développement C# (F/H)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AgtYA6OUIY9oJia900_nBIS16mbYR1t4SoQ9IF52BewlKwhDRvJXIkGeRMJzglSB8fwmjGffwfVL4sO6Y0ZC37UgOoan6oG2Ufm8YWtTaU-ABtvAtGU57RMndXLLGS04IS_Vp3X-UwK2XI81NOzH0531CYjTJQIEgQ9YZyrbHBIK9F8rj7PFaWsWCTVP-rSGlvmuTUWTQ7L8F_wroDPyY2_gjvHhNfFHg8hAukyffD-yQVTB7q6I3OEUUI8BgiT_sjVexRXZiTMcRIvhKfwHJt9-TIh9tRgDjuC4D18a-_RXHx6lbwkhCCtY8bj4GcKx-qL_3KgNvdRs1vO9gLfX7me8s89MKl9Gf1N43Toso2Qr9FBLe85LUjOiz9c3Uswoq5GTkOC9sWOARigf-tXSYXjvzC1rgbTMuLb7ULj6LibEphQ5o-yx_ZQ6Sb-qj3O4Rym0cNgjiOUQ==&p=1&fvj=0&vjs=3',
+ 'location': 'Strasbourg (67)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous avez une expérience significative en C# (stages longue durée '
+            'inclus) ?'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'Stagiaire Service Production H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0A0t4x3phqxobFakxgDl9B8VFTzHcbfPV9TAvNgPZEHJ-0j_GKc2IXV5umOyo9yZguT_HgCcipAII9J5X4nSAdiSEFMmg4iFvTpBpI21TKDPtRVKeqdl3WL_nbvY8tqxC314pBp-Xj00OKdHBAjmt5rq0OM_Kr4xAn9iLX-mOux2u-7roWyBQd8I-6C9XFAKc6y-_BC3CHtHddsWk7f3Q1S56xvsdrL-CpgKnfTpaMKaMT7oDZ0pO7Ivn2rjaYjYaOz2Kho4byQ7qT94hPByXL05U5FDCQTaEHZtEulFAnQDx73wIPkD0gDm2xSzBHDGhlyVhqP6KXE88m6w7KL3-FXUYQxokEon4Pt63fUa2zqpuwGHvXpb-qa9KtBwH281bNeXQELWq0NDVCzl2ltNAaDcMZYZ7XHo3ZNtywVb3PuZ40vy7ij8IqxGSX4op4AOdk3A9JGnaSE6a5L5SyTtkIaJUY0fnUgEbYsvZBySHz94w==&p=2&fvj=1&vjs=3',
+ 'location': 'Sainte-Marie-aux-Chênes (57)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous disposez d’un premier'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'Stagiaire Chargé de Recrutement et Projets RH (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AjEwmQG_uTh9Ci1OoLMkF9Q_PifQRVR2slK6MYbgOXENeVgkcyhyYolCZFrBezoIM3WOO0FYdJLWBljw-IKctPrYQdrOgX420Bw4ORMkHsgBbNSqxh5VI27DhrJa_xmrB5VYMHnrR2Z3x_zKBqDQ6coyuF0hIoV3_qKpQcEUC9hzpi27u-kbgJJLDKs_oVAUBa6CY-lRWWZgV5ZuzrL_rbJtzHarjwpuxRNBKtRSlA6MSCwVwQvmLukp5j0Rupdq5g0IprQRBkjHcLFZhhRWN20qXd9YC5oglrgS1TEaD7nAkpOk66aVV6qHXN8KcTTDzaP8QwXCcXHVVR-FILPSfHSD3uBTyyMTcH-e5VOqMFFHzHxXMQIjJ50-4iryDG5jgafbBMQdDEYwR_yMjjDvIN_WMhceIfEmZkm59xw6vIQ36rUzZzohHFwngVazeOWYODJskyQuTMjoRLvnlli9ceBSyai9X-YZfAigJFG1QL-YF1Qr3VPWZCGu5p8zXN7wVEo7PTDdARtA==&p=3&fvj=0&vjs=3',
+ 'location': 'Saint-Denis (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Début du'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'Stagiaire – Ingénieur Sécurité des Systèmes d’Information et '
+              'Cybersécurité (H/F)',
+ 'link_url': '/rc/clk?jk=93f6fbd50e818e78&fccid=263be8b9afb34d7d&vjs=3',
+ 'location': 'Roissy-en-Brie (77)',
+ 'salary': '1 200 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Assurer le suivi des indicateurs du périmètre de responsabilité '
+            'du stage.'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'Stagiaire Ingénieur Matériaux H/F H/F',
+ 'link_url': '/rc/clk?jk=7000a380a2252846&fccid=ca90748d4ca63157&vjs=3',
+ 'location': 'Saint-Julien-de-Chédon (41)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Stagiaire'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'Stagiaire Ingénieur Projet H/F',
+ 'link_url': '/rc/clk?jk=b6dd6056caa98841&fccid=43c5b67847a9226c&vjs=3',
+ 'location': 'Courbevoie (92)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'BAC +5, en formation d’ingénieur ou équivalent.'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': 'PIGEON PREFA',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'Stagiaire ingénieur amélioration continue',
+ 'link_url': '/company/PIGEON-PREFA/jobs/Stagiaire-Ing%C3%A9nieur-Am%C3%A9lioration-Continue-0854bf36e9f11bc5?fccid=229efadfe2e43fb4&vjs=3',
+ 'location': 'Montreuil-des-Landes (35)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous aimez la production, le terrain, ce'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'STAGIAIRE INGÉNIEUR TECHNIQUES CENTRALES',
+ 'link_url': '/rc/clk?jk=a4d74de2dc99b9e3&fccid=ffac1b3685b3c240&vjs=3',
+ 'location': 'Reims (51)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Prêt(e) à relever les défis de la voiture de demain ?'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'Stagiaire « Ingénieur Amélioration continue » (H/F)',
+ 'link_url': '/company/Faurecia/jobs/Stagiaire-Ing%C3%A9nieur-Am%C3%A9lioration-Continue-136ef0a7629266a2?fccid=be6df1e15053629d&vjs=3',
+ 'location': 'Cercy-la-Tour (58)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Stagiaire «'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'Stage - Recherche et Innovation : Ingénieur matériaux (H/F)',
+ 'link_url': '/rc/clk?jk=0dddcdad005a1e63&fccid=aaec0480e2e19692&vjs=3',
+ 'location': 'Sainte-Julie (01)',
+ 'salary': '1 300 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Au sein du département Recherche et Innovation, vous serez '
+            'chargé(e) de dégager les paramètres prépondérants pour '
+            'l’obtention d’un assemblage collé robuste de…'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': 'RES SAS',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'Stagiaire Ingénieur Bureau d’Etudes Solaire',
+ 'link_url': '/company/EOLE--RES/jobs/Stagiaire-Ing%C3%A9nieur-Bureau-Etudes-Solaire-4c3b1082ff6fa9ea?fccid=5cf2faa529c70403&vjs=3',
+ 'location': 'Avignon (84)',
+ 'salary': '800 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Date du début du'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': 'COSE',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'STAGE - Ingénieur mécanique',
+ 'link_url': '/company/COSE/jobs/Stage-174910983d7e505a?fccid=be166dc3542f71a8&vjs=3',
+ 'location': 'Montmagny (95)',
+ 'salary': '1 200 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Stage -'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': 'NEXIO',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur RF - IDF H/F',
+ 'link_url': '/company/NEXIO/jobs/Ing%C3%A9nieur-Rf-b8789b0295047ad4?fccid=fe3c7a02038cd5c5&vjs=3',
+ 'location': 'Sèvres (92)',
+ 'salary': '30 000 € - 40 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Techniciens,'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'Business Developer (H/F) - Stage',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Dw2l-gc6Hs9he0Xu95y96LW649IfwZI94hfnkXTmfGt0wmMB2uICYTlsBrc2jdYw1sKLnTFHbxGqIzut42RXC7wWTb09DoxgJDbl2-qKTktoUZNXD5apULrLTgam62bzxieVXsmcPZCFTEvCwwuyq0vLC_0vAsMT8T_kNGtfzFreKx2LuaJaSvc72miGr4mtavvKYJSnfGH7TnvEqSGe_-ZjviHI4bPkSlRJTyLPhkeEOOLlLbJ1-9wQoiBYUzmMt5m-Ng3OzspVEe4JXCPskaDeee9JyfgiBE2RLC2JIfN09DQrgLejGyGW2F35HWHUt5Gc0cUul2vQRkTbCsEClEPlcGaNYTQRdxr1dCRoc8viIfyP-oR3euMRzjjyWQE2iIgfHuRpwLJy1WC_u0AL9y0gDqsf7L1jTtZ9cok6lL-48v-isEcumg_Pw58hvBesvoBYYWDt-AaLH0dWkCiq0IRvYnbVk2VC0TtBWF7CXSFkGvFlEb1VbAksUa5Vvx5a2ebqZ1oaaI9A==&p=14&fvj=1&vjs=3',
+ 'location': 'Issy-les-Moulineaux (92)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous recherchez un'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Conseil Génie Civil, Boulogne Billancourt, (F/H) – '
+              'CDI',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BPCBgjUXp-ASVMrPcCJJqfuLky5TdMcAU1Ohe0DW9KW7RmFeH2_1g-c2BLJIuWrzqnAP-_qc80j5KPEJ_RibhaIpsbJlQzWEazAQ-4zaEtHuStJ59DEkrZ3sA1D8shRySZlj5Sgn1gpCcuNFRV52Joe4sjbPAZGzgTKFnPoGPnGvjvWX74KNiMOliLDtW2QHjRz4Qk23l2X-gSmvezfX0KyQaPQUaR_CDrS96RB4OQoq25OPxrwLZ_oTHSzFuxMv7GGnOeVpb4xobk3OmzY_a46-OZcHDAebwsvb8sKX5VkVRp5RZ0qxKfaVh_rjSOhbgwWQP3L6m8G0gCL8lFaCHwaTzwnaSnCqbD0tLzRciMy3u1zmAuOalvC-SU8HFZ23DEaeRgv5RaGqik2Jv0KfDflOKPINejGI9zuQtV4F7nwDmbhFUqZDURVOswNEJUOTrAQ-o250zdpX7FSmn59g4NBYUvC7UPiLwoem3a9MDZ6FBGLBYUf5JnDEfUigrfHncTrnJIKGyiV5sRVA1wx-RF5D_pCWRx6bDfIsqT0uXzvtbgIm088PPRhcGKHervZ0EwGGAHCY5FQfIDG-Vnpw_Ima1jn-WA2mZuAS0ZZsdOIKB8KXH9vZXS8E29Vy1POLvzf6jcthXGuPIsx4GhylRdLwUMioWqyrdGtVqd4Q_yO7XkMBo4FVpRz0uEIdg9vMbh-UKULZ6uVQ==&p=15&fvj=0&vjs=3',
+ 'location': 'Boulogne-Billancourt (92)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous avez idéalement une première expérience professionnelles (ou'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10> (referer: https://www.indeed.fr/emplois?q=Stag%C3%A9%20Ing%C3%A9nieur)
+2020-01-08 11:48:50 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10
+
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur développement C# (F/H)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AgtYA6OUIY9oJia900_nBIS16mbYR1t4SoQ9IF52BewlKwhDRvJXIkGeRMJzglSB8fwmjGffwfVL4sO6Y0ZC37UgOoan6oG2Ufm8YWtTaU-ABtvAtGU57RMndXLLGS04IS_Vp3X-UwK2XI81NOzH0531CYjTJQIEiAoEnp6Szdmg5YmwdYtfMJ9B9KlQeIHTMKTzLlodVHZbg0IS9AMX7PXu3a-YLhJD3sbmdzctRqwyKn7IyKiGeKafdk-nkbahiwxWeXCJkQP_jKYmG03UJVae9rzhY0Gjb8CKRRS-6FtpY0X-bEC3JQ9SWnFTUNZD4l4TJFxVu4k6BNCBum0JoI20Lib1l_8_lqwUVfZ-XVx9MS2ZQxSBIef1FMD97--rIkg2L1DedKqilyGOwhC2_SG9vAH1lGjbgdWgkDkxt1KJ5lZi3GjOINby5tprV-LK6ItcZDR3L58g==&p=0&fvj=0&vjs=3',
+ 'location': 'Strasbourg (67)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous avez une expérience significative en C# (stages longue durée '
+            'inclus) ?'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Conseil Génie Civil, Boulogne Billancourt, (F/H) – '
+              'CDI',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BPCBgjUXp-ASVMrPcCJJqfuLky5TdMcAU1Ohe0DW9KW7RmFeH2_1g-c2BLJIuWrzqnAP-_qc80j5KPEJ_RibhaIpsbJlQzWEazAQ-4zaEtHuStJ59DEkrZ3sA1D8shRySZlj5Sgn1gpCcuNFRV52Joe4sjbPAZGziZ_npYXIOx7LoFcqovStjGSv6uKSjYLxJp05CoKYLVhQQrYL0eeiWXIDle283_Gtaog3yug1ANj9mcl5YNv38cBcPZnzT7RgDqO0qqfTBtNUM1iARl0M3kDOgXCFpIPPgVDqIZ7Mruc2CPV4Dr6JKxOnr0KOHXqZt4JD8O1z4ld1vUnCg_8V3GOnB1M0PwWtJdWDnuJCY5Umg3SVoLtuRHWNblbuj-AYU79a3tiSeCCr5eyz7UTE6KPzmBAzo7Jr4zIOVXjfB-kmAo0geo6sRQT0GvuHsGkymZbUr2nhbOmks6qu-62Fsni9LIx5ve0PYkSl9au0Imwy5tvdmx1zKF-2nB80NozP-a8RA5FGfzLlRMRUnj9PguM0rXaaya665zlxhctFfEYfDb0Eh5blD0xBRGyAT2_f3HxPGK8-PDD1IGc_x0c52MNwRse01SWhod1YxSNmtaqDyeRC2kl-sSPeJObp179oExs9ogcCxdg_nN7i4Jjd2PbKAMN6H7S5IVmrVyYEIYTgSEUCnANBvKy0VgcCpzhovUpV0-jH5Lfg==&p=1&fvj=0&vjs=3',
+ 'location': 'Boulogne-Billancourt (92)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous avez idéalement une première expérience professionnelles (ou'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Stagiaire Service Production H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0A0t4x3phqxobFakxgDl9B8VFTzHcbfPV9TAvNgPZEHJ-0j_GKc2IXV5umOyo9yZguT_HgCcipAII9J5X4nSAdiSEFMmg4iFvTpBpI21TKDPtRVKeqdl3WL_nbvY8tqxC314pBp-Xj00OKdHBAjmt5rq0OM_Kr4xAn9iLX-mOux2u-7roWyBQd8VPOB0AZrZgAOddvHX2vdRIurS4LkvF3xSCvUPTZKQ_LpVZoxVISF17anHHszxs0JxxmffPE0Xh6BeZWI6T2Cfpi2QEfgrnjHCAFGF3o8K8alsiWgD7urLYps2EjxtcHjprHE8gGvEDkXWer6C8xkfy-VW8h7LpwbZS5WN9lKYZnDq5rmogECBwugq7E5i0_k8KoF7nYSkJlmVo-JiekGRmEksGi9jtr-Us6VBFLVM9WO9XREzfNF6_4TiIG7wS28n0rN4O7-683sHKwb-dq--8rQhiC2vPhY4FXq4wRpvtVW6dfornXDVw==&p=2&fvj=1&vjs=3',
+ 'location': 'Sainte-Marie-aux-Chênes (57)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous disposez d’un premier'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Stagiaire Chargé de Recrutement et Projets RH (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AjEwmQG_uTh9Ci1OoLMkF9Q_PifQRVR2slK6MYbgOXENeVgkcyhyYolCZFrBezoIM3WOO0FYdJLWBljw-IKctPrYQdrOgX420Bw4ORMkHsgBbNSqxh5VI27DhrJa_xmrB5VYMHnrR2Z3x_zKBqDQ6coyuF0hIoV3-K13bXBeXeXrU859rqeKpDEmUCQmyi7Xw2g1OfGeV0qoqsvvo2c_iPgQkvlvPVuS5NSMRikd7mKpeUo0poS9bY1l7P6RmKoW5MC07rRnsIY9fU1klqlX87W7ElsesH69sXcWVYzcxcyehR5iKHZxhTICSt68OVOVJP0MyU9PGCHPeknx0G8wUwo9_nrcLrRPrH7hqy-BvUMQZUNQQv-zfAMcR9fmn1xCixoZBwON81Z56h9DMMUdI4NMLkpV1anlWsJ7exijx4qinuE-FU88CmZ1XT_GOYvIT0ODpVeDQKdlNUfQBIZpsGKdbPkl5c0tedv0Sy4GcRYgngqlSGF-qLrUDz2ibYookjbTP0Zd48Lw==&p=3&fvj=0&vjs=3',
+ 'location': 'Saint-Denis (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Début du'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Stage - Ingénieur - Amélioration continue (F/H)',
+ 'link_url': '/rc/clk?jk=20988d242ab40c6d&fccid=aaec0480e2e19692&vjs=3',
+ 'location': 'Sainte-Julie (01)',
+ 'salary': '1 300 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Au sein du département Engineering et du service performance et '
+            'méthodologie, vous serez chargé(e) de l’amélioration d’un sujet '
+            'dans le périmètre Engineering.'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Junior Qualification H/F - Direction Internationale '
+              "des Matières Premières @ L'Oréal Research & Innovation",
+ 'link_url': '/rc/clk?jk=eb05ffecbf4e5b1b&fccid=ec8a0bd60be9a6f5&vjs=3',
+ 'location': 'Aulnay-sous-Bois (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'BAC +5 type Ecole de Chimie (stage ou 1ère expérience), vous '
+            'montrez une appétence pour le secteur de la Cosmétique.'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Procédés Thermiques Junior H/F',
+ 'link_url': '/rc/clk?jk=9c0fc14609fa86fa&fccid=28ee277926be0542&vjs=3',
+ 'location': 'Limay (78)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "De formation Bac+5 (stage de fin d'étude accepté), en Génie des "
+            "Procédés, vous êtes dotés de solides capacités d'analyse et de "
+            'synthèse vous permettant de…'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': 'Renewable Energy Systems',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': "Stagiaire Ingénieur Bureau d'Etude Solaire",
+ 'link_url': '/rc/clk?jk=f1673b8948838abb&fccid=c7e9f79e17159358&vjs=3',
+ 'location': 'Avignon (84)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Date du début du'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Stage - Ingénieur Amélioration Continue - Clamart - 6 mois - '
+              'H/F',
+ 'link_url': '/rc/clk?jk=416ebad677b269cb&fccid=deff4b327fcb9d1c&vjs=3',
+ 'location': 'Clamart (92)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Formation Bac+4 et Bac+5 type école d’ingénieur.'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Stage - Ingénieur statisticien Quantification multivariée '
+              'supervisée F/H',
+ 'link_url': '/rc/clk?jk=f2d2973c01e9c70f&fccid=68928fde239d7c6b&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Les méthodologies développées durant ce'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur.e chargé.e de projet climat et environnement - Stage '
+              'TFE',
+ 'link_url': '/rc/clk?jk=a6e256bd19aaa5b2&fccid=1ec2cbc54479404c&vjs=3',
+ 'location': 'Paris 13e (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "La Direction de l'Ingénierie et du Patrimoine a pour mission "
+            'principale la gestion et la modernisation du patrimoine bâti et '
+            "industriel d'Eau de Paris."}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': 'ZACH SYSTEM',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Stage - Ingénieur(e) Industrialisation H/F',
+ 'link_url': '/company/Zach-System/jobs/Stage-43dd8110d65658ff?fccid=24041af4cb011c6a&vjs=3',
+ 'location': 'Angers (49)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous êtes actuellement en fin de cycle'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': 'PUNCH POWERTRAIN FRANCE',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur SW embarqué débutant',
+ 'link_url': '/company/PUNCH-POWERTRAIN-France/jobs/Ing%C3%A9nieur-Sw-Embarqu%C3%A9-D%C3%A9butant-caa8d4c99213d656?fccid=4b690ba4f530f2c4&vjs=3',
+ 'location': 'Clermont-Ferrand (63)',
+ 'salary': '32 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur ou similaire: 1 an (Souhaité).'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': 'CEPASCO SPIGOL',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Stagiaire Ingénieur Méthodes',
+ 'link_url': '/company/CEPASCO-SPIGOL/jobs/Stagiaire-Ing%C3%A9nieur-M%C3%A9thodes-4a106f9296ff66a0?fccid=13ef2190ee64d95d&vjs=3',
+ 'location': 'Gémenos (13)',
+ 'salary': '1 200 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Gratification de'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Business Developer (H/F) - Stage',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Dw2l-gc6Hs9he0Xu95y96LW649IfwZI94hfnkXTmfGt0wmMB2uICYTlsBrc2jdYw1sKLnTFHbxGqIzut42RXC7wWTb09DoxgJDbl2-qKTktoUZNXD5apULrLTgam62bzxieVXsmcPZCFTEvCwwuyq0vLC_0vAsMT8T_kNGtfzFreKx2LuaJaSv938aJek5Gi_I4jbh-e1dw22Vh8RNiSE-A9nCi0_zqMut_zL-Aha-dr-YnKc0Mh1WLNJ7x6g2njc-0r1ZZaZgr1PKGmpvxusnmqBbtKN0XkWj-QMzL-9Izi_72UzFGu3bVcEyEIn-bAVRmcbVo6OW1XpWt79x_GdNsL5qhFcOJvk8O2cGKPm4-TpbAMrJ8W5t2925ySkLhzR5PyEAuKPNdumO2p3ODj_6iimwfkjC2yRCexX8OoGZgWkqmpOP0ZwOzMr4DE2v9t8zPG0sK7BhjnjsOxo2TotLeCWl1Np3CUaWYn1arpcUVEFwIl-CopAp8nQApOrUxyJ5cHYDuI-u4w==&p=14&fvj=1&vjs=3',
+ 'location': 'Issy-les-Moulineaux (92)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous recherchez un'}
+2020-01-08 11:48:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Rédacteur Technique Instrumentation H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CvAkBB-wLKBJwpk_QEebqWsMYGMubWCIlbd5f4RRvvMUqiVWWftwSLs6TZ_1yD9-z0-brXsAyBL-CT_ZlNHZ0Ov8a3Al2wKkrx5Dbe4ay9JoiKgSfDYpXoLcslFPvN8J8ZdyMoWMMpMTD7YP7dpKj-lLY0DDsivNAXN_Ay5_5TX7oBiKyzSn2EUXPfM3TYT7BdSOTEDBRvFaTxU-flSGs1vSdep6tAPoY3N-3BpTg1qWFlbLtEzx8z2vA0uHk6SFUGmUFrfiJoQK1bRzyKpTtvcpRac-QolN0OEanGYmYPAtyRZSEn6_UargdDSnT4Wj1sqq4RbWozGAz9oNT2y7BCR5fYVg6hiO4ZpScquRpHjVeYGkqzVYALFPHZ9o0Cxuze6ce5VNZSzwnbDBnXxNpIPRYpHwkLnDEKOE2fDPk_tsnxpV3u_fV38vpeDFfcHhfdVh2rgg4YGAkk-wY-gjNq-r7h9EFlMC2qThLBoX6qr3ppLPOv0S7fVOi84FhClhlUd3Me2EeyHiDpIOlSivFd&p=15&fvj=1&vjs=3',
+ 'location': 'Croissy-sur-Seine (78)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur rédacteur technique instrumentation h/f ou similaire: 2 '
+            'ans (Requis).'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20> (referer: https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=10)
+2020-01-08 11:48:51 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20
+
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': 'ANDRICE',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'Stage Ingénieur Qualité H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C-DDqE2PvtlhgrPJ1-iQblct7bO4IaZKYhVOj3MZ6KK5f5tkkgde_5FS-6YTmnYZTRdw0JPERf90ixukSr0wJ_KhAgxNpQJWLp4eI2uwKNKzx2n_6jgwGIVQDPur5ufcV8QIwXXDSNG8HrAm7dIniRskO8mMKGnPvyFsG2uGujZrr8NKZ788sfQIj63yG1eZgguEOgunxMigDUx0pI9ICD87-W4cfjJryHBV0xsloLDltHuzDlnyggDdlMmO82NRcXl5ILSqvtXM1Kj36Mi7Wn1jmzh8k5iA_syTET-TGFG6mOkUFHO1VY6mpAJCtV4bJs0bn4PG7JB3jMdeYgmIpKXRt813F4LDn2NABpVXH-2OpnEylrP7aUio_CYCntCuxMe4dOuLT8GOm_2Nt-uFMQN8UjAdg4nK9Q6MV4xeSmc49234AflcmkTGjVbn082oyxFEQoKJXl8KuAtKEamwQX9ViQgI53ad2XjzQSJjNu6PxKVxmo6TxJ&p=0&fvj=1&vjs=3',
+ 'location': 'Lyon (69)',
+ 'salary': '700 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'En pleine croissance depuis sa création, l’entreprise ambitionne '
+            "d’être un acteur majeur du recrutement d'ingénieurs et de "
+            'techniciens qualifiés en France et…'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': 'RVR, Retail VR',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'Stage Ingénieur 3D Réalité Virtuelle',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C76Ka-SuMNyNviBy4cm6kjEjE_Dvg66I5biQQGQozpqngL5B0mpwznGlyYGZfVyJtD-49SClhnuwz0PdrHqmhFC43NNYbIXcgqxkvpmKUZQqsnRBYrI-Z_XMPxRg7pdH5nwrTfVmPRdjLtGEKMdrtEWLonY6Xlvg5cRs1eGcNF2mAQcIvUbbdTsCLK08C4pOS8i802m6JZa8aiivtubobKexfjX6gnnJsQllZgvCZzNzo-_iISAePEHY4LqD89aGxahhhmLIdfSz_TU2UnigAfcFG-1XAPQ2Z5Sv_ZEs67QWJxxJeAKEHAqtFN4U2esndsD8-NoysWs1AI2OLHtugdeiQ5x_Jm2uJ1vRHMghpx_PtWYTuVFtFuABx7bZFe9-lNJMQejXk1FEQIZy_BFxF1pZxVHm62Mx0ZPI3cwzMtjMk_qooqDTo0zCsVX_QS-2pjrSNi4xGWKWFKEleWOTHvSyySHKWQUdbXYAhqD-Rxc2SNKBL3GQvV2p0fbsLVFe-O_-FCc6G3Kg==&p=1&fvj=1&vjs=3',
+ 'location': 'Nantes (44)',
+ 'salary': '600 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Dans le cadre de notre développement nous recherchons un '
+            'stagiaire'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Matériaux / Carrières H/F',
+ 'link_url': '/rc/clk?jk=7a8286724a7c9113&fccid=5681263b7f879de6&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'De formation Bac+5 Ingénieur/Master 2ou équivalent avec une '
+            'option Matériaux, vous avez idéalement une première expérience '
+            'dans les carrières (stages, ...).'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Matériaux / Carrières H/F',
+ 'link_url': '/rc/clk?jk=e6b79b184595f265&fccid=5681263b7f879de6&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'De formation Bac+5 Ingénieur/Master 2ou équivalent avec une '
+            'option Matériaux, vous avez idéalement une première expérience '
+            'dans les carrières (stages, ...).'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur travaux (stagiaire) - H/F',
+ 'link_url': '/rc/clk?jk=092a3ce1d09d4cf8&fccid=226731b1ca628bd6&vjs=3',
+ 'location': 'Gennevilliers (92)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous préparez un diplôme de niveau Bac+5 (Ingénieur) - '
+            'environnement, chimie, hydrogéologie ou équivalent et êtes à la '
+            "recherche d'un"}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'Stages TFE Ingénieur en Génie Electrique (H/F)',
+ 'link_url': '/rc/clk?jk=2efa1dc7ea95d4be&fccid=0ed48a21b879ae72&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Ce'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'STAGE - INGÉNIEUR EN SITES ET SOLS POLLUÉS H/F',
+ 'link_url': '/rc/clk?jk=fb3bcec9fb6f244c&fccid=761f0ffde55c40f5&vjs=3',
+ 'location': 'Arras (62)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'De formation bac+5 en école d’ingénieur ou Master avec des '
+            'connaissances de la méthodologie nationale SSP et en géologie.'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'Stages TFE Ingénieur Génie Climatique (H/F)',
+ 'link_url': '/rc/clk?jk=6295aee722e37ec5&fccid=0ed48a21b879ae72&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Sujet'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur-e génie civil - Stage TFE',
+ 'link_url': '/rc/clk?jk=3aacd066be4123ae&fccid=1ec2cbc54479404c&vjs=3',
+ 'location': 'Paris 13e (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vos connaissances en marchés publics et de la loi MOP seront '
+            'apprécies dans le cadre de votre'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': 'Horisis.com',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'Stagiaire Ingénieur Performance Energétique F/H',
+ 'link_url': '/rc/clk?jk=0990d0de76cd61e5&fccid=69b8d0dba2e74c31&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Contrat : convention'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'ST - BAC+5 - Ingénieur Génie Industriel / Logistique '
+              '(inventaires, fiabilité des stocks) - Usine de Flins F/H',
+ 'link_url': '/rc/clk?jk=65fadc8957a9cdde&fccid=d87a03e3623e180d&vjs=3',
+ 'location': 'Aubergenville (78)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Vous êtes à la recherche d'un"}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': 'ENCIS Environnement',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'stage ingénieur d’études éolien et photovoltaïque',
+ 'link_url': '/company/ENCIS-Energies-Vertes/jobs/Stage-Ing%C3%A9nieur-%C3%89tudes-%C3%89olien-Photovolta%C3%AFque-33e80ea8b310843e?fccid=2b79bcbfbe3ba070&vjs=3',
+ 'location': 'Limoges (87)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Stage'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': 'CITYPASSENGER',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'Stage Ingénieur(e) Commercial(e)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CXfH3XPoG-4U8J01hRHvkYXCcAUH3WyzB-87xUGogK5rcTIKBfEYNOaJOgYyBvUQ2BAiAOjtzHkdsQmhq5h41yK6ATLcmHGKGqM-IglH4BBdOMyf7nczD0QsLj3vw8ZSJfAuyVR8jW74IK8ZhEy4fxm_b7J6mmXY5euvnO2AA0NSX9txUQY7xxEZjo8Xoe6SrK263xiW0OKNBYTyZJy7lgHpgJHUoloNQVoXYFaDxNmuprVMtXODj8HUj-QoiWn9dk3aWnDvFr9RSUmixM81JaBUv7_7iZBRwwO0uFWo0Ntd36RGzp9S2sFiLsI268IoKWwtQ1D9wf068zpgE691aw2-aPAt_y9y2VQQINdRbbeOEbRkOJnWRW6_M5u8D5GCdtQGQMgVDpZ2FcxxyyZSQQDvLT2GPWB0EU22Je3TPAcWeo7uguKB7iUhUcspt21DaGee8oxu_51TmLuDWd1AqyuHz5OgWffvYMHzY43S0RCg==&p=12&fvj=1&vjs=3',
+ 'location': 'Courtaboeuf (91)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'En dernière année de formation en école de commerce ou '
+            'd’ingénieur (Bac+5), vous cherchez un'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Développement Produit H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C7aUfCyT9AiJm0gngiCQ-haVUeQgviGy_CqaZ6T4vq1JXyTN8bgpeY1g5-0yX7YnuLmrMc_zTaQErqX4XeizOrTaXmaa9hmoX7GN32Djpuv2An26Sl5pUW2hkUnmybxCHMCVT7YFHrDf3oxbrNe1r2l2V7WUaHBoalFVkJ67jji0H1_aLUFtfd7RHytKtEMPL8i2zYSLfVX_lK9lMVHUWa73ZBJnqObNd4kVx8hOZSIoq9qAjuQvdHd7R9YB5qNdPEk1wtvulQHvp8ODV4LgDxDUzOtKG68DdhKWhSnjTaMWKGfw2D2bDwkN8oFgQ8aqTBFhHPcjgiMFSI3Zogy6VB1F96ZwZVyxL_Jkw1FGT4IoMf12lgwrWfYkErRNBmbF26suhGHdLkCQLnawKyrSZ3H1YyL0kp7SFx-FoFkV9wUhzEMnyMOKLzpb1AjAuWA0WTgsZ29FneE_xm1fuu9qkfzMW_Vr1Hy1vngOkBrmDPcDRRqicId3Md1WTUyKJQsvw=&p=13&fvj=1&vjs=3',
+ 'location': 'Yvelines',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Alors ce'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Maîtrise des Risques Industriels et HSE (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CW9R6h6BMQf6JcxJp2Z7-3E45nBtrmIN7m22Kh_eRLbbq6UFnCHwtLAAEc_T-A9V7ZgN8jco6D1zpWk4JJ1n1wSOL1ZCP2Tzzg2vYfxCeQcGOmF6kpgeN0ooAQT63iqv_bJk4QveR0eq0-oB5paSdC6xWOeQdYgBD_0QUOPAGP4QYmws3dWYlMX9UESz95cQZoHpHWl9DT42mmWTcH18B2DsWqBtiGZQ4ACd5mUqGA0clrL3Y0TCNarRfW_fh4I1KLih1o2pbJpWbkuJOdvww6ENgvXuOVGiynJ8LO9fXXLrG1FcKuWlondIqJMjvoWBtN_gLwqWPoBnf9PbUluyPftZeBBAz21LHYAhKP0ixCYs8IcywdbMWsaRbjSFzpq9fZWtEDSwtmRgm2Q0C5oSRSLAMHhUf_BiTS_W_vHjiY52lpnm6kyHGL28buICx8xhR-9pLjn_u-K_TstnZceNn61iCwSiafugRkfmtM-qOVMJLigEnDJUIaO1gWpn3qMayvyepfpMHji7ITscIFXy-IdQ7xrPPOemE=&p=14&fvj=1&vjs=3',
+ 'location': 'Bouches-du-Rhône',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Vous possédez un diplôme d'ingénieur Maitrise des Risques "
+            'Industriels, et vous disposez d’une première expérience (stage, '
+            'alternance).'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30> (referer: https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=20)
+2020-01-08 11:48:51 [indeed2] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30
+
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': 'CITYPASSENGER',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': 'Stage Ingénieur(e) Commercial(e)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CXfH3XPoG-4U8J01hRHvkYXCcAUH3WyzB-87xUGogK5rcTIKBfEYNOaJOgYyBvUQ2BAiAOjtzHkdsQmhq5h41yK6ATLcmHGKGqM-IglH4BBdOMyf7nczD0QsLj3vw8ZSJfAuyVR8jW74IK8ZhEy4fxm_b7J6mmXY5euvnO2AA0NSX9txUQY7xxXia917yidSoLnxwVvzBd9B1cVOW9GZNB9mwsp43mimnJ1nyj1-ffg449TPEmQYAz4ADBT6qHXe5sTBq7QN21eELOqreja_0kAPL0sisR8n10d6e29ROojN3-2Jo_Y8nOnvrbLZfIhjkVvl93eHTw9MeJFHxBku1GwWrQ5yHEEHfkPH0pOiPKXiZxOu94uztsetzePF9e5EEyzec6yILTd7TV0QWJKEewGsIWAmZhiXzSSbgIdUL8BFj79GDWUIhVyx0UJpJqngxFwaMw6s85JXx8JDNBhwy1UBpHsQ4j13XmjLUWU8-FVA==&p=0&fvj=1&vjs=3',
+ 'location': 'Courtaboeuf (91)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'En dernière année de formation en école de commerce ou '
+            'd’ingénieur (Bac+5), vous cherchez un'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': 'RVR, Retail VR',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': 'Stage Ingénieur 3D Réalité Virtuelle',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C76Ka-SuMNyNviBy4cm6kjEjE_Dvg66I5biQQGQozpqngL5B0mpwznGlyYGZfVyJtD-49SClhnuwz0PdrHqmhFC43NNYbIXcgqxkvpmKUZQqsnRBYrI-Z_XMPxRg7pdH5nwrTfVmPRdjLtGEKMdrtEWLonY6Xlvg5cRs1eGcNF2mAQcIvUbbdTBd5RuuT9Eb7USxbf2qaIByi_C1LvJj7d6I_9bai15geII92vtFTipTRmHtFuvqb3_875DE6YusuKs5res-7fHCglwJ446ulAxQcXv6HbCjhd6HIkCjWyctWrg4Nxv6zUqUIdv__-52eQYqD8oPyosXYQshgQRjgeMXafTUQfLDoEqqYR7tqepqQDwlqsEVV-pJAn5njiMTOpDqhH8bd_DcfapdIB_beUQYfra7-akGIoj9fdiwN-ubigP6TJypeG2A8nSO-3SZ8AoZPClAfHhWx8FLGnPnNjuJfjzxrJ6Sc8E7rfB1Rt-TpFOLc6H9qRFT0N2V1Fp9633MB-G1YTcQ==&p=1&fvj=1&vjs=3',
+ 'location': 'Nantes (44)',
+ 'salary': '600 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Dans le cadre de notre développement nous recherchons un '
+            'stagiaire'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Développement Industriel',
+ 'link_url': '/rc/clk?jk=6e898823576d890a&fccid=ec8a0bd60be9a6f5&vjs=3',
+ 'location': 'Clichy (92)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Et surtout innover, aller plus loin : marquer ce'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': 'POMA',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': 'Stage Ingénieur Maintenance (H/F)',
+ 'link_url': '/company/POMA/jobs/Stage-Ing%C3%A9nieur-Maintenance-b4a5fa04f1c147ae?fccid=819cc568c7507284&vjs=3',
+ 'location': 'Voreppe (38)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Début du'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': 'Stagiaire Ingénieur Efficacité Energétique et Environnementale '
+              '(H/F)',
+ 'link_url': '/rc/clk?jk=d12129b3dd4de826&fccid=8116a69e92c78f8f&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous recherchez un'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': 'Stagiaire Ingénieur Amélioration continue dans un milieu '
+              'logistique H/F',
+ 'link_url': '/rc/clk?jk=1b664d8ef6eb9558&fccid=b3885ca934ed0066&vjs=3',
+ 'location': 'Villemur-sur-Tarn (31)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Stage de fin d'étude"}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': 'Kalegos',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': 'Stage ingénieur en thermique du bâtiment',
+ 'link_url': '/company/Kalegos/jobs/Stage-Ing%C3%A9nieur-Thermique-Du-B%C3%A2timent-21b8fa106928ad03?fccid=d0215e9c19f500b2&vjs=3',
+ 'location': 'Colombelles (14)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Stage'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': 'Stage - Ingénieur Exploitation Aéroportuaire F/H',
+ 'link_url': '/rc/clk?jk=d8be7da585fe4769&fccid=9bd8c87951c29e8f&vjs=3',
+ 'location': 'Aéroport Paris-Roissy-Charles-de-Gaulle (95)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Vous êtes rattaché au responsable de l'Activité Opérations du "
+            'pôle Viabilité Hivernale sur les aires aéronautiques.'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': 'Stage - Ingénieur Spécialité Robotique',
+ 'link_url': '/company/WEDO/jobs/Stage-8f72106e3a3af182?fccid=dfd5ad7b4c42aee3&vjs=3',
+ 'location': 'Changé (53)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Lieu du'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': 'STAGIAIRE INGÉNIEUR MÉCANIQUE & MATÉRIAUX',
+ 'link_url': '/rc/clk?jk=165dd98407c310e9&fccid=ffac1b3685b3c240&vjs=3',
+ 'location': 'Annemasse (74)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Tu travailleras au sein de l’équipe R&D Mécanique du site '
+            'd’Annemasse, dans le cadre d’un'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': 'Myfuture',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur.e pédagogique [CDI]',
+ 'link_url': '/rc/clk?jk=b9a5de805a2c4006&fccid=78bf9daf37565664&vjs=3',
+ 'location': 'Paris 18e (75)',
+ 'salary': '35 000 € - 38 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Nous avons créé une plateforme (stagedecouverte.fr) proposant des '
+            'offres de'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': 'VitiBot',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': "Stage ingénieur bureau d'études Mécanique (H/F)",
+ 'link_url': '/rc/clk?jk=36efd0073d767244&fccid=d890bd9a19cd53e7&vjs=3',
+ 'location': 'Reims (51)',
+ 'salary': '1 300 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Gratification de'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Maîtrise des Risques Industriels et HSE (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CW9R6h6BMQf6JcxJp2Z7-3E45nBtrmIN7m22Kh_eRLbbq6UFnCHwtLAAEc_T-A9V7ZgN8jco6D1zpWk4JJ1n1wSOL1ZCP2Tzzg2vYfxCeQcGOmF6kpgeN0ooAQT63iqv_bJk4QveR0eq0-oB5paSdC6xWOeQdYgBD_0QUOPAGP4QYmws3dWYlMAdpC8Hj-_ohsCm14v3d6DDFZ4tfMg-Gdj4Ztflsa3wSSI2G3mJ6qTWlF4tHGM3aMFs4HVQL95dAMql-frvjafRL_K0oLd5NHxHOBCZUoDiB0rdikGZaC_eH8NinSkCzPhP9_uZv1j2-VrCX4JDoQXSl0urXnHTQmv-NFunsE8gDmIrqdbwENksGs8syJtvrh2d9ubfWmGTOjOX01fiz05kIQ9z3bwoPCQ18-GDLGpaOfSrgRvllBT40utc-K-8WdruLpu0WqHQ2cVF03BKVguiX9taagtdVs6kTgqKCCmCidk0-vBSV26E11P6uwmX-qQh4FV7rabf9Z5t92kyrRB1V2sbuIGS6_Ddu0aB7vwaI=&p=12&fvj=1&vjs=3',
+ 'location': 'Bouches-du-Rhône',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Vous possédez un diplôme d'ingénieur Maitrise des Risques "
+            'Industriels, et vous disposez d’une première expérience (stage, '
+            'alternance).'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Développement Produit H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C7aUfCyT9AiJm0gngiCQ-haVUeQgviGy_CqaZ6T4vq1JXyTN8bgpeY1g5-0yX7YnuLmrMc_zTaQErqX4XeizOrTaXmaa9hmoX7GN32Djpuv2An26Sl5pUW2hkUnmybxCHMCVT7YFHrDf3oxbrNe1r2l2V7WUaHBoalFVkJ67jji0H1_aLUFtfdGTeqr-VSoxLVpqVF9xv24kbecR3WIy43fN-64diEQd5oekAIklV42kJ1Cmmhklp1K8_4gX5pdzMOjIAbB6QCkQddJO5NnjCdd_0rGhZundPGpPAoqe1VWzB-bqZoudPEiu0mDyxf5xU7spzW1Q4-76rL8WSrtOhZMPeuEt5ehxHQ_bZOzugisnOuaTyTO7lKC_w_1PsC2Kby2lI5OIGZuatTSi6Qq5F9vsbyu5CrIOAHhw7YAqIXqFXcH2JOgE4_cZg3iN1y2ZeuXNsLT3OSYVj8eGd364WsAOjR3O4ECagMrn61Kz1txX0WJqidHNmYrWLS2ZBAoFE=&p=13&fvj=1&vjs=3',
+ 'location': 'Yvelines',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Alors ce'}
+2020-01-08 11:48:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30>
+{'company': 'ANDRICE',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Stag%C3%A9+Ing%C3%A9nieur&start=30',
+ 'job_title': 'Stage Ingénieur Qualité H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C-DDqE2PvtlhgrPJ1-iQblct7bO4IaZKYhVOj3MZ6KK5f5tkkgde_5FS-6YTmnYZTRdw0JPERf90ixukSr0wJ_KhAgxNpQJWLp4eI2uwKNKzx2n_6jgwGIVQDPur5ufcV8QIwXXDSNG8HrAm7dIniRskO8mMKGnPvyFsG2uGujZrr8NKZ788sfkm_fVANaZU9L7vmoQlPL0S6KBLQ-DlfCbgVjGvelXCyPaOsXCp7WtaZgLi9hruhypOE9Q7ts5AmZQkF5UHR5k9-Vme6KSnWgf9Ib-HvkNeJKt5J-pMKqLqMKKSMyG7cM8ypcU52PGA7x-QTSXoVAN7tXhfccAgpbKa2Cr1NXXcl2GeGViQztmQ4HPwEAEQlgEQA-eCIcGr1IXZhqW6nyC_DdIZ2MF4DjBhYYIK3F06tjZUhH0jwamyC9JWD5s6v7T6W67mwGU7QFCsY3GHxoGn0mwtygclZRZqeDrzWXA3TCnl-zaHeAVTpSJ1y8HZ3f&p=14&fvj=1&vjs=3',
+ 'location': 'Lyon (69)',
+ 'salary': '700 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'En pleine croissance depuis sa création, l’entreprise ambitionne '
+            "d’être un acteur majeur du recrutement d'ingénieurs et de "
+            'techniciens qualifiés en France et…'}
+2020-01-08 11:48:51 [scrapy] INFO: Closing spider (stop generating requests, only 5 requests allowed)
+2020-01-08 11:48:51 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2956,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 364949,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 1,
+ 'elapsed_time_seconds': 2.603116,
+ 'finish_reason': 'stop generating requests, only 5 requests allowed',
+ 'finish_time': datetime.datetime(2020, 1, 8, 11, 48, 51, 841600),
+ 'item_scraped_count': 62,
+ 'log_count/DEBUG': 72,
+ 'log_count/INFO': 7,
+ 'memusage/max': 54661120,
+ 'memusage/startup': 54661120,
+ 'request_depth_max': 4,
+ 'response_received_count': 5,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2020, 1, 8, 11, 48, 49, 238484)}
+2020-01-08 11:48:51 [scrapy] INFO: Spider closed (stop generating requests, only 5 requests allowed)

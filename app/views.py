@@ -1,5 +1,5 @@
 from flask import render_template,request,redirect,url_for,render_template_string,flash
-from . import app,proposals,mongo,db,MONGO_URI
+from . import app,proposals,mongo,db,MONGO_URI,indeed
 from .models import FeaturesForm,FilterForm
 
 import json
@@ -30,7 +30,7 @@ def scraper():
 def makeResearch():
     form = FilterForm()
     dreamt_job = form.dreamt_job.data
-    
+    files = indeed.find({"job_title":str(dreamt_job)})
 
     return render_template("search.html",form=form)
 

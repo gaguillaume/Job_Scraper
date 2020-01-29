@@ -9,6 +9,10 @@ import scrapy
 from scrapy.utils import log
 
 from scrapy.exceptions import DropItem
+from elasticsearch import Elasticsearch
+
+
+
 
 #client =  MongoClient("mongodb://mongodb:27017/mongodb")
 
@@ -22,6 +26,8 @@ class ScraperPipeline(object):
         connection = pymongo.MongoClient("mongodb://mongodb:27017/mongodb")
         db = connection["mongodb"]
         self.collection = db["Indeed"]
+        connection2 = Elasticsearch([{'host':'elasticsearch','port':9200}])
+        self.collection2 = connection2
 
     def process_item(self, item, spider):
 
@@ -35,10 +41,11 @@ class ScraperPipeline(object):
         valid = True
         for data in item:
             if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
-                valid = False
+                vitemalid = False
         if valid:
             self.collection.insert(dict(item))
-
+            self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+            
         return item
 
     def clean_spaces(self, string):

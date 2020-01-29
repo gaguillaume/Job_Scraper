@@ -14,7 +14,7 @@ RUN wget -O /tmp/get-pip.py "https://bootstrap.pypa.io/get-pip.py" && \
     rm /tmp/get-pip.py
 
 ADD . /scrapyrt/src
-RUN pip install scrapy && pip install scrapyrt && pip install pymongo
+RUN pip install scrapy && pip install scrapyrt && pip install pymongo && pip install elasticsearch
 
 WORKDIR /scrapyrt/project
 

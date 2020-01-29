@@ -6,7 +6,6 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 import pymongo
 import scrapy
-from scrapy.utils import log
 
 from scrapy.exceptions import DropItem
 from elasticsearch import Elasticsearch
@@ -19,7 +18,7 @@ from elasticsearch import Elasticsearch
 #db = client["mongodb"]
 
 #proposals = db["Proposal"]
-#
+
 class ScraperPipeline(object):
     #on overwrite ces 2 fonctions
     def __init__(self):
@@ -30,14 +29,16 @@ class ScraperPipeline(object):
         self.collection2 = connection2
 
     def process_item(self, item, spider):
-
-        item['job_title'] = self.clean_spaces(item['job_title'])
-        item['site'] = self.clean_spaces(item['site'])
-        if item['company']:
+        if 'job_title' in item and item['job_title']:
+            item['job_title'] = self.clean_spaces(item['job_title'])
+        if 'company' in item and item['company']:
             item['company'] = self.clean_spaces(item['company'])
-        item['location'] = self.clean_spaces(item['location'])
-        item['salary'] = self.clean_spaces(item['salary'])
-        item['summary'] = self.clean_spaces(item['summary'])
+        if 'location' in item and item['location']:
+            item['location'] = self.clean_spaces(item['location'])
+        if 'salary' in item and item['salary']:
+            item['salary'] = self.clean_spaces(item['salary'])
+        if 'summary' in item and item['summary']:
+            item['summary'] = self.clean_spaces(item['summary'])
         valid = True
         for data in item:
             if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
@@ -52,20 +53,3 @@ class ScraperPipeline(object):
         if string:
             return " ".join(string.split())
 
-
-
-class DuplicatesPipeline(object):
-    '''
-    Classe pour enlever les annonces en double.
-    Ne fonctionne pas en l'état donc bien vérifier qu'elle n'est
-    pas ajoutée dans le fichier settings.py, champ ITEM_PYPELINES
-    '''
-    def __init__(self):
-        self.ids_seen = set()
-
-    def process_item(self, item, spider):
-        if item['job_title'] in self.ids_seen:
-            raise DropItem("Duplicate item found: %s" % item)
-        else:
-            self.ids_seen.add(item['job_title'])
-            return item

@@ -2,15 +2,10 @@
 import scrapy
 from scrapy.spiders import CrawlSpider
 from scrapy import Request
-from scrapy.utils.markup import replace_escape_chars, remove_tags
 
 from Scraper.items import ScraperItem
-
-what = "Informatique"
-where = "Paris"
-
 class IndeedSpider(CrawlSpider):
-    name = 'indeed2'
+    name = 'indeed'
     allowed_domains = ['indeed.fr']
     start_urls = [
         "https://www.indeed.fr/jobs?q=Informatique&l=Paris&sort=date&start=00",

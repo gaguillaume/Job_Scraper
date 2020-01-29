@@ -38,7 +38,7 @@ class FilterSiteIndeed(BasePyMongoFilter):
 
             return query.filter(self.column == "Indeed")
         else:
-            return query.filter(self.column == "Linkedin")
+            return query.filter(self.column == "Monster")
 
     def operation(self):
         return 'Indeed'

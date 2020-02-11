@@ -1,0 +1,456 @@
+2020-01-30 14:18:10 [scrapy] DEBUG: Crawled (200) <GET https://www.monster.fr/robots.txt> (referer: None)
+2020-01-30 14:18:11 [scrapy] DEBUG: Crawled (200) <GET https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur> (referer: None)
+2020-01-30 14:18:11 [monster] DEBUG: 
+
+ Crawling  https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur
+
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'GROUPE BAUDIN CHATEAUNEUF',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': "Ingénieur Expert Etudes Ouvrages d'Art Métalliques (H/F)",
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-expert-etudes-ouvrages-dart-métalliques-h-f-norroy-le-veneur-moselle-grand-est-fr-groupe-baudin-chateauneuf/215319601',
+ 'location': 'Norroy-le-Veneur, Grand Est',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': None,
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': None,
+ 'link_url': None,
+ 'location': None,
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'SNCF',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur - Génie Électrique (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-génie-électrique-h-f-paris-paris-île-de-france-fr-sncf/214875474',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Expleo France South West',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Stage - Ingénieur Amélioration Continue – Lean Management H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/stage-ingénieur-amélioration-continue-–-lean-management-h-f-haute-garonne-occitanie-fr-expleo-france-south-west/214957173',
+ 'location': 'Toulouse, Occitanie',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Ausy',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur études et développement Java J2EE/ JSF (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-études-et-développement-java-j2ee-jsf-h-f-orléans-loiret-centre-val-de-loire-fr-ausy/214795329',
+ 'location': 'Orléans, Centre-Val de Loire',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Expectra',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'INGÉNIEUR HAUTE PUISSANCE PULSÉE (F/H)',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-haute-puissance-pulsée-f-h-toulouse-haute-garonne-occitanie-fr-expectra/215323212',
+ 'location': 'Toulouse, Occitanie',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Infogene',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Etude et Développement Fullstack Java / Angular (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-etude-et-développement-fullstack-java-angular-h-f-hauts-de-seine-île-de-france-fr-infogene/215137015',
+ 'location': 'Neuilly-sur-Seine, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': None,
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': None,
+ 'link_url': None,
+ 'location': None,
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Proxiad',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur DevOps (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-devops-h-f-lille-nord-hauts-de-france-fr-proxiad/215127663',
+ 'location': 'Lille, Hauts-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'International Fire Control SA',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Chargé d’affaires en Hydraulique DE-FR (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/chargé-d’affaires-en-hydraulique-de-fr-h-f-ellange-grevenmacher-lu-international-fire-control-sa/214228240',
+ 'location': 'Ellange, Grevenmacher',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Alteca',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Développement et conception .Net (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-développement-et-conception-net-h-f-toulouse-haute-garonne-occitanie-fr-alteca/215470466',
+ 'location': 'Toulouse, Occitanie',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Alten',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'INGENIEUR DEVELOPPEMENT C/C++ - PYTHON AERONAUTIQUE (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/ingenieur-developpement-c-c-python-aeronautique-h-f-boulogne-billancourt-hauts-de-seine-île-de-france-fr-alten/215299455',
+ 'location': 'Boulogne-Billancourt, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Expectra',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'INGÉNIEUR ETUDES ET DÉVELOPPEMENT .NET (F/H)',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-etudes-et-développement-net-f-h-franconville-val-doise-île-de-france-fr-expectra/214807311',
+ 'location': 'Franconville, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Technip France',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Expérimenté(e) spécialiste en ingénierie des systèmes '
+              'avancés (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-expérimenté-e-spécialiste-en-ingénierie-des-systèmes-avancés-h-f-hauts-de-seine-île-de-france-fr-technip-france/215134123',
+ 'location': 'Courbevoie, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Naval Group',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur sûreté de fonctionnement cybersécurité H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-sûreté-de-fonctionnement-cybersécurité-h-f-charente-nouvelle-aquitaine-fr-naval-group/215137813',
+ 'location': 'Ruelle-sur-Touvre, Nouvelle-Aquitaine',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Linkeom Groupe Accetis International France',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'INGÉNIEUR DE DÉVELOPPEMENT JAVA FULLSTACK H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-de-développement-java-fullstack-h-f-puteaux-hauts-de-seine-île-de-france-fr-linkeom-groupe-accetis-international-france/214924601',
+ 'location': 'Puteaux, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Covéa (MAAF, MMA, GMF)',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur études & développement Java J2EE F/H',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-études-développement-java-j2ee-f-h-le-mans-sarthe-pays-de-la-loire-fr-covéa-maaf-mma-gmf/215275236',
+ 'location': 'Le Mans, Pays-de-la-Loire',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Thales Services S.A.S.',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur(e) développement Big Data Junior(H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-e-développement-big-data-junior-h-f-rennes-ille-et-vilaine-bretagne-fr-thales-services-s-a-s/215457375',
+ 'location': 'Rennes, Bretagne',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': None,
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': None,
+ 'link_url': None,
+ 'location': None,
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'GROUPE BAUDIN CHATEAUNEUF',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Calculateur- Structures Métalliques (H/F) - 37300 '
+              'JOUE LES TOURS',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-calculateur-structures-métalliques-h-f-37300-joue-les-tours-joué-lès-tours-indre-et-loire-centre-val-de-loire-fr-groupe-baudin-chateauneuf/215439362',
+ 'location': 'Joué-lès-Tours, Centre-Val de Loire',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Proxiad',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur étude et développement .NET (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-étude-et-développement-net-h-f-lille-nord-hauts-de-france-fr-proxiad/212175781',
+ 'location': 'Lille, Hauts-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Thales Services S.A.S.',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Stagiaire Ingénieur(e) études et développement Java Angular IA '
+              '(H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/stagiaire-ingénieur-e-études-et-développement-java-angular-ia-h-f-nantes-loire-atlantique-pays-de-la-loire-fr-thales-services-s-a-s/215457389',
+ 'location': 'Nantes, Pays-de-la-Loire',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'CGC engineering S.à r.l.',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Coordinateur Sécurité et Santé (m/f) ou Technicien ou Ouvrier '
+              'qualifié (m/f)',
+ 'link_url': 'https://offre-demploi.monster.fr/coordinateur-sécurité-et-santé-m-f-ou-technicien-ou-ouvrier-qualifié-m-f-keispelt-luxembourg-lu-cgc-engineering-s-à-r-l/215192022',
+ 'location': 'Keispelt, Luxembourg',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'ESN',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur(e) Etudes et développement .NET Confirmé – Rennes H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-e-etudes-et-développement-net-confirmé-–-rennes-h-f-rennes-ille-et-vilaine-bretagne-fr-esn/214365516',
+ 'location': 'Rennes, Bretagne',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Expleo France South West',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': "Ingénieur d'études électrique et avionique H/F",
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-détudes-électrique-et-avionique-h-f-gironde-nouvelle-aquitaine-fr-expleo-france-south-west/214915084',
+ 'location': 'Bordeaux, Nouvelle-Aquitaine',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Thales Services S.A.S.',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Développeur Full-Stack (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-développeur-full-stack-h-f-vélizy-villacoublay-yvelines-île-de-france-fr-thales-services-s-a-s/215457378',
+ 'location': 'Vélizy-Villacoublay, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'ECM (Direction Nord)',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur HSE F/H',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-hse-f-h-lyon-rhône-auvergne-rhône-alpes-fr-ecm-direction-nord/215450146',
+ 'location': 'Lyon, Auvergne-Rhône-Alpes',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Thales Services S.A.S.',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur(e) Développement Java / Javascript Confirmé(e) H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-e-développement-java-javascript-confirmé-e-h-f-rennes-ille-et-vilaine-bretagne-fr-thales-services-s-a-s/215457382',
+ 'location': 'Rennes, Bretagne',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Naval Group',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'CDI - Ingénieur DevOps H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/cdi-ingénieur-devops-h-f-toulon-var-provence-alpes-côte-dazur-fr-naval-group/214928838',
+ 'location': "Toulon, Provence-Alpes-Côte d'Azur",
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] ERROR: Error processing {'company': 'Alten',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur IVVQ Système Logiciel (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-ivvq-système-logiciel-h-f-boulogne-billancourt-hauts-de-seine-île-de-france-fr-alten/214539252',
+ 'location': 'Boulogne-Billancourt, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 14:18:11 [scrapy] INFO: Closing spider (finished)
+2020-01-30 14:18:11 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 470,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 49195,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'elapsed_time_seconds': 1.222588,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 1, 30, 14, 18, 11, 701128),
+ 'log_count/DEBUG': 3,
+ 'log_count/ERROR': 30,
+ 'log_count/INFO': 7,
+ 'memusage/max': 70692864,
+ 'memusage/startup': 70692864,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2020, 1, 30, 14, 18, 10, 478540)}
+2020-01-30 14:18:11 [scrapy] INFO: Spider closed (finished)

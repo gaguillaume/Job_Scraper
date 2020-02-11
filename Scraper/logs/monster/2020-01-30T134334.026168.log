@@ -1,0 +1,429 @@
+2020-01-30 13:43:34 [scrapy] DEBUG: Crawled (200) <GET https://www.monster.fr/robots.txt> (referer: None)
+2020-01-30 13:43:35 [scrapy] DEBUG: Crawled (200) <GET https://www.monster.fr/emploi/recherche/?q=Paris> (referer: None)
+2020-01-30 13:43:35 [monster] DEBUG: 
+
+ Crawling  https://www.monster.fr/emploi/recherche/?q=Paris
+
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Synchrone',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Business Developer / Ingénieur Commercial (H/F) – Paris (75)',
+ 'link_url': 'https://offre-demploi.monster.fr/business-developer-ingénieur-commercial-h-f-–-paris-75-paris-paris-île-de-france-fr-synchrone/214946291',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': None,
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': None,
+ 'link_url': None,
+ 'location': None,
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Walters People',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Consultant en recrutement PARIS H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/consultant-en-recrutement-paris-h-f-paris-île-de-france-fr-walters-people/215126935',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Connectt 3',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Chargé de Recrutement BTP- PARIS 12e (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/chargé-de-recrutement-btp-paris-12e-h-f-paris-paris-île-de-france-fr-connectt-3/214788242',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'UPTOO',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Business Developer Paris (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/business-developer-paris-h-f-paris-paris-île-de-france-fr-uptoo/215474648',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Disneyland® Paris',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Disneyland Paris - Chef de Cuisine - Hôtel 4* H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/disneyland-paris-chef-de-cuisine-hôtel-4-h-f-marne-la-vallée-paris-île-de-france-fr-disneyland®-paris/215390743',
+ 'location': 'Marne-la-Vallée, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'UPTOO',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Ingénieur Commercial Pharma & Hôpitaux – Leader Européen '
+              'Logiciel Santé - Paris (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-commercial-pharma-hôpitaux-–-leader-européen-logiciel-santé-paris-h-f-le-plessis-robinson-hauts-de-seine-île-de-france-fr-uptoo/215466075',
+ 'location': 'Le Plessis-Robinson, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': None,
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': None,
+ 'link_url': None,
+ 'location': None,
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Amazon',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Technicien Informatique (H/F) - Region Nord de Paris / Oise',
+ 'link_url': 'https://offre-demploi.monster.fr/technicien-informatique-h-f-region-nord-de-paris-oise-survilliers-val-doise-île-de-france-fr-amazon/214956972',
+ 'location': 'Survilliers, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Disneyland® Paris',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Disneyland Paris - Chef de Cuisine - Hôtel 4* H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/disneyland-paris-chef-de-cuisine-hôtel-4-h-f-paris-paris-île-de-france-fr-disneyland®-paris/215390780',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Connectt Travail Temporaire',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Chargé de Recrutement TERTIAIRE - PARIS 11e (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/chargé-de-recrutement-tertiaire-paris-11e-h-f-paris-paris-île-de-france-fr-connectt-travail-temporaire/214787898',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'SODEXO',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Technicien de Maintenance CVC Confirmé (H/F) Paris',
+ 'link_url': 'https://offre-demploi.monster.fr/technicien-de-maintenance-cvc-confirmé-h-f-paris-paris-paris-île-de-france-fr-sodexo/201955715',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Neovity',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Lead Développeur PHP Symfony 3 (H/F) - Éditeur de logiciels - '
+              'Paris',
+ 'link_url': 'https://offre-demploi.monster.fr/lead-développeur-php-symfony-3-h-f-éditeur-de-logiciels-paris-courbevoie-hauts-de-seine-île-de-france-fr-neovity/214790279',
+ 'location': 'Courbevoie, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'UPTOO',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Négociateur Immobilier H/F – Cabinet immobilier familial - '
+              'Paris',
+ 'link_url': 'https://offre-demploi.monster.fr/négociateur-immobilier-h-f-–-cabinet-immobilier-familial-paris-paris-paris-île-de-france-fr-uptoo/215305210',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'ZSOFT CONSULTING',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Stage-Développeur Fullstack H/F - Paris',
+ 'link_url': 'https://offre-demploi.monster.fr/stage-développeur-fullstack-h-f-paris-paris-paris-île-de-france-fr-zsoft-consulting/213788501',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'TGS',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': "Assistant d'Expert en Assurance H/F - CDI TGS - Paris",
+ 'link_url': 'https://offre-demploi.monster.fr/assistant-dexpert-en-assurance-h-f-cdi-tgs-paris-paris-paris-île-de-france-fr-tgs/213516271',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Disneyland® Paris',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Disneyland Paris - Chef de Cuisine Italienne - Hôtel 4* H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/disneyland-paris-chef-de-cuisine-italienne-hôtel-4-h-f-marne-la-vallée-paris-île-de-france-fr-disneyland®-paris/215389811',
+ 'location': 'Marne-la-Vallée, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'UPTOO',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Business Developer H/F – Paris – Laboratoire du digital',
+ 'link_url': 'https://offre-demploi.monster.fr/business-developer-h-f-–-paris-–-laboratoire-du-digital-paris-paris-île-de-france-fr-uptoo/215474663',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': None,
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': None,
+ 'link_url': None,
+ 'location': None,
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Connectt Industrie',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Chargé de Recrutement INDUSTRIE - PARIS 11e (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/chargé-de-recrutement-industrie-paris-11e-h-f-paris-paris-île-de-france-fr-connectt-industrie/214788047',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Disneyland® Paris',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Disneyland Paris - Chef de Cuisine Italienne - Hôtel 4* H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/disneyland-paris-chef-de-cuisine-italienne-hôtel-4-h-f-paris-paris-île-de-france-fr-disneyland®-paris/215389822',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Disneyland® Paris',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Disneyland Paris - Chef de Cuisine - Hôtel 4* H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/disneyland-paris-chef-de-cuisine-hôtel-4-h-f-evry-essonne-île-de-france-fr-disneyland®-paris/215390793',
+ 'location': 'Evry, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'ISAGRI',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Ingénieur commercial IT en logiciels de gestion TPE/PME Paris '
+              'H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/ingénieur-commercial-it-en-logiciels-de-gestion-tpe-pme-paris-h-f-paris-paris-île-de-france-fr-isagri/215304891',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Disneyland® Paris',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Disneyland Paris - Chef de Cuisine Italienne - Hôtel 4* H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/disneyland-paris-chef-de-cuisine-italienne-hôtel-4-h-f-cergy-val-doise-île-de-france-fr-disneyland®-paris/215389837',
+ 'location': 'Cergy, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Disneyland® Paris',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Disneyland Paris - Chef de Cuisine Italienne - Hôtel 4* H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/disneyland-paris-chef-de-cuisine-italienne-hôtel-4-h-f-versailles-yvelines-île-de-france-fr-disneyland®-paris/215389848',
+ 'location': 'Versailles, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Disneyland® Paris',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Disneyland Paris - Chef de Cuisine Italienne - Hôtel 4* H/F',
+ 'link_url': 'https://offre-demploi.monster.fr/disneyland-paris-chef-de-cuisine-italienne-hôtel-4-h-f-créteil-val-de-marne-île-de-france-fr-disneyland®-paris/215389827',
+ 'location': 'Créteil, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'ECONOCOM DIGITAL SECURITY',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Consultant expérimenté Gouvernance et Cybersécurité F/H Paris '
+              '(H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/consultant-expérimenté-gouvernance-et-cybersécurité-f-h-paris-h-f-fr-econocom-digital-security/208045446',
+ 'location': '',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] ERROR: Error processing {'company': 'Centre People',
+ 'crawl_url': 'https://www.monster.fr/emploi/recherche/?q=Paris',
+ 'job_title': 'Financial Controller - Paris, France (H/F)',
+ 'link_url': 'https://offre-demploi.monster.fr/financial-controller-paris-france-h-f-paris-île-de-france-fr-centre-people/214950505',
+ 'location': 'Paris, Île-de-France',
+ 'site': 'Monster'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 44, in process_item
+    if not data or item['summary'] in self.collection.find({},{"site":0,"job_title":0,"company":0,"location":0,"salary":0,"link_url":0,"crawl_url":0}):
+  File "/usr/local/lib/python3.6/dist-packages/scrapy/item.py", line 91, in __getitem__
+    return self._values[key]
+KeyError: 'summary'
+2020-01-30 13:43:35 [scrapy] INFO: Closing spider (finished)
+2020-01-30 13:43:35 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 461,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 64370,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'elapsed_time_seconds': 1.22438,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 1, 30, 13, 43, 35, 263377),
+ 'log_count/DEBUG': 3,
+ 'log_count/ERROR': 28,
+ 'log_count/INFO': 7,
+ 'memusage/max': 72187904,
+ 'memusage/startup': 72187904,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2020, 1, 30, 13, 43, 34, 38997)}
+2020-01-30 13:43:35 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,814 @@
+2020-01-30 13:43:44 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/robots.txt> (referer: None)
+2020-01-30 13:43:44 [scrapy] DEBUG: Redirecting (301) to <GET https://www.indeed.fr/Emplois-Paris> from <GET https://www.indeed.fr/jobs?q=Paris>
+2020-01-30 13:43:45 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/Emplois-Paris> (referer: None)
+2020-01-30 13:43:45 [indeed] DEBUG: 
+
+ Crawling  https://www.indeed.fr/Emplois-Paris
+
+2020-01-30 13:43:45 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': 'Airsup',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': "Agent d'escale aéroportuaire H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BOpi07iGyjfSecHcvV1Trx5ag5X100iR8qfkHoyNFFxVaynhSradw34e_UrBxpWmffS585IDJ83UMKbBhu0AkNtYQ90aL9M4uOhkbqhsDtQ46_jU4vDCNRl1d9z3FGRC7aOweHOyi8ODAO88WKwqZ16YbPzD5hlbwIW9YlN3rO00CxanqeZdHxL4mxj1efcESVOyqvDaOFwrKjba--TuDEiu6KkqfATDZfWt8q-7ngSY2VyzBBh12f3f-YZcJlNKaID1XijEJN-wDYx9GwyvadiUHA7jnoQ9yjQMtzoranXNSIM0weZB3OxpkPwBHi6p70PuqLvSLLg16MKp9U00Ihc1wYDPKppCnhfXUS7aNQelaPfIge5YP8Gy2ep9eAeQC8aqww7EVYTv0GOtYw_5SS29OjBVsnZEHJuw0sygzwkUssuzAncDize-7Xm_Ew3wZuA-xRg6pSBw==&p=0&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '20 000 € - 25 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'AIRSUP est aussi en partenariat pédagogique avec AIR FRANCE, ce '
+            'qui lui permet de proposer ALTEA *procédures AIR FRANCE '
+            'permettant de travailler pour…'}
+2020-01-30 13:43:45 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': 'Espace Larousse',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'Assistant administratif H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AzqRwHWwuGhctLX8HZPw8bTq0pjKBujD9WXMFmgy8dVd4pFTyak-drGPz80w1no1yaLbWhhrimYqiF0NfkJxr6rhS3b7el0gfRjG0S0tgET1pXn1xJUQa7EPjgFyzVFk9R7e_cFttAHDWokDgELEWQcLgNfH1QqCJQcu4n4dDZLXhtt9V-jvrbGrT8y2Vlpd8VOGIqgos0p4Q70KgMuA0N8CvE6J-Hp2q9GFWWQvFIvZuqVseoTXP49VTPZkDnh-KTrqhMJk7zIVVuZBJxDxqZmWHtis28ZLPEuHcOmhxbDCbArQcXMIPOWEMkXm1Q4NHUCxq3U1mIQCJDSgmRugm0Wi19X420T1xkB9-FS0-ViV8BtNi8iJ_U2L44lBeyttv4-Sgt11luFZ9RuXD7HK0pDccNNdk5uCCxhd374gDF8cnUOP1cDJm1&p=1&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 400 € par mois',
+ 'site': 'Indeed',
+ 'summary': "Gérer l'emploi du temps."}
+2020-01-30 13:43:47 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'Coordinateur Administratif (H-F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0A1LkCo7v_ZGmBz1102rUjrEoSAITMwdoD4wH1TWjphz1vfaH7-XSzWU4Dq6jAYJBJXpez97dbwGoAidwl4I9fpFMHOiLD0h4F8B-bcxzEphZKRZdVOaNgN7jQTNTr_LhfPmhe_5fw0KIKUl95sJJ4Xt3qkpacPCMdtkTDcfhh0w2HObZ1jYltLKdRhYU4gAZNeTY7HmipLgB8YzFJy52AZhrwvwOb5Z_-jYJ2BvrEOkuRfsmPX7QBlb5MLunvAoFnsSzlrDFVcirpfTTticGjT3CRxF0rtToBT8-DJgOUAW3dMcnI88Vq3Bviz8e3AkmjmkMsaNC0rM-O9RVCJzciDzHRyJpLVeVJMgs9J34FFWQq92nIE4c39JCymWHmIew03zFleLwvCaIdIvHo4kwYSom2f3ZPOjm6flAVBvmFMOw==&p=2&fvj=0&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Qu’il s’agisse de conseil, de commercialisation, d’aménagement '
+            'd’espace, d’investissement, de gestion immobilière, ou encore '
+            'd’expertise, nous avons la capacité…'}
+2020-01-30 13:43:47 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': 'AdopteUnMec',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'Ecrivain/ Rédacteur (F/H)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BO8a1ine95hjYVP7W55QXfAW2R0NTgIaCqW41zULY53UfrmT9i-IzOJ_lYRVGAncw6Vvn3U60QPNi_Ira8-eeCX4q711axaEMG4OgDUhLl6HUaLWKkT71vEtGtqObCKdf7-jNfVomoVKkCe1ezi9NQdiRPYU3ftrkZpndSa8OwX7XgA1JYwHdU3M9YkHrMWUY_GA7JjJvM0G0WMf1-Yl171cBORzigHIgl8uA4ml0jgc8Fqf32hB9y27OyPayqsnopgfUg-uqFd5CdEzpCXhU4CsbBjmnT8eYVwD06fIYlftUah82Lb3Px-MGnkIdJJdQ7p8LwxkrM-oBW_E0JSlpEVLWKB9oBj_DVt0pKrN5KG8zjiWysMZ68nTAC0-d_6ZRElosNnzwGxiUZoOU2osLrENZ-BwyZl80sGBthhSjF_Hd-ZXJjj_voX9x6MLJtI2c=&p=3&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Présente dans plus de 10 pays à travers le monde (Argentine, '
+            'Mexique, Colombie, Espagne, Pologne…) AdopteUnMec est le premier '
+            'réseau social de rencontre à…'}
+2020-01-30 13:43:47 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'Veilleur de nuit',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0B1oxnr2iXpiJpxA4l9s5q3LGXEmgrotnHIoWMW72K_xs0vfBzKUM9RkAfOBe-AfnFuBg7Ff3BA1MAiofnt4d0BpRpf4Exiztbhj48FHieY8MeCV4GIA2wnsIwREGFeEKbqDJqiXcD42WGkjque3hAkpBHfJFB6EUsUst9_WQSjhxO3GLvfgShFRJuS4dcyns_yvV2QpR1TtsJj_FtDCkFiGTWoeyFBqMLf1jAa9NYYY6EmbBkXI6538j4netcbLzbvuK0Y1Qr3BL21DjhZ3aeE4_eUQ9D3O8dheGfUDW-75JFxnj1dwyEeMH85vm6mMF3jmOW4VZf1uERz5hTfCrqiW8QS1S7Mndv4JdHmDoHgUURhK2GhFdOjYnIe95O-ocRoCS7PTiIZfqQRv0O2EISyOViYL7WeAnE=&p=4&fvj=0&vjs=3',
+ 'location': 'Paris 9e (75)',
+ 'salary': '2 000 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Salaire : 2000€ Brut / Mois.'}
+2020-01-30 13:43:47 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'Receptionniste de nuit (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C0SV4DgYhb81GT0p_rbfz7YYgnB2uVVPnvwqkWvtJaIZyIg9YFdrizMSqmySdRt5bpncmyDp2qMsUfMiC2Z9a9ElxCx_CTjcQgvbLwA_6jekw2f1qzw01KrY5XHBBvcqj1BKXfGgUYLhBo5AOKooeBW64TACtpvafM_CiQfJaGl9inniN9fkyYHOmECO6jKq88eIZYrrt3rciSrn7xykqgEqcUqrMSLY_1h3sCONPpdglTEeBUugASnBt1pRAlzxxFOzsRl_l_VcSCkn9pqo7BxeJV37bh-yiSC6zJH3zye8avX-HD8X2roR0z_e2DyOgwARvoCXWmfyi5PygmBStgE1Jtv8ERRqdElTzZXcbcPDh2LI2K2vllKWS-6GP82j9kyK157dv52INkvWu1Cw6NyZ2HV0oSY0RCd5CzR-dFzHe8m-inddoSP4hcGSdS7TA=&p=5&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 742 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Quel que soit le poste, cette aventure humaine permet à chaque '
+            'collaborateur d’être force de proposition dans l’amélioration du '
+            'produit, mais aussi de faire…'}
+2020-01-30 13:43:47 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': 'Qualité &co',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'Barista',
+ 'link_url': '/company/GG-BERRI/jobs/Barista-4add39fc49c6ec90?fccid=9b9e828b51e99771&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 600 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Nos résultats : en quelques années seulement, de prestigieuses '
+            'enseignes nous ont fait confiance, nous avons implanté des '
+            'restaurants Qualité&co chez BMW France…'}
+2020-01-30 13:43:47 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': 'COURS CLAPEYRON',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'surveillant (e) pour Devoirs sur table',
+ 'link_url': '/company/cours-clapeyron/jobs/Surveillant-Devoirs-Sur-Table-252bbf991d216133?fccid=43142c5e9937f694&vjs=3',
+ 'location': 'Paris 9e (75)',
+ 'salary': '11 € par heure',
+ 'site': 'Indeed',
+ 'summary': 'Lycée privé à Paris recherche surveillants ou surveillantes pour '
+            'devoirs sur table .'}
+2020-01-30 13:43:47 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'URGENT Vendeur (H/F)',
+ 'link_url': '/rc/clk?jk=f8162a877699d890&fccid=83fbed243c2e850d&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Notre état d'esprit qui repose sur les valeurs de l'enfance est "
+            'récompensé par un développement constant en France et à '
+            "l'international !"}
+2020-01-30 13:43:47 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'Vendeur H/F - Spécialiste du Matin',
+ 'link_url': '/company/Naturalia-France/jobs/Vendeur-bf343d941aac95a6?fccid=317a9b53afe89814&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Rejoignez une entreprise en pleine croissance et leader dans le '
+            'domaine de l’alimentation bio avec plus de 200 magasins en Région '
+            'Parisienne, en Province et à l…'}
+2020-01-30 13:43:47 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'Employé Restauration H/F - CDI - Temps Partiel',
+ 'link_url': '/rc/clk?jk=c585931f0f263c1c&fccid=af17ea0d1d6bbbba&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Garder le client au centre de tes péoccupations en l'approchant "
+            "de manière active afin qu'il se sente le bienvenu et te servir de "
+            'ses questions et commentaires…'}
+2020-01-30 13:43:48 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'hôte(sse) de vente h/f',
+ 'link_url': '/rc/clk?jk=d4662668777d4724&fccid=f508d4e6251c1786&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Respecter les valeurs de la marque et en être '
+            "l'ambassadeur(drice)."}
+2020-01-30 13:43:49 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': 'Agence GANGZ',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': "Hotesse d'accueil (H/F)",
+ 'link_url': '/company/GANGZ/jobs/Hotesse-Accueil-d43b6433f4f56b4a?fccid=749f58b65200a2b1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '12 € par heure',
+ 'site': 'Indeed',
+ 'summary': 'Pour une grande société nous sommes à la recherche de personnel '
+            "d'accueil (H/F) dans le 7ème arrondissement de Paris."}
+2020-01-30 13:43:49 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'Employé libre service FAUBOURG ST ANTOINE H/F',
+ 'link_url': '/company/HEMA-France/jobs/Employ%C3%A9-Libre-Service-Faubourg-St-Antoine-cdf3488d98b711cc?fccid=16467f1dad128612&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Avec l'ouverture de notre 76ème magasin en France et plus de 800 "
+            'en Europe, nous sommes à la recherche de vos talents pour grandir '
+            'ensemble.'}
+2020-01-30 13:43:49 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': 'U express CLERY',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'Employé commercial polyvalent H/F',
+ 'link_url': '/company/U-express-CLERY/jobs/Employ%C3%A9-Commercial-Polyvalent-47bf4d3e44cf65a8?fccid=5907e1f7f703cabe&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 600 € par mois',
+ 'site': 'Indeed',
+ 'summary': "Les tâches à effectuer sont de l'accueil client et de la mise en "
+            'rayon.'}
+2020-01-30 13:43:49 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': "BOULANGERIE PÂTISSERIE L'ESSENTIEL",
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'Vendeur conseil H/F- temps partiel',
+ 'link_url': "/company/BOULANGERIE-PATISSERIE-L'ESSENTIEL/jobs/Vendeur-Conseil-c8baefd7f0ba452d?fccid=4c978a2cdd89d373&vjs=3",
+ 'location': 'Paris (75)',
+ 'salary': '680 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Parfaite maîtrise du Français à l’oral comme à l’écrit ; La '
+            'connaissance de l’Anglais est un plus.'}
+2020-01-30 13:43:49 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'Vendeur F/H CDI temps complet Paris',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C8SyVWDloTuZR2lnvX77LrlJhc_4nWaJZBL3tXgVs41pW-5xUXnjm2Po5ZGwDFwjc6ufS19zbAowRM_t4mp2Y9tUfxfyYvJkDsSnBs8YzHuzde6YZZjWhjum8CgSX087DadlFDC5w3g0RE4A_fOFucLimGAHn9MDs-pOYl3vLtzqiJLfEdhdergizJOwNwnZlqrU6d4OdrHerckNVBJACwzLnAtaZQ8DcRZpywQkhjHJ-xbpYe90p8rk_DUFkDwM2eO-ZkMtgvPWA3f-Ck9B_H9m3cqSKHbM9ywQXFMt0D6VzbroUmeNx0VKU5xVUa1aw7BhbnwnKk-ypVnotPrTiRHFRquCAHV07-Ouz1ewJHIQSJyi41HBv2Z4QukTRH9Uae9KDUyboPOQsxpziP-4au3du6aI-UThf8sdiEDB_Wqw==&p=16&fvj=0&vjs=3',
+ 'location': 'Paris 1er (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Je suis responsable des encaissements, je participe à la mise en '
+            "rayon, à l'approvisionnement et à la bonne tenue du magasin."}
+2020-01-30 13:43:49 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/Emplois-Paris>
+{'company': 'Etude Alain',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Paris',
+ 'job_title': 'Généalogiste à la recherche',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Ac0MyR7YK76_2TKx34rVH7mnr0DckQiFzounG9a2HMgvxVH2JFEdFG6aCl8sjmlZfLrX9YotVzF43P4HKVpvmRMmn_ht14yhL9aZ8N2kKSW0AJQMPxmuHwlYuCDjEXdlHJXeiJUZFJBDfq26H6LhKsVTEm02uZMfQQhhiuGEBeEyFyeuRfvuk030r-pvuAuVda8kPvp2MwVSTdOfZud0qXmQ7v4Iikr8vgOaZgQwFEN5YPXVhChKB2zs2Oghz33AJ5puP_dBlLuzs9V2p8lrnrN3jeUFYkO4h8IajWcaFfEpHC2PJuhJ1PLqYcLFUze6wUVspdK_EUNhD-U2TRJqTBNg1XRFol0GKyRq9MDeXpwZfkXVIj9bjwARhvKo5nWp9qKXie9ZytBOYdOEDDNqDgGKKLd34RsT_5DLL2N9sA9t_MjsW_FRvhaxE9EROXvjI2iU4M7zm3lqJ3lgVagZXdBD6V-1JgT6w=&p=17&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '2 500 € - 4 500 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Collaborateur, à la recherche, anglais apprécié, déplacements '
+            'france et étranger dans les mairies principalement, débutant '
+            "accepté, gout de l'initiative,…"}
+2020-01-30 13:43:50 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=&l=Paris&start=10> (referer: https://www.indeed.fr/Emplois-Paris)
+2020-01-30 13:43:50 [indeed] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=&l=Paris&start=10
+
+2020-01-30 13:43:50 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': 'Airsup',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': "Agent d'escale aéroportuaire H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BOpi07iGyjfSecHcvV1Trx5ag5X100iR8qfkHoyNFFxVaynhSradw34e_UrBxpWmffS585IDJ83UMKbBhu0AkNtYQ90aL9M4uOhkbqhsDtQ46_jU4vDCNRl1d9z3FGRC7aOweHOyi8ODAO88WKwqZ16YbPzD5hlbwIW9YlN3rO00CxanqeZdHx5UlVlKg8PtWxhkk8w2aE9Mf5DxWCo3y37v6IxF0csa2IQLhF9k7iYAObVhHe3dkU6jxuzwrWp3BUqs5kgxFcI0GJadKCRohyzQf1WpN050vUgydFz-kXVOlljPMalPQFF88axKh7HkyA-hS3LacwiJwbqF9o-SCrwLT7oG5HC8kiQk3ddhEVE5Np1XCnZ6PJL6h8FvZnE57ks9SjpgLUYGSH07gdl0-zyey5tMF-aXrDuzZcD153AFaaRbaKK-RO6K8Bp4wsgt3DkMkRF6ae7Q==&p=0&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '20 000 € - 25 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'AIRSUP est aussi en partenariat pédagogique avec AIR FRANCE, ce '
+            'qui lui permet de proposer ALTEA *procédures AIR FRANCE '
+            'permettant de travailler pour…'}
+2020-01-30 13:43:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': 'Espace Larousse',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Assistant administratif H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AzqRwHWwuGhctLX8HZPw8bTq0pjKBujD9WXMFmgy8dVd4pFTyak-drGPz80w1no1yaLbWhhrimYqiF0NfkJxr6rhS3b7el0gfRjG0S0tgET1pXn1xJUQa7EPjgFyzVFk9R7e_cFttAHDWokDgELEWQcLgNfH1QqCJQcu4n4dDZLXhtt9V-jvrbMQFkkoa6Tn-Ve7OqmqBdZsQmfKl_YxgUfArfoH7kTkcAGxHmpHKxxV_Y_Y0l1juz2QLJtWgeAd6Z601sRo9pf4aX6EQFQhg_0IaivyLzFngKJBSYT2M41c_AxgZzCaEvqwuaf4YO7KQmFxyGE8122HnGQTQ66Bk7ENs10rAFkp7Y2x4nXFZvwBfefybK4YVRf2RLDZ9juB8thHFAS1f0zVgf1zh_-wNJ3fhd6ILZ9eYafzGW3yHF3UpU1_fUqJgf&p=1&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 400 € par mois',
+ 'site': 'Indeed',
+ 'summary': "Gérer l'emploi du temps."}
+2020-01-30 13:43:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': 'Etude Alain',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Généalogiste à la recherche',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Ac0MyR7YK76_2TKx34rVH7mnr0DckQiFzounG9a2HMgvxVH2JFEdFG6aCl8sjmlZfLrX9YotVzF43P4HKVpvmRMmn_ht14yhL9aZ8N2kKSW0AJQMPxmuHwlYuCDjEXdlHJXeiJUZFJBDfq26H6LhKsVTEm02uZMfQQhhiuGEBeEyFyeuRfvuk04nbS8Vxcg0Qir3HMvqpQOT0YEj_zifZ_C72_KE7EiqlQxhvQcc-e7zl5cL6u_ofIafMIRtkOJxKA4uFoWXII8Z257oAsAmdhXVSj5dmCIhQXg25nkmoQ8RrEpJfMImIAHrVNAhrzDIvsjh-EFlM3qY25q99nkzY2XCwULfap4WgNMB3g4aoHyZmbOJcpZUlW3ogIqymHsboewUn1QOzdYeHU6FDPDSIud-x5f64VN-TvfSe52_Og03wOUeS8YmMjY59VdO6s2T2NXHoJ9j0UshwTy1P01gKy0ebn7MucZco=&p=2&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '2 500 € - 4 500 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Collaborateur, à la recherche, anglais apprécié, déplacements '
+            'france et étranger dans les mairies principalement, débutant '
+            "accepté, gout de l'initiative,…"}
+2020-01-30 13:43:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': 'WATERLOGIC',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Standardiste H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DePF--hYqA2mcHweqJaQvq8dL4aRMPisqhMzmCzt5axVgpyOtFSd1xeZliPrLXvCXlFV0VRChI_sHLitI5_HqDsQ8OnC9cHBB-lTkVbB8iQhbv3PM_DhNzmkpcc2iEi-QwCOnVfhzbAstAltISZrfKRSqL3Pl8P4rhUvzd1jZmtaxTVrgPd0o-9l_r52bosW2kRDpeFGS-ktTFxa2Ky4EQA64sfXvbqLI00qKlryXgYj05sFTnAp_qnuqKhVE4KGXtCFTpzgMGQYSsoJdhIlZtS4MAQATr-C_nYs9nmSGEaiJKVS8LYf3G3aVdJPKll3oviGfU1ufIjoVhBmByGk-3uBqUOmUUYD7rxwFgsVYHp-NHP9uTua6DqF2hfssVlhfdFfC0xA4aOif1hrNnBY2vSta-i_w7i95o5-weTHt32oo1b5G7NJiF&p=3&fvj=1&vjs=3',
+ 'location': 'Villeneuve-la-Garenne (92)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'WATERLOGIC : nous sommes n°1 mondial des fontaines à eau '
+            'branchées sur le réseau d’eau potable à destination exclusive des '
+            'entreprises et/ou collectivités,…'}
+2020-01-30 13:43:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Vendeur F/H CDI temps complet Paris',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C8SyVWDloTuZR2lnvX77LrlJhc_4nWaJZBL3tXgVs41pW-5xUXnjm2Po5ZGwDFwjc6ufS19zbAowRM_t4mp2Y9tUfxfyYvJkDsSnBs8YzHuzde6YZZjWhjum8CgSX087DadlFDC5w3g0RE4A_fOFucLimGAHn9MDs-pOYl3vLtzuJuA9dpn1TSJBpgPD7dLHaBtFM6BgF7trPeQynqjJWDtLp2UvCGiefSgaEqXRyMnwMEw-265KyVXKYoy-dHjW3EXY0l-ESU11vyAdWxs4mEkyDNvSFCYCm224_6WamDjUnLS5d0P-wwNwoInrl6O3qO9sLIS_k3kbTTX2c-wKq4lnZEYDg2efX92dDLFGjvB3HHuawYIzhvjyGR7Gxh4dBo1_nD38RZWF8X_ff7siWFk7jh7KIHB9w5HmkbSINWIg==&p=4&fvj=0&vjs=3',
+ 'location': 'Paris 1er (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Je suis responsable des encaissements, je participe à la mise en '
+            "rayon, à l'approvisionnement et à la bonne tenue du magasin."}
+2020-01-30 13:43:51 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': 'COMPTE RENDU',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Rédacteur des débats (F/H)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C30RKQDcp9bG548Z0EAcgxXBJhUUvWk8zu8ya2zG7FgFyZEE51Qevr_oadbfNujcRln1QQWNvg3zRqkhEA0hOaIQoYmZJdPJW6jSbLkScqZbtXRgF1o71TUaGzeUVsI2MLdlHREaK4ia7PDRGhuFlzEiNM49YCt7IOVrLMJ3B49_1haXNEbaOgRsB2amcnfOojJIvavt9kvj60bp3uSHLE9LmW0aP1-ucSI1Wzu2QpDGigHww01puRH2uz7DW3FMmyG_xUgDm72kmJ0kwwZ0nj8JFyLCz9f4-70nQp0QASlus93r9OVSsteWdHJ2pCBTSxqWxapApr6eOs7vRLz3fmG--3nI9LQRHT0VcZEnQ2aKsT6Wst7qReMv2qY0Ewp43E501Drnc9gI1bpy-xEEubZYefiEpLGJnVJCeAt4ZGWEnmbPghP081&p=5&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 800 € - 2 300 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Rencontrer plus de 600 clients appartenant à des secteurs '
+            'd’activité très divers, de la finance à la sécurité, en passant '
+            'par l’édition, l’enseignement, l…'}
+2020-01-30 13:43:52 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': 'promovacances.com',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Téléconseiller Voyages H/F',
+ 'link_url': '/rc/clk?jk=dcb295c8b20c21c8&fccid=a7d3428d7c31c4a1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Plage horaire entre 08h et minuit - 35h par semaine.'}
+2020-01-30 13:43:52 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Equipier polyvalent (h/f) - 30h TRAVAIL DE NUIT - PARIS - 75015',
+ 'link_url': '/rc/clk?jk=72a7ed5b2a718c13&fccid=14b7c83f2c02772e&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 374 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Vous démarrez dans la vie professionnelle ou avez déjà de '
+            'l’expérience en tant que caissier, hôte de caisse, vendeur, ….'}
+2020-01-30 13:43:52 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': 'ATELIER DES LUMIERES',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Hôte(esse) Accueil Billetterie Boutique',
+ 'link_url': '/company/ATELIER-DES-LUMIERES/jobs/H%C3%B4te-Accueil-Billetterie-Boutique-5a727a967bffb441?fccid=ed185ddb1b063e99&vjs=3',
+ 'location': 'Paris 11e (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Veiller à la bonne présentation et l’approvisionnement quotidien '
+            'des présentoirs de l’accueil, ainsi qu’au stock de brochures ;'}
+2020-01-30 13:43:52 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': 'CASA Paris St Lazare',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Manutentionnaire',
+ 'link_url': '/company/CASA-PARIS-ST-LAZARE/jobs/Manutentionnaire-7db2bb8b9933c399?fccid=8c22192b285037e5&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 560 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Réapprovisionner les rayons des produits dans l’espace de vente '
+            '(mise en rayon, nettoyage, mise en avant des produits,…) et faire '
+            'des propositions au…'}
+2020-01-30 13:43:52 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Vendeur H/F - VEGAN',
+ 'link_url': '/company/Naturalia-France/jobs/Vendeur-c6634276b4f6e13a?fccid=317a9b53afe89814&vjs=3',
+ 'location': 'Paris 17e (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Réceptionner la marchandise, gérer l’espace de vente et la bonne '
+            'tenue du magasin.'}
+2020-01-30 13:43:52 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Vendeurs (h/f) - CDI 25h - Tolbiac Paris 13e',
+ 'link_url': '/rc/clk?jk=75e74448fd8244cf&fccid=7c13ea7d2941e927&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Es-tu prêt pour une carrière rythmée et pleine d’action où le '
+            'client est au cœur de l’entreprise leader sur le marché du '
+            'prêt-à-porter ?'}
+2020-01-30 13:43:52 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': 'La Tour Eiffel',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': "Agent d'accueil (H/F)",
+ 'link_url': '/rc/clk?jk=fca79736e0fcff86&fccid=b8e9ff326f862889&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'L’Agent d’accueil au sein de la Direction de l’Exploitation '
+            'assure avec l’appui d’agents expérimentés, tout ou partie des '
+            'opérations relatives à l’accueil et l…'}
+2020-01-30 13:43:52 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': 'CHOCOLATERIE DE PUYRICARD',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Aide-vendeur H/F Chocolaterie Haut de gamme',
+ 'link_url': '/company/chocolaterie-puyricard/jobs/Aide-Vendeur-Chocolaterie-Haut-Gamme-1af8ebd152d25210?fccid=15c00297e15eec62&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 555 € par mois',
+ 'site': 'Indeed',
+ 'summary': "Dans le cadre de notre activité à l'approche des fêtes de Pâques, "
+            'nous recrutons un(e) aide-vendeurs(ses) afin de renforcer notre '
+            'équipe sur notre magasin situé…'}
+2020-01-30 13:43:52 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Vendeur-Préparateur H/F',
+ 'link_url': '/company/LAURA-TODD/jobs/Vendeur-Pr%C3%A9parateur-70f14709d9c47a24?fccid=ee8a2b321a6d5fc6&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Fondée en 1933 dans l’Iowa (USA) par une jeune femme d’origine '
+            'autrichienne, la maison Laura Todd Cookies est établie à Paris '
+            'depuis 1985.'}
+2020-01-30 13:43:52 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'HÔTE DE CAISSE',
+ 'link_url': '/rc/clk?jk=2ee3cfdd120f396c&fccid=4255b375329a82a7&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Vous gérez les stocks et l'approvisionnement des produits en "
+            'rayon, en respectant les objectifs de réassortiment et en '
+            "veillant à l'attractivité du rayon."}
+2020-01-30 13:43:52 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Fundraiser en face-à-face pour ONG - La meilleure rémunération '
+              'du secteur',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CXZFKT5702KBFT8eqDtsSm4zkKaZ17Yw420n8lPB6GRGdVOX1nUvmioVllKoAs6lBElHpu6g83f9YWJCl-vtCHbKxkVgA4SBQ_9_bToIxxL-4qtdW938n19i2-Ye4jFTIYFMs0T59wZScquwZd3mnIvw7MNhGO1Wryt-kuUTsw-KBBE4DzoLqFDTURD0LNlaaEV0JlB3wV1a9ZSZ11WIRMD6FUFzp5AW7k5U1qf-80itVAbRzlKDscSE5dRJQOHPgL6p46BUikiZuPhNLyPM5t3ToZUUu7PrVjuHMEuU9La0nxEf-RH7Ug-gjKhkkvQk3vnjjqfAbLVbfOwhdipIfAXngsbKHJcW4psR8S-XfY3CUSty4iNSdkz_Xv-axgRkfg2fBkmsg1I7uOrD-TRiY8zO2BI0-hjQc8MIoeXzRmiNRp0I_udDz3oP9wJVvnCcNCVFWhneCUltkteWpZJu9bsza9TOOQOgWRnxShCDERdbZqaEgESqI2exzFJdoGoaYne0LSDd_286NgIxmFiGOBpUWwU1ZIKAI=&p=16&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 911 € - 2 961 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Missions de 5 à 6 sem. à partir du 03/02..'}
+2020-01-30 13:43:53 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=10',
+ 'job_title': 'Donner des cours particuliers à Paris et ses environs',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DJ4p2dmHOLil0nMyfwIPMX1eo8q0J2jWMSD9uZkGeCKFrwaYnp2ktdA3M2y3xpnHqSe_D_Jy7c9cyVXuNRdIgRwZLUsd0fyWlrX7CnKAIgTQzOi5VLaI1QhV3I-hRVIgI73nv94wYvIyb9uoW0dC6H9NkxgOE2Ef2zOcHnBQjOtoN2rGfgiHTgedD99Pi6X8D2MT9GQw_K3d6yFMXAOOPyKVaR5FIYgo-qThaf18EVNobEEMdNjWSJyOPhJY-BQYHEYU_j577UQIZt_WpLfxsJw5meeKDhiL87R5uv94VSUEf6fTSPKxpbibOqWYO8gQHcIpje-Vf-Xi1rZJLO8OMnLREphTUYl0uOvGLH2ULyPIbrgLBtVg-DC21DVMW3iD2cAmG2OptiZhZvPo-Wb2uyCRziqCp1Vce46kblZJvdFZ5DcpZ_5Le-qFz1TXSNMC5x7qOoKqTeCZrE6WPBCFw6hFaVixdld5zljTp7H6wTxJUY-FqLCThLLHLuhL2XoGKSOYXF4mWB7hjBNODewfpSZEZtkbyiyFHDQe5PQiTVl7N8YmGbMebtReuSUteSa3fdX_stbweT8CFQq2RvVFM16jAb1AcsQ35-AlWWAoC-XZL--T-S_Fe0ocDxLqaI0hkcrb2AD5CbZ6Oz-ys9gFyU&p=17&fvj=1&vjs=3',
+ 'location': 'Paris 15e (75)',
+ 'salary': '11,50 € - 22,50 € par heure',
+ 'site': 'Indeed',
+ 'summary': 'Spécialiste du soutien scolaire depuis plus de 30 ans, Complétude '
+            'vous propose de très nombreuses missions de cours à domicile près '
+            'de chez vous et adaptées à…'}
+2020-01-30 13:43:54 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=&l=Paris&start=20> (referer: https://www.indeed.fr/jobs?q=&l=Paris&start=10)
+2020-01-30 13:43:54 [indeed] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=&l=Paris&start=20
+
+2020-01-30 13:43:54 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': 'COMPTE RENDU',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Rédacteur des débats (F/H)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C30RKQDcp9bG548Z0EAcgxXBJhUUvWk8zu8ya2zG7FgFyZEE51Qevr_oadbfNujcRln1QQWNvg3zRqkhEA0hOaIQoYmZJdPJW6jSbLkScqZbtXRgF1o71TUaGzeUVsI2MLdlHREaK4ia7PDRGhuFlzEiNM49YCt7IOVrLMJ3B49_1haXNEbaOgyNnSi1-ofVC0PW-38bOfW7N1NY1aQBCd6R5JEaTcPoDpPTRtWVzoxx6N3iKYxV21Vpa7h7mtWOIaSJB4l2RZQIvEFGWNvWryXcDCKdZvRHLTmS8h7Xc1HnG5U8GiTy_BmQoEUQcdyC7vKMsCuKhUv5oPOZkH9LL57jijF5YyTv9VgV0L1XEExvufj_XMNtCAU3xR81bYC06V7Az8zW-O2DSZ5xAa5_dyOTTjMxcmDoeGLqn68-PxFLtLdGhqFXov&p=0&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 800 € - 2 300 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Rencontrer plus de 600 clients appartenant à des secteurs '
+            'd’activité très divers, de la finance à la sécurité, en passant '
+            'par l’édition, l’enseignement, l…'}
+2020-01-30 13:43:55 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': "Agent d'Exploitation F/H (75)",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BqxOkAdQKZxlDAnIsYC65RkfimWZKGw1wgE4VNvHsa-UUFrCEoauJuuulCOibkjjOTcD9I1TuK6MivhuJjJhJEjZfl8VFQjWZcbkiarvV9rGfLA71nsGxPq4TaOHgUQG-SHR6vf4_mVw7xo82Q55rERIncBbPMF13Xx_Tqxe-7Qer_dpnfv9jUef8Of7BfCFix10VnH9vT597S3OthxXcH-UQZwwUqJsK2DKn8ya6PKjO5_taormdTOsQ50rbOrpXU6VpQChjZm0f3pEKdA5q29rg86gjs9h0ZKZK_K40zkRUgjvEZ_UN3AYJ6eL_3gKkZtxC8K6FIJWbVFIPjQgQvRtBBTheoQ4AOTJuUSo4k4xTYUfRXjoj83uH3flKccYC-vq_KYxecHpyax69Ri_NwLr3PzyhHSMgAeqiBe5Eg1ohFbZQRK6U2NPXG--ZSaiGOvOO5Qe3NXNSh8VCqwDvMPY1_tjfhqWOEwVf0njlsLJR3HMLpMY3Usz3IqiWKGEIJeHXsSKkvFubANS0wAdmeR0RSI42W6k1dF6YZ_lj5Xg4y8sY7YDd9srq-YXdgFXxhm3nmxWSDH9apTZ34yc0kq6QW6mYshVyrQ6jt-vt9W3hIxBSxnefnJGa4arY-0Fhahvmwc3C8RcRePNPuUNsmzcbTnwBMiWOT5H3MXul3q_tK_CoOdzxT&p=1&fvj=0&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Sous l’autorité du Responsable d’Exploitation F/H, l’Agent '
+            'd’Exploitation F/H organise au quotidien l’activité de son équipe '
+            'de livreurs de journaux F/H.'}
+2020-01-30 13:43:55 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': 'Airsup',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': "Agent d'escale aéroportuaire H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BOpi07iGyjfSecHcvV1Trx5ag5X100iR8qfkHoyNFFxVaynhSradw34e_UrBxpWmffS585IDJ83UMKbBhu0AkNtYQ90aL9M4uOhkbqhsDtQ46_jU4vDCNRl1d9z3FGRC7aOweHOyi8ODAO88WKwqZ16YbPzD5hlbwIW9YlN3rO00CxanqeZdHxScT5BbPE0DqsC3ZG2ocqPx_MWU5ap-USOozhbaNlZJKL17AcvVlbFU-kEryTGwfioS9S1CcPcoMoa4-13WyTFenG5rwG9yohGBO44gVO02X3nqaWBTN0X5rcHziFe4ycjcAFQ0lmLZOIrdZf3_DaAXVZasYlZ2D_sOYGDZosEvNdoXhGSTXndvjK4CQiFlT_ISavZMn_ERWsTnQnB76NVvfk8mPczQSLIFZIjhFDbXUMwaTf8AUAf8An1WXqa6sc8gkV2xwVVnmdny61ZVFZew==&p=2&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '20 000 € - 25 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'AIRSUP est aussi en partenariat pédagogique avec AIR FRANCE, ce '
+            'qui lui permet de proposer ALTEA *procédures AIR FRANCE '
+            'permettant de travailler pour…'}
+2020-01-30 13:43:55 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': 'Espace Larousse',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Assistant administratif H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AzqRwHWwuGhctLX8HZPw8bTq0pjKBujD9WXMFmgy8dVd4pFTyak-drGPz80w1no1yaLbWhhrimYqiF0NfkJxr6rhS3b7el0gfRjG0S0tgET1pXn1xJUQa7EPjgFyzVFk9R7e_cFttAHDWokDgELEWQcLgNfH1QqCJQcu4n4dDZLXhtt9V-jvrbvAYWnaSSDpdWMSa5AicztAycN155_2yEos3jIzRbiAjEEcoIixmPFXlQEGmF9yhbZf-L4z2yuAIVpSVCO5V_VcKtHxyN8sFvpvKcAbzHfiBA64TAbWkw4D0vPnF7F0MGObFLfxB4pNtORTtIl2j86-DcS6jodlPLl8kfyoWo-LQf4gSZwHZNizJdXLdo4Q4__XDtp4PoOfFQqB6T4GivJmc_QaK05BW5eFNKvz1KOFfiL2mnROwsieUUgA_m9Y60&p=3&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 400 € par mois',
+ 'site': 'Indeed',
+ 'summary': "Gérer l'emploi du temps."}
+2020-01-30 13:43:55 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Fundraiser en face-à-face pour ONG - La meilleure rémunération '
+              'du secteur',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CXZFKT5702KBFT8eqDtsSm4zkKaZ17Yw420n8lPB6GRGdVOX1nUvmioVllKoAs6lBElHpu6g83f9YWJCl-vtCHbKxkVgA4SBQ_9_bToIxxL-4qtdW938n19i2-Ye4jFTIYFMs0T59wZScquwZd3mnIvw7MNhGO1Wryt-kuUTsw-KBBE4DzoLqFiEsKZMgFC778rZEtiKHVewg5BYk1gmz7mx2dM_f3rN4g7-7SSOUVi0Gjj_1wlYzd6Dwm4ymff3XfA1BZjb34p4Pf39V-vF5mGqB-8uMPiXJ6DdGed-VvH1uDw9CK5x5hU7EdqobAKmNUnMQ3Gbmob6jS9sdbbDcbLsKGZ3reBWPLt7ftKaZi54-r8Id56TChaAaP2ZujzTwxbuAtpv5oXjzsWypNC6pIza6Iu34lpKoyRmMsimQLyC_AYgep_jOeZ6sKtiiuPaJO1awqtr5nkf6Z_ApEFteg84iy-GPj6DVgPYsaJY0rmaAGzkZxATk5aQGfCI_2OQcXo6GNHdAFgzE61FzSZo3KjqCTf3znabU=&p=4&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 911 € - 2 961 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Missions de 5 à 6 sem. à partir du 03/02..'}
+2020-01-30 13:43:56 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': 'Etude Alain',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Généalogiste à la recherche',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Ac0MyR7YK76_2TKx34rVH7mnr0DckQiFzounG9a2HMgvxVH2JFEdFG6aCl8sjmlZfLrX9YotVzF43P4HKVpvmRMmn_ht14yhL9aZ8N2kKSW0AJQMPxmuHwlYuCDjEXdlHJXeiJUZFJBDfq26H6LhKsVTEm02uZMfQQhhiuGEBeEyFyeuRfvuk0EhH5WoXRy5AIp8jb3pULVF0DM3Ub4ApysCbLiEl0jMldEMszMferfeIp-CM7LltWI9BdHasHMNUujWJwi-6FEzHT6xHIDbfuF5YLhqwd17UotMFS69INjLbHSGcu_Aj2E2VqPGu9pHyXtJuVTBMbE6k25s6ZC2B16ZNqVVK6MQMJAKwtyXhlGXeFjY3KfgshLofdSsE7V_X3TXmkfCFPKEDe2ibgEqWI7FhSXT_hIYWGYsJwNy-Fp_qYiYJc1-oQJ0qbKwHL_3Bg34H7Wd1DnwQXbjeMuW2yU5zWAjhEpqs=&p=5&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '2 500 € - 4 500 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Collaborateur, à la recherche, anglais apprécié, déplacements '
+            'france et étranger dans les mairies principalement, débutant '
+            "accepté, gout de l'initiative,…"}
+2020-01-30 13:43:56 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': 'KOALA PRESSING',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Vendeur polyvalent H/F',
+ 'link_url': '/company/KOALA-PRESSING/jobs/Vendeur-Polyvalent-3c683178b569d96f?fccid=ced22444e49fbcec&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 675 € - 2 200 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Accueil client, tri des textiles, pré brossage, détachage, mise '
+            'en machine, séchage, repassage, emballage sous gaine, rangement '
+            'des commandes, restitution des…'}
+2020-01-30 13:43:56 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Vendeurs pour Amorino H/F',
+ 'link_url': '/company/Amorino/jobs/Vendeurs-f93099ba33a72291?fccid=4487fd5a34d7b871&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 539 € par mois',
+ 'site': 'Indeed',
+ 'summary': "Après une période de formation, vous serez en charge de l'accueil "
+            'et du conseil aux clients, la mise en place de la boutique, les '
+            'encaissements, etc., avec…'}
+2020-01-30 13:43:56 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Employé polyvalent H/F',
+ 'link_url': '/company/HEMA/jobs/Employ%C3%A9-Polyvalent-4259eb45678b4a25?fccid=1b98198a33cd1970&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Vous procédez à l'encaissement."}
+2020-01-30 13:43:56 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Stockiste H/F CDI – Champs Elysées',
+ 'link_url': '/company/Longchamp/jobs/Stockiste-CDI-Champs-Elys%C3%A9es-97f9565ebf3f1318?fccid=f062f947e2c38266&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Organiser et effectuer le rangement des produits et le '
+            'réapprovisionnement dans les zones de stockage (rayon, '
+            'réserves,…), faire un suivi des mouvements et…'}
+2020-01-30 13:43:56 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': 'Mercedes-Benz groupe Como automobiles',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Convoyeur/ Jockey H/F',
+ 'link_url': '/company/Como-automobiles/jobs/Convoyeur-4e5380efccf4fcc5?fccid=e07f44d463b9c02d&vjs=3',
+ 'location': 'Paris 17e (75)',
+ 'salary': '1 900 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Contribuer à l’amélioration de la qualité et de l’image de '
+            'l’entreprise.'}
+2020-01-30 13:43:57 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Employé(e) Administratif - Caisse principale (Temps partiel et '
+              'Temps complet) F/H',
+ 'link_url': '/rc/clk?jk=94fc94e0ed2c53b9&fccid=f56bb661335f25f6&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Le Bon Marché Rive Gauche est le magasin parisien de référence.'}
+2020-01-30 13:43:57 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': 'METRO AG',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Employé Libre Service BOF F/H',
+ 'link_url': '/rc/clk?jk=bda53f3166e8ca02&fccid=140ef68d734870db&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'N°1 en France et partenaire omnicanal préféré des restaurateurs '
+            'et commerçants indépendants, nous sommes 9 000 collaborateurs au '
+            'service des entrepreneurs du…'}
+2020-01-30 13:43:57 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': 'Micromania Zing',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'VENDEUR / VENDEUSE MICROMANIA ZING - H/F',
+ 'link_url': '/rc/clk?jk=6e960eb93ecbbde3&fccid=386e39d3c2009a97&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Et pour mener à bien ce projet, nous transformons l'entreprise au "
+            "service d'une nouvelle vision : libérer le pouvoir de "
+            "l'imagination !"}
+2020-01-30 13:43:57 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': 'Au Bout Du Champ',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Vendeur weekend (H/F)',
+ 'link_url': '/rc/clk?jk=9acac23114fae56f&fccid=f498178d7dac9355&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Se former quotidiennement sur les produits : saisonnalité, '
+            'provenance, goût à l’aide des différents supports (fiches, site '
+            'internet, responsable de magasin…).'}
+2020-01-30 13:43:57 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Employé Relations Client H/F',
+ 'link_url': '/rc/clk?jk=73786de646d8a4fb&fccid=af17ea0d1d6bbbba&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Tu as envie de contribuer activement à la mise en place de '
+            "l'ensemble des services disponibles dans le magasin afin d'aider "
+            'les clients à prendre des décisions…'}
+2020-01-30 13:43:58 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': 'AdopteUnMec',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Ecrivain/ Rédacteur (F/H)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BO8a1ine95hjYVP7W55QXfAW2R0NTgIaCqW41zULY53UfrmT9i-IzOJ_lYRVGAncw6Vvn3U60QPNi_Ira8-eeCX4q711axaEMG4OgDUhLl6HUaLWKkT71vEtGtqObCKdf7-jNfVomoVKkCe1ezi9NQdiRPYU3ftrkZpndSa8OwX7XgA1JYwHdUOLx5NAXD3m841OaYcobhkVavv2e91qI4_Zs7Ha1o9hI_t5uch7UUqDaGSDroq81fUbYCAzoRdsQoNQHFyIgaEKc1nHfiE00N4-rOCXSJxN39kIkwEjI_4dHOm9IaIEVQWbLACxSKjYLHmer6TlNS1v5u_RBwqqUbVIkwrDk587iEj9aVJUITGCZ2njqsNHk_Ll-CeZpExNbJDidDJQpwtwxci2SUtCafmLaMGVSaK_ntORthYK7_qkwcoIIRCVOkkKOkxqn5f8Q=&p=16&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Présente dans plus de 10 pays à travers le monde (Argentine, '
+            'Mexique, Colombie, Espagne, Pologne…) AdopteUnMec est le premier '
+            'réseau social de rencontre à…'}
+2020-01-30 13:43:58 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Vendeur F/H CDI temps complet Paris',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C8SyVWDloTuZR2lnvX77LrlJhc_4nWaJZBL3tXgVs41pW-5xUXnjm2Po5ZGwDFwjc6ufS19zbAowRM_t4mp2Y9tUfxfyYvJkDsSnBs8YzHuzde6YZZjWhjum8CgSX087DadlFDC5w3g0RE4A_fOFucLimGAHn9MDtoEilSpStArWE2i5VFvg3lDpK4PH5yBfe4U4XCURhR7UWpfE9hvFv73LtjATdiRHYgqdmEvY_6-kIfQk1td0Zh3rgS452bSExjp9pNdMo75At0Tw9qOzSPXOk_r79box4YcUwwLbtzLQzLr6byiQSzHPgAVFtqTBqjnvDfcLv3GyBXxk13gYc35_oOOEsgke83CwPhuFcWAQj_y8qg4vB-dHPBc7_g8fkEGshOMmo877wx_cuDhnGhDXLowqcULhhgP3hwfV854Q==&p=17&fvj=0&vjs=3',
+ 'location': 'Paris 1er (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Je suis responsable des encaissements, je participe à la mise en '
+            "rayon, à l'approvisionnement et à la bonne tenue du magasin."}
+2020-01-30 13:43:58 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=20',
+ 'job_title': 'Donner des cours particuliers à Paris et ses environs',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DJ4p2dmHOLil0nMyfwIPMX1eo8q0J2jWMSD9uZkGeCKFrwaYnp2ktdA3M2y3xpnHqSe_D_Jy7c9cyVXuNRdIgRwZLUsd0fyWlrX7CnKAIgTQzOi5VLaI1QhV3I-hRVIgI73nv94wYvIyb9uoW0dC6H9NkxgOE2Ef2zOcHnBQjOto0mD7map4u51mAqhNxyaTdapWpghz2L9YgzcC0rLK4yLSZhY-x6AQfeRBw47subb5EjUyZHMcKLzyaIOiUfrosPusxC-m_vWT4VZ9Wrun0fvRRgPrxPh_-1BLBt3ye-iB2lhHw82n3dfBTAuFvEGg1uzYOYUJ1SIG3_Osr5gTDWuijV0nMh-9GXdGHCa5q5h3CfySoBSwVQtnwwcVZe6pYZhIQC9Wom3Lk3yEhn0UPZAG23y5IqoyoAqezHA6R456ju_nC68NkWwdmpa5QCQ4F60VC3THtYnPn9S_5s9_RsmdZey88xFpFPVl_cEz6sa69bPTTLv0gn0baCEM7Nt_Mo01GeJSr_Bsk48DLWCP5_8odj0DCPXgBU1nn4wUHpRG3WuwuD-jGFc7S_NAXBswAOxVN35fl-gsORzxvcEo_bHSeayNDGcQZuXcLjBjR3qNf5fpAFzAwSjzkty9Y7idACyd5N5VvzdmfQBWB76l2O&p=18&fvj=1&vjs=3',
+ 'location': 'Paris 15e (75)',
+ 'salary': '11,50 € - 22,50 € par heure',
+ 'site': 'Indeed',
+ 'summary': 'Spécialiste du soutien scolaire depuis plus de 30 ans, Complétude '
+            'vous propose de très nombreuses missions de cours à domicile près '
+            'de chez vous et adaptées à…'}
+2020-01-30 13:43:59 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=&l=Paris&start=30> (referer: https://www.indeed.fr/jobs?q=&l=Paris&start=20)
+2020-01-30 13:44:00 [indeed] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=&l=Paris&start=30
+
+2020-01-30 13:44:01 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': 'COMPTE RENDU',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': 'Rédacteur des débats (F/H)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C30RKQDcp9bG548Z0EAcgxXBJhUUvWk8zu8ya2zG7FgFyZEE51Qevr_oadbfNujcRln1QQWNvg3zRqkhEA0hOaIQoYmZJdPJW6jSbLkScqZbtXRgF1o71TUaGzeUVsI2MLdlHREaK4ia7PDRGhuFlzEiNM49YCt7IOVrLMJ3B49_1haXNEbaOgawIGnk5HqT7YdEvBSV5wk7PQ9tIcioRyxdnrgTOOm3zD3HW7_tBXnLlKT5kNOaAJM9XHqN2RXq3aUCoVWVEzDR6acrfebfPQO63rS4O4zPl_M3gR7cEWUdDzFspxiVZpC7YNrpUnEqE1aO3Jb8c1r9yjUVcE66nm2bq04kDscPAKtNO9_VYBwJ2iGpPZSVBQf-dX-m3SR3aDpfYcfgNlMfyDLmuZYyura2vbTbGXHhxvnhOTD-bUpfvkGOanYp__&p=0&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 800 € - 2 300 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Rencontrer plus de 600 clients appartenant à des secteurs '
+            'd’activité très divers, de la finance à la sécurité, en passant '
+            'par l’édition, l’enseignement, l…'}
+2020-01-30 13:44:01 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': 'WATERLOGIC',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': 'Standardiste H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DePF--hYqA2mcHweqJaQvq8dL4aRMPisqhMzmCzt5axVgpyOtFSd1xeZliPrLXvCXlFV0VRChI_sHLitI5_HqDsQ8OnC9cHBB-lTkVbB8iQhbv3PM_DhNzmkpcc2iEi-QwCOnVfhzbAstAltISZrfKRSqL3Pl8P4rhUvzd1jZmtaxTVrgPd0o-tODsDTpwtReepqiCSTpOa308GhW21kEop3cULgNqAsw2_p1H-Qt43W2e245fRmJR-Z8FYV_xrxryW6sc4lM9PHtGilW1qwN0NoPI8p7ETftjZlUTgXgru9R-RCcY6HgRRR6E8krGyyp24CcLNyBAGqrEDXE041GmzhDlqUl46jqUauovak3zxO2JlkP-bDmkSbmVyssFnMqPG4O8r2yUDR-6g9vLFgBObEnvPOC_wXDxN6SsxJ1_wiA27Xv2iDjW&p=1&fvj=1&vjs=3',
+ 'location': 'Villeneuve-la-Garenne (92)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'WATERLOGIC : nous sommes n°1 mondial des fontaines à eau '
+            'branchées sur le réseau d’eau potable à destination exclusive des '
+            'entreprises et/ou collectivités,…'}
+2020-01-30 13:44:01 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': 'Vendeur F/H CDI temps complet Paris',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0C8SyVWDloTuZR2lnvX77LrlJhc_4nWaJZBL3tXgVs41pW-5xUXnjm2Po5ZGwDFwjc6ufS19zbAowRM_t4mp2Y9tUfxfyYvJkDsSnBs8YzHuzde6YZZjWhjum8CgSX087DadlFDC5w3g0RE4A_fOFucLimGAHn9MDtoEilSpStArYdzrCPmXCeCtChehOtChgwQ4YTOMwsWCXHipeQIFzZDqcULC8TCNQRFJfj55jZNmGTF3eH8Xy6BdiijKrYn5dJlvXYG5OHjLm4bcwqAjuIIeLMIvbGQNvjzSdE1y-o-M6ZpuA1MTaVg-QSX37MUkXnkqmERLKILwSFLKTn1sTPIEmfpr7mAJJO1ash4uVuaHV3tF7NbnYs6SSQZn_IshweZvfK453VmntjT38tnqOkE0QtD5n9W31qqU6At2mPYcQ==&p=2&fvj=0&vjs=3',
+ 'location': 'Paris 1er (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Je suis responsable des encaissements, je participe à la mise en '
+            "rayon, à l'approvisionnement et à la bonne tenue du magasin."}
+2020-01-30 13:44:01 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': 'Europe Tourisme SAS',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': 'Coursier à vélo H/F',
+ 'link_url': '/company/EuroTours/jobs/Coursier-V%C3%A9lo-99095f34891b8494?fccid=506a33bdf1c8ce7e&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 521 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Pour mener à bien cette mission, vous avez avant tout un '
+            'excellent sens du service vous êtes souriant(e), rigoureux (se) '
+            'et organisé(e).'}
+2020-01-30 13:44:01 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': "Hôte d'accueil vendeur",
+ 'link_url': '/company/Aquarium-de-Paris/jobs/H%C3%B4te-Accueil-Vendeur-78798414021509af?fccid=8b83161867cebf1f&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Vous pouvez être amené à porter des charges plus ou moins lourdes '
+            '(livraison pour la boutique...).'}
+2020-01-30 13:44:02 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': "Agent d'accueil en centre médical H/F",
+ 'link_url': '/rc/clk?jk=27b2eed48f07641e&fccid=7a8ccd6c3f66bf99&vjs=3',
+ 'location': 'Paris 19e (75)',
+ 'salary': '1 600 € par mois',
+ 'site': 'Indeed',
+ 'summary': "Gérer l'accueil téléphonique : les appels du service sont "
+            "centralisés à l'accueil et rebasculés en cabinets si nécessaire."}
+2020-01-30 13:44:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': 'Vendeur H/F',
+ 'link_url': '/company/Naturalia-France/jobs/Vendeur-caf254694e42fb63?fccid=317a9b53afe89814&vjs=3',
+ 'location': 'Paris 15e (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Réceptionner la marchandise, gérer l’espace de vente et la bonne '
+            'tenue du magasin.'}
+2020-01-30 13:44:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': "L'Usine Beaubourg, Club de Sport",
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': "Hôte(sse) d'accueil",
+ 'link_url': "/company/L'Usine/jobs/H%C3%B4te-Accueil-bccfa9d34be0236e?fccid=b6e51d64a7273284&vjs=3",
+ 'location': 'Paris (75)',
+ 'salary': '10,78 € par heure',
+ 'site': 'Indeed',
+ 'summary': "Le contrôle de la propreté de l'accueil et de l'espace vestiaire."}
+2020-01-30 13:44:03 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': 'Club Jean de Beauvais',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': "Hôte / Hôtesse d'accueil",
+ 'link_url': '/company/SAINT-GERMAIN-SPORT-ET-SANTE/jobs/H%C3%B4te-0c374e89b4818bd3?fccid=9d41b2d0a341a8fd&vjs=3',
+ 'location': 'Paris 5e (75)',
+ 'salary': '11 € par heure',
+ 'site': 'Indeed',
+ 'summary': "Salaire : 11,00€ brut de l'heure."}
+2020-01-30 13:44:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': 'Vendeur H/F - CDI 15h',
+ 'link_url': '/rc/clk?jk=bdc6cfc978227967&fccid=fce6a8fee1edf46b&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Des personnes enracinées dans l'héritage qui fait de Gap ce "
+            "qu'elle est, mais qui sont également tournées vers l'avenir."}
+2020-01-30 13:44:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': 'Conseiller(ère) de Vente CALZEDONIA - CDI 35h',
+ 'link_url': '/company/Calzedonia-Group/jobs/Conseiller-Vente-Calzedonia-04081e1b5502ddad?fccid=3fc7e962101a2dfa&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '19 200 € - 21 000 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Conseiller(ère) de vente calzedonia - cdi 35h ou similaire: 1 an '
+            '(Souhaité).'}
+2020-01-30 13:44:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': 'Vendeur H/F',
+ 'link_url': '/rc/clk?jk=e39f10c3fdc8f6ff&fccid=af17ea0d1d6bbbba&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Nous avons une bonne connaissance de l'assortiment IKEA, des "
+            'marchés nationaux et des besoins des clients et nous cherchons '
+            'constamment de nouvelles façons de…'}
+2020-01-30 13:44:04 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': 'stockiste – réserviste H/F Temps partiel 20H ... Ledrugstore '
+              'Parisien',
+ 'link_url': '/rc/clk?jk=b8a29d5326d6bb5e&fccid=177ef95dd0116476&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Tu as idéalement une expérience confirmée de minimum 1 an dans la '
+            "gestion de stock en magasin et tu est à l'aise avec des outils "
+            'informatiques.'}
+2020-01-30 13:44:05 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': 'Etude Alain',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': 'Généalogiste à la recherche',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Ac0MyR7YK76_2TKx34rVH7mnr0DckQiFzounG9a2HMgvxVH2JFEdFG6aCl8sjmlZfLrX9YotVzF43P4HKVpvmRMmn_ht14yhL9aZ8N2kKSW0AJQMPxmuHwlYuCDjEXdlHJXeiJUZFJBDfq26H6LhKsVTEm02uZMfQQhhiuGEBeEyFyeuRfvuk0p7kFWRTwLTGjfGQIS53h0pP3AVGoVckkjJyu--9vpZV3a_MmLGC8DxfkfwougNbcG0ZwJcInnTf3iBdW-0M573VCt4bWE88jtu6zlI_UZWecAFLDjaiC9ByVy1qhCmlofYfwky6ntbLkLY9rT8Xabr13tzriMphXRRRI0hWH_UwvduCnwK9uXCwQSvYP-eJKmbQZcWr4ylzOq6zGFRdGq8RKr33n53PqZBnpDbI8dfm3mU6YoRLug3XykP6RhTHMXW-w1LqIHsltwYaCkCsL3FkWicbuJSNemensuZZKQRI=&p=13&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '2 500 € - 4 500 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Collaborateur, à la recherche, anglais apprécié, déplacements '
+            'france et étranger dans les mairies principalement, débutant '
+            "accepté, gout de l'initiative,…"}
+2020-01-30 13:44:06 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': 'Airsup',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': "Agent d'escale aéroportuaire H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BOpi07iGyjfSecHcvV1Trx5ag5X100iR8qfkHoyNFFxVaynhSradw34e_UrBxpWmffS585IDJ83UMKbBhu0AkNtYQ90aL9M4uOhkbqhsDtQ46_jU4vDCNRl1d9z3FGRC7aOweHOyi8ODAO88WKwqZ16YbPzD5hlbwIW9YlN3rO00CxanqeZdHxoZQl-IGoQMRy6PDJBu1sGNE2qMKR7urw8_noC6NmiI8KiLU6Y4cFdb3nuYjpFA-74HPZ26tqEfaEGgVOB9XigF47c7d5LA1qd7mXBySei3vCAsWT-PvxulcMu1ZTI20EH2QZZU0MFHaGc2cFinAhJgTdBihRqGRdHOCvCPpkteN-NHpAeUQL_IN0J902vm4x2qI5tLvTQMsp78tOYJGlNmhuDExeYpYG9QQFKOM74Rl6iRILFXCQ5DSJ568iQ2RpurjuCiFbhJSRUCbJrIm-5w==&p=14&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '20 000 € - 25 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'AIRSUP est aussi en partenariat pédagogique avec AIR FRANCE, ce '
+            'qui lui permet de proposer ALTEA *procédures AIR FRANCE '
+            'permettant de travailler pour…'}
+2020-01-30 13:44:06 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': 'Espace Larousse',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': 'Assistant administratif H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AzqRwHWwuGhctLX8HZPw8bTq0pjKBujD9WXMFmgy8dVd4pFTyak-drGPz80w1no1yaLbWhhrimYqiF0NfkJxr6rhS3b7el0gfRjG0S0tgET1pXn1xJUQa7EPjgFyzVFk9R7e_cFttAHDWokDgELEWQcLgNfH1QqCJQcu4n4dDZLXhtt9V-jvrbXJAsMJnAvqTXXfby0WeSz74_lIHiYdOjA6EI4SlNb3C79iPy0-uXwBMYBawzPE1-KWXvSZWRslqFv6CflJvKw1XguaGdrTZ4vWGkl2Mj1JwMV_-2QgqgVTd1oRmEi3AqIvNU_wNbzpTwhgSZMSLvkjH-AzRISKBl8EoVh-9w5Qv14kO3wc5Nq_dgpx2kb-fg8ham-anHdBiArAOyp7rlD8J8Zh6NiCA5zLtLUzHwCiKeSmPtAyC9Dkec1u7VxQiF&p=15&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 400 € par mois',
+ 'site': 'Indeed',
+ 'summary': "Gérer l'emploi du temps."}
+2020-01-30 13:44:06 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': 'Fundraiser en face-à-face pour ONG - La meilleure rémunération '
+              'du secteur',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CXZFKT5702KBFT8eqDtsSm4zkKaZ17Yw420n8lPB6GRGdVOX1nUvmioVllKoAs6lBElHpu6g83f9YWJCl-vtCHbKxkVgA4SBQ_9_bToIxxL-4qtdW938n19i2-Ye4jFTIYFMs0T59wZScquwZd3mnIvw7MNhGO1Wryt-kuUTsw-KBBE4DzoLqF2MwCUe_KicakfQb14jEgHIwYGaPq9A_gPIYfz78tnt_zKK312O2vjHxs3l73I3ujiXSMlV4nw6uMX3lza0BWzjVx3eNRckL9M5HpaA5F4LtpRb3RabuPuJcpGiOmi7M8lpHMjjNZD2edWuTYDPcoAANkPHlD7EL0-BSNeO5nBkVUzc99qBg-KE9QsxFt_7pMjfh8xY8Z8UXHxAIiVnArRKm6BH2nGD6bi-CkCOLog2z7MoohvcVeL7yurS3xdEw8R1f8H8fdkEBTt6f0DK3GybkoeC9uNeU23RaPQTSnISaEVvMkEcB1dcEGZiaqtZhknlA97Ktnu6GsLKlHEX68pPSRW6RoJLGqtI2lSFsEqZY=&p=16&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '1 911 € - 2 961 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Missions de 5 à 6 sem. à partir du 03/02..'}
+2020-01-30 13:44:06 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=&l=Paris&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=&l=Paris&start=30',
+ 'job_title': 'Donner des cours particuliers à Paris et ses environs',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DJ4p2dmHOLil0nMyfwIPMX1eo8q0J2jWMSD9uZkGeCKFrwaYnp2ktdA3M2y3xpnHqSe_D_Jy7c9cyVXuNRdIgRwZLUsd0fyWlrX7CnKAIgTQzOi5VLaI1QhV3I-hRVIgI73nv94wYvIyb9uoW0dC6H9NkxgOE2Ef2zOcHnBQjOtpFw9q8YJQ6OvAPQ9bCdHuAEI49PtiMljHvp26DQQ-rb4QwDW-58skRpYWvxIlV_gyNP_HBgE5e_nZXWXBJ7bF1RNQDD1m4jTgqWBZUjAnvZBjbV1rVVnDEXLq9uTfhy8P7k4wQWSoQhrSOpfrelwRAWFzjd1PLNJ3Eg8G2s9CX9f0HD8RXiPJNxtO6f7hAglmFthMINsKRwn4GCkdHHR35BnzwiJcID4inem1D3WfsO7cAoTv-t_X4Nb1doSAk2xIkyuQYY_ia6wphYvdQwMqfaK2cK1w6Y9UIM2asLlX58AC0dWddgHO2EaG4i__4o_kOwRMT9MsPCLzlZibD8dqa-o4Zwt9fzvZgeuA4WbyGA-lSxIQIgp3WyxnauvxCR8Z9GA-MZmx0GBhnhp-idiQ6LrLFs65zQdwgrsiX9LL3GiYAC14zyrTkxCxEcdMRqx4FqoLXlhY3ohuYtmKbsxu_AEJYL6ka9OYQz-hDgtRq-&p=17&fvj=1&vjs=3',
+ 'location': 'Paris 15e (75)',
+ 'salary': '11,50 € - 22,50 € par heure',
+ 'site': 'Indeed',
+ 'summary': 'Spécialiste du soutien scolaire depuis plus de 30 ans, Complétude '
+            'vous propose de très nombreuses missions de cours à domicile près '
+            'de chez vous et adaptées à…'}
+2020-01-30 13:44:06 [scrapy] INFO: Closing spider (stop generating requests, only 5 requests allowed)
+2020-01-30 13:44:06 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2777,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 385362,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 1,
+ 'elapsed_time_seconds': 22.529992,
+ 'finish_reason': 'stop generating requests, only 5 requests allowed',
+ 'finish_time': datetime.datetime(2020, 1, 30, 13, 44, 6, 595158),
+ 'item_scraped_count': 73,
+ 'log_count/DEBUG': 382,
+ 'log_count/INFO': 110,
+ 'memusage/max': 72187904,
+ 'memusage/startup': 72187904,
+ 'request_depth_max': 4,
+ 'response_received_count': 5,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2020, 1, 30, 13, 43, 44, 65166)}
+2020-01-30 13:44:06 [scrapy] INFO: Spider closed (stop generating requests, only 5 requests allowed)

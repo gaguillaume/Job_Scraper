@@ -1,0 +1,1819 @@
+2020-01-30 14:06:52 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/robots.txt> (referer: None)
+2020-01-30 14:06:52 [scrapy] DEBUG: Redirecting (301) to <GET https://www.indeed.fr/Emplois-Ing%C3%A9nieur> from <GET https://www.indeed.fr/jobs?q=Ing%C3%A9nieur>
+2020-01-30 14:06:53 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/Emplois-Ing%C3%A9nieur> (referer: None)
+2020-01-30 14:06:53 [indeed] DEBUG: 
+
+ Crawling  https://www.indeed.fr/Emplois-Ing%C3%A9nieur
+
+2020-01-30 14:06:53 [scrapy] ERROR: Error processing {'company': 'IT-LOGIQ',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Avant Vente Communications Unifiées',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BYDCY_41Jt6iyQ4pBR2ASla81AbPmht4zoIZD2lnVq28nrkWpEpZu5R3OBoM5h5oSSewQgsA4J2y3ynvQELStVZHo9oMs9f4IlLOkoz6n8miXxSk3uRTjryF1trJbxrWOf4JRuo84KTdvn1s8rbxlnnV8Qh1yNBIPTtCUHxXpQEI5_Id0lr4vZJLWuLBvvb29XS7D-GzrsogRqbRo3SazyNN7Yv3ac9cONfsX3GcD3JgP4MzMnjJ1HYK5QNvVRhoC_VOcWsCksGslJx6XSVECqnJM3QWfCh-vT-JQjzzMbkdQs2rK6wwm2-EiNPSlQjzKhIREq1H7v3sfiyjWqfJngtdxbgQSJgLCUR80hB8Za6hR9IPYBmux1dpJrYX4bIRGes0rGzdE7JV6sxwo7ne6IvtrrFbVTKiDow0h7uwR3s9XJ5UEfr7TMQe5sq9J7xi-ejDo4btn4t3sVCubn7PcCkG-sxQp-O_EA-4KtWHAAjeNtDHCto7eH5sYE8VN-XP8=&p=0&fvj=1&vjs=3',
+ 'location': 'Montreuil (93)',
+ 'salary': '2 500 € - 4 000 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur réseau ou avant vente NTIC: 3 ans (Souhaité).'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32b7f0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b7f0>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b7f0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': 'OSRAM Lighting',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Technico-Commercial/Key Account Manager '
+              'Optoélectronique h/f',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AbBluBwDh5L-lEr7jdhKvH-bFeMhJczYkH_ZDo81OWloJj8AzWNfV6uOdo86a7s_TnXAx5A_6dRLFRCKc5rUp2cZXFp7PgYm-icD7XJbh55RGtbvQO0Pb4Yyw3T5marWJefFPeDace3yCtwpvwqnlG6waF0kbf2tg0Ec6dNn158FRb_1PU8ZAgB7_FFu1-TNcy1cKgKgL9i7bXkqm72Tc9AE94aFZq10Paro5XXz8YbMxCGdJSTst3XkpGhzsvS2bRp572-KAuXvzcYlHoyX_hT5KO9Ue7S6eRTM_0svH1YYfLnuGzwyEcBieq5-5b_-naNgIkCH0O0yeN0Ggjnsn1t5tq-R4E4sePD7zYfnPSXTAgKePiDbOmPNtnQxxM8W4A-sw9RM8wXAEbYrxhCWMzN9UZINM3uoco8Pw4LMtFNXbt8gwNF5iU2C9sZorbq0rNEaJTcuHarDWT4_B3y8UPkger4RkFwXN3jGKeC0PENGV22eix9S2CwqMwLAz7_vkw4ZNw1kvMkHiwLFVj7yrUL7U3HGdubvE=&p=1&fvj=1&vjs=3',
+ 'location': 'Rosny-sous-Bois (93)',
+ 'salary': '60 000 € - 75 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'OSRAM, la lumière pour un monde meilleur.'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32b748>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b748>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b748>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': 'NEXEO GROUPE',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Quantitatif C++ (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CFC3D_GMVrNVA0Ekw0M1A5LTB6Mapy2Cyj_q-Qd42e_oVhwCaJmexS7UcYbH6sOyT_7vb9Jmo9Cedb4EwMXvNdujLiQhhsq2TFZ8sHXijlNTNYrGInpImxocE8eneNTvWSxTAmaoJvzRPeyRFQMWLCKcdST50FCfQmXouVITDMzi2m0yLW1kM6HKy1rh5NCPeV4lGJ9QF6tQPci93qnvFTEl_P9ZDh5VOJc5uitd_gtRMzDfMvmVcmbyTwzoFGPg4h_ACeax6Xzw3qkxsTZlaPoRo896MPAOFhdjwL1jVZoSvTKwQdCDQMyj9XExLnV0YhlrbKHCBUbZxvmVms4FGa4Bj3LSVmgeiIaNH3MGBE9j_Wu-PPL2_s4FchzwiM4nhVTFBG1BbEIzuW0-jXD6RV7rzxwhXt3ipWef416qNysTaKZoQK3d8BXk0MigEWMyB55dh7BLSF8-A6R9vhHZ2ZxKTzpxqpM5Q=&p=2&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur quantitatif c++ (h/f) ou similaire: 4 ans (Souhaité).'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32b828>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b828>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b828>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': 'BECIA',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': "Ingénieur d'étude TCE H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AIGyVbSNHLAg4XHpI74y7DHb_OiACp11gig-sW2T2wccRDP9zlP4KwW1Vdg8kP6lsWCd3T401u5d-YH8XYj3QuJV4oYaP_ZjzIgwlhTsH2FxWwiz_pDtc3k4Z8zaP2hx2pIVr1PPXIR5ELpS9VlI8JH1ordXIEC7jIv4pEKzjrn1A46pytYxRTdtik1cBdDteGQ9LmbQCRRCzcgq6fsnvu6KZrFYtVPTeoO_qoCAy734ppRZAtuIEHaeiTVwNojCulFgEQqEz_Rzjvb3JkGz2iESdHSCiFu6FJrP9Qp6GbYyTWDfmj8gKe8586rDY7nA31BRHpjqdbxHbxi31DHt5pImBOlo0rD9rGXP3ex9uiccEEFQ9tRoL32HspfMm1N5vpsDKAGXhJkImmD8Hu4srbKdlfQ77CHG0-dRm7vfxo-xZEm3nHXSSeC-15FIi_GSL4_FCL8V50zDqazWHK8oxTLIfG9Ny04R4=&p=3&fvj=1&vjs=3',
+ 'location': 'Tremblay-en-France (93)',
+ 'salary': '32 400 € - 36 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Nous recherchons un'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32b978>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b978>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b978>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': 'BATI CONSULTING',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur / Ingénieure structure BTP (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CHsKuc2OW0A62bmlzAIalvLK0NNg3Ito0iqJxaz8bqLAZbA4GSRKTWHvFB4WHULspmervQbOI9PjejLHKCrL7DI5DzvVnYp7DR4SZagkhsxAZsBZUMRBI3B3MfIp9nEwuIMHMb0377126J1H8_zfWk-n8evp1Z5MSZkaalhbGqaSixP3huHRI1Fi3yEljxa2vR_PwYz576S_mEVzjjoD6P4n4cPHNxM857hu5arjNKf2egtGifAR5JPGO5S0Oj8ZMasuT5_1oPI7kQHxt6TID6ZSZiX-ZYgX5pXP8VDVKw8juO94FeDyb4-SBbvsGSjsRtw8tB4wnobZ2p9T8_V6DfkCFm29gfZ8htJwyH2urCsNsF3rGeTX7sWeBx3RI_cRMawDBc8PSEXuuIwrozhBlhmTi0XCl1gSNaT_igmV8Kq4jJ81ZR3WWRHowlRcyhRgLSXnyNlCPRs9YCxpeG6HMOuPTMkoA3Pjxh0SdzHneE4GeQ7BGt9i0V&p=4&fvj=1&vjs=3',
+ 'location': 'Aix-en-Provence (13)',
+ 'salary': '2 800 € - 3 800 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Bati consulting ingénierie recherche pour une création de poste '
+            "une personne qualifié et autonome : Domaine d'intervention : "
+            'habitation, villa, immeuble,…'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32b7f0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b7f0>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b7f0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': 'Pinsent Masons',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Secretary',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0B0_BdVzFbIxFDeepmkXvT45FEKOUS7xiuKLTU380nsMh3mRtc-_Yv2di2dqIwbIgo--euQIiKFtxi--fazPzFRTwnOL6lllQ7BQjIdWqg6DmqP_JUEMgRz52YAMlHffkvvqI85aWlpLV5bO6gElmXWw_aDS8OJWSuCpx_6eFNKFy7kRq681Sl7yfQ_on0pe2qgogwbK-d5ToLRDhVTSAW6TO7R5cfA-clF-Yh5XGIDa0tSBvdM5LOERgHH6zxnILFYrMuuZjXYnAAAUl_Bpj6WXu1ci0sOTiWfYrdoOPYkVmaNklS7sYFdIBmtvMv5pKI0cLuNL2-B5xKEnO54z06YNVg3KSfTaffIsjIgyJmEr8R4PUzpjhPzRGLCcmdOUHDA-zmqavieJZfLPKdUN-QY-p3LHzV4-48M5YFyZe4_Vq6Wp1rrcXJs8xOIXYsy_kBRwim-6IGxDnkzLj-A7vwhsdIUEth42TXMrOck6YMP1joqkwvFhU8JYw4BjEfFXVlIsDlRtbzHC1V0BqPOMiOckvJwr09SGxO0NW1PQ2FSrxnF9hBhEAosu5akkPQzZ_gDtQuPU9TA_j7uc6-4hGXr&p=5&fvj=0&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'We are currently recruiting for a Secretary / Legal PA in our '
+            'Paris office.'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32bac8>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32bac8>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32bac8>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': 'Bosstek',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur OpenStack H/F',
+ 'link_url': '/company/Bosstek/jobs/Ing%C3%A9nieur-Openstack-08727b31c40c30f9?fccid=cbf3fb9979583f00&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': '40 000 € - 60 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur openstack h/f ou similaire: 5 ans (Requis).'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32be10>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32be10>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32be10>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': 'Bosstek',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Systèmes et Réseaux H/F',
+ 'link_url': '/company/BOSSTEK/jobs/Ing%C3%A9nieur-Syst%C3%A8mes-R%C3%A9seaux-e19ae51be3d3faf6?fccid=97d2675fa49910e9&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': '40 000 € - 50 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur systèmes et réseaux h/f ou similaire: 5 ans (Requis).'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32bda0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32bda0>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32bda0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': 'Bosstek',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur systèmes linux et virtualisation H/F',
+ 'link_url': '/company/BOSSTEK/jobs/Ing%C3%A9nieur-Syst%C3%A8mes-Linux-Virtualisation-51daa4105c4149b9?fccid=97d2675fa49910e9&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': '40 000 € - 50 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur systèmes linux et virtualisation h/f ou similaire: 5 '
+            'ans (Requis).'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32b7b8>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b7b8>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b7b8>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': 'Bosstek',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur systèmes et déploiement automatique H/F',
+ 'link_url': '/company/Bosstek/jobs/Ing%C3%A9nieur-Syst%C3%A8mes-D%C3%A9ploiement-Automatique-c11577c3809f794e?fccid=cbf3fb9979583f00&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': '40 000 € - 45 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur systèmes et déploiement automatique h/f ou similaire: 5 '
+            'ans (Requis).'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32ba90>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32ba90>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32ba90>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': 'Bosstek',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur systèmes, réseaux et virtualisation H/F',
+ 'link_url': '/company/Bosstek/jobs/Ing%C3%A9nieur-Syst%C3%A8mes-db1203fd25e716b6?fccid=cbf3fb9979583f00&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': '40 000 € - 50 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur systèmes, réseaux et virtualisation h/f ou similaire: 5 '
+            'ans (Requis).'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32b978>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b978>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b978>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur(e)',
+ 'link_url': '/rc/clk?jk=140feab1e1e72f53&fccid=ec8a0bd60be9a6f5&vjs=3',
+ 'location': 'Aulnay-sous-Bois (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Depuis plus de cent ans, L’Oréal opère selon l'idée que la beauté "
+            'a besoin de la science.'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32bef0>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32bef0>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32bef0>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': 'SOVEREP',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': "Stage ingénieur Assistant chargé d'affaires automobile",
+ 'link_url': '/company/SOVEREP/jobs/Stage-Ing%C3%A9nieur-Assistant-Charg%C3%A9-Affaires-Automobile-4cae5781ce7767f7?fccid=2065aac2c2d67810&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': '1 000 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Expérience souhaitée : spécialité électronique en école '
+            'd’ingénieur.'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32b9e8>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b9e8>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b9e8>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': 'Phoenix-ISI',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Généraliste',
+ 'link_url': '/rc/clk?jk=ff31526307735544&fccid=5d84392cf5ede3ad&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Nous proposons donc à nos'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32b978>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b978>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b978>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Automatisme',
+ 'link_url': '/rc/clk?jk=0dcc6adb4c699817&fccid=743fedee7f038fd7&vjs=3',
+ 'location': 'Torcy (77)',
+ 'salary': '40 000 € - 45 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Nous recherchons pour le compte de notre client acteur majeur '
+            "dans le secteur de l'optimisation de la supply chain un"}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32bd68>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32bd68>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32bd68>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': 'GNVERT',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': "Ingénieur d'Etudes (H/F)",
+ 'link_url': '/rc/clk?jk=56c9bd8fd74e2c8e&fccid=7aada6dce363c3a3&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'GNVERT, filiale du Groupe ENGIE, est l’acteur majeur de la '
+            'filière du Gaz Naturel Véhicules (GNV) en France.'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32bf60>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32bf60>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32bf60>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': '',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': 'Ingénieur Etudes Mécaniques (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BT6LzuTjK3jWy39P1M2waLVKB1ofyR4CNiszqtsmkEkDW-mCPFbdIyKnByFqkUyfI2hxIox-m2Zou3uOpAARD88EkjmPGulUKuH-o02haaDHiykkJdoSMKZ1IwqYQ_LiYPfG4z42_KtUfjg3WmbEapxDo-iPSewhmEDt5XrpIFTLf3ESlq6dF4W1vIhBCP3uXXBqtA9sTcfI2i0qyePNTiaEYnWtuJbefnc1Q2cvKus7GPKYIr9-shEk96tSpD5qTGfNDRWbagsW9En7_i87wlsTP1xdDlFVOQv70M8WFGSkwiZB20FxsVu6xAMpldWJD3gNcVpx-FH8-XoyIqJiermm5PQhlULNNPovcEMkFDzUc4Xy9DBoUwqvkt-C6F79_9dQoygOsn9oCA--QpdcUQtBWVY-I6kDb97_2_-FZ0VMVPlngb_rmAuP-t06HZBjefpezbmR0x-SD7bFLsV98AiaW53V7rA4I=&p=16&fvj=0&vjs=3',
+ 'location': 'Saint-Thibault-des-Vignes (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'ACRELEC accompagne la digitalisation des points de vente de '
+            'grandes marques du retail, de la restauration, de la mode, du '
+            'loisir et de l’hôtellerie.'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32b710>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b710>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32b710>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:54 [scrapy] ERROR: Error processing {'company': 'talkspirit',
+ 'crawl_url': 'https://www.indeed.fr/Emplois-Ing%C3%A9nieur',
+ 'job_title': "Ingénieur chargé d'affaires H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DBGptCHrnUEJWaJZ7ccqro9BhmaDIr7Pz1SlCsZFI0msZ9Uy_yuA-1gSHz6zguFFip6wMp6q2HXeiFmFpxWp8Vz84bE1ZI56dwQIAp1Zfn3sF2Scl5EUh3x3y_VScwjunZNlYId-9gvSKWg7bTEdibJrnOmEaM1lmP6Kp3cFPgEHaoD-IKHesSsf1IFAZq-X9HsqGPRlsXqt8QpMIB9Eho6jVAz5L3TXE0En0dnh0x-JRA7L7W4Sn2517qa-qPXRlUuezA0dTltfDGCLlk4EQHQlO9I5wFce5cGVR8XTryxlncme12l-oYIatVMVmvORB9NOAagcjdiOhtijvtiGQgG1nSkCtrbiHDlC8D42C8nldMFaALj6qmqNUCfDQF6EJMrDT_RKT8oTamlSvDZwuYJyMhdt17ac7nhShNiuz2CPv2gCHW7C2AE22xu_0U23droNufnKXzVawnFuSkcz0npWp0qHf4iqs=&p=17&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '36 000 € - 40 000 € par an',
+ 'site': 'Indeed',
+ 'summary': "Ingénieur chargé d'affaires h/f ou similaire: 1 an (Souhaité)."}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1254, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1300, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1249, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1036, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 974, in send
+    self.connect()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f784d32bcf8>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 254, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32bcf8>: Failed to establish a new connection: [Errno 111] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7f784d32bcf8>: Failed to establish a new connection: [Errno 111] Connection refused)
+2020-01-30 14:06:56 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10> (referer: https://www.indeed.fr/Emplois-Ing%C3%A9nieur)
+2020-01-30 14:06:56 [indeed] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10
+
+2020-01-30 14:07:06 [scrapy] ERROR: Error processing {'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur travaux Junior H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DRrYHu2Qqov953cRyzSXfWuaVprq-2MZ-NugVjm40TFv6weYTKg53ynIV-ruykjY43G-Gcykr1GHd7W6nDCg--FHi9E-TSvi1gBpvenBIKI5lfy9wGoYSKKYXs0D-W3ZiQQl5N7wD7JaLe6NeB029e1Cis75jdB4tVHBViljskQ-8zsnyaE_aptu3dXWr6lf4elemNKRMLwWcdbsLYDOZWLBxac6sUTIqDqDD1xpzztaoJRSYxNYj4a9YgesROSCgv8QEE4rg9FeDy-uZSB6rF1wTd_MRGxKBQUujRFKQIs9UmU2mSF2sE_RD5kd9DMP-pcWCLfN5eHC77HokIymyCz98DyPClZz5Qjxah4BeD7A0APQU3gPn8uIFTk0hpXiJB06mswJKGa_Bwt0ZPthn8uPX11zrVLtrTIuUEMZ0QqiAceOW1vRDd6gOQCYCJ9dfwWE04MYF7BxUYjB4ynx4R&p=0&fvj=1&vjs=3',
+ 'location': 'Neuilly-sur-Seine (92)',
+ 'salary': '42 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Vous êtes ingénieur(e) et vous vous ennuyez dans les grands '
+            'groupes ??'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1346, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 242, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 423, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/usr/local/lib/python3.6/dist-packages/urllib3/connectionpool.py", line 331, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='elasticsearch', port=9200): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/scrapyrt/project/Scraper/pipelines.py", line 48, in process_item
+    self.collection2.index(index='annonces',doc_type='ann',body=dict(item))
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/utils.py", line 84, in _wrapped
+    return func(*args, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/client/__init__.py", line 398, in index
+    body=body,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/transport.py", line 358, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.6/dist-packages/elasticsearch/connection/http_urllib3.py", line 253, in perform_request
+    raise ConnectionTimeout("TIMEOUT", str(e), e)
+elasticsearch.exceptions.ConnectionTimeout: ConnectionTimeout caused by - ReadTimeoutError(HTTPConnectionPool(host='elasticsearch', port=9200): Read timed out. (read timeout=10))
+2020-01-30 14:07:10 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': 'talkspirit',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': "Ingénieur chargé d'affaires H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DBGptCHrnUEJWaJZ7ccqro9BhmaDIr7Pz1SlCsZFI0msZ9Uy_yuA-1gSHz6zguFFip6wMp6q2HXeiFmFpxWp8Vz84bE1ZI56dwQIAp1Zfn3sF2Scl5EUh3x3y_VScwjunZNlYId-9gvSKWg7bTEdibJrnOmEaM1lmP6Kp3cFPgEHaoD-IKHesSVcJdZrj09obaTssVlyjQ7B_EPB12EjoGAlldeODg7Ws9_I75M51AYPgBcMpJYetebJlxJ7nXARPgHz7AgFPkCw25eBw6yLMdbcMdLLglLFW9VYpK1DLSi7TdSEumpg4cfBRk7BXvHBi1-1CA36sibtN4JGAK4fuiZKIBq_IecnMLJVsjKcXIlYeJLVyyOS2AoC0twC5GRkXvhBwCvpHHddzfazbKGuCi6bMzDbl-6R5DJNcjR1BDjgDzAYh8umsp_c9LvUdpeEcHggT2Wb9yU_HkhJuMn_Qtvb2wXhKiMyY=&p=1&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '36 000 € - 40 000 € par an',
+ 'site': 'Indeed',
+ 'summary': "Ingénieur chargé d'affaires h/f ou similaire: 1 an (Souhaité)."}
+2020-01-30 14:07:10 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': 'XRAYS TRADING',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur IT Virtualisation / Production',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AdKewU9f-xZpC2jBFTDBktrthwhpPzXIpPWszFane2sphu_5rY0IynLL2Ch_3WkiUHB-hOjS2jAq7q1_VChA1UK6xdgI1VKErUGCVXUUFlQOsX8LfULJ_u4D5koROQ0dmIPbsziboYqwuawAB4fhNXUZRO769HVIDz_rYyk-MOtE4XHAuzV58V84f0fG735ZFWzphOsbrNAzntwXIyjbwQUp1PTI7xf9L7N1d7VUiN5ydbdYjjDtDbWzyHNitIwOys7ED8A5FOEmSgPhittFrqP4zdZMawVRwqWpMKv9Pph4Wc-N03K24mqPIwrkMuyl5ZYkC7PSt9Psgs8807lxESh-iQhUtqGqaG0h54k9PboRSlXZpwcZW3rcUc3sq5bgoPRfvepC_9AH4HOIVXTQ7AeR4ua32SjfsvPE_YMz54k8S7vlJCZNqSngzSmJQh0dThkDefRrhz8-H0nwnHnQQSXwzOMJLhKZtN0UQAvnEFxQ==&p=2&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '50 000 € - 75 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur IT virtualisation / production ou similaire: 3 ans '
+            '(Requis).'}
+2020-01-30 14:07:10 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Méthodes Maintenance Multisites',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BNQNW-ZS2hJ0mLxf5rOMmcfyDszTUn7URuJfLvpB7illx_7hTDcXU6jeYFfa05XUcVpKPOsFxbkkFcFjr-0yC73U1e6ZMqcEWlgi_4otX2Cb_ZxVi7kCYInw54ZUcWKMvaKplxFmnKHuZo2zq0aYTjC4ZkZexmcaH_hAIljKv90c6j611Wh8WpFpEnNTwVbHUktVpi5-XvhTxlo_gM1vOu2xRdlIrCXPIsHPlPNgAsItDUayR753an34jasmk_nzk03Frm0oQI9iv5x8p6vpTrkp4ey_UN6H2_drVMLnXdlHWfQlgMfDouzVQavHnzRpq2C2lv33ZgUQ4mRvB_2M61ipu5pAXwL6WnqeJ7W0FIMYHAwpVWNTx7iXMjr-qS-x-XqsjouQZnZaGVUHMnNRMR4E0ZBNXAs9VgG7N7PWhBbc86xPAqxPBxU3nMN3s5TjlDvl5ot_zEfxfHyGFFkQLZL_2fAD3PcUQk8WLj3HnyWqO9eau-bmxAbCiRs0gL57f9bOPzsdsFP3BP8ZrKCF1AEl9TjISygNs=&p=3&fvj=0&vjs=3',
+ 'location': 'Montévrain (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Et si VOUS commenciez une nouvelle aventure avec NOUS ?'}
+2020-01-30 14:07:11 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': 'MEDEX',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur calcul de structures',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AjhbsM0hQqNMJMXXlRN2Tgei2bqUuekU6eH4GENYVB22ndfBx1iJnNXZZPVQWMjpiQGsYNZZRc4FunMT7r1lCOdxHpNrTDKJs19prS7TJc0xavKlLL5ZQH_kK5vbWzVjgRrvoeiu1asRgbNz3VadHj_Jph_5sYohSslKxG0QoyME9oL4e1jHk4t3ClaT4hK0pYGW0H_GAtYvBNwE2kN0SfL5BspPBOl5xxmEJCNd36J0SBitOuTCazKalldkzHOutdJ1Kg3AOJYnaX9wjKAmZvEal77A3lZsVHl_mNXiKsDji9nJgvxvxG2PyYWA0mhVmnf8XK6I2NP9dOxr6oXjAtLfGmdzZBnTRQSt5lOup2lFeEYqe7Fj4Q9h7C_djRD3bj7CvNjy58YiCFwqbGD5ftg4vxt_ULLNxehQUzwT6KTpV5htO4chPoChMatVjAZopPEoemipiyHXYSlCYKS0O4jjmgNd2wGTE=&p=4&fvj=1&vjs=3',
+ 'location': 'La Valette-du-Var (83)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur calcul de structures ou similaire: 5 ans (Souhaité).'}
+2020-01-30 14:07:11 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': 'BECIA',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': "Ingénieur d'étude TCE H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AIGyVbSNHLAg4XHpI74y7DHb_OiACp11gig-sW2T2wccRDP9zlP4KwW1Vdg8kP6lsWCd3T401u5d-YH8XYj3QuJV4oYaP_ZjzIgwlhTsH2FxWwiz_pDtc3k4Z8zaP2hx2pIVr1PPXIR5ELpS9VlI8JH1ordXIEC7jIv4pEKzjrn1A46pytYxRTdsOnjcNKo17LUkiNLn_kTgzIAxKsGHO1AnHxnU1lRCHuSnIzqbHkJ_06H68D-fZ8AT7EdyNByimajM_cXPgg5_KuSmda2amsX3KxeuKSJ8PzyV2buG0I2KpuXGRLU4KdClL5xQLFsmckGCRW0pX-hocfifdEyc8wGEWYSHFNAdOUsGJNOgQt8cxBIjBqdwKvvyxa_GV_Vok-JZVt910T0EvDrZO3WNDXV64UZIKZyOKBulLxeydIZlyhNv2NHa8KXsPUF5UP5dau-A5gHNqDps2zou0JTLg-9qxS-Lp0bqM=&p=5&fvj=1&vjs=3',
+ 'location': 'Tremblay-en-France (93)',
+ 'salary': '32 400 € - 36 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Nous recherchons un'}
+2020-01-30 14:07:11 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': 'CORIANCE',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'INGÉNIEUR MÉTHODES EN CDD DE 8 MOIS (H/F)',
+ 'link_url': '/company/CORIANCE/jobs/Ing%C3%A9nieur-M%C3%A9thodes-Cdd-Mois-e018a7498a5cfec6?fccid=b857501be3a02f94&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur méthodes en cdd de 8 mois (h/f) ou similaire: 5 ans '
+            '(Souhaité).'}
+2020-01-30 14:07:11 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur en Laboratoire Qualité - Usine Aulnay-sous-Bois - CDD '
+              'de 6 mois',
+ 'link_url': '/rc/clk?jk=a7d77483de7ae8af&fccid=ec8a0bd60be9a6f5&vjs=3',
+ 'location': 'Aulnay-sous-Bois (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Titulaire d'un Bac+5 d'une université ou d'une école d'ingénieur, "
+            'vous possédez une première expérience de 2 ans en industrie ou en '
+            'laboratoire.'}
+2020-01-30 14:07:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur amélioration continue 94 F/H',
+ 'link_url': '/rc/clk?jk=ed08b9aef768e7d1&fccid=df0f43a643b1a05d&vjs=3',
+ 'location': 'Créteil (94)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Sur un site de 800 personnes, rattaché au Directeur de '
+            'production, vous participe et pilotez les projets liés à '
+            "l'amélioration de la productivité."}
+2020-01-30 14:07:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': 'Beautigloo',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'STAGE INGÉNIEUR CONCEPTION',
+ 'link_url': '/rc/clk?jk=96f9a13fd260a26e&fccid=dd616958bd9ddc12&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Au sein de la start-up, en collaboration étroite avec les '
+            'co-fondateurs, vous contribuerez au développement et à '
+            "l'industrialisation de nouveaux produits."}
+2020-01-30 14:07:12 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': "Ingénieur d'Affaires - Secteur Médico-Social F/H",
+ 'link_url': '/rc/clk?jk=43fd35c9f9ff0fbf&fccid=07661a4e5e3582cf&vjs=3',
+ 'location': 'Paris 8e (75)',
+ 'salary': '45 000 € - 55 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Profil orienté "chasse" avec une expérience minimum de 3 ans en '
+            "tant qu'ingénieur commercial dans le secteur médico-social "
+            '(Hôpitaux, EHPAD ...).'}
+2020-01-30 14:07:13 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Stagiaire – Ingénieur Sécurité des Systèmes d’Information et '
+              'Cybersécurité (H/F)',
+ 'link_url': '/rc/clk?jk=93f6fbd50e818e78&fccid=263be8b9afb34d7d&vjs=3',
+ 'location': 'Roissy-en-Brie (77)',
+ 'salary': '1 200 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Créée en 1960, Volkswagen Group France est la filiale française '
+            'de Volkswagen AG, leader mondial de l’industrie automobile.'}
+2020-01-30 14:07:13 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Assistant Ingénieur H/F',
+ 'link_url': '/rc/clk?jk=bdd1c06db5d2535b&fccid=c9ee787c1fcabc41&vjs=3',
+ 'location': 'Bussy-Saint-Georges (77)',
+ 'salary': '2 500 € - 2 800 € par mois',
+ 'site': 'Indeed',
+ 'summary': "Nous recrutons pour notre client spécialisé dans l'aménagement de "
+            'véhicule utilitaire, recrute un Assistant'}
+2020-01-30 14:07:13 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': 'GNVERT',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur d’exploitation (H/F)',
+ 'link_url': '/rc/clk?jk=512968de6a6544c2&fccid=7aada6dce363c3a3&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'De formation'}
+2020-01-30 14:07:13 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur(e) Technico-commercial',
+ 'link_url': '/rc/clk?jk=948e61f40cbcd3b3&fccid=df7aa0810f5ebfaa&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': '45 000 € - 50 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Depuis plus de 150 ans, les technologies de Voith inspirent dans '
+            'le monde entier ses clients, partenaires commerciaux.'}
+2020-01-30 14:07:13 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Technico-commercial (H/F)',
+ 'link_url': '/company/CLAUGER/jobs/Ing%C3%A9nieur-Technico-Commercial-db2f9f2d445a46f9?fccid=188b9e870c715b60&vjs=3',
+ 'location': 'Lognes (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Issu(e) d’une formation'}
+2020-01-30 14:07:13 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': 'IT-LOGIQ',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Commercial Communications Unifiées',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BYDCY_41Jt6iyQ4pBR2ASla81AbPmht4zoIZD2lnVq28nrkWpEpZu5EjQhQTGPTZtrbQfR0-bI11Cz1T5y2st5PuPcJqvL8QBjEldjenWtYY-J-vlMicYJ6oBF8VgXSliHGj5iqT08938GpOWtQto-FcJ0ICsu0ZNjM8CvMbL7sSuLE82KP-_4GzIvfHfGoL0zpZW-FT03vU_QT1hrGlyBtiw5Mb77h9YiygiOwi48ByPqXI57RG4sXjkNBih3rTWz-bl6I8sLFpCqmW4SRpUrAW6Fk3KHP4hotxlhlvgwXHC4OJntCz95HiNrgkITyXNf82Wq8wxbjvetPEwbgzF8906dzrm6WtFUIt95PUIllguVltc-SdYUrcuc_FAikjMl9MYV7o6Zi6SzvGNlBPbgbayaxGYy5tYstJEor2y51gBGjZfyiW6LamXzzyQoFqjHGivwUo73lEPwD0pjZrPZJ2xeRhiTojTDz2egxaWHmStnXUgcMdFsO62pSMB035A=&p=16&fvj=1&vjs=3',
+ 'location': 'Montreuil (93)',
+ 'salary': '3 000 € - 5 000 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur commercial communications unifiées ou similaire: 3 ans '
+            '(Souhaité).'}
+2020-01-30 14:07:13 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Etudes Mécaniques (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BT6LzuTjK3jWy39P1M2waLVKB1ofyR4CNiszqtsmkEkDW-mCPFbdIyKnByFqkUyfI2hxIox-m2Zou3uOpAARD88EkjmPGulUKuH-o02haaDHiykkJdoSMKZ1IwqYQ_LiYPfG4z42_KtUfjg3WmbEapxDo-iPSewhmEDt5XrpIFTLf3ESlq6dF4W1vIhBCP3uXUEf0UXSTnK07HoRhMAp8ZWlZ5Ca-yqvmRzwUnI_F8-VKXe8WRf3xBfPnnG07jqGronVCk8ExJcP2IKGoiOnkAYdEYX4NaxdyOhuj_md6aXK_-rc__uRxT64zHpFKghi8Xa0AwCw2mfhw7NXXchX_W_ETwiw2LOoyl2YXwSijhOZAF0bf66SH2KLJt5T8ZKzSjF0Y2pw6PaU196DFhbQWtVzrnQRiMqSCuDrsvND734vIKE-4RHIXmWvdCivq9XlewvWJcdKETXyISepFNNAkkZHCkWFtS71w=&p=17&fvj=0&vjs=3',
+ 'location': 'Saint-Thibault-des-Vignes (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'ACRELEC accompagne la digitalisation des points de vente de '
+            'grandes marques du retail, de la restauration, de la mode, du '
+            'loisir et de l’hôtellerie.'}
+2020-01-30 14:07:14 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10>
+{'company': 'OSRAM Lighting',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10',
+ 'job_title': 'Ingénieur Technico-Commercial/Key Account Manager '
+              'Optoélectronique h/f',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AbBluBwDh5L-lEr7jdhKvH-bFeMhJczYkH_ZDo81OWloJj8AzWNfV6uOdo86a7s_TnXAx5A_6dRLFRCKc5rUp2cZXFp7PgYm-icD7XJbh55RGtbvQO0Pb4Yyw3T5marWJefFPeDace3yCtwpvwqnlG6waF0kbf2tg0Ec6dNn158FRb_1PU8ZAg43V98U3HLg0FqqqhA2A3ytbUK51V0SBSNgWnWPduGBayYyYDrnL_d8fdrtHWVm4I2jnJjHfPvtBaYRj8Sm5IaYWa_cPgD5r6QNLx86F9ULVZYB3oz3zaTY_ypvKrrN51kT8VHzhLSraFDPFZgup1Fei-17u-qSfyhOBrrWiEcWvqeqEm-pft_-9SLuk1VSB_wdVb1wjXhZe6qyYtqpkFaGQ1eCiYMya2xReZVSV4K3YnfMHPJvRusPKYH4jXP9HTEe9mMhQp95wcToUHG2rQVY8ckNIR1JUOqAWtQ1XlZas67YYiRI8a6kepaewgN1Z68IbyJ3on2GUN13sI-Y0WzelccVKQ-eAjdGb3Pw2Ox7c=&p=18&fvj=1&vjs=3',
+ 'location': 'Rosny-sous-Bois (93)',
+ 'salary': '60 000 € - 75 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'OSRAM, la lumière pour un monde meilleur.'}
+2020-01-30 14:07:14 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20> (referer: https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=10)
+2020-01-30 14:07:14 [indeed] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20
+
+2020-01-30 14:07:15 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': 'XRAYS TRADING',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur IT Virtualisation / Production',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AdKewU9f-xZpC2jBFTDBktrthwhpPzXIpPWszFane2sphu_5rY0IynLL2Ch_3WkiUHB-hOjS2jAq7q1_VChA1UK6xdgI1VKErUGCVXUUFlQOsX8LfULJ_u4D5koROQ0dmIPbsziboYqwuawAB4fhNXUZRO769HVIDz_rYyk-MOtE4XHAuzV58Vvmyh2hyMQNqxpUMg4U7pUoSutQcZbnqqSekmkm-HPufvvEGgiul-7hvqCOMuiC3zPp6J3mO_Ee0I8TM9iF-b2fngZMvITinzl2ooPmUMIZxi2taWC8qNB0YK0jFzdZLAV1t0azaTnCHvVwpsVr2qiRBvniL-Drl76kY4etNQqU_GZb6n94GXEBUJkAFXvbAMJquudeBzJnUFc92FuaqEAvclxJTsKqevqn0ymLRDCoPpI46zqpWUq2OqGtd82WCkEZIPzv5_tYzYexEsfBFK9aLN9yhIzkNp9SdctlIqAxltWtL6IDEPqw==&p=0&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '50 000 € - 75 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur IT virtualisation / production ou similaire: 3 ans '
+            '(Requis).'}
+2020-01-30 14:07:15 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': 'IT-LOGIQ',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Commercial Communications Unifiées',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BYDCY_41Jt6iyQ4pBR2ASla81AbPmht4zoIZD2lnVq28nrkWpEpZu5EjQhQTGPTZtrbQfR0-bI11Cz1T5y2st5PuPcJqvL8QBjEldjenWtYY-J-vlMicYJ6oBF8VgXSliHGj5iqT08938GpOWtQto-FcJ0ICsu0ZNjM8CvMbL7sSuLE82KP-_4uC9V_FPBmm8XrsmoVpMkpOpGMFQkGxpgd_VVKlc4mq6bX3vVSPdhIVLK-IYIaCN1bN4Cwm7Vybo2zGMV1lCpB4f2RZI2JLdiaz5DqmVGGwK43wRyl1M9eEIjdkD1DQ1Q7-E60NoySQZFoiF5YkWuvqYBlp_hIJ7lUoXdY8qP1vdYff9YuTUigfujOSmy6rp8R49_Snd0Snc-JkFS7nd7Ig0P-dWSjOvErOna8KesV9WEFv4cLy4NCk_wQsurMhZnKOvBG8Yw3Zg4HhUA-qlgDqZE-1jEB7IJ9LsBkpch6LTFmMAKTJgeM9AgPfBeFYaedB6wMPAJvlg=&p=1&fvj=1&vjs=3',
+ 'location': 'Montreuil (93)',
+ 'salary': '3 000 € - 5 000 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur commercial communications unifiées ou similaire: 3 ans '
+            '(Souhaité).'}
+2020-01-30 14:07:15 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': 'XRAYS TRADING',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur fonctionnel front office finance des marchés VBA / '
+              'SQL',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AdKewU9f-xZpC2jBFTDBktrthwhpPzXIpPWszFane2sj5Njp5D-3bMXesignWGZT-9R49Q-Mf9j2l5IeuCVaBSPSYw-KKpyYMDogy3Geb8g4-VZK986XDNpyR4owN1OGNBhYALBcoHaQJIWSoK0c9byCoB6CyJ04u0iOfrSbe8jkc_etLaWxcKVHfJYZSTt9blPdiBfMQgZlP8vgOIx0pw1c3yERd77AYL9sTmlnn7OFGXaGIMZG41mSBNDzV_ekXzSrCm0d-bSxmc_PYhJQsSiTVU2HY-OoaBujHHDrfW8EVbB7SIBUU3LY2vv2p_HUXZ9fQfqOw1Av-iKSeNVKyyaM1R8ubbN7QE_Bum9gxQOEPYHX9hQk_4IfnzHasACgFuT13Kan_Rwp4S0drZY3RcMKbz84_1fmsuBaKAC8ZJTnp0R8AD9L8-9fD2sTk7DmuR5a_u2G0s8GxZWEljhXZn-vvR7hRnZnrF0f0db5uslWHx7TXc_ub1iPTeVN5waBN3f7_74fzAggDISqf6zcRm&p=2&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '50 000 € - 65 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Si tu fais de ton mieux, te prends pas au sérieux.'}
+2020-01-30 14:07:16 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': 'talkspirit',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': "Ingénieur chargé d'affaires H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DBGptCHrnUEJWaJZ7ccqro9BhmaDIr7Pz1SlCsZFI0msZ9Uy_yuA-1gSHz6zguFFip6wMp6q2HXeiFmFpxWp8Vz84bE1ZI56dwQIAp1Zfn3sF2Scl5EUh3x3y_VScwjunZNlYId-9gvSKWg7bTEdibJrnOmEaM1lmP6Kp3cFPgEHaoD-IKHesSJ1rSMa7iIS9sWYg_GdumgNYus0snKsa2jhsAyxuih5NNFwI0QLsFLDsc6Ta50mCzlKbeLeyFqGlmE3EzhPdDpmvpzrH-qtRIkxoVhQx7l3BriXBkFlR4TOfq-ltZ1q7_U3kh8Du9oqopXOBIgLWKJqqb8Dz6nwguaEKWeEDsEVK5-G-ZeGTp9DrBT5G4GOxNwjmelCugNleHmnHD_WzE8LtQ_FMaEWkW0z51Eb-bWRjxGiLlB0S_HgRHjwdvegUColDMzgxaumilVG_RJAn0xWeHSU1-lfkR66-kGfBqv1k=&p=3&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '36 000 € - 40 000 € par an',
+ 'site': 'Indeed',
+ 'summary': "Ingénieur chargé d'affaires h/f ou similaire: 1 an (Souhaité)."}
+2020-01-30 14:07:17 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Etudes Mécaniques (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BT6LzuTjK3jWy39P1M2waLVKB1ofyR4CNiszqtsmkEkDW-mCPFbdIyKnByFqkUyfI2hxIox-m2Zou3uOpAARD88EkjmPGulUKuH-o02haaDHiykkJdoSMKZ1IwqYQ_LiYPfG4z42_KtUfjg3WmbEapxDo-iPSewhmEDt5XrpIFTLf3ESlq6dF4W1vIhBCP3uW279iB97D_0jYPFzRpgRhAOqRSax5ju-ttJOiginTtF57Mo7FVkaxIDEY9sD6STO6fFQG89E0anuRKreKrLV099bGoh1RtxUfkNJnLMLQlY5Z07V5VsvEivxqItHuJ8KwwojCD57xdD-G1k_O4ViY2rqEsrBGSrQ-npqnK1GNIjz9VINNo_4KbNNE1Xf9q_Bt526OWI8FPZ1KwE8yRwS6dzCTQEjnDDlFE1fMAwqrpzZ5qkGdIteYPdtgLMuJkENrjM4eGxr5LNGKm0Ujjto1nTE6yn-fdWrg=&p=4&fvj=0&vjs=3',
+ 'location': 'Saint-Thibault-des-Vignes (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'ACRELEC accompagne la digitalisation des points de vente de '
+            'grandes marques du retail, de la restauration, de la mode, du '
+            'loisir et de l’hôtellerie.'}
+2020-01-30 14:07:17 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': 'BECIA',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': "Ingénieur d'étude TCE H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AIGyVbSNHLAg4XHpI74y7DHb_OiACp11gig-sW2T2wccRDP9zlP4KwW1Vdg8kP6lsWCd3T401u5d-YH8XYj3QuJV4oYaP_ZjzIgwlhTsH2FxWwiz_pDtc3k4Z8zaP2hx2pIVr1PPXIR5ELpS9VlI8JH1ordXIEC7jIv4pEKzjrn1A46pytYxRTtRB1aiLqH3jecv04NQjR7sWyJjjNUgT7hdOdkmCjN6nr6BtwLcmGlibg6RR3QutYUWZeUgyK0cLSc0g89ZTv1xg6I2MbaTpmVjWlLiL5VecQGnNj4QsQUPiy9uhJuCQFtfyJADTO4b4CIDAlIN1qdZjIV77jfdEILd2fF2WsS5uB31-MPYMvkCW0qH0m3nawBia4PbSxxh0oWHQizlnHuLTFBPzhKry1_jUfz1x6RJ_ZF5yCo912F6iBnjAR8sCHDm-oiFdQFhnb2liGTdGBX6nA1FL_P-bnoHjd5yswJrw=&p=5&fvj=1&vjs=3',
+ 'location': 'Tremblay-en-France (93)',
+ 'salary': '32 400 € - 36 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Nous recherchons un'}
+2020-01-30 14:07:17 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Assistant Ingénieur H/F',
+ 'link_url': '/rc/clk?jk=bdd1c06db5d2535b&fccid=c9ee787c1fcabc41&vjs=3',
+ 'location': 'Bussy-Saint-Georges (77)',
+ 'salary': '2 500 € - 2 800 € par mois',
+ 'site': 'Indeed',
+ 'summary': "Nous recrutons pour notre client spécialisé dans l'aménagement de "
+            'véhicule utilitaire, recrute un Assistant'}
+2020-01-30 14:07:17 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur·e en Electronique',
+ 'link_url': '/rc/clk?jk=0567b6ab84963985&fccid=651c63598b9bd31d&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Elève de dernière année de cycle'}
+2020-01-30 14:07:17 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur(e) Technico-commercial',
+ 'link_url': '/rc/clk?jk=948e61f40cbcd3b3&fccid=df7aa0810f5ebfaa&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': '45 000 € - 50 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Depuis plus de 150 ans, les technologies de Voith inspirent dans '
+            'le monde entier ses clients, partenaires commerciaux.'}
+2020-01-30 14:07:17 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Maintenance (H/F)',
+ 'link_url': '/rc/clk?jk=d8a2adb4760850fe&fccid=7b6eefff91a6b6f9&vjs=3',
+ 'location': 'Émerainville (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Nous recherchons un(e)'}
+2020-01-30 14:07:17 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Stage - Assistant Surveillant Travaux - H/F',
+ 'link_url': '/rc/clk?jk=85ca6d2233dab8b3&fccid=c1a7f77f41ac41e6&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'FORMATION :'}
+2020-01-30 14:07:18 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Technico-commercial (H/F)',
+ 'link_url': '/company/CLAUGER/jobs/Ing%C3%A9nieur-Technico-Commercial-db2f9f2d445a46f9?fccid=188b9e870c715b60&vjs=3',
+ 'location': 'Lognes (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Issu(e) d’une formation'}
+2020-01-30 14:07:18 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Système Junior Massy et Noisy H/F',
+ 'link_url': '/rc/clk?jk=c1799526d3cc44e8&fccid=153dc9187de1d154&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Afin d'accélérer son développement (#digitalforallnow) à Massy, "
+            "la BU ICS d'Econocom recherche un"}
+2020-01-30 14:07:18 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Stages Qualité - Usines et Centrales H/F',
+ 'link_url': '/rc/clk?jk=c5abad4ed1d3743a&fccid=ec8a0bd60be9a6f5&vjs=3',
+ 'location': 'Aulnay-sous-Bois (93)',
+ 'salary': '1 250 € - 1 400 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Une immersion au sein de nos équipes d’ingénieurs juniors.'}
+2020-01-30 14:07:18 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur qualité junior /Marne-La-Vallée (77) (H/F)',
+ 'link_url': '/rc/clk?jk=19f799796d6a9d99&fccid=1a17983a910f73d8&vjs=3',
+ 'location': 'Émerainville (77)',
+ 'salary': '34 000 € - 36 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Le cabinet de recrutement Manpower de Seine-et-Marne recherche '
+            'pour son client qui évolue dans le secteur de l’aéronautique, un'}
+2020-01-30 14:07:18 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': 'Rothschild & Co',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'CDI Ingénieur Patrimonial Junior (H/F) - Paris, Marseille ou '
+              'Lyon',
+ 'link_url': '/rc/clk?jk=a099f7047db4a37d&fccid=745c701390025868&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Principales missions : Au cœur de l’équipe Ingénierie '
+            'Patrimoniale, vous accompagnez les'}
+2020-01-30 14:07:18 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Méthodes Maintenance Multisites',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BNQNW-ZS2hJ0mLxf5rOMmcfyDszTUn7URuJfLvpB7illx_7hTDcXU6jeYFfa05XUcVpKPOsFxbkkFcFjr-0yC73U1e6ZMqcEWlgi_4otX2Cb_ZxVi7kCYInw54ZUcWKMvaKplxFmnKHuZo2zq0aYTjC4ZkZexmcaH2Ml4fb8iHFJpl1y90HrmcBWIk8wfIbYYPJrO99igpNU9hFmNaM36HJaibIgObAY4nQKu5oSKvSOYFeZUI9Htu_Qe0BmUdlcGbx9e2vMoxL3xhJDSWZRFhn139_oTKg25kWvc3rVSWmyxcseFV-lyVFQVhVyShI0rSgf0lCi4YRUAPfrb28BQVQsEN7dM4JpqkSq_DuxnyBYw-9oNSD4fQtSM18WhtSTSUfZfH-k9bmWavuzILkcDp0KSS_Zc4QieBXyn1btUPo_jBA050ZjEYNrZAFk991eC56ASXmF9p_lc7ZVyluT1opX5dR3FOz2y4DJnlKElzS4yU03VClNWKnYZ7W0WvCl_6okyWf4jQzykmb5WGV7fVW_ZRvqCuP3A=&p=16&fvj=0&vjs=3',
+ 'location': 'Montévrain (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Et si VOUS commenciez une nouvelle aventure avec NOUS ?'}
+2020-01-30 14:07:19 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': 'BATI CONSULTING',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur / Ingénieure structure BTP (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CHsKuc2OW0A62bmlzAIalvLK0NNg3Ito0iqJxaz8bqLAZbA4GSRKTWHvFB4WHULspmervQbOI9PjejLHKCrL7DI5DzvVnYp7DR4SZagkhsxAZsBZUMRBI3B3MfIp9nEwuIMHMb0377126J1H8_zfWk-n8evp1Z5MSZkaalhbGqaSixP3huHRI1MG6gBJfxaXYrWxgL35W0OvKbsObU_ZA1BuY5-Nf6GQrQwna8pTZRB7WnmQw1wpBjCxw4oTRQH1QHOU7CWQKd8usS0V99hBYRx_NEHCqThJTqqYI2RKvKIyZs0hIkcH2KeoT4YisOZnG3DLy-WKzMqnx4LwpWT8TGfSTWDQQv0BcaRL3kHOBs2pJ38SkNR7Ai8n3oTHa3x2l2MiIhZ4_YvVGYrO-6yBiDR9M0o9Wf53lsYQMSbluZzq4z1DrPbXEjV3TqJR86G77vtvyQNfEovmS6xkRGDCe7UruL2tL2w0yue8h3mnwiBbng7SsWU2MQ&p=17&fvj=1&vjs=3',
+ 'location': 'Aix-en-Provence (13)',
+ 'salary': '2 800 € - 3 800 € par mois',
+ 'site': 'Indeed',
+ 'summary': 'Bati consulting ingénierie recherche pour une création de poste '
+            "une personne qualifié et autonome : Domaine d'intervention : "
+            'habitation, villa, immeuble,…'}
+2020-01-30 14:07:19 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20>
+{'company': 'OSRAM Lighting',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20',
+ 'job_title': 'Ingénieur Technico-Commercial/Key Account Manager '
+              'Optoélectronique h/f',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AbBluBwDh5L-lEr7jdhKvH-bFeMhJczYkH_ZDo81OWloJj8AzWNfV6uOdo86a7s_TnXAx5A_6dRLFRCKc5rUp2cZXFp7PgYm-icD7XJbh55RGtbvQO0Pb4Yyw3T5marWJefFPeDace3yCtwpvwqnlG6waF0kbf2tg0Ec6dNn158FRb_1PU8ZAgg6_p2KN0RbjJY5ridJTu1o4smP17nVFd8J-1TcdS_nrOG0kxZ-D8Ut9UKx95uQ_hZgTQG_qvxHYe5LuJENfQlhyeCJ2_0w1e14h9ESoezs2vt3tfMTO8Ow-RL3P6ldYqCjuqsTtHpXd-bWPPORJWggsUtxqGGNmaqf1zNNkfQM3TB51qjQZ8zT2JH81oxgRbIBUJ6kZwa-CxFQqyF-g_imkf-sfa7qojY-daChQpW_E7K8sELslK4iTATkmO8JIJBf4QCkt1DX2iCKY_XdtTyqzOQHFo01zEO8vd1O3S5NKrPKU_mRL-LpJvIQMySaY1SuWQd4P2VDRuJcUnTKe_5LUcIOLjMFryMveu7nYuCBY=&p=18&fvj=1&vjs=3',
+ 'location': 'Rosny-sous-Bois (93)',
+ 'salary': '60 000 € - 75 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'OSRAM, la lumière pour un monde meilleur.'}
+2020-01-30 14:07:20 [scrapy] DEBUG: Crawled (200) <GET https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30> (referer: https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=20)
+2020-01-30 14:07:20 [indeed] DEBUG: 
+
+ Crawling  https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30
+
+2020-01-30 14:07:20 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'GERMITEC',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Commerciale H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0CZIS0qufp5BYMOSBoVEOSTeN6jNL7ziSCN_vn4HhNrMRqPEkTyDTcvjYrYUxS8OvDSY4o3SSBs_XzgoPKz7JUNO7GPHMYVd_XpPdtsk9GDpJbZfxkAx25OWAergAIRf0YVWgXwojU-BNrThOC8Y9iqgGnoJkcsVSL4asGarV6sGk_fmUtRfd-yBw-1_ldk7vzQeh875D4270ELdFjgCvsXilPTZ1y3u4f8s8I6UgJxSzvoUe0UuZSMbfocDRomcs9xROs3uQjcXr5lV2eX74ZF3-jFbp4BLKpIsgbLB30SfgWx2-YiYiVrTYPSm4uDRz1Vh5O5zbI9qwDfW0CEtCAOoGyM3lZfVXAyveQaN3EJLTsjnxJmhLTNw7ffICGqykBnkyPQTvLDm3zrTUmUMwbzMqKDgsBaq38h84ydvQazy4wGjY8sHy-VSkmYDb7Tof_Ma8w4qv4jn4db5uO-_JXa&p=0&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '25 000 € - 50 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Être issu d’une formation supérieure Bac +2 minimum (BTS, DUT, '
+            'Licence professionnelle avec spécialisation en techniques '
+            'commerciales ou Ecoles de Commerce,…'}
+2020-01-30 14:07:21 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'XRAYS TRADING',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur IT Virtualisation / Production',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AdKewU9f-xZpC2jBFTDBktrthwhpPzXIpPWszFane2sphu_5rY0IynLL2Ch_3WkiUHB-hOjS2jAq7q1_VChA1UK6xdgI1VKErUGCVXUUFlQOsX8LfULJ_u4D5koROQ0dmIPbsziboYqwuawAB4fhNXUZRO769HVIDz_rYyk-MOtE4XHAuzV58VcWhoJyWqu3HR3QOBQiKWwsEJsX2PxW7pTiuzXQw99hFHJISnqK3mxEDo-hMrCCYLN9S2w6o04Y6QAqoRZf4B-SRL_VPY5Ps5tmnq8Z4yJveompyc4YsoW4nUzQqW2PdE29mqXEBYNX8B4uXMrYA5i-XT2StGwu8F2BujvxOmfgA0xknEZkDmaCIeFIfxrGGgnbWdbmt5Sk_0RzlinAZ50AdcxB3mNcuHZjirkz_uz35ZwoHrtqMwYeLOE54-sGHGwOHh0cfdEwMSLhb5SlIJgUrBXrgDXF8RHg9j0ldNjb5ki61t3cXaRw==&p=1&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '50 000 € - 75 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur IT virtualisation / production ou similaire: 3 ans '
+            '(Requis).'}
+2020-01-30 14:07:21 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': "Ingénieur d'Application Syngo.via H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AjEwmQG_uTh9Ci1OoLMkF9Q_PifQRVR2slK6MYbgOXENeVgkcyhyYolCZFrBezoIMnGnLcBbwNl8U23iVsbJg210iuVz1v9kuuN2CxgRjtu0rIhYKyDwD-kun4LkAD1pJgtHNwvATNCEE9Mcqr5lEnCCxyZ34d6biqxcmiSpSg1_O4C4Ed8HO8WQU_Of6wJrXDI4VrVspy4YiEmVh_kUlF7-mA2A2d4HktbTPzmNA6vxAotNU3Mm11mUAPp6v7FX6ZzQDMLTfZl2G_lAeL4mzrsM9bP068vh-_IsN0TZSh4RZbT83raMvKcmG2YHZpj1wEWRkqfhRWXhrn1T2YOQOrSaT4duFFBKyBxjErcSmbT5EGnlg00jyS8L69I6IdWOVZK_UTJz5Cotr2pecacPX77wSPi4uq21vOu1eLFvxXZqP8Vu1lvwzg-G22dXko1SKtuGgW4T9eXTtYJqoQ5H5P7979IStd2gM0BjPBuCAz_4TkH45_opvS&p=2&fvj=0&vjs=3',
+ 'location': 'Saint-Denis (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Rattaché au Manager Application IRM et Postraitement (Syngo.Via), '
+            "vous avez pour mission la formation client, l'accompagnement et "
+            'le support scientifique et…'}
+2020-01-30 14:07:21 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Wakerstone',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Consultant en Gestion Privée, Ingénieur Patrimonial - H/F',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0Ab6ngN5YUO6u5RDVd1Mmk3XYcyaDQA2EvRiElkNpZCC8eQ3xW-OS_F_7Bk5YHCzVn_4jZ064VH2KzhxeKD4jblmp43SpeP50nJ7U5EGKKXTt0ZcRrpM_gp0LxQI1HNQ4h-YDBtaL-fEkRSSqYDLLsJpM6cJsNmvVit5dpuqpW99O4Mt5xWKUNBTyZ4qUsUiWyLZQqBV82gZpD2YSHBI1Fx_laA4xKqjwgq4dMXjbX10oHpRr8ItQtcJxFwFkGdAOKJeUqXnLNw5jw8dkwkrsIILCRMqtLTQ4Jcc2nA9dr7FPizwhHxM07MUyW6S5mS4QqIN0Ni7C1DhAI6HbegL_Ho66Ooxzgd7PzyLGyWQxjHZjBddcdbx93PySJ7LkWJmd6yiwjmGEthH9fgH7FXNG2HtdZnWVmVKsdxq8pjofYumq-EH11sX6TgXPM2JMz2zh1QVRsV-JzC9ewgCfr8I8nEDRnuazx4h9Zz1775T1akRK36CFxeL_h2Mi1Ho1ASF1D4AsZmQ_dmZw==&p=3&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Consultant en gestion privée,'}
+2020-01-30 14:07:21 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Process',
+ 'link_url': '/rc/clk?jk=e6ca750799c79105&fccid=0c82f288dd6edc3c&vjs=3',
+ 'location': 'Marne-la-Vallée (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Position based in Issy les Moulineaux, Paris, France.'}
+2020-01-30 14:07:21 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'INGÉNIEUR RADIO WI-FI JUNIOR (H/F)',
+ 'link_url': '/rc/clk?jk=67f0cd289bef1a6c&fccid=afe2be598241c579&vjs=3',
+ 'location': 'Roissy-en-France (95)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Le Groupe Hub One est un opérateur de technologies digitales pour '
+            'les entreprises.'}
+2020-01-30 14:07:21 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'CORIANCE',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Référent Prévention Sécurité Régional (H/F)',
+ 'link_url': '/company/CORIANCE/jobs/R%C3%A9f%C3%A9rent-Pr%C3%A9vention-S%C3%A9curit%C3%A9-R%C3%A9gional-a1fefa98c8139661?fccid=b857501be3a02f94&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Référent Prévention Sécurité Régional (H/F).'}
+2020-01-30 14:07:21 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'ELYSIS ILE DE FRANCE',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Méthodes F/H',
+ 'link_url': '/rc/clk?jk=152624933996ca0b&fccid=865a6aff7b472b57&vjs=3',
+ 'location': 'Champs-sur-Marne (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Pour le compte de l'un de nos Clients de l'industrie automobile, "
+            'nous recherchons actuellement à renforcer notre équipe '
+            "d'Ingénieurs Méthodes pour l'accompagner…"}
+2020-01-30 14:07:22 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'Voith Turbo France',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur(e) Technico-Commercial',
+ 'link_url': '/company/Voith-Turbo-France/jobs/Ing%C3%A9nieur-Technico-Commercial-e258a80ce24175ce?fccid=2e4dca12327ecffe&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': '45 000 € - 50 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur(e) technico-commercial ou similaire: 3 ans (Souhaité).'}
+2020-01-30 14:07:23 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Sécurité Santé Environnement (SSE) (H/F)',
+ 'link_url': '/rc/clk?jk=07903978466a7fa1&fccid=7b6eefff91a6b6f9&vjs=3',
+ 'location': 'Émerainville (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': "Nous proposons un poste d'Ingénieur SSE (H/F) en CDI basé à "
+            'Emerainville (77).'}
+2020-01-30 14:07:23 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Qualité H/F',
+ 'link_url': '/company/ECM/jobs/Ing%C3%A9nieur-Qualit%C3%A9-07c47f64194eeb20?fccid=006bf2286124d9b8&vjs=3',
+ 'location': 'Bonneuil-sur-Marne (94)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur qualité ou similaire: 1 an (Souhaité).'}
+2020-01-30 14:07:23 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'P7E172 - Ingénieur en techniques biologiques',
+ 'link_url': '/company/Universit%C3%A9-de-Paris/jobs/-ff3ece32f4980c4d?fccid=16c9c95d5b68c9aa&vjs=3',
+ 'location': 'Paris 13e (75)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'En tant qu’ingénieur d’étude, au sein du laboratoire de '
+            'développement des gonades, vous aurez en charge :'}
+2020-01-30 14:07:23 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'KhaSystems',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Système Linux et virtualisation (KVM; Proxmox)',
+ 'link_url': '/company/KhaSystems/jobs/Ing%C3%A9nieur-Syst%C3%A8me-Linux-Virtualisation-9abbcbfb8a77487b?fccid=3fba7cd2e0c4e6a4&vjs=3',
+ 'location': 'Noisy-le-Grand (93)',
+ 'salary': '50 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Ingénieur ou similaire: 1 an (Souhaité).'}
+2020-01-30 14:07:23 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'XRAYS TRADING',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur fonctionnel front office finance des marchés VBA / '
+              'SQL',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AdKewU9f-xZpC2jBFTDBktrthwhpPzXIpPWszFane2sj5Njp5D-3bMXesignWGZT-9R49Q-Mf9j2l5IeuCVaBSPSYw-KKpyYMDogy3Geb8g4-VZK986XDNpyR4owN1OGNBhYALBcoHaQJIWSoK0c9byCoB6CyJ04u0iOfrSbe8jkc_etLaWxcKzldaJVSxsy9fm94KJCwK_AjZ29gSUgChQsPqHnUtRf7lrkbWsDQa50RNqalsnav5p6zaQSB15OANiq25FsmsRnfQ1wO8NIJrHo9y4-2BlqP0GBIQd2dp2pizLbZvl5mi4KByC5lf5PnFvpBmK3wrFFyjgtNKfM9TZTpN1e47vX1ECrTZB6zPw3pbCaFqC0s8CcnVd2Jf65u3hTf8u0sA9lAElUNCdLWAEIMkZ_W9rQtF6WzpA5CcmlRY1XmLrMZ9NtYwLgXnRghRVU9KI0ePBTd0W-FMM4yEdsnD3B_0Ea5tV4txQjzPesD6rI1TsrY6LyKerDGs8PqMzeBHmJrn6aL-p9ZGmwLU&p=13&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '50 000 € - 65 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Si tu fais de ton mieux, te prends pas au sérieux.'}
+2020-01-30 14:07:24 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'talkspirit',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': "Ingénieur chargé d'affaires H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0DBGptCHrnUEJWaJZ7ccqro9BhmaDIr7Pz1SlCsZFI0msZ9Uy_yuA-1gSHz6zguFFip6wMp6q2HXeiFmFpxWp8Vz84bE1ZI56dwQIAp1Zfn3sF2Scl5EUh3x3y_VScwjunZNlYId-9gvSKWg7bTEdibJrnOmEaM1lmP6Kp3cFPgEHaoD-IKHesS_NzAmhNBHaBU-VVpEVsdh6UW42_aPwYeS23MYrPWF-tuqYi8ECBG1FB54miooQCkkfl9ISzteQSJ0It6WiyjlALR6NCIEqPECDvP5YY5MKybAgGaQBQ62GOj0UXTI2OsVsp3qA1DXYqoQuhAP0tmUuXfrOoYyZwnNGva2GRi9DPOE8NOtDbVJnW3qAFCM-fDDUTTJ53TbwBmb2eOFkB0ZN2teG96rQ9YrzwGKK8ieaiC5Wtj-bVspORuGacr_XfZ2bYmnaMaELZqjp_sHMazuTmbZLhxqr5gTmM0DEIurTw=&p=14&fvj=1&vjs=3',
+ 'location': 'Paris (75)',
+ 'salary': '36 000 € - 40 000 € par an',
+ 'site': 'Indeed',
+ 'summary': "Ingénieur chargé d'affaires h/f ou similaire: 1 an (Souhaité)."}
+2020-01-30 14:07:24 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': '',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Etudes Mécaniques (H/F)',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0BT6LzuTjK3jWy39P1M2waLVKB1ofyR4CNiszqtsmkEkDW-mCPFbdIyKnByFqkUyfI2hxIox-m2Zou3uOpAARD88EkjmPGulUKuH-o02haaDHiykkJdoSMKZ1IwqYQ_LiYPfG4z42_KtUfjg3WmbEapxDo-iPSewhmEDt5XrpIFTLf3ESlq6dF4W1vIhBCP3uWx1xaAGxmIelpBleQNPm6h45A3CjBb4Zie5fVQpFfDD_oeVuOoOmBrZams41VzPd8WoZQKsfCiy1LE0Plt1sny1IcoHis1WTVGzkgDmcw6bk8adMu5IQmdvv8tEpLvPZL1SrNpTBt7Pqeo68DLUX4ff1ERZXqyMyIaZr0OnB2PPDiQ0dA8z4d_24RRo952pHPaONQsuT55NCeL--IqaYEbsg5ETll0Z4J1mZRS2Hkc3-Sx5zg3lrQEhoM_JAYJw78wxA4u9jMU2iEaOqwqfPovu-hYeSMtlSc=&p=15&fvj=0&vjs=3',
+ 'location': 'Saint-Thibault-des-Vignes (77)',
+ 'salary': None,
+ 'site': 'Indeed',
+ 'summary': 'ACRELEC accompagne la digitalisation des points de vente de '
+            'grandes marques du retail, de la restauration, de la mode, du '
+            'loisir et de l’hôtellerie.'}
+2020-01-30 14:07:24 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'BECIA',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': "Ingénieur d'étude TCE H/F",
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AIGyVbSNHLAg4XHpI74y7DHb_OiACp11gig-sW2T2wccRDP9zlP4KwW1Vdg8kP6lsWCd3T401u5d-YH8XYj3QuJV4oYaP_ZjzIgwlhTsH2FxWwiz_pDtc3k4Z8zaP2hx2pIVr1PPXIR5ELpS9VlI8JH1ordXIEC7jIv4pEKzjrn1A46pytYxRTJjvYhbhmZyBUSDclZCoSYudi7Scd8FIaEVFpOoZ1XecwhLJS8SRptNRElsM6aThWwPiWZniQIcJUQZPPRl-2MymtCrb6tQKnTFdBUXqnR0NvUqs-k7KvizMs2SQq_ztw5cWaTS_t9-MKl_gbpj1hIT2JFN6iJtRVifqmZMBoI-oqfc7lig74V_0UufCD8QkhllBWawkYGJG94R-vSMA83E5bS3Akx1zSvz6Ezu5J8RHqqA8HpfU0hTCzIz2TWJWtVGTH-fbPu1aUlMoePguigDvZwfiI_Qe5UzryBoxu5xw=&p=16&fvj=1&vjs=3',
+ 'location': 'Tremblay-en-France (93)',
+ 'salary': '32 400 € - 36 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'Nous recherchons un'}
+2020-01-30 14:07:24 [scrapy] DEBUG: Scraped from <200 https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30>
+{'company': 'OSRAM Lighting',
+ 'crawl_url': 'https://www.indeed.fr/jobs?q=Ing%C3%A9nieur&start=30',
+ 'job_title': 'Ingénieur Technico-Commercial/Key Account Manager '
+              'Optoélectronique h/f',
+ 'link_url': '/pagead/clk?mo=r&ad=-6NYlbfkN0AbBluBwDh5L-lEr7jdhKvH-bFeMhJczYkH_ZDo81OWloJj8AzWNfV6uOdo86a7s_TnXAx5A_6dRLFRCKc5rUp2cZXFp7PgYm-icD7XJbh55RGtbvQO0Pb4Yyw3T5marWJefFPeDace3yCtwpvwqnlG6waF0kbf2tg0Ec6dNn158FRb_1PU8ZAg17yP3W6NWvnia4V4eKOzNjsM6N1odWyxMUxTVHByGLZtxqAKGOl1CYC302vaC52wNiCQkI5APglnFBC7C0LrmhZ8TjrBS3bct3jtXlZTD_HQxzSRYDnWiO0Vk_vKnPo1nQviP6-OwY7WIelA3BnT4ad3SHNaz7IagDn_wqeS89YX7RttQcC_D__kC_3qqczCsUE8QD3Ng2XUGUbre4TPCPEYjYl7x-EryZ5IghwfAa6dtOsAq6axgPQRErw0NqOjmYPZrCz37aI7Qazk_xoouyPrvo2EPnIqFctqImK-nqHEny1saf4TBWw6URNoCxl1PgXERs5y15XjOIDZc-wBGQ_72j-mixOqiau4qcSouEA=&p=17&fvj=1&vjs=3',
+ 'location': 'Rosny-sous-Bois (93)',
+ 'salary': '60 000 € - 75 000 € par an',
+ 'site': 'Indeed',
+ 'summary': 'OSRAM, la lumière pour un monde meilleur.'}
+2020-01-30 14:07:24 [scrapy] INFO: Closing spider (stop generating requests, only 5 requests allowed)
+2020-01-30 14:07:24 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2825,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 388750,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 1,
+ 'elapsed_time_seconds': 32.333047,
+ 'finish_reason': 'stop generating requests, only 5 requests allowed',
+ 'finish_time': datetime.datetime(2020, 1, 30, 14, 7, 24, 467163),
+ 'item_scraped_count': 55,
+ 'log_count/DEBUG': 377,
+ 'log_count/ERROR': 19,
+ 'log_count/INFO': 62,
+ 'log_count/WARNING': 73,
+ 'memusage/max': 52477952,
+ 'memusage/startup': 52477952,
+ 'request_depth_max': 4,
+ 'response_received_count': 5,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2020, 1, 30, 14, 6, 52, 134116)}
+2020-01-30 14:07:24 [scrapy] INFO: Spider closed (stop generating requests, only 5 requests allowed)

@@ -1,95 +1,97 @@
-<html lang="en">
+<!doctype html>
 
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Job Scrapper</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="static/css/simple-sidebar.css" rel="stylesheet">
-
+	<title>Job Scrapper</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<!-- VENDOR CSS -->
+	<link rel="stylesheet" href="static/assets/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/assets/vendor/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="static/assets/vendor/linearicons/style.css">
+	<link rel="stylesheet" href="static/assets/vendor/chartist/css/chartist-custom.css">
+	<!-- MAIN CSS -->
+	<link rel="stylesheet" href="static/assets/css/main.css">
+	<!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
+	<link rel="stylesheet" href="static/assets/css/demo.css">
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+	<!-- ICONS -->
+	<link rel="apple-touch-icon" sizes="76x76" href="static/assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="static/assets/img/favicon.png">
 </head>
 
 <body>
+	<!-- WRAPPER -->
+	<div id="wrapper">
 
-  <div class="d-flex" id="wrapper">
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="brand">
+				
+			</div>
+			<div class="container-fluid">
 
-    <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">JOB SCRAPPER </div>
-      <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-        <a href="/admin/indeedview/" class="list-group-item list-group-item-action bg-light">Admin - Indeed </a>
-        <a href="/search" class="list-group-item list-group-item-action bg-light">Search Engine</a>
-        <a href="/admin" class="list-group-item list-group-item-action bg-light">Admin</a>
-        <a href="/scraper" class="list-group-item list-group-item-action bg-light">Scraper</a>
-      </div>
-    </div>
-    <!-- /#sidebar-wrapper -->
+				<div id="navbar-menu">
+					<ul class="nav navbar-nav navbar-right">
 
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="lnr lnr-question-circle"></i> <span>Help</span> <i class="icon-submenu lnr lnr-chevron-down"></i></a>
+							<ul class="dropdown-menu">
+								<li><a href="https://www.linkedin.com/in/franck-deturche-dura">Franck Deturche-Dura</a></li>
+								<li><a href="https://www.linkedin.com/in/yasmine-djemame-382314198/">Yasmine Djemame</a></li>
+								<li><a href="https://www.linkedin.com/in/guillaumegay/">Guillaume Gay</a></li>
+							</ul>
+						</li>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- END NAVBAR -->
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Contact
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Franck Deturche-Dura</a>
-                <div class="dropdown-divider"></div>
+		<!-- LEFT SIDEBAR -->
+		<div id="sidebar-nav" class="sidebar">
+			<div class="sidebar-scroll">
+				<nav>
+					<ul class="nav">
+						<li><a href="/dash" class=""><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
+						<li><a href="/admin/indeedview/" class=""><i class="lnr lnr-dice"></i> <span>Admin - Indeed</span></a></li>
+						<li><a href="/search" class=""><i class="lnr lnr-cog"></i> <span>Search Engine</span></a></li>
+						<li><a href="/admin" class=""><i class="lnr lnr-file-empty"></i> <span>Admin</span></a></li>
+						<li><a href="/scraper" class=""><i class="lnr lnr-code"></i> <span>Scraper</span></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- END LEFT SIDEBAR -->
 
-                <a class="dropdown-item" href="#">Yasmine Djemame</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Guillaume Gay</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
 
-      <div class="container-fluid">
-        <h1 class="mt-4">Home Page</h1>
-      </div>
-    </div>
-    <!-- /#page-content-wrapper -->
-
-  </div>
-  <!-- /#wrapper -->
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Menu Toggle Script -->
-  <script>
-    $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
-  </script>
-
+		<!-- MAIN -->
+		<div class="main">
+			<!-- MAIN CONTENT -->
+			<div class="main-content">
+				
+			</div>
+			<!-- END MAIN CONTENT -->
+		</div>
+		<!-- END MAIN -->
+		<div class="clearfix"></div>
+		<footer>
+    			<div class="container-fluid">
+    				<p class="copyright">&copy; 2020 <a href="https://www.esiee.fr" target="_blank">ESIEE Paris - DSIA</a>. <br>DETURCHE Franck<br> GAY Guillaume<br>DJEMAME Yasmine</p>
+    			</div>
+    	</footer>
+	</div>
+	<!-- END WRAPPER -->
+	<!-- Javascript -->
+	<script src="static/assets/vendor/jquery/jquery.min.js"></script>
+	<script src="static/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="static/assets/vendor/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="static/assets/vendor/chartist/js/chartist.min.js"></script>
+	<script src="static/assets/scripts/klorofil-common.js"></script>
+	
 </body>
 
 </html>

@@ -10,7 +10,7 @@ COPY  . /home/dev/code/
 WORKDIR /home/dev/code/
 
 
-RUN pip install --upgrade pip && pip install pipenv && pipenv install
+RUN pip install --upgrade pip && pip install pipenv && pipenv install && pip install dash
 
 
 RUN echo $(ls -l .)

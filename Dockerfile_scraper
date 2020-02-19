@@ -10,11 +10,11 @@ RUN mkdir -p /scrapyrt/src /scrapyrt/project
 RUN mkdir -p /var/log/scrapyrt
 
 RUN wget -O /tmp/get-pip.py "https://bootstrap.pypa.io/get-pip.py" && \
-    python3 /tmp/get-pip.py "pip==19.3.1" && \
+    python3 /tmp/get-pip.py "pip==20.0.2" && \
     rm /tmp/get-pip.py
 
 ADD . /scrapyrt/src
-RUN pip install scrapy && pip install scrapyrt && pip install pymongo && pip install elasticsearch
+RUN pip install --upgrade pip && pip install scrapy && pip install scrapyrt && pip install pymongo && pip install elasticsearch 
 
 WORKDIR /scrapyrt/project
 

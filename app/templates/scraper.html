@@ -28,7 +28,7 @@
 		<!-- NAVBAR -->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="brand">
-			
+
 			</div>
 			<div class="container-fluid">
 
@@ -75,6 +75,7 @@
 				<h1> Scraper </h1>
 				<form method="post">
 				<h2> Indeed </h2>
+				<p>{{ form_indeed.csrf_token }}</p>
 				<p>{{form_indeed.what}}</p>
 				<p>{{form_indeed.where}}</p>
 				<p>{{form_indeed.submit}}</p>
@@ -84,6 +85,8 @@
 				<br><br><br>
 				<form method="post">
 				<h2> Monster </h2>
+				<p>{{ form_indeed.csrf_token }}</p>
+
 				<p>{{form_monster.what}}</p>
 				<p>{{form_monster.where}}</p>
 				<p>{{form_monster.submit}}</p>
@@ -108,7 +111,7 @@
 	<script src="static/assets/vendor/jquery-slimscroll/jquery.slimscroll.min.js"></script>
 	<script src="static/assets/vendor/chartist/js/chartist.min.js"></script>
 	<script src="static/assets/scripts/klorofil-common.js"></script>
-	
+
 </body>
 
 </html>

@@ -25,21 +25,21 @@ def scraper():
     result2 = "No data scraped (Monster) - Here will be the preview of the json data"
 
     if request.method == 'POST':
-
-        what = form_indeed.what.data
-        where = form_indeed.where.data
-        response = requests.get("http://scraper:9080/crawl.json?spider_name=indeed&url=https://www.indeed.fr/jobs?q={0}&l={1}&sort=date&start=00&max_requests=5".format(what,where))
-        data = json.loads(response.text)
-        result = '\n'.join('Job Indeed : {}</b> - Salaire {}   // '.format(item['job_title'], item['salary']) for item in data['items'])
-
-        what2 = form_monster.what.data
-        where2 = form_monster.where.data
-        response2 = requests.get("http://scraper:9080/crawl.json?spider_name=monster&url=https://www.monster.fr/emploi/recherche/?q={0}&where={1}&page=5".format(what2,where2))
-        data2 = json.loads(response2.text)
-        result2 = '\n'.join('Job Monster : {}</b> // '.format(item['job_title']) for item in data2['items'])
+        if form_indeed.validate_on_submit():
+            what = form_indeed.what.data
+            where = form_indeed.where.data
+            response = requests.get("http://scraper:9080/crawl.json?spider_name=indeed&url=https://www.indeed.fr/jobs?q={0}&l={1}&sort=date&start=00&max_requests=5".format(what,where))
+            data = json.loads(response.text)
+            result = '\n'.join('Job Indeed : {}</b> - Salaire {}   // '.format(item['job_title'], item['salary']) for item in data['items'])
+        if form_monster.validate_on_submit():
+            what2 = form_monster.what.data
+            where2 = form_monster.where.data
+            response2 = requests.get("http://scraper:9080/crawl.json?spider_name=monster&url=https://www.monster.fr/emploi/recherche/?q={0}&where={1}&page=5".format(what2,where2))
+            data2 = json.loads(response2.text)
+            result2 = '\n'.join('Job Monster : {}</b> // '.format(item['job_title']) for item in data2['items'])
     return render_template("scraper.html",form_indeed=form_indeed,form_monster=form_monster,result=result,result2=result2)
 
-    
+
 
 @server.route('/search',methods=['GET','POST'])
 def makeResearch():
@@ -119,7 +119,7 @@ body = dbc.Container(
 
         dbc.Row([dbc.Form([what_input, where_input, submit_button]) ]),
         html.Br(), html.Br(),
-        dbc.Row([dbc.Table( table_header + table_body, bordered=True, dark=True, hover=True, responsive=True, 
+        dbc.Row([dbc.Table( table_header + table_body, bordered=True, dark=True, hover=True, responsive=True,
             striped=True)])
 
     ],
@@ -129,13 +129,13 @@ body = dbc.Container(
 app_dash.layout = html.Div([navbar,body])
 
 
-@app_dash.callback(Output('formulaire', 'children'), 
+@app_dash.callback(Output('formulaire', 'children'),
     [Input('what', 'value'), Input('where', 'value'), Input("button_spend","n_clicks")])
 
 def display_table(what, where, n):
     listrows = []
 
-    if n != None:     
+    if n != None:
 
         response = requests.get("http://scraper:9080/crawl.json?spider_name=indeed2&url=https://www.indeed.fr/jobs?q={0}&l={1}&sort=date&start=00&max_requests=5".format(what, where))
         data = json.loads(response.text)
@@ -143,14 +143,12 @@ def display_table(what, where, n):
         for item in data['items']:
             listrows.append(html.Tr([html.Td(item['job_title']), html.Td(item['company']), html.Td(item['location']), html.Td(item['salary']), html.Td(item['summary']),html.Td(item['crawl_url']), html.Td(item['site'])]))
 
-        
+
         response2 = requests.get("http://scraper:9080/crawl.json?spider_name=monster&url=https://www.monster.fr/emploi/recherche/?q={0}&where={1}&page=5".format(what,where))
         data2 = json.loads(response2.text)
 
-        for item in data2['items']:          
+        for item in data2['items']:
             listrows.append(html.Tr([html.Td(item['job_title']), html.Td(""), html.Td(""), html.Td(""), html.Td(""),html.Td(""), html.Td("Monster")]))
-        
+
 
         return listrows
-
-

@@ -29,6 +29,7 @@ Il y a 2 spiders, indeed et monster. Elles renvoient des Items qui contiennent l
 Pour lancer le scraping manuellement, lancer `scrapy crawl <spider name>`. Il faudra au préalable retirer les allusions à Mongo et Elasticsearch dans le fichier `pipelines.py`.  
 
 **Infos partie Flask :**
+
 Le seul fichier à exécuter est `run.py`. L'application est de type MVC et nous retrouvons l'architecture classique d'une application Flask de ce type. A la racine se trouvent le `run.py`qui lance l'application, le `requirements.txt`contenant toutes les bibliothèques nécessaires ainsi que le Pipfile et Pipfile.lock pour l'utilisation de pipenv dans le Docker. Au sein du dossier de l'application en elle-même (`app`), nous retrouvons le `__init__.py` dans lequel sont instanciés l'application, l'admin et nos deux bases de données (mongodb pour la conservation long terme des éléments et elasticsearch pour le search engine que nous n'avons pas eu le temps de développer). Nous retrouvons ensuite le fichier `models.py` dans lequel se trouvent nos différents formulaires et la classe permettant l'affichage de nos données dans l'admin ainsi que l'ajout et suppression de celles-ci. Finalement nous avons le fichier `views.py`dans lequel se trouvent nos routes et les fonctions associées (backend de l'application). Dans le dossier `templates`se trouvent nos fichier html (frontend de l'application) et dans le dossier `static`l'ensemble des fichiers utiles au design (Bootstrap notamment). 
 
 **Infos partie Docker :**  

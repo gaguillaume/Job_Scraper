@@ -51,6 +51,11 @@ Pour que le tout fonctionne, il suffit de taper la commande `docker-compose up -
 Il n'y a rien d'autre à faire pour que l'application soit fonctionnelle sur le port 5000 en localhost.
   
 **Infos partie Dashboard :**  
+
+Nous avons décider d'intégrer un Dashboard à notre application Flask, afin de faciliter la recherche d'annonces sur Indeed et Monster en meme temps, et celà en regroupant les annonces correspondants à une seule recherche, faite en fonction de l'intitulé du job et du lieu et en permettant de visualiser les résultats dans un tableau contenant les différentes informations pour chaque annonce, le titre, la société, le lien du site, etc. 
+Au sein du fichier `__init__.py` qui se trouve dans le dossier de l'application (`app`), nous retrouvons l'instantiation de l'application Dash, utilisant comme serveur, l'application Flask.
+L'application Dash se trouve sur "localhost:5000/dash/"
+
   
 ----
 L'appli flask se trouve sur "localhost:5000".  

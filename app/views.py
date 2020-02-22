@@ -148,7 +148,7 @@ def display_table(what, where, n):
         data2 = json.loads(response2.text)
 
         for item in data2['items']:
-            listrows.append(html.Tr([html.Td(item['job_title']), html.Td(""), html.Td(""), html.Td(""), html.Td(""),html.Td(""), html.Td("Monster")]))
+            listrows.append(html.Tr([html.Td(item['job_title']), html.Td(item['company']), html.Td(item['location']), html.Td(item['salary']), html.Td(item['summary']),html.Td(item['crawl_url']), html.Td(item['site'])]))
 
 
         return listrows

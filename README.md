@@ -1,7 +1,7 @@
 # app_dataenginnering
 *Projet de l'unité Data Engineering*  
   
-**Franc Deturche-Dura, Yasmine Djemane, Guillaume Gay**  
+**Franc Deturche-Dura, Yasmine Djemame, Guillaume Gay**  
 
 ----
 

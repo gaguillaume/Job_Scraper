@@ -1,7 +1,0 @@
-dash
-Flask
-Flask-Bootstrap
-Flask-PyMongo
-flask-admin
-flask-wtf
-pbr

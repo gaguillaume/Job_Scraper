@@ -1,7 +1,8 @@
 # app_dataenginnering
 *Projet de l'unité Data Engineering*  
   
-*Franc Detruche-Dura, Yasmine Djemane, Guillaume Gay*  
+**Franc Detruche-Dura, Yasmine Djemane, Guillaume Gay**  
+
 ----
 
 L'objectif de notre projet est de pouvoir scraper et aggreger dans une seule et même application les offres d'emplois de plusieurs sites spécialisés. Pour le moment, nous récupérons les offres sur Indeed et Monster.  

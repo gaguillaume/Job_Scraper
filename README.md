@@ -1,7 +1,7 @@
 # app_dataenginnering
 *Projet de l'unité Data Engineering*  
   
-**Franc Detruche-Dura, Yasmine Djemane, Guillaume Gay**  
+*Franc Detruche-Dura, Yasmine Djemane, Guillaume Gay*  
 ----
 
 L'objectif de notre projet est de pouvoir scraper et aggreger dans une seule et même application les offres d'emplois de plusieurs sites spécialisés. Pour le moment, nous récupérons les offres sur Indeed et Monster.  
@@ -51,7 +51,7 @@ Il n'y a rien d'autre à faire pour que l'application soit fonctionnelle sur le 
   
 **Infos partie Dashboard :**  
   
-------
+----
 L'appli flask se trouve sur "localhost:5000".  
 Le scraper Real Time sur `localhost:9080 + requete`.  
 La db sur `localhost:27017`.   

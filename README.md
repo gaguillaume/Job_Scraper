@@ -1,4 +1,4 @@
-# app_dataenginnering
+# App dataenginnering - Job Scraper
 *Projet de l'unité Data Engineering*  
   
 **Franc Deturche-Dura, Yasmine Djemame, Guillaume Gay**  

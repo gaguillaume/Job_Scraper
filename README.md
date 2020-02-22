@@ -1,5 +1,7 @@
 # app_dataenginnering
-Projet de l'unité Data Engineering
+*Projet de l'unité Data Engineering*
+**Franc Detruche-Dura, Yasmine Djemane, Guillaume Gay**  
+----
 
 L'objectif de notre projet est de pouvoir scraper et aggreger dans une seule et même application les offres d'emplois de plusieurs sites spécialisés. Pour le moment, nous récupérons les offres sur Indeed et Monster.  
   
@@ -11,17 +13,17 @@ Nous avons également entrepris de faire un moteur de recherche pour nos annonce
 
 Dans le répertoire courant de "app_dataengineering", `docker-compose up -d --build`.  
   
-*Puis on crée la base de donnée nommée Indeed :*
-- `docker exec -it mongodb bash`.
-- `mongo`.
-- `use mongodb`.
+*Puis on crée la base de donnée nommée Indeed :*  
+- `docker exec -it mongodb bash`.  
+- `mongo`.  
+- `use mongodb`.  
 - `db.createcollection("Indeed")` afin d'avoir la bonne table créée dans la bonne db.  
   
 *Pour vider la base de donnée complètement :*  
-- `docker exec -it mongodb bash`.
-- `mongo`.
-- `use mongodb`.
-- `db.Indeed.deleteMany({})
+- `docker exec -it mongodb bash`.  
+- `mongo`.  
+- `use mongodb`.  
+- `db.Indeed.deleteMany({})`.  
 
 **Infos partie Scraping :**  
 
@@ -49,7 +51,7 @@ Il n'y a rien d'autre à faire pour que l'application soit fonctionnelle sur le 
 **Infos partie Dashboard :**  
   
 ------
-L'appli flask se trouve sur "localhost:5000".
-Le scraper Real Time sur `localhost:9080 + requete` (inutile d'y toucher).
-La db sur `localhost:27017` (inutile d'y aller aussi).  
+L'appli flask se trouve sur "localhost:5000".  
+Le scraper Real Time sur `localhost:9080 + requete` (inutile d'y toucher).  
+La db sur `localhost:27017` (inutile d'y aller aussi).   
 Elasticsearch se trouve sur le port `localhopst:9200`. L'index se nomme 'annonces' et se trouve sur `localhopst:9200/annonces`.

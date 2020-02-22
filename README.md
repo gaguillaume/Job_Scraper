@@ -32,7 +32,12 @@ Pour lancer le scraping manuellement, lancer `scrapy crawl <spider name>`. Il fa
 Le seul fichier à exécuter est `run.py`. L'application est de type MVC et nous retrouvons l'architecture classique d'une application Flask de ce type. A la racine se trouvent le `run.py`qui lance l'application, le `requirements.txt`contenant toutes les bibliothèques nécessaires ainsi que le Pipfile et Pipfile.lock pour l'utilisation de pipenv dans le Docker. Au sein du dossier de l'application en elle-même (`app`), nous retrouvons le `__init__.py` dans lequel sont instanciés l'application, l'admin et nos deux bases de données (mongodb pour la conservation long terme des éléments et elasticsearch pour le search engine que nous n'avons pas eu le temps de développer). Nous retrouvons ensuite le fichier `models.py` dans lequel se trouvent nos différents formulaires et la classe permettant l'affichage de nos données dans l'admin ainsi que l'ajout et suppression de celles-ci. Finalement nous avons le fichier `views.py`dans lequel se trouvent nos routes et les fonctions associées (backend de l'application). Dans le dossier `templates`se trouvent nos fichier html (frontend de l'application) et dans le dossier `static`l'ensemble des fichiers utiles au design (Bootstrap notamment). 
 
 **Infos partie Docker :**  
-
+Pour la partie Docker, nous avons créé :
+  - **Dockerfile_flask** : Container qui contient l'application flask et la lance (dans un pipenv) sur le **port 5000**.
+  - **Dockerfile_scraper** : Container qui lance scrapyrt sur le **port 9080** et permet de scraper sur demande.
+  -**Le container Mongodb** : Image provenant de DockerHub - Base de données stable pour la conservation de données. **Port 27017**
+  - **Le container Elasticsearch** : Image provenant également de DockerHub - Base de données peu stable contenant les mêmes données que la BDD Mongodb mais sur laquelle nous aurions travaillé pour le search engine. Disponible sur le **port 9200**
+  - Le **docker-compose.yml** qui permet de faire le lien entre ces quatre containers et qui permet au tout de fonctionner (intégration des bdd dans l'appli flask et du scraper dans l'appli flask).
   
 **Infos partie Dashboard :**  
   

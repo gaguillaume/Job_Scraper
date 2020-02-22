@@ -1,5 +1,6 @@
 # app_dataenginnering
-*Projet de l'unité Data Engineering*
+*Projet de l'unité Data Engineering*  
+  
 **Franc Detruche-Dura, Yasmine Djemane, Guillaume Gay**  
 ----
 
@@ -52,6 +53,6 @@ Il n'y a rien d'autre à faire pour que l'application soit fonctionnelle sur le 
   
 ------
 L'appli flask se trouve sur "localhost:5000".  
-Le scraper Real Time sur `localhost:9080 + requete` (inutile d'y toucher).  
-La db sur `localhost:27017` (inutile d'y aller aussi).   
+Le scraper Real Time sur `localhost:9080 + requete`.  
+La db sur `localhost:27017`.   
 Elasticsearch se trouve sur le port `localhopst:9200`. L'index se nomme 'annonces' et se trouve sur `localhopst:9200/annonces`.

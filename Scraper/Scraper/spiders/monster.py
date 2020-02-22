@@ -17,10 +17,10 @@ class MonsterSpider(CrawlSpider):
         for annonce in response.css('#SearchResults .card-content'):
             job_title = annonce.css('.title a::text').get()
             location = annonce.css('div .location .name::text').get()
-            # summary = annonce.get()
+            summary = None
             #Si on veut ajouter les dates
             # date = annonce.css('time::text').get()
-            # salary = None
+            salary = None
             link_url = annonce.css('.title a::attr(href)').get()
             crawl_url = response.url
 
@@ -35,6 +35,8 @@ class MonsterSpider(CrawlSpider):
                 job_title = job_title,
                 company = company,
                 location = location,
+                salary = salary,
+                summary = summary,
                 link_url = link_url,
                 crawl_url = crawl_url
             )

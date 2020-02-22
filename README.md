@@ -39,8 +39,7 @@ Le seul fichier à exécuter est `run.py`. L'application est de type MVC et nous
 Pour la partie Docker, nous avons créé :
   - **Dockerfile_flask** : Container qui contient l'application flask et la lance (dans un pipenv) sur le **port 5000**.
   - **Dockerfile_scraper** : Container qui lance scrapyrt sur le **port 9080** et permet de scraper sur demande. 
-  
-  -**Le container Mongodb** : Image provenant de DockerHub - Base de données stable pour la conservation de données. **Port 27017**
+  - **Le container Mongodb** : Image provenant de DockerHub - Base de données stable pour la conservation de données. **Port 27017**
   - **Le container Elasticsearch** : Image provenant également de DockerHub - Base de données peu stable contenant les mêmes données que la BDD Mongodb mais sur laquelle nous aurions travaillé pour le search engine. Disponible sur le **port 9200**
   - Le **docker-compose.yml** qui permet de faire le lien entre ces quatre containers et qui permet au tout de fonctionner (intégration des bdd dans l'appli flask et du scraper dans l'appli flask).
   

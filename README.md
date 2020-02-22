@@ -42,6 +42,9 @@ Pour la partie Docker, nous avons créé :
   - **Le container Mongodb** : Image provenant de DockerHub - Base de données stable pour la conservation de données. **Port 27017**
   - **Le container Elasticsearch** : Image provenant également de DockerHub - Base de données peu stable contenant les mêmes données que la BDD Mongodb mais sur laquelle nous aurions travaillé pour le search engine. Disponible sur le **port 9200**. L'index est `annonces`.
   - Le **docker-compose.yml** qui permet de faire le lien entre ces quatre containers et qui permet au tout de fonctionner (intégration des bdd et du scraper dans l'appli flask).
+
+Pour que le tout fonctionne, il suffit de taper la commande `docker-compose up -d --build` lors de la première utilisation. Par la suite, l'utilisation de `docker-compose down` et `docker-compose up -d` pour stoper et lancer les containers suffiront.
+Il n'y a rien d'autre à faire pour que l'application soit fonctionnelle sur le port 5000 en localhost.
   
 **Infos partie Dashboard :**  
   
